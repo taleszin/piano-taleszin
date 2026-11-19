@@ -34,6 +34,16 @@ final class Sintetizador implements Runnable {
     private final long[] idade = new long[VOZES];
     private long relogio;
     private boolean sustentar;
+    // Piano elétrico (FM 1:1 + "sininho" 14:1, como o E.Piano clássico)
+    static final int ELETRICO = 0, CLASSICO = 1;
+    private int timbre = ELETRICO;
+    private final float[] seno = new float[TAB];
+    private final float[] indice = new float[VOZES];
+    private final float[] qIndice = new float[VOZES];
+    private final float[] sino = new float[VOZES];
+    private final float[] qSino = new float[VOZES];
+    private final float[] fSino = new float[VOZES];
+    private final float[] pSino = new float[VOZES];
 
     Sintetizador() {
         int nativa = AudioTrack.getNativeOutputSampleRate(AudioManager.STREAM_MUSIC);
@@ -47,6 +57,7 @@ final class Sintetizador implements Runnable {
             for (int h = 0; h < hr.length; h++) b += hr[h] * Math.sin((h + 1) * t);
             brilho[i] = (float) (a / 1.9);
             redondo[i] = (float) (b / 1.2);
+            seno[i] = (float) Math.sin(t);
         }
         for (int v = 0; v < VOZES; v++) nota[v] = -1;
         int min = AudioTrack.getMinBufferSize(taxa, AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT);
@@ -78,6 +89,8 @@ final class Sintetizador implements Runnable {
         if (!s) for (int v = 0; v < VOZES; v++) if (nota[v] >= 0 && solta[v]) queda[v] = fatorQueda(0.18f);
     }
 
+    synchronized void setTimbre(int t) { timbre = t; }
+
     private float fatorQueda(float segundos) {
         // multiplicador por amostra para cair ~60 dB em "segundos"
         return (float) Math.exp(Math.log(0.001) / (segundos * taxa));
@@ -96,7 +109,17 @@ final class Sintetizador implements Runnable {
         passo[livre] = (float) (freq * TAB / taxa);
         if (env[livre] < 0.0001f) fase[livre] = 0;
         // graves soam mais tempo que agudos
-        float dur = (float) Math.max(1.2, 6.0 - (midi - 48) * 0.09);
+        float dur = timbre == ELETRICO
+                ? (float) Math.max(1.0, 4.5 - (midi - 48) * 0.07)
+                : (float) Math.max(1.2, 6.0 - (midi - 48) * 0.09);
+        // FM: índice começa "latido" e amacia; agudos com menos índice pra não ficarem ásperos
+        float ind = (float) Math.max(0.5, 1.9 - (midi - 60) * 0.03);
+        indice[livre] = (float) (ind * TAB / (2 * Math.PI));
+        qIndice[livre] = fatorQueda(1.4f);
+        pSino[livre] = (float) (freq * 14 * TAB / taxa);
+        sino[livre] = freq * 14 < taxa * 0.42 ? 0.16f : 0f;
+        qSino[livre] = fatorQueda(0.22f);
+        fSino[livre] = 0;
         queda[livre] = fatorQueda(dur);
         quedaBrilho[livre] = fatorQueda(dur * 0.25f);
         mixBrilho[livre] = 1f;
@@ -110,7 +133,7 @@ final class Sintetizador implements Runnable {
         for (int v = 0; v < VOZES; v++) {
             if (nota[v] == midi && !solta[v]) {
                 solta[v] = true;
-                if (!sustentar) queda[v] = fatorQueda(0.18f);
+                if (!sustentar) queda[v] = fatorQueda(timbre == ELETRICO ? 0.25f : 0.18f);
             }
         }
     }
@@ -134,6 +157,24 @@ final class Sintetizador implements Runnable {
                     float f = fase[v], p = passo[v], e = env[v], mb = mixBrilho[v];
                     float q = queda[v], qb = quedaBrilho[v], at = ataque[v];
                     boolean subindo = at > 0;
+                    if (timbre == ELETRICO) {
+                        float ind = indice[v], qi = qIndice[v], sa = sino[v], qs = qSino[v];
+                        float fs = fSino[v], ps = pSino[v];
+                        for (int i = 0; i < BLOCO; i++) {
+                            float mod = seno[(int) f] * ind;
+                            float s = seno[((int) (f + mod)) & (TAB - 1)] + sa * seno[(int) fs];
+                            acc[i] += s * e;
+                            f += p; if (f >= TAB) f -= TAB;
+                            fs += ps; while (fs >= TAB) fs -= TAB;
+                            if (subindo) { e += at; if (e >= 1f) { e = 1f; subindo = false; } }
+                            else e *= q;
+                            ind *= qi; sa *= qs;
+                        }
+                        indice[v] = ind; sino[v] = sa; fSino[v] = fs;
+                        fase[v] = f; env[v] = e; ataque[v] = subindo ? at : 0;
+                        if (!subindo && e < 0.0005f) nota[v] = -1;
+                        continue;
+                    }
                     for (int i = 0; i < BLOCO; i++) {
                         int idx = (int) f;
                         float s = mb * brilho[idx] + (1f - mb) * redondo[idx];

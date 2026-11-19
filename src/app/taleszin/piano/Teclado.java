@@ -19,7 +19,14 @@ final class Teclado extends View {
     private static final int[] SEMI_BRANCA = {0, 2, 4, 5, 7, 9, 11};
     private static final int LARANJA = 0xFFFF7A1E;
 
+    interface Ouvinte { void tocou(int midi); }
+
     private final Sintetizador synth;
+    private Ouvinte ouvinte;
+    private int guia = -1;       // próxima tecla da música (acende)
+    private int demo = -1;       // tecla tocada pelo "Ouvir"
+    private final Paint pGuia = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private final Paint pGuiaBorda = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final SparseIntArray dedoNota = new SparseIntArray();
     private final int[] apertadas = new int[128];
     private int oitavaInicial = 4;
@@ -40,6 +47,10 @@ final class Teclado extends View {
         synth = s;
         dp = c.getResources().getDisplayMetrics().density;
         pPreta.setColor(0xFF1E1E22);
+        pGuia.setColor(0x66FF7A1E);
+        pGuiaBorda.setColor(LARANJA);
+        pGuiaBorda.setStyle(Paint.Style.STROKE);
+        pGuiaBorda.setStrokeWidth(3 * dp);
         pAceso.setColor(LARANJA);
         pLinha.setColor(0xFF9A9A9A);
         pLinha.setStrokeWidth(Math.max(1, dp));
@@ -57,6 +68,21 @@ final class Teclado extends View {
     }
 
     int brancas() { return brancas; }
+    void setOuvinte(Ouvinte o) { ouvinte = o; }
+    void setGuia(int midi) { guia = midi; invalidate(); }
+    void setDemo(int midi) { demo = midi; invalidate(); }
+    int oitava() { return oitavaInicial; }
+    /** Menor oitava inicial que mostra a faixa [min, max]; -1 se não cabe. */
+    static int oitavaPara(int min, int max, int brancas) {
+        int o = min / 12 - 1;
+        int topo = 12 * (o + 1 + (brancas - 1) / 7) + SEMI_BRANCA[(brancas - 1) % 7];
+        return max <= topo ? o : -1;
+    }
+    static String nome(int midi, boolean cde) {
+        String[] n = cde ? new String[]{"C","C#","D","D#","E","F","F#","G","G#","A","A#","B"}
+                         : new String[]{"Dó","Dó#","Ré","Ré#","Mi","Fá","Fá#","Sol","Sol#","Lá","Lá#","Si"};
+        return n[midi % 12];
+    }
 
     String faixa() {
         int ultimaOit = oitavaInicial + (brancas - 1) / 7;
@@ -99,9 +125,16 @@ final class Teclado extends View {
             float x = i * w;
             r.set(x + dp, -raio, x + w - dp, h - 2 * dp);
             int m = midiBranca(i);
-            c.drawRoundRect(r, raio, raio, apertadas[m] > 0 ? pAceso : pBranca);
+            boolean on = apertadas[m] > 0 || m == demo;
+            c.drawRoundRect(r, raio, raio, on ? pAceso : pBranca);
+            if (m == guia && !on) {
+                c.drawRoundRect(r, raio, raio, pGuia);
+                r.inset(2 * dp, 2 * dp);
+                c.drawRoundRect(r, raio, raio, pGuiaBorda);
+                c.drawCircle(x + w / 2, h - 48 * dp, Math.min(w * 0.22f, 10 * dp), pAceso);
+            }
             if (nomes != NOMES_NENHUM) {
-                pTexto.setColor(apertadas[m] > 0 ? Color.WHITE : (i % 7 == 0 ? LARANJA : 0xFF3A3A3A));
+                pTexto.setColor(on ? Color.WHITE : (i % 7 == 0 ? LARANJA : 0xFF3A3A3A));
                 c.drawText(n[i % 7], x + w / 2, h - 18 * dp, pTexto);
                 if (i % 7 == 0) c.drawText(String.valueOf(oitavaInicial + i / 7), x + w / 2, h - 5 * dp, pSub);
             }
@@ -112,7 +145,14 @@ final class Teclado extends View {
             float cx = (i + 1) * w;
             r.set(cx - bw / 2, -raio, cx + bw / 2, bh);
             int m = midiBranca(i) + 1;
-            c.drawRoundRect(r, raio * 0.7f, raio * 0.7f, apertadas[m] > 0 ? pAceso : pPreta);
+            boolean on = apertadas[m] > 0 || m == demo;
+            c.drawRoundRect(r, raio * 0.7f, raio * 0.7f, on ? pAceso : pPreta);
+            if (m == guia && !on) {
+                c.drawRoundRect(r, raio * 0.7f, raio * 0.7f, pGuia);
+                r.inset(2 * dp, 2 * dp);
+                c.drawRoundRect(r, raio * 0.7f, raio * 0.7f, pGuiaBorda);
+                c.drawCircle(cx, bh - 22 * dp, Math.min(bw * 0.25f, 8 * dp), pAceso);
+            }
         }
     }
 
@@ -154,6 +194,7 @@ final class Teclado extends View {
         if (nova >= 0) {
             apertadas[nova]++;
             synth.tocar(nova);
+            if (ouvinte != null) ouvinte.tocou(nova);
         }
         dedoNota.put(dedo, nova);
         invalidate();
