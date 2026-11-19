@@ -12,7 +12,7 @@ rm -rf "$OUT"; mkdir -p "$OUT/res" "$OUT/gen" "$OUT/classes" "$OUT/dex"
 "$BT/aapt2" compile --dir res -o "$OUT/res/res.zip"
 "$BT/aapt2" link -I "$JAR" --manifest AndroidManifest.xml \
   --min-sdk-version 19 --target-sdk-version 19 \
-  --java "$OUT/gen" -o "$OUT/unsigned.apk" "$OUT/res/res.zip"
+  -A assets --java "$OUT/gen" -o "$OUT/unsigned.apk" "$OUT/res/res.zip"
 
 javac -nowarn -Xlint:-options -source 8 -target 8 -encoding UTF-8 \
   -bootclasspath "$JAR" -classpath "$JAR" -d "$OUT/classes" \

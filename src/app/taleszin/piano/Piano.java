@@ -16,6 +16,7 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import java.util.ArrayList;
 
 public class Piano extends Activity implements Teclado.Ouvinte, Cascata.Fim {
     private static final int LARANJA = 0xFFFF7A1E;
@@ -214,38 +215,103 @@ public class Piano extends Activity implements Teclado.Ouvinte, Cascata.Fim {
 
     // ---------- Músicas (jogo) ----------
 
+    private static final int[] CORES_CAT = {0xFF66BB6A, 0xFFAB8CFF, 0xFFFFC107, 0xFFFF6FA8, 0xFF4FC3F7, 0xFFFF7043, 0xFF26C6DA, 0xFFEF5350};
+
+    private TextView rotulo(String txt, int cor, float sp, boolean negrito) {
+        TextView t = new TextView(this);
+        t.setText(txt); t.setTextColor(cor);
+        t.setTextSize(TypedValue.COMPLEX_UNIT_DIP, sp);
+        if (negrito) t.getPaint().setFakeBoldText(true);
+        t.setSingleLine(true);
+        t.setEllipsize(android.text.TextUtils.TruncateAt.END);
+        return t;
+    }
+
+    private ArrayList<Musicas.Musica> daCategoria(String cat) {
+        ArrayList<Musicas.Musica> l = new ArrayList<Musicas.Musica>();
+        for (Musicas.Musica m : Musicas.todas(getAssets())) if (m.categoria.equals(cat)) l.add(m);
+        return l;
+    }
+
+    /** 1º passo: categorias em cartões. */
     private void escolherMusica() {
-        final Musicas.Musica[] ms = Musicas.TODAS;
+        final ArrayList<String> cats = Musicas.categorias(getAssets());
         android.widget.BaseAdapter ad = new android.widget.BaseAdapter() {
-            public int getCount() { return ms.length; }
-            public Object getItem(int i) { return ms[i]; }
+            public int getCount() { return cats.size(); }
+            public Object getItem(int i) { return cats.get(i); }
             public long getItemId(int i) { return i; }
             public View getView(int i, View v, android.view.ViewGroup pai) {
+                ArrayList<Musicas.Musica> ms = daCategoria(cats.get(i));
+                int est = 0;
+                StringBuilder ex = new StringBuilder();
+                for (Musicas.Musica m : ms) {
+                    est += prefs.getInt("estrelas_" + m.titulo, 0);
+                    if (ex.length() < 60) ex.append(ex.length() > 0 ? " · " : "").append(m.titulo.replaceAll(" \\(.*", ""));
+                }
+                int cor = CORES_CAT[i % CORES_CAT.length];
                 LinearLayout l = new LinearLayout(Piano.this);
                 l.setGravity(Gravity.CENTER_VERTICAL);
-                l.setPadding((int) (16 * dp), (int) (10 * dp), (int) (16 * dp), (int) (10 * dp));
+                l.setPadding(0, (int) (6 * dp), (int) (16 * dp), (int) (6 * dp));
+                View barraCor = new View(Piano.this);
+                barraCor.setBackgroundColor(cor);
+                l.addView(barraCor, new LinearLayout.LayoutParams((int) (6 * dp), (int) (52 * dp)));
                 LinearLayout txt = new LinearLayout(Piano.this);
                 txt.setOrientation(LinearLayout.VERTICAL);
-                TextView t = new TextView(Piano.this);
-                t.setText(ms[i].titulo); t.setTextColor(Color.WHITE);
-                t.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 17);
-                TextView sub = new TextView(Piano.this);
-                int rec = prefs.getInt("recorde_" + ms[i].titulo, 0);
-                sub.setText(ms[i].nivel + (rec > 0 ? "  ·  recorde " + rec : "  ·  nova"));
-                sub.setTextColor(ms[i].nivel.equals("Fácil") ? 0xFF66BB6A : ms[i].nivel.equals("Médio") ? 0xFFFFB300 : 0xFFFF7043);
-                sub.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 13);
-                txt.addView(t); txt.addView(sub);
+                txt.setPadding((int) (14 * dp), 0, 0, 0);
+                txt.addView(rotulo(cats.get(i), Color.WHITE, 19, true));
+                txt.addView(rotulo(ex.toString(), 0xFF9A9AA4, 13, false));
                 l.addView(txt, new LinearLayout.LayoutParams(0, -2, 1f));
-                Estrelas e = new Estrelas(Piano.this, 20);
-                e.set(prefs.getInt("estrelas_" + ms[i].titulo, 0));
-                l.addView(e);
+                LinearLayout dir = new LinearLayout(Piano.this);
+                dir.setOrientation(LinearLayout.VERTICAL);
+                dir.setGravity(Gravity.RIGHT);
+                dir.addView(rotulo(ms.size() + " músicas", cor, 15, true));
+                dir.addView(rotulo(est + " / " + (ms.size() * 3) + " estrelas", 0xFFFFB300, 13, false));
+                l.addView(dir);
                 return l;
             }
         };
         new AlertDialog.Builder(this, AlertDialog.THEME_HOLO_DARK)
-            .setTitle("Escolha uma música")
+            .setTitle("Músicas  ·  escolha a categoria")
             .setAdapter(ad, new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface d, int i) { abrirMusica(ms[i]); }
+                public void onClick(DialogInterface d, int i) { escolherDaCategoria(cats.get(i), CORES_CAT[i % CORES_CAT.length]); }
+            })
+            .show();
+    }
+
+    /** 2º passo: músicas da categoria, da mais fácil para a mais difícil. */
+    private void escolherDaCategoria(String cat, final int cor) {
+        final ArrayList<Musicas.Musica> ms = daCategoria(cat);
+        android.widget.BaseAdapter ad = new android.widget.BaseAdapter() {
+            public int getCount() { return ms.size(); }
+            public Object getItem(int i) { return ms.get(i); }
+            public long getItemId(int i) { return i; }
+            public View getView(int i, View v, android.view.ViewGroup pai) {
+                Musicas.Musica m = ms.get(i);
+                LinearLayout l = new LinearLayout(Piano.this);
+                l.setGravity(Gravity.CENTER_VERTICAL);
+                l.setPadding((int) (16 * dp), (int) (8 * dp), (int) (16 * dp), (int) (8 * dp));
+                LinearLayout txt = new LinearLayout(Piano.this);
+                txt.setOrientation(LinearLayout.VERTICAL);
+                txt.addView(rotulo(m.titulo, Color.WHITE, 17, false));
+                int rec = prefs.getInt("recorde_" + m.titulo, 0);
+                txt.addView(rotulo(m.nivel + "  ·  " + m.notas.length + " notas" + (rec > 0 ? "  ·  recorde " + rec : ""),
+                    m.nivel.equals("Fácil") ? 0xFF66BB6A : m.nivel.equals("Médio") ? 0xFFFFB300 : 0xFFFF7043, 13, false));
+                l.addView(txt, new LinearLayout.LayoutParams(0, -2, 1f));
+                Estrelas e = new Estrelas(Piano.this, 20);
+                e.set(prefs.getInt("estrelas_" + m.titulo, 0));
+                l.addView(e);
+                return l;
+            }
+        };
+        TextView titulo = rotulo(cat + "  (" + ms.size() + ")", cor, 20, true);
+        titulo.setPadding((int) (18 * dp), (int) (14 * dp), (int) (18 * dp), (int) (10 * dp));
+        new AlertDialog.Builder(this, AlertDialog.THEME_HOLO_DARK)
+            .setCustomTitle(titulo)
+            .setAdapter(ad, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface d, int i) { abrirMusica(ms.get(i)); }
+            })
+            .setNegativeButton("Voltar às categorias", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface d, int w) { escolherMusica(); }
             })
             .show();
     }
@@ -314,9 +380,10 @@ public class Piano extends Activity implements Teclado.Ouvinte, Cascata.Fim {
         t2.setGravity(Gravity.CENTER);
         v.addView(t2);
 
+        Musicas.Musica[] todas = Musicas.todas(getAssets());
         int idx = 0;
-        for (int i = 0; i < Musicas.TODAS.length; i++) if (Musicas.TODAS[i] == musica) idx = i;
-        final Musicas.Musica prox = Musicas.TODAS[(idx + 1) % Musicas.TODAS.length];
+        for (int i = 0; i < todas.length; i++) if (todas[i] == musica) idx = i;
+        final Musicas.Musica prox = todas[(idx + 1) % todas.length];
         new AlertDialog.Builder(this, AlertDialog.THEME_HOLO_DARK)
             .setView(v)
             .setCancelable(false)

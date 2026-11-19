@@ -1,28 +1,38 @@
 package app.taleszin.piano;
 
+import android.content.res.AssetManager;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 
-/** Repertório de domínio público. Nota = letra [#] oitava [:duração em tempos]; "|" separa frases. */
+/**
+ * Acervo em assets/musicas/N-categoria.txt. Linha: Título | Nível | bpm | notas.
+ * Nota = letra [#] oitava [:duração em semínimas]; R:x = pausa; "|" separa frases.
+ */
 final class Musicas {
     static final class Musica {
-        final String titulo, nivel; final int bpm;
-        final int[] notas; final float[] duracoes; final boolean[] fimDeFrase;
+        final String titulo, nivel, categoria; final int bpm;
+        final int[] notas; final float[] duracoes, pausaAntes; final boolean[] fimDeFrase;
         int min = 127, max = 0;
-        Musica(String titulo, String nivel, int bpm, String texto) {
-            this.titulo = titulo; this.nivel = nivel; this.bpm = bpm;
-            ArrayList<int[]> ns = new ArrayList<int[]>();
-            ArrayList<Float> ds = new ArrayList<Float>();
-            String[] t = texto.trim().split("\\s+");
+
+        Musica(String titulo, String nivel, String categoria, int bpm, String texto) {
+            this.titulo = titulo; this.nivel = nivel; this.categoria = categoria; this.bpm = bpm;
+            ArrayList<Integer> ns = new ArrayList<Integer>();
+            ArrayList<Float> ds = new ArrayList<Float>(), ps = new ArrayList<Float>();
             ArrayList<Integer> frases = new ArrayList<Integer>();
-            for (String tok : t) {
+            float pausa = 0;
+            for (String tok : texto.trim().split("\\s+")) {
                 if (tok.equals("|")) { if (!ns.isEmpty()) frases.add(ns.size() - 1); continue; }
                 String[] p = tok.split(":");
-                ns.add(new int[]{midi(p[0])});
-                ds.add(p.length > 1 ? Float.parseFloat(p[1]) : 1f);
+                float d = p.length > 1 ? Float.parseFloat(p[1]) : 1f;
+                if (p[0].equals("R")) { pausa += d; continue; }
+                ns.add(midi(p[0])); ds.add(d); ps.add(pausa); pausa = 0;
             }
-            notas = new int[ns.size()]; duracoes = new float[ns.size()]; fimDeFrase = new boolean[ns.size()];
+            notas = new int[ns.size()]; duracoes = new float[ns.size()];
+            pausaAntes = new float[ns.size()]; fimDeFrase = new boolean[ns.size()];
             for (int i = 0; i < notas.length; i++) {
-                notas[i] = ns.get(i)[0]; duracoes[i] = ds.get(i);
+                notas[i] = ns.get(i); duracoes[i] = ds.get(i); pausaAntes[i] = ps.get(i);
                 min = Math.min(min, notas[i]); max = Math.max(max, notas[i]);
             }
             for (int i : frases) fimDeFrase[i] = true;
@@ -37,35 +47,64 @@ final class Musicas {
         return 12 * (Integer.parseInt(n.substring(i)) + 1) + s;
     }
 
-    static final Musica[] TODAS = {
-        new Musica("Brilha, Brilha Estrelinha", "Fácil", 100,
-            "C4 C4 G4 G4 A4 A4 G4:2 | F4 F4 E4 E4 D4 D4 C4:2 | G4 G4 F4 F4 E4 E4 D4:2 | "
-          + "G4 G4 F4 F4 E4 E4 D4:2 | C4 C4 G4 G4 A4 A4 G4:2 | F4 F4 E4 E4 D4 D4 C4:2"),
-        new Musica("Mary Had a Little Lamb", "Fácil", 110,
-            "E4 D4 C4 D4 E4 E4 E4:2 | D4 D4 D4:2 E4 G4 G4:2 | E4 D4 C4 D4 E4 E4 E4 E4 | D4 D4 E4 D4 C4:4"),
-        new Musica("Frère Jacques", "Fácil", 110,
-            "C4 D4 E4 C4 | C4 D4 E4 C4 | E4 F4 G4:2 | E4 F4 G4:2 | "
-          + "G4:.5 A4:.5 G4:.5 F4:.5 E4 C4 | G4:.5 A4:.5 G4:.5 F4:.5 E4 C4 | C4 G3 C4:2 | C4 G3 C4:2"),
-        new Musica("Ode à Alegria (Beethoven)", "Médio", 120,
-            "E4 E4 F4 G4 G4 F4 E4 D4 C4 C4 D4 E4 E4:1.5 D4:.5 D4:2 | "
-          + "E4 E4 F4 G4 G4 F4 E4 D4 C4 C4 D4 E4 D4:1.5 C4:.5 C4:2 | "
-          + "D4 D4 E4 C4 D4 E4:.5 F4:.5 E4 C4 D4 E4:.5 F4:.5 E4 D4 C4 D4 G3:2 | "
-          + "E4 E4 F4 G4 G4 F4 E4 D4 C4 C4 D4 E4 D4:1.5 C4:.5 C4:2"),
-        new Musica("Parabéns pra Você", "Médio", 110,
-            "C4:.75 C4:.25 D4 C4 F4 E4:2 | C4:.75 C4:.25 D4 C4 G4 F4:2 | "
-          + "C4:.75 C4:.25 C5 A4 F4 E4 D4:2 | A#4:.75 A#4:.25 A4 F4 G4 F4:2"),
-        new Musica("Bate o Sino (Jingle Bells)", "Médio", 140,
-            "E4 E4 E4:2 E4 E4 E4:2 E4 G4 C4:1.5 D4:.5 E4:4 | "
-          + "F4 F4 F4:1.5 F4:.5 F4 E4 E4 E4:.5 E4:.5 E4 D4 D4 E4 D4:2 G4:2 | "
-          + "E4 E4 E4:2 E4 E4 E4:2 E4 G4 C4:1.5 D4:.5 E4:4 | "
-          + "F4 F4 F4 F4 F4 E4 E4 E4:.5 E4:.5 G4 G4 F4 D4 C4:4"),
-        new Musica("Noite Feliz", "Difícil", 90,
-            "G4:1.5 A4:.5 G4 E4:3 | G4:1.5 A4:.5 G4 E4:3 | D5:2 D5 B4:3 | C5:2 C5 G4:3 | "
-          + "A4:2 A4 C5:1.5 B4:.5 A4 G4:1.5 A4:.5 G4 E4:3 | A4:2 A4 C5:1.5 B4:.5 A4 G4:1.5 A4:.5 G4 E4:3 | "
-          + "D5:2 D5 F5:1.5 D5:.5 B4 C5:3 E5:3 | C5:1.5 G4:.5 E4 G4:1.5 F4:.5 D4 C4:3"),
-        new Musica("Für Elise (início)", "Difícil", 120,
-            "E5:.5 D#5:.5 E5:.5 D#5:.5 E5:.5 B4:.5 D5:.5 C5:.5 A4:1 | C4:.5 E4:.5 A4:.5 B4:1 | "
-          + "E4:.5 G#4:.5 B4:.5 C5:1 | E4:.5 E5:.5 D#5:.5 E5:.5 D#5:.5 E5:.5 B4:.5 D5:.5 C5:.5 A4:1 | "
-          + "C4:.5 E4:.5 A4:.5 B4:1 | E4:.5 C5:.5 B4:.5 A4:2"),
+    private static final String[][] CATEGORIAS = {
+        {"infantis", "Infantis e primeiras"}, {"classicas", "Clássicas"}, {"brasileiras", "Brasileiras"},
+        {"cantoras", "Cantoras"}, {"populares", "Pop atual"}, {"rock", "Rock e pop clássico"},
+        {"trilhas", "Filmes e jogos"}, {"natal", "Natal"},
     };
+
+    private static Musica[] cache;
+
+    static int peso(String nivel) { return nivel.equals("Fácil") ? 0 : nivel.equals("Médio") ? 1 : 2; }
+
+    private static void ordenarPorNivel(ArrayList<Musica> lista, String cat) {
+        int ini = lista.size();
+        while (ini > 0 && lista.get(ini - 1).categoria.equals(cat)) ini--;
+        java.util.List<Musica> sub = lista.subList(ini, lista.size());
+        java.util.Collections.sort(sub, new java.util.Comparator<Musica>() {
+            public int compare(Musica a, Musica b) { return peso(a.nivel) - peso(b.nivel); }
+        });
+    }
+
+    /** Categorias na ordem do acervo. */
+    static ArrayList<String> categorias(AssetManager am) {
+        ArrayList<String> cs = new ArrayList<String>();
+        for (Musica m : todas(am)) if (!cs.contains(m.categoria)) cs.add(m.categoria);
+        return cs;
+    }
+
+    static synchronized Musica[] todas(AssetManager am) {
+        if (cache != null) return cache;
+        ArrayList<Musica> lista = new ArrayList<Musica>();
+        try {
+            String[] arqs = am.list("musicas");
+            Arrays.sort(arqs);
+            for (String arq : arqs) {
+                String chave = arq.replaceAll("^\\d+-|\\.txt$", "");
+                String cat = chave;
+                for (String[] c : CATEGORIAS) if (c[0].equals(chave)) cat = c[1];
+                BufferedReader br = new BufferedReader(new InputStreamReader(am.open("musicas/" + arq), "UTF-8"));
+                String l;
+                while ((l = br.readLine()) != null) {
+                    l = l.trim();
+                    if (l.isEmpty() || l.startsWith("#")) continue;
+                    String[] p = l.split("\\|", 4);
+                    if (p.length < 4) continue;
+                    try {
+                        Musica m = new Musica(p[0].trim(), p[1].trim(), cat, Integer.parseInt(p[2].trim()), p[3]);
+                        if (m.notas.length > 0) lista.add(m);
+                    } catch (RuntimeException e) {
+                        android.util.Log.w("Piano", "música inválida: " + l, e);
+                    }
+                }
+                br.close();
+                // dentro da categoria: Fácil → Médio → Difícil (ordem estável)
+                ordenarPorNivel(lista, cat);
+            }
+        } catch (java.io.IOException e) {
+            android.util.Log.e("Piano", "sem acervo", e);
+        }
+        cache = lista.toArray(new Musica[0]);
+        return cache;
+    }
 }

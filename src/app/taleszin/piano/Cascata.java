@@ -79,7 +79,7 @@ final class Cascata extends View {
         inicio = new float[m.notas.length];
         acertoEm = new long[m.notas.length];
         float acc = ANTECEDENCIA;
-        for (int i = 0; i < inicio.length; i++) { inicio[i] = acc; acc += m.duracoes[i] * batida; }
+        for (int i = 0; i < inicio.length; i++) { acc += m.pausaAntes[i] * batida; inicio[i] = acc; acc += m.duracoes[i] * batida; }
         pos = 0; t = 0; esperando = false; acabou = false;
         pontos = combo = maxCombo = erros = perfeitos = 0;
         aviso = null; demoProx = 0;
