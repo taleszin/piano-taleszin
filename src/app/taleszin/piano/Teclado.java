@@ -19,12 +19,17 @@ final class Teclado extends View {
     private static final int[] SEMI_BRANCA = {0, 2, 4, 5, 7, 9, 11};
     private static final int LARANJA = 0xFFFF7A1E;
 
-    interface Ouvinte { void tocou(int midi); }
+    /** Devolve false para silenciar a tecla (erro no modo música). */
+    interface Ouvinte { boolean tocou(int midi); }
 
     private final Sintetizador synth;
     private Ouvinte ouvinte;
     private int guia = -1;       // próxima tecla da música (acende)
     private int demo = -1;       // tecla tocada pelo "Ouvir"
+    private int erro = -1;       // tecla errada (pisca vermelho)
+    private final Paint pErro = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private final Paint pBolha = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private final Runnable limpaErro = new Runnable() { public void run() { erro = -1; invalidate(); } };
     private final Paint pGuia = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Paint pGuiaBorda = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final SparseIntArray dedoNota = new SparseIntArray();
@@ -48,6 +53,10 @@ final class Teclado extends View {
         dp = c.getResources().getDisplayMetrics().density;
         pPreta.setColor(0xFF1E1E22);
         pGuia.setColor(0x66FF7A1E);
+        pErro.setColor(0xFFE53935);
+        pBolha.setTextAlign(Paint.Align.CENTER);
+        pBolha.setFakeBoldText(true);
+        pBolha.setColor(Color.WHITE);
         pGuiaBorda.setColor(LARANJA);
         pGuiaBorda.setStyle(Paint.Style.STROKE);
         pGuiaBorda.setStrokeWidth(3 * dp);
@@ -71,6 +80,26 @@ final class Teclado extends View {
     void setOuvinte(Ouvinte o) { ouvinte = o; }
     void setGuia(int midi) { guia = midi; invalidate(); }
     void setDemo(int midi) { demo = midi; invalidate(); }
+    /** Coluna da nota na tela: {esquerda, largura, preta?1:0} ou null se fora do teclado. */
+    float[] coluna(int midi) {
+        float w = largura();
+        for (int i = 0; i < brancas; i++) {
+            int m = midiBranca(i);
+            if (m == midi) return new float[]{i * w, w, 0};
+            if (m + 1 == midi && temPreta(i)) return new float[]{(i + 1) * w - w * 0.3f, w * 0.6f, 1};
+        }
+        return null;
+    }
+
+    /** Teclas brancas a partir do Dó da oitava "o" para alcançar "max" (mín. 8). */
+    static int brancasPara(int o, int max) {
+        int n = 0, m = 12 * (o + 1);
+        for (; m <= max; m++) if (nome(m, true).length() == 1) n++;
+        if (nome(max, true).length() > 1) n++;
+        return Math.max(8, n);
+    }
+
+    void piscarErro(int midi) { erro = midi; removeCallbacks(limpaErro); postDelayed(limpaErro, 350); invalidate(); }
     int oitava() { return oitavaInicial; }
     /** Menor oitava inicial que mostra a faixa [min, max]; -1 se não cabe. */
     static int oitavaPara(int min, int max, int brancas) {
@@ -126,12 +155,12 @@ final class Teclado extends View {
             r.set(x + dp, -raio, x + w - dp, h - 2 * dp);
             int m = midiBranca(i);
             boolean on = apertadas[m] > 0 || m == demo;
-            c.drawRoundRect(r, raio, raio, on ? pAceso : pBranca);
+            c.drawRoundRect(r, raio, raio, m == erro ? pErro : on ? pAceso : pBranca);
             if (m == guia && !on) {
                 c.drawRoundRect(r, raio, raio, pGuia);
                 r.inset(2 * dp, 2 * dp);
                 c.drawRoundRect(r, raio, raio, pGuiaBorda);
-                c.drawCircle(x + w / 2, h - 48 * dp, Math.min(w * 0.22f, 10 * dp), pAceso);
+                bolha(c, x + w / 2, h - 62 * dp, Math.min(w * 0.42f, 19 * dp), m);
             }
             if (nomes != NOMES_NENHUM) {
                 pTexto.setColor(on ? Color.WHITE : (i % 7 == 0 ? LARANJA : 0xFF3A3A3A));
@@ -146,14 +175,22 @@ final class Teclado extends View {
             r.set(cx - bw / 2, -raio, cx + bw / 2, bh);
             int m = midiBranca(i) + 1;
             boolean on = apertadas[m] > 0 || m == demo;
-            c.drawRoundRect(r, raio * 0.7f, raio * 0.7f, on ? pAceso : pPreta);
+            c.drawRoundRect(r, raio * 0.7f, raio * 0.7f, m == erro ? pErro : on ? pAceso : pPreta);
             if (m == guia && !on) {
                 c.drawRoundRect(r, raio * 0.7f, raio * 0.7f, pGuia);
                 r.inset(2 * dp, 2 * dp);
                 c.drawRoundRect(r, raio * 0.7f, raio * 0.7f, pGuiaBorda);
-                c.drawCircle(cx, bh - 22 * dp, Math.min(bw * 0.25f, 8 * dp), pAceso);
+                bolha(c, cx, bh - 26 * dp, Math.min(bw * 0.55f, 19 * dp), m);
             }
         }
+    }
+
+    /** Bolha laranja com o nome da nota da vez, sempre visível (mesmo em "Sem nomes"). */
+    private void bolha(Canvas c, float cx, float cy, float raioB, int midi) {
+        c.drawCircle(cx, cy, raioB, pAceso);
+        String n = nome(midi, nomes == NOMES_CDE);
+        pBolha.setTextSize(raioB * (n.length() > 3 ? 0.62f : 0.8f));
+        c.drawText(n, cx, cy + pBolha.getTextSize() * 0.36f, pBolha);
     }
 
     @Override
@@ -193,8 +230,7 @@ final class Teclado extends View {
         }
         if (nova >= 0) {
             apertadas[nova]++;
-            synth.tocar(nova);
-            if (ouvinte != null) ouvinte.tocou(nova);
+            if (ouvinte == null || ouvinte.tocou(nova)) synth.tocar(nova);
         }
         dedoNota.put(dedo, nova);
         invalidate();
