@@ -49,7 +49,7 @@ final class Musicas {
 
     private static final String[][] CATEGORIAS = {
         {"infantis", "Infantis e primeiras"}, {"classicas", "Clássicas"}, {"brasileiras", "Brasileiras"},
-        {"cantoras", "Cantoras"}, {"populares", "Pop atual"}, {"rock", "Rock e pop clássico"},
+        {"cantoras", "Cantoras"}, {"populares", "Pop atual"}, {"beatles", "Beatles"}, {"rock", "Rock e pop clássico"},
         {"trilhas", "Filmes e jogos"}, {"natal", "Natal"},
     };
 
