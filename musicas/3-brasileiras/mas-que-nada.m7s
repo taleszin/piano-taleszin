@@ -1,0 +1,47 @@
+@titulo Mas Que Nada (Jorge Ben Jor)
+@nivel Médio
+@bpm 92
+@compasso 4/4
+@padrao bossa
+@forma C C2 V W V2 C C3 P I Q C C C F
+@fonte bitmidi 54477 (mas_que_nada, versão Sergio Mendes Brasil 66, trilha 1 = voz; pausas curtas viram duração); cifras de memória (Mi menor)
+
+[C] Ôariá raiô (coro)
+D: E4:2.5 B4:.5 A4:.5 G4:.5 | E4 G4:.5 B4:.5 A4:1.25 G4:.75 | E4:1.75 B3:.25 E4:.75 B3:.25 E4:.75 B3:.25 | E4:.5 R:3.5
+C: Em7 | A7 | Em7 | A7
+
+[C2] Ôariá raiô (coro)
+D: E4:2.5 B4:.5 A4:.5 G4:.5 | E4 G4:.5 B4:.5 A4:1.25 G4:.75 | E4:1.75 B3:.25 E4:.75 B3:.25 E4:.75 B3:.25 | E4:.5 R:2 D5 C5:.5
+C: Em7 | A7 | Em7 | A7
+
+[V] Mas que nada
+D: B4:.25 E5:.25 R D5:.25 C5:.25 D5:.25 C5:.25 D5:.25 C5:.25 D5:.25 C5:.5 B4:.25 | R:.25 E5:.25 R:.75 D5:.5 C5:.25 D5:.75 C5:.25 D5:.5 C5:.25 B4:.25 | R:.25 B4:.75 A4:.5 G4:.5 B4:.5 B4:.25 D#5:.5 D#5:.5 E5:.25~ | E5:2 R E4:.5 F#4:.5
+C: Em7 | A7 | B7 | Em7
+
+[W] Pois o samba está animado
+D: G4:.75 E4:.75 A4:.25 F#4:.5 E4:.75 B3:.25 D4:.5 E4:.25~ | E4:1.25 E4:.5 E4:.5 B4:.5 B4:.75 B4:.5 | B4:.75 A4:1.25 F#4:.5 D4:.75 D4:.5 E4:.25~ | E4:2.5 D5 C5:.5
+C: Em7 | Em7 | B7 | Em7
+
+[V2] Mas que nada
+D: B4:.25 E5:.25 R D5:.25 C5:.25 D5:.25 C5:.25 D5:.25 C5:.25 D5:.25 C5:.5 B4:.25 | R:.25 E5:.25 R:.75 D5:.5 C5:.25 D5:.75 C5:.25 D5:.5 C5:.25 B4:.25 | R:.25 B4:.75 A4:.5 G4:.5 B4:.5 B4:.25 D#5:.5 D#5:.5 E5:.25~ | E5:2 R:2
+C: Em7 | A7 | B7 | Em7
+
+[C3] Ôariá raiô (coro)
+D: E4:2.5 B4:.5 A4:.5 G4:.5 | E4 G4:.5 B4:.5 A4:1.25 G4:.75 | E4:1.75 B3:.25 E4:.75 B3:.25 E4:.75 B3:.25 | E4:.5 R:3 E4:.25 B4:.25
+C: Em7 | A7 | Em7 | A7
+
+[P] Ponte
+D: D5:.25 C#5:.25 C5:.25 A4:.25 B4:.5 A4:.25 A#4:.25 B4:.25 D5:.25 B4:.25 A#4:.25 A4:.25 G4:.25 E4:.25 D4:.25 | G4:.25 E4:.5 E4:.5 D4:.25 E4:.25 R:1.5 F#5:.25 B4:.25 D5:.25 | E5:.25 E5:.25 D5:.25 E5:.5 D5:.5 A#4:.5 A4:.5 G4:.5 E4:.75 | A#4:.25 A4:.5 G4:.5 A4:.25 E4:.25 R:2.25
+C: Em7 | Em7 | A7 | Em7
+
+[I] Interlúdio
+D: R:4 | R:4 | R:4 | R:3 D5:.25 A4:.25 E4:.25 F#4:.25
+C: Em7 | A7 | Em7 | A7
+
+[Q] Ponte
+D: R:.25 B3:.5 D4:.5 E4:.25 B3:.5 A3:1.25 B3:.25 E4:.25 D4:.25 | G4:.25 E4:.25 A4:.25 B4:.5 A4:.25 B4:.25 D5 R:.75 B3:.5~ | B3:.25 F#4:.5 G4:.25 E4:.75 F#4:.5 G4:.25 E4:.75 A#4:.5 B4:.25 | G4:.5 E4:.5 E4:.5 D4:.25 E4:.5 R:1.75
+C: Em7 | A7 | Em7 | Em7
+
+[F] Final
+D: E4:2.5 B4:.5 A4:.5 G4:.5 | E4 G4:.5 B4:.5 A4:1.25 G4:.75 | E4:1.75 B3:.25 E4:.75 B3:.25 E4:.75 B3:.25 | E4:.5
+C: Em7 | A7 | Em7 | Em7

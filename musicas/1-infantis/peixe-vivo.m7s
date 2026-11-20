@@ -1,22 +1,27 @@
 @titulo Peixe Vivo (folclore)
 @nivel Fácil
-@bpm 80
+@bpm 88
 @compasso 2/4
+@anacruse 1
 @padrao baixo
-@forma V R V R R2
-@fonte bitmidi peixe.mid (karaokê "Peixe Vivo - Música Infantil", trilha de melodia, transposto de Mi para Dó); cifras C/F/G7
+@forma P V B V B V F
+@fonte partitura superpartituras.com.br (Peixe Vivo, arr. Outubrino D. Moraes, Dó 2/4) conferida com bitmidi peixe.mid (karaokê); cifras da partitura
+
+[P] Entrada
+D: E4:.5 G4:.5
+C: C
 
 [V] Estrofe
-D: E4:.5 G4:.5 G4:.5 F4:.5 | F4:.5 A4:.5 A4:.5 G4:.5 | E4:.5 G4:.5 G4:.5 F4:.5 | D4:.5 F4:.5 F4:.5 E4:.5
-D: E4:.5 G4:.5 G4:.5 F4:.5 | F4:.5 A4:.5 A4:.5 G4:.5 | E4:.5 G4:.5 G4:.5 F4:.5 | D4:.5 F4:.5 F4:.5 E4:.5
-C: C | F | C | G7:1 C:1 | C | F | C | G7:1 C:1
+D: G4:.5 F4:.5 F4:.5 A4:.5 | A4:.5 G4:.5 E4:.5 G4:.5 | G4:.5 F4:.5 D4:.5 F4:.5 | F4:.5 E4:.5 E4:.5 G4:.5
+D: G4:.5 F4:.5 F4:.5 A4:.5 | A4:.5 G4:.5 E4:.5 G4:.5 | G4:.5 F4:.5 D4:.5 F4:.5 | F4:.5 E4:.5 R:.5 C4:.25 C4:.25
+C: G7 | C | G7 | C | G7 | C | G7 | C
 
-[R] Refrão
-D: R:.5 C4:.25 C4:.25 A4:.75 B4:.25 | C5:.75 B4:.25 A4:.25 B4:.125 A4:.125 G4:.5~ | G4:.5 C4:.25 C4:.25 A4:.75 B4:.25 | C5:.75 B4:.25 A4:.25 B4:.125 A4:.125 G4:.5
-D: E4:.5 G4:.5 G4:.5 F4:.5 | F4:.5 A4:.5 A4:.5 G4:.5 | E4:.5 G4:.5 G4:.5 F4:.5 | D4:.5 F4:.5 F4:.5 E4:.5
-C: F | C | F | G7 | C | F | C | G7:1 C:1
+[B] Refrão
+D: A4:.75 B4:.25 C5:.75 B4:.25 | A4:.5 G4:.5 R:.5 C4:.25 C4:.25 | A4:.75 B4:.25 C5:.75 B4:.25 | A4:.5 G4:.5 E4:.5 G4:.5
+D: G4:.5 F4:.5 F4:.5 A4:.5 | A4:.5 G4:.5 E4:.5 G4:.5 | G4:.5 F4:.5 D4:.5 F4:.5 | F4:.5 E4:.5 E4:.5 G4:.5
+C: F | C | F | C | G7 | C | G7 | C
 
-[R2] Refrão final
-D: R:.5 C4:.25 C4:.25 A4:.75 B4:.25 | C5:.75 B4:.25 A4:.25 B4:.125 A4:.125 G4:.5~ | G4:.5 C4:.25 C4:.25 A4:.75 B4:.25 | C5:.75 B4:.25 A4:.25 B4:.125 A4:.125 G4:.5
-D: E4:.5 G4:.5 G4:.5 F4:.5 | F4:.5 A4:.5 A4:.5 G4:.5 | E4:.5 G4:.5 G4:.5 F4:.5 | D4:.5 F4:.5 F4:.5 E4:.5 | C4+E4:2
-C: F | C | F | G7 | C | F | C | G7:1 C:1 | C
+[F] Refrão final
+D: A4:.75 B4:.25 C5:.75 B4:.25 | A4:.5 G4:.5 R:.5 C4:.25 C4:.25 | A4:.75 B4:.25 C5:.75 B4:.25 | A4:.5 G4:.5 E4:.5 G4:.5
+D: G4:.5 F4:.5 F4:.5 A4:.5 | A4:.5 G4:.5 E4:.5 G4:.5 | G4:.5 F4:.5 D4:.5 F4:.5 | C4 E4:.5 G4:.5 | C5+E4:2
+C: F | C | F | C | G7 | C | G7 | C | C

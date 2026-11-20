@@ -1,0 +1,27 @@
+@titulo Marcha Soldado (folclore)
+@nivel Fácil
+@bpm 112
+@compasso 2/4
+@padrao baixo
+@forma I A A A8 A I A F
+@fonte partitura superpartituras.com.br (Marcha Soldado, arr. Mário Mascarenhas, Dó 2/4), nota por nota; cifras da partitura
+# estrofes: Marcha, soldado / O quartel pegou fogo
+
+[I] Introdução (clarim)
+D: C5:.5 R:.5 C5:.5 R:.5 | C5:.5 R:.5 A4:.5 B4:.5 | C5:.5 R:.5 E5:.5 R:.5 | C5 R
+C: Am | C:1 G7:1 | C | C
+
+[A] Estrofe
+D: G4 G4:.5 E4:.5 | C4 C4:.5 E4:.5 | G4:.75 G4:.25 G4:.5 E4:.5 | D4 R:.5 F4:.5
+D: F4:.5 F4:.5 F4:.5 D4:.5 | G4:.5 G4:.5 G4:.5 A4:.5 | G4:.75 F4:.25 E4:.5 D4:.5 | C4:2
+C: C | C | C | G7 | G7 | C | G7 | C
+
+[A8] Estrofe (oitava acima)
+D: G5 G5:.5 E5:.5 | C5 C5:.5 E5:.5 | G5:.75 G5:.25 G5:.5 E5:.5 | D5 R:.5 F5:.5
+D: F5:.5 F5:.5 F5:.5 D5:.5 | G5:.5 G5:.5 G5:.5 A5:.5 | G5:.75 F5:.25 E5:.5 D5:.5 | C5:2
+C: C | C | C | G7 | G7 | C | G7 | C
+
+[F] Final
+D: G4 G4:.5 E4:.5 | C4 C4:.5 E4:.5 | G4:.75 G4:.25 G4:.5 E4:.5 | D4 R:.5 F4:.5
+D: F4:.5 F4:.5 F4:.5 D4:.5 | G4:.5 G4:.5 G4:.5 A4:.5 | G4:.75 F4:.25 E4:.5 D4:.5 | C4:2 | C5:.5 R:.5 G4:.5 R:.5 | C4+C5 R
+C: C | C | C | G7 | G7 | C | G7 | C | C:1 G7:1 | C

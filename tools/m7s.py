@@ -444,6 +444,7 @@ def main():
     elif cmd == 'compilar':
         fonte, destino = sys.argv[2], sys.argv[3]
         n = 0; falhas = 0
+        indice = []
         for cat in sorted(os.listdir(fonte)):
             dc = os.path.join(fonte, cat)
             if not os.path.isdir(dc): continue
@@ -456,7 +457,13 @@ def main():
                     print('ERRO ' + str(e)); falhas += 1; continue
                 with open(os.path.join(destino, cat, arq[:-4] + '.txt'), 'w', encoding='utf-8') as f:
                     f.write(compilar_um(m, cat))
+                ev = m['eventos']
+                nd = sum(len(e[3]) for e in ev if e[2] == 'D'); ne = sum(len(e[3]) for e in ev if e[2] == 'E')
+                indice.append('\t'.join([f'{cat}/{arq[:-4]}', m['cab']['titulo'], m['cab']['nivel'], str(m['bpm']),
+                                          str(nd), str(ne), fmt(m['total'])]))
                 n += 1
+        with open(os.path.join(destino, 'indice.tsv'), 'w', encoding='utf-8') as f:
+            f.write('\n'.join(indice) + '\n')
         print(f'{n} músicas compiladas, {falhas} com erro')
         sys.exit(1 if falhas else 0)
     elif cmd == 'midi':

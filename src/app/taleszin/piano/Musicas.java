@@ -49,36 +49,38 @@ final class Musicas {
         return cs;
     }
 
+    /** Lista vinda de assets/musicas/indice.tsv (gerado pelo m7s.py): id, título, nível, bpm, nD, nE, total. */
     static synchronized Musica[] todas(AssetManager am) {
         if (cache != null) return cache;
         ArrayList<Musica> lista = new ArrayList<Musica>();
         try {
-            String[] dirs = am.list("musicas");
-            Arrays.sort(dirs);
-            for (String dir : dirs) {
+            BufferedReader br = new BufferedReader(new InputStreamReader(am.open("musicas/indice.tsv"), "UTF-8"));
+            String l;
+            while ((l = br.readLine()) != null) {
+                String[] p = l.split("\t");
+                if (p.length < 7) continue;
+                String dir = p[0].substring(0, p[0].indexOf('/'));
                 String chave = dir.replaceAll("^\\d+-", "");
                 String cat = chave;
                 for (String[] c : CATEGORIAS) if (c[0].equals(chave)) cat = c[1];
-                String[] arqs = am.list("musicas/" + dir);
-                if (arqs == null || arqs.length == 0) continue;
-                ArrayList<Musica> daCat = new ArrayList<Musica>();
-                for (String arq : arqs) {
-                    if (!arq.endsWith(".txt")) continue;
-                    Musica m = new Musica(dir + "/" + arq.replace(".txt", ""), "musicas/" + dir + "/" + arq, cat);
-                    try { lerCabecalho(am, m); daCat.add(m); }
-                    catch (Exception e) { android.util.Log.w("Piano", "música inválida: " + arq, e); }
-                }
-                Collections.sort(daCat, new Comparator<Musica>() {
-                    public int compare(Musica a, Musica b) {
-                        int p = peso(a.nivel) - peso(b.nivel);
-                        return p != 0 ? p : a.titulo.compareToIgnoreCase(b.titulo);
-                    }
-                });
-                lista.addAll(daCat);
+                Musica m = new Musica(p[0], "musicas/" + p[0] + ".txt", cat);
+                m.titulo = p[1]; m.nivel = p[2]; m.bpm = Integer.parseInt(p[3]);
+                m.nD = Integer.parseInt(p[4]); m.nE = Integer.parseInt(p[5]); m.total = Float.parseFloat(p[6]);
+                lista.add(m);
             }
-        } catch (java.io.IOException e) {
+            br.close();
+        } catch (Exception e) {
             android.util.Log.e("Piano", "sem acervo", e);
         }
+        // por categoria (ordem dos diretórios), e dentro dela Fácil → Difícil, depois título
+        Collections.sort(lista, new Comparator<Musica>() {
+            public int compare(Musica a, Musica b) {
+                int c = a.id.substring(0, a.id.indexOf('/')).compareTo(b.id.substring(0, b.id.indexOf('/')));
+                if (c != 0) return c;
+                int p = peso(a.nivel) - peso(b.nivel);
+                return p != 0 ? p : a.titulo.compareToIgnoreCase(b.titulo);
+            }
+        });
         cache = lista.toArray(new Musica[0]);
         return cache;
     }
@@ -87,31 +89,8 @@ final class Musicas {
         int i = l.indexOf('=');
         if (i < 0) return;
         String k = l.substring(0, i), v = l.substring(i + 1);
-        if (k.equals("titulo")) m.titulo = v;
-        else if (k.equals("nivel")) m.nivel = v;
-        else if (k.equals("bpm")) m.bpm = Integer.parseInt(v);
-        else if (k.equals("compasso")) m.compasso = Float.parseFloat(v);
+        if (k.equals("compasso")) m.compasso = Float.parseFloat(v);
         else if (k.equals("anacruse")) m.anacruse = Float.parseFloat(v);
-    }
-
-    private static void lerCabecalho(AssetManager am, Musica m) throws java.io.IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(am.open(m.arquivo), "UTF-8"));
-        try {
-            String l;
-            int nD = 0, nE = 0; float fim = 0;
-            boolean corpo = false;
-            while ((l = br.readLine()) != null) {
-                if (!corpo) { if (l.equals("---")) corpo = true; else cab(m, l); continue; }
-                // contagem rápida para a lista (sem guardar)
-                int a = l.indexOf(' '), b = l.indexOf(' ', a + 1);
-                if (a < 0 || b < 0) continue;
-                float ini = Float.parseFloat(l.substring(0, a)), d = Float.parseFloat(l.substring(a + 1, b));
-                int n = 1; for (int k = b + 3; k < l.length(); k++) if (l.charAt(k) == '+') n++;
-                if (l.charAt(b + 1) == 'D') nD += n; else nE += n;
-                fim = Math.max(fim, ini + d);
-            }
-            m.nD = nD; m.nE = nE; m.total = fim;
-        } finally { br.close(); }
     }
 
     /** Carrega os eventos (uma vez). */
@@ -126,7 +105,8 @@ final class Musicas {
             while ((l = br.readLine()) != null) {
                 if (!corpo) {
                     if (l.equals("---")) corpo = true;
-                    else if (l.startsWith("secao=")) {
+                    else if (!l.startsWith("secao=")) cab(m, l);
+                    else {
                         String v = l.substring(6); int i = v.indexOf(' ');
                         si.add(Float.parseFloat(i < 0 ? v : v.substring(0, i))); sr.add(i < 0 ? "" : v.substring(i + 1));
                     }

@@ -1,0 +1,49 @@
+@titulo Zombie (The Cranberries)
+@nivel Médio
+@bpm 84
+@compasso 4/4
+@padrao oitavas
+@forma Intro Verso Pre Refrao Riff Riff Verso2 Pre2 Refrao2 Final
+@fonte bitmidi: https://bitmidi.com/the-cranberries-zombie-k-mid (canto canal 15, de Mi menor para Lá menor); cifras dos eventos de texto do próprio MIDI (Em C G D/F# -> Am F C G/B)
+
+[Intro] Introdução (riff)
+D: R:.5 C5:.5 R:.5 B4:.5 R:.5 E4:.5 E4:.5 F4:.5 | R:.5 C5:.5 R:.5 B4:.5 R:.5 F4:.25 R:.25 F4:.5 E4:.5 | R:.5 C5:.75 R:.25 B4:.5 R:.5 E4:.5 E4:.5 D4:.5 | R:.5 C5:.5 R:.5 B4:.5 R:.5 D4:.25 R:.25 D4:.5 E4:.25 R:.25
+D: R:.5 C5:.5 R:.5 B4:.5 R:.5 E4:.5 E4:.5 F4:.5 | R:.5 C5:.5 R:.5 B4:.5 R:.5 F4:.25 R:.25 F4:.5 E4:.5 | R:.5 C5:.75 R:.25 B4:.5 R:.5 E4:.5 E4:.5 D4:.5 | R:.5 C5:.5 R:.5 B4:.5 R:.5 D4:.25 R:.25 D4:.5 E4:.25 R:.25
+C: Am | F | C | G/B
+C: Am | F | C | G/B
+[Verso] Verso (Another head hangs lowly)
+D: R A4:.5 G4 E4:.75 R:.25 E4:.5 | G4:.5 F4 E4 D4:.75 R:.25 D4:.5 | F4:.5 E4 D4 C4 D4:.5 | B3:2.5 R:1.5
+D: R A4:.5 G4 E4:.75 R:.25 E4:.5 | G4:.5 F4 E4 D4:.75 R:.25 D4:.5 | F4:.5 E4 D4 C4 D4:.5 | B3:2.5 B4:.5 B4:.5 A4:.5~
+C: Am | F | C | G/B
+C: Am | F | C | G/B
+[Pre] Pré-refrão (It's not me, it's not my family)
+D: A4:.25 R:.25 A4:.5 B4:.5 A4:.5 R:.5 A4:.5 B4:.5 C5:.5~ | C5:.25 R:.25 A4:.5 B4:.5 C5:.5 R:.5 C5:.5 B4:.5 G4:.5 | E4:.25 R:.25 C5:.5 B4:.5 G4:.75 R:.25 C5:.5 C5:.5 D5:.5 | B4:1.5 R C5:.5 B4:.5 A4:.5
+D: R:.5 A4:.5 B4:.5 A4:.5 R:.5 A4:.5 B4:.5 A4:.5 | R:.5 A4:.5 B4:.5 A4:.5 R:.5 C5:.5 B4:.5 G4:.5 | E4:.25 R:.25 C5:.5 B4:.5 G4:.75 R:.25 C5:.5 C5:.5 D5:.5 | B4:1.5 R:1.5 B4:.5 B4:.5
+C: Am | F | C | G/B
+C: Am | F | C | G/B
+[Refrao] Refrão (In your head, zombie)
+D: C5:1.5 A4:1.5 B4:.5 D5:.5 | C5:.75 D5:.25 C5:.5 A4:.75 R:.25 A4:.5 B4:.5 G4:.5~ | G4:.25 R:.25 A4:.5 B4:.5 G4:.75 R:.25 A4:.5 B4:.5 B4:.5 | R:.5 B4:.5 R:.5 B4:.5 R:.5 B4:.25 R:.25 B4:.5 B4:.5
+D: C5:1.5 A4:1.5 B4:.5 D5:.5 | C5:.75 D5:.25 C5:.5 A4:.75 R:.25 A4:.5 B4:.5 G4:.5~ | G4:.25 R:.25 A4:.5 B4:.5 G4:.75 R:.25 A4:.5 B4:.5 B4:.5~ | B4:.25 R:.25 B4:.75 R:.25 B4:.75 R:.25 B4:.75 R:.25 A4:.5
+C: Am | F | C | G/B
+C: Am | F | C | G/B
+[Riff] Riff (du du du)
+D: R:.5 C5:.5 R:.5 B4:.5 R:.5 E4:.5 E4:.5 F4:.5 | R:.5 C5:.5 R:.5 B4:.5 R:.5 F4:.25 R:.25 F4:.5 E4:.5 | R:.5 C5:.75 R:.25 B4:.5 R:.5 E4:.5 E4:.5 D4:.5 | R:.5 C5:.5 R:.5 B4:.5 R:.5 D4:.25 R:.25 D4:.5 E4:.25 R:.25
+C: Am | F | C | G/B
+[Verso2] Verso (Another mother's breakin' heart)
+D: R A4:.5 G4 E4:.75 R:.25 E4:.5 | G4:.5 F4 E4 D4:.75 R:.25 D4:.5 | F4:.5 E4 D4 C4 D4:.5 | B3:2.5 R:1.5
+D: R A4:.5 G4 E4:.75 R:.25 E4:.5 | G4:.5 F4 E4 D4:.75 R:.25 D4:.5 | F4:.5 E4 D4 C4 D4:.5 | B3:2.5 B4:.25 R:.25 B4:.5 A4:.5~
+C: Am | F | C | G/B
+C: Am | F | C | G/B
+[Pre2] Pré-refrão (It's the same old theme)
+D: A4:.25 R:.25 A4:.25 C5:.25 B4:.5 A4:.5 R:.5 A4:.5 B4:.5 C5:.5~ | C5:.25 R:.25 A4:.5 B4:.5 C5:.5 R:.5 C5:.5 B4:.5 G4:.5 | R:.5 C5:.5 B4:.5 G4:.75 R:.25 C5:.5 C5:.5 D5:.5 | B4:1.5 R C5:.5 B4:.5 A4:.5
+D: R:.5 A4:.5 B4:.5 A4:.5 R:.5 A4:.5 B4:.5 A4:.5 | R:.5 A4:.5 B4:.5 A4:.5 R:.5 C5:.5 B4:.5 G4:.5 | E4:.25 R:.25 C5:.5 B4:.5 G4:.75 R:.25 C5:.5 C5:.5 D5:.5 | B4:1.5 R:1.5 B4:.5 B4:.5
+C: Am | F | C | G/B
+C: Am | F | C | G/B
+[Refrao2] Refrão
+D: C5:1.5 A4:1.5 B4:.5 D5:.5 | C5:.75 D5:.25 C5:.5 A4:.75 R:.25 A4:.5 B4:.5 G4:.5~ | G4:.25 R:.25 A4:.5 B4:.5 G4:.75 R:.25 A4:.5 B4:.5 B4:.5 | R:.5 B4:.5 R:.5 B4:.5 R:.5 B4:.25 R:.25 B4:.5 B4:.5
+D: C5:1.5 A4:1.5 B4:.5 D5:.5 | C5:.75 D5:.25 C5:.5 A4:.75 R:.25 A4:.5 B4:.5 G4:.5~ | G4:.25 R:.25 A4:.5 B4:.5 G4:.75 R:.25 A4:.5 B4:.5 B4:.5 | R:.5 B4:.5 R:.5 B4:.5 R:.5 B4:.5 R:.5 A4:.5
+C: Am | F | C | G/B
+C: Am | F | C | G/B
+[Final] Final
+D: R:.5 A4:.5 R:.5 A4:.75 R:.25 A4:.5 R:.5 A4:.5~ | A4:.25 R:.25 A4:.5 R:.5 A4:.5 R:.5 A4:.5 B4:.5 G4:.5~ | G4:2.5 E4:.5 E4:.5 D4:.5 | E4+A4:4
+C: Am | F | C | G/B
