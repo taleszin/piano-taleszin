@@ -6,12 +6,16 @@ cd "$(dirname "$0")"
 SDK="${ANDROID_HOME:-$HOME/Library/Android/sdk}"
 BT="$SDK/build-tools/35.0.0"
 JAR="$SDK/platforms/android-31/android.jar"   # compileSdk 31; minSdk/targetSdk 19 no manifest
+# TARGET=19 (tablet, padrão) ou TARGET=34 (celular moderno; Android 14+ recusa target < 23)
+TARGET="${TARGET:-19}"
 OUT=build
+[ "$TARGET" != 19 ] && OUT="build-$TARGET"
 rm -rf "$OUT"; mkdir -p "$OUT/res" "$OUT/gen" "$OUT/classes" "$OUT/dex"
+sed "s/android:targetSdkVersion=\"19\"/android:targetSdkVersion=\"$TARGET\"/" AndroidManifest.xml > "$OUT/AndroidManifest.xml"
 
 "$BT/aapt2" compile --dir res -o "$OUT/res/res.zip"
-"$BT/aapt2" link -I "$JAR" --manifest AndroidManifest.xml \
-  --min-sdk-version 19 --target-sdk-version 19 \
+"$BT/aapt2" link -I "$JAR" --manifest "$OUT/AndroidManifest.xml" \
+  --min-sdk-version 19 --target-sdk-version "$TARGET" \
   -A assets --java "$OUT/gen" -o "$OUT/unsigned.apk" "$OUT/res/res.zip"
 
 javac -nowarn -Xlint:-options -source 8 -target 8 -encoding UTF-8 \
