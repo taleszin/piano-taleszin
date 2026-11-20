@@ -146,7 +146,7 @@ public class Piano extends Activity implements Teclado.Ouvinte, Cascata.Fim {
         barraJogo.addView(tVel);
         barraJogo.addView(vMais);
         espaco(barraJogo);
-        bOuvir = botao("Ouvir", new View.OnClickListener() {
+        bOuvir = botao("Autoplay", new View.OnClickListener() {
             public void onClick(View v) { jogar(!cascata.demo()); }
         });
         barraJogo.addView(bOuvir);
@@ -331,7 +331,7 @@ public class Piano extends Activity implements Teclado.Ouvinte, Cascata.Fim {
 
     private void jogar(boolean demo) {
         cascata.iniciar(musica, demo);
-        bOuvir.setText(demo ? "Parar" : "Ouvir");
+        bOuvir.setText(demo ? "Parar" : "Autoplay");
         bOuvir.setBackground(fundo(demo));
     }
 
@@ -346,6 +346,9 @@ public class Piano extends Activity implements Teclado.Ouvinte, Cascata.Fim {
 
     @Override
     public boolean tocou(int midi) { return musica == null || cascata.tocou(midi); }
+
+    @Override
+    public void soltou(int midi) { if (musica != null) cascata.soltou(midi); }
 
     @Override
     public void fim(boolean demo, int pontos, int erros, int perfeitos, int total, int maxCombo) {
@@ -375,7 +378,8 @@ public class Piano extends Activity implements Teclado.Ouvinte, Cascata.Fim {
         v.addView(t1);
         TextView t2 = new TextView(this);
         t2.setText(pontos + " pontos" + (recorde ? "  ·  NOVO RECORDE!" : "") + "\n"
-                + perfeitos + " de " + total + " perfeitas  ·  maior combo " + maxCombo + "  ·  " + erros + " erro" + (erros == 1 ? "" : "s"));
+                + perfeitos + " de " + total + " perfeitas  ·  maior combo " + maxCombo + "  ·  " + erros + " erro" + (erros == 1 ? "" : "s")
+                + (cascata.longas() > 0 ? "\nnotas longas seguradas: " + cascata.seguradas() + " de " + cascata.longas() : ""));
         t2.setTextColor(Color.WHITE); t2.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 15);
         t2.setGravity(Gravity.CENTER);
         v.addView(t2);

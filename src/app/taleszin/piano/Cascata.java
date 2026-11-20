@@ -38,6 +38,12 @@ final class Cascata extends View {
     private long esperaDesde;
     private int demoTocando = -1, demoProx;
 
+    // notas longas: segurar a tecla pelo tempo da nota
+    private static final float LONGA = 450f;   // ms de música a partir do qual a nota pede para segurar
+    private int segurando = -1;                // índice da nota sendo segurada
+    private float segDesde;                     // tempo de música em que o segurar começou a contar
+    private int longas, seguradas;
+
     // placar
     private int pontos, combo, maxCombo, erros, perfeitos;
     private String aviso; private int avisoCor; private long avisoEm;
@@ -72,6 +78,29 @@ final class Cascata extends View {
     void setFim(Fim f) { fim = f; }
     void setVelocidade(float v) { vel = v; }
     boolean demo() { return demo; }
+    int longas() { return longas; }
+    int seguradas() { return seguradas; }
+
+    private boolean longa(int i) { return m.duracoes[i] >= 1.5f && m.duracoes[i] * batida >= LONGA; }
+
+    /** Fecha a nota longa em andamento: completa = segurou até o fim. */
+    private void fecharSegurar(boolean completa) {
+        if (segurando < 0) return;
+        int i = segurando;
+        segurando = -1;
+        float dur = m.duracoes[i] * batida;
+        float frac = completa ? 1f : Math.max(0f, t - segDesde) / dur;
+        int mult = Math.min(4, 1 + combo / 8);
+        if (frac >= 0.85f) { seguradas++; pontos += 50 * mult; avisar("Segurou certinho!", VERDE); }
+        else if (frac >= 0.5f) { pontos += 20 * mult; avisar("Quase! Segure mais", AMBAR); }
+        else avisar("Segure a nota!", AMBAR);
+    }
+
+    /** O usuário soltou uma tecla. */
+    void soltou(int midi) {
+        if (m == null || demo || segurando < 0) return;
+        if (m.notas[segurando] == midi) { fecharSegurar(false); invalidate(); }
+    }
 
     void iniciar(Musicas.Musica musica, boolean modoDemo) {
         m = musica; demo = modoDemo;
@@ -82,6 +111,8 @@ final class Cascata extends View {
         for (int i = 0; i < inicio.length; i++) { acc += m.pausaAntes[i] * batida; inicio[i] = acc; acc += m.duracoes[i] * batida; }
         pos = 0; t = 0; esperando = false; acabou = false;
         pontos = combo = maxCombo = erros = perfeitos = 0;
+        segurando = -1; seguradas = 0; longas = 0;
+        for (int i = 0; i < inicio.length; i++) if (longa(i)) longas++;
         aviso = null; demoProx = 0;
         soltarDemo();
         teclado.setGuia(demo ? -1 : m.notas[0]);
@@ -113,6 +144,8 @@ final class Cascata extends View {
             combo++; maxCombo = Math.max(maxCombo, combo);
             pontos += base * Math.min(4, 1 + combo / 8);
             acertoEm[pos] = agora;
+            fecharSegurar(false);                 // tocou a próxima antes de soltar a anterior
+            if (longa(pos)) { segurando = pos; segDesde = Math.max(t, inicio[pos]); }
             pos++;
             esperando = false;
             teclado.setGuia(pos < m.notas.length ? m.notas[pos] : -1);
@@ -150,6 +183,7 @@ final class Cascata extends View {
         } else {
             t += dt;
         }
+        if (segurando >= 0 && t >= inicio[segurando] + m.duracoes[segurando] * batida) fecharSegurar(true);
         int ult = m.notas.length - 1;
         if (pos > ult && t >= inicio[ult] + m.duracoes[ult] * batida + 600) {
             acabou = true; rodando = false; soltarDemo();
@@ -186,6 +220,25 @@ final class Cascata extends View {
             if (baseY < 0) break;                       // as próximas estão mais acima
             float[] col = teclado.coluna(m.notas[i]);
             if (col == null) continue;
+            boolean ativa = i == segurando || (demo && demoTocando >= 0 && i == demoProx - 1);
+            if (acertoEm[i] != 0 && ativa) {            // nota longa sendo segurada: a cauda é consumida na linha
+                float topoC = baseY - alt;
+                if (topoC < linhaY) {
+                    float pad = col[1] * 0.04f;
+                    r.set(col[0] + pad, Math.max(0, topoC), col[0] + col[1] - pad, linhaY);
+                    pNota.setColor(0xFFFFE0B2);
+                    c.drawRoundRect(r, 8 * dp, 8 * dp, pNota);
+                    pAnel.setColor(col[2] > 0 ? AMBAR : LARANJA);
+                    pAnel.setAlpha(255);
+                    pAnel.setStrokeWidth(3 * dp);
+                    c.drawRoundRect(r, 8 * dp, 8 * dp, pAnel);
+                    // brilho na linha
+                    pAnel.setStrokeWidth(2 * dp);
+                    pAnel.setAlpha(120 + (int) (100 * Math.abs(Math.sin(agora / 90.0))));
+                    c.drawCircle(col[0] + col[1] / 2, linhaY, col[1] * 0.35f, pAnel);
+                }
+                continue;
+            }
             if (acertoEm[i] != 0) {                     // acertou: anel que se expande
                 long dtA = agora - acertoEm[i];
                 if (dtA < 350) {
@@ -204,12 +257,17 @@ final class Cascata extends View {
             pNota.setColor(col[2] > 0 ? AMBAR : LARANJA);
             if (i != pos) pNota.setAlpha(200);
             c.drawRoundRect(r, 8 * dp, 8 * dp, pNota);
+            if (longa(i) && r.height() > 40 * dp) {     // faixa clara = segure
+                float cx = r.centerX(), lw = Math.max(3 * dp, (r.width()) * 0.12f);
+                pNota.setColor(0x88FFFFFF);
+                c.drawRoundRect(new RectF(cx - lw / 2, r.top + 8 * dp, cx + lw / 2, r.bottom - 26 * dp), lw / 2, lw / 2, pNota);
+            }
             if (i == pos && !demo) c.drawRoundRect(r, 8 * dp, 8 * dp, pBorda);
             if (r.height() > 20 * dp)
                 c.drawText(Teclado.nome(m.notas[i], false), r.centerX(), r.bottom - 8 * dp, pTexto);
         }
 
-        // placar
+            // placar
         if (!demo) {
             pPlacar.setTextAlign(Paint.Align.LEFT);
             pPlacar.setColor(0xFFFFFFFF); pPlacar.setTextSize(22 * dp);
@@ -222,7 +280,7 @@ final class Cascata extends View {
         } else {
             pPlacar.setTextAlign(Paint.Align.LEFT);
             pPlacar.setColor(0xFFBBBBBB); pPlacar.setTextSize(15 * dp);
-            c.drawText("Ouvindo... depois é sua vez", 12 * dp, 28 * dp, pPlacar);
+            c.drawText("Autoplay: só assistir. Depois é sua vez", 12 * dp, 28 * dp, pPlacar);
         }
         // progresso
         pPlacar.setColor(0xFF2A2A32);
@@ -244,6 +302,6 @@ final class Cascata extends View {
             c.drawText(aviso, W / 2f, H * 0.42f, pAviso);
         }
 
-        if (rodando || (aviso != null && agora - avisoEm < 700)) postInvalidateOnAnimation();
+        if (rodando || segurando >= 0 || (aviso != null && agora - avisoEm < 700)) postInvalidateOnAnimation();
     }
 }

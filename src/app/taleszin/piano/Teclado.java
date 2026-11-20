@@ -20,7 +20,7 @@ final class Teclado extends View {
     private static final int LARANJA = 0xFFFF7A1E;
 
     /** Devolve false para silenciar a tecla (erro no modo música). */
-    interface Ouvinte { boolean tocou(int midi); }
+    interface Ouvinte { boolean tocou(int midi); void soltou(int midi); }
 
     private final Sintetizador synth;
     private Ouvinte ouvinte;
@@ -226,7 +226,10 @@ final class Teclado extends View {
         int antiga = dedoNota.get(dedo, -1);
         if (antiga == nova) return;
         if (antiga >= 0) {
-            if (--apertadas[antiga] <= 0) { apertadas[antiga] = 0; synth.soltar(antiga); }
+            if (--apertadas[antiga] <= 0) {
+                apertadas[antiga] = 0; synth.soltar(antiga);
+                if (ouvinte != null) ouvinte.soltou(antiga);
+            }
         }
         if (nova >= 0) {
             apertadas[nova]++;
