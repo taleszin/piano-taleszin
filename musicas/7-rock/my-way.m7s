@@ -1,0 +1,61 @@
+@titulo My Way (Frank Sinatra)
+@nivel Médio
+@bpm 77
+@compasso 4/4
+@padrao arpejo
+@forma Intro Estrofe1 Estrofe2 Ponte Estrofe3 Ponte2 Final
+@fonte bitmidi: https://bitmidi.com/frank-sinatra-my-way-mid (canto canal 3, baixo canal 1, Ré maior); cifras tiradas do baixo
+
+[Intro] Introdução
+D: F#4+A4:4 | F#4+A4:2 R:1.5 A3:.5
+C: D | D
+
+[Estrofe1] And now, the end is near
+D: F#4:2.75 A3:.25 F#4:.75 E4:.25 | F#4:2.5 A3:.75 F#4:.5 E4:.25 | F#4:2.75 A3:.25 F#4:.75 E4:.25 | E4:.5 D#4:3 B3:.5
+D: G4:2.25 R:.25 G4:.75 G4:.5 F#4:.25 | G4:2.5 B3:.75 G4:.5 F#4:.25 | G4:2.5 E4:.5 A4:.75 E4:.25 | G4 F#4:2.5 D4:.5
+D: A4:2.5 A4:.75 A4:.5 G#4:.25 | A4:2.25 R:.25 A4:.75 A4:.5 B4:.25 | A4:1.5 G4:.5 G4:1.25 R:.25 F#4:.5 | A4:.75 G4:.25 G4:2.5 A3:.5
+D: F#4:2.5 A3:.75 G4:.5 F#4:.25 | E4:2.5 C#4 D4:.25 E4:.25 | E4:4 | D4:3.25 R:.25 A3:.5
+C: D | D/C# | D7/C | B7
+C: Em | Em/D | A7/C# | D
+C: D | D7 | G:2 G/D:2 | Em7
+C: A | A7 | D | D
+
+[Estrofe2] Estrofe (I've lived a life that's full)
+D: F#4:2.5 A4:.75 F#4:.5 E4:.25 | F#4:2.5 A3:.75 F#4:.5 E4:.25 | F#4:2.5 F#4:.5 F#4:.75 E4:.25 | E4:.5 D#4:3 B3:.5
+D: G4:2.25 R:.25 G4:.25 R:.25 G4:.25 G4:.5 F#4:.25 | G4:2.5 B3:.75 G4:.5 F#4:.25 | G4:2.5 E4:.5 A4:.75 E4:.25 | G4 F#4:2.5 D4:.5
+D: A4:2.5 A4:.75 A4:.5 G#4:.25 | A4:2.25 R:.25 B4:.75 F#4:.5 A4:.25 | G4:1.25 R:.25 G4:.25 G4:1.75 F#4:.5 | A4 G4:2.5 A3:.5
+D: F#4:2.5 F#4:.75 G4:.5 F#4:.25 | E4:2.5 C#4 D4:.25 E4:.25 | R:.25 E4:3.75 | D4:2 F#4:.75 G4:.75 A4:.5
+C: D | D/C# | D7/C | B7
+C: Em | Em/D | A7/C# | D
+C: D | D7 | G:2 G/D:2 | Em7
+C: A | A7 | D | D
+
+[Ponte] Ponte (Yes, there were times)
+D: A4:2.5 B4:.75 A4:.5 G4:.25 | A4:3 G4:.25 A4:.5 B4:.25 | B4:2 C5:.75 B4 A4:.25 | B4:2 R:.5 B4:.75 C#5:.5 D5:.25
+D: D5:2.5 B4:.5 D5:.75 B4:.25 | C#5:2.75 R:.25 C#5:.5 D5:.25 E5:.25 | E5:2.25 R:.25 F#5:.75 C#5:.5 E5:.25 | D5:2.5 D5:.75 R:.25 D5:.25 C#5:.25
+D: D5:2.25 R:.25 D5:.75 E5:.5 D5:.25 | C#5:2.5 C#5:.5 D5:.5 E5:.25 R:.25 | E5:4 | D5:2.75 R:.75 A4:.5
+C: D | D7 | G | G:2 D/F#:2
+C: Em | A7 | F#m | Bm
+C: E7 | A7 | D | D:2 A7:2
+
+[Estrofe3] Estrofe (I've loved, I've laughed and cried)
+D: F#4:2.5 A3:.75 F#4:.5 E4:.25 | F#4:2.5 A3:.75 F#4:.5 E4:.25 | F#4:2.5 A3:.5 F#4:.75 E4:.25 | E4:.5 D#4:3 B3:.5
+D: G4:2 R:.5 B3:.5 G4:.75 F#4:.25 | G4:2.5 B3:.75 G4:.5 F#4:.25 | G4:2.5 A4:1.25 E4:.25 | G4 F#4:2.5 D4:.5
+D: A4:2 R:.5 A4:.75 A4:.5 G#4:.25 | A4:2.25 R:.25 B4:.75 F#4:.5 A4:.25 | G4:2.25 R:.25 G4:.25 R:.25 G4:.75 F#4:.25 | A4 G4:2.5 A4:.5
+D: F#4:2.5 A3:.5 G4:.5 F#4:.5 | E4:2.5 C#4 D4:.25 E4:.25 | R:.25 E4:3.75 | D4:1.5 D4:.5 F#4:.5 R:.25 G4:.5 A4:.5 R:.25
+C: D | D/C# | D7/C | B7
+C: Em | Em/D | A7/C# | D
+C: D | D7 | G:2 G/D:2 | Em7
+C: A | A7 | D | D
+
+[Ponte2] Final (For what is a man)
+D: A4:2.5 B4:.75 A4:.5 G4:.25 | A4:3 G4:.25 A4:.5 B4:.25 | B4:2 C5:.75 B4:.75 A4:.5 | B4:2 R:.5 B4:.5 C#5:.5 D5:.5
+D: D5:2.5 B4:.5 D5:.75 B4:.25 | C#5:2.75 R:.25 C#5:.5 D5:.25 E5:.25 | E5:2.5 F#5:.75 C#5:.5 E5:.25 | D5:2.5 D5:.75 R:.25 D5:.25 C#5:.25
+D: D5:2.25 R:.25 D5:.5 E5:.5 R:.25 D5:.25 | C#5:2.5 C#5:.5 D5:.5 E5:.5 | E5:4 | D5:2.5 R:1.5
+C: D | D7 | G | G:2 D/F#:2
+C: Em | A7 | F#m | Bm
+C: E7 | A7 | A7/E | D
+
+[Final] Acorde final
+D: F#4+A4:4~ | F#4+A4:4
+C: D | D

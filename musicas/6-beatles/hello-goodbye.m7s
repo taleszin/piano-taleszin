@@ -1,0 +1,40 @@
+@titulo Hello, Goodbye (The Beatles)
+@nivel Médio
+@bpm 98
+@compasso 4/4
+@padrao baixo-acorde
+@forma Intro V Ch V Ch P Ch V ChF Coda*4 Fim
+@fonte bitmidi: /uploads/100789.mid (THE BEATLES.Hello Goodbye K), voz do canal 3 (ponte do canal 2, +1 oitava); cifras pelo baixo do canal 1; meio compasso extra entre refrão e verso 2 omitido
+
+[Intro] Contagem
+D: R:4
+C: -
+
+[V] Verso
+D: D5:.5 F5:.75 R:.25 F5:1.5 R | C5:.5 E5 E5:1.25 R:1.25 | B4:.5 D5:.75 R:.25 D5:1.25 R:.75 G4:.5 | A4:.5 C5 C5 E5 G5:.5~
+D: G5:2 R:2 | R:2.5 A5:.5 E5:.5 G5:.5~ | G5:3 R
+C: F | C | G | Am | G | Am | G
+
+[Ch] Refrão
+D: G5 E5:.5 C5:.25 D5 R:.75 A4:.5 | C5:.75 R:.25 C5:.5 R:.25 C5:.25 C5:1.75 R:.25 | R:.5 G4:.25 C5:.5 R:.25 E5:.25 G5 R:1.25 | R:.5 G4:.25 C5:.5 E5:.5 R:.25 F5:.75 R:.25 E5:.5 D5:.25 C5:.25~
+D: C5:.25 R:.25 C5:.5 C5:.5 A#4:.25 C5 R:1.25 | R:.5 G4:.25 C5:.5 R:.25 E5:.25 G5 R:1.25 | R:.75 G4:.25 C5:.25 E5:.25 R:.5 F5:.5 F5:.5 E5:.25 R:.25 D5:.25 C5:.25~ | C5:.25 R:.25 C5:.5 C5:.5 A#4:.25 C5:1.75 R:.5
+C: G | C | C/B:2 Am:2 | G:2 F:2 | Ab:2 C:2 | C/B:2 Am:2 | G:2 F:2 | Bb:2 C:2
+
+[P] Ponte "why, why, why"
+D: F5:.5 D5:.5 F5:.5 D5:.5 F5:.5 A4:.5 C5:.5 D5:.5 | E5:.5 F5:.5 E5:.5 D5:.5 C5:.5 D5:.5 E5:.5 F5:.5 | G5:.5 F5:.5 E5:.5 D5:.5 C5:.5 B4:.5 A4:.5 G4:.5 | A4:4
+D: G4:3.5 R:.5 | R:2.5 A5:.5 E5:.5 G5:.5~ | G5:3 R
+C: F | C | G | Am | G | Am | G
+
+[ChF] Refrão final
+D: G5 E5:.5 C5:.25 D5 R:.75 A4:.5 | C5:.75 R:.25 C5:.5 R:.25 C5:.25 C5:1.75 R:.25 | R:.5 G4:.25 C5:.5 R:.25 E5:.25 G5 R:1.25 | R:.5 G4:.25 C5:.5 E5:.5 R:.25 F5:.75 R:.25 E5:.5 D5:.25 C5:.25~
+D: C5:.25 R:.25 C5:.5 C5:.5 A#4:.25 C5 R:1.25 | R:.5 G4:.25 C5:.5 R:.25 E5:.25 G5 R:1.25 | R:.75 G4:.25 C5:.25 E5:.25 R:.5 F5:.5 F5:.5 E5:.25 R:.25 D5:.25 C5:.25~ | C5:.25 R:.25 C5:.5 C5:.5 A#4:.25 C5:1.75 R:.5
+D: G5 E5 C5:2
+C: G | C | C/B:2 Am:2 | G:2 F:2 | Ab:2 C:2 | C/B:2 Am:2 | G:2 F:2 | Bb:2 C:2 | C
+
+[Coda] Coda "hela heba helloa"
+D: E5:.75 R:.25 E5:.75 R E5:.5 C5:.25 D5:.5 | C5 R:3
+C: C | C
+
+[Fim] Fim
+D: E5+G5:4
+C: C

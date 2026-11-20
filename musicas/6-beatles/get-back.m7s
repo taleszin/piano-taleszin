@@ -1,0 +1,40 @@
+@titulo Get Back (The Beatles)
+@nivel Médio
+@bpm 124
+@compasso 4/4
+@padrao oitavas
+@forma Intro V R RS Inst RV V R RS Inst R Final
+@fonte bitmidi THE BEATLES.Get back K.mid (trilha 4, voz); cifras de memória (A, D); solos trocados por batidas de acorde
+
+[Intro] Introdução
+D: A4+C#5:.5 R:.5 A4+C#5:.5 R:1 A4+C#5:.5 R:1 | A4+C#5:.5 R:.5 A4+C#5:.5 R:1 A4+C#5:.5 R:1 | A4+C#5:.5 R:.5 A4+C#5:.5 R:1 A4+C#5:.5 R:1 | A4+C#5:.5 R:.5 A4+C#5:.5 R:2 E5:.5
+C: A | A | A | A
+
+[V] Verso
+D: E5:.5 E5:.5 E5:.5 E5:.5 E5 F#5:.5 G5:.5~ | G5:.5 G5:.5 G5:.5 G5:.5 F#5:.5 E5:.5 R:.5 D5:.5~ | D5:.5 D5:.5 D5:.5 D5:.5 A4:.5 F#4 E4:.5~ | E4 R:2.5 E5:.5
+D: E5:.5 E5:.5 E5:.5 E5:.5 E5 F#5:.5 G5:.5~ | G5:.5 G5:.5 G5:.5 G5:.5 F#5:.5 E5:.5 R:.5 D5:.5~ | D5:.5 D5:.5 D5:.5 D5:.5 A4 F#4:.5 E4:.5~ | E4 R:2 F#5:.5 G5:.5
+C: A | A | D:2 A:2 | A | A | A | D:2 A:2 | A
+
+[R] Refrão (get back)
+D: G5:2 R F#5:.5 G5:.5~ | G5:2 R F#5:.5 G5:.5~ | G5:.5 F#5:.5 F#5:.5 E5:.5 E5 C5:.5 C5:.25 B4:.25 | A4:2 R F#5:.5 G5:.5
+D: G5:2 R F#5:.5 G5:.5~ | G5:2 R F#5:.5 G5:.5~ | G5:.5 F#5:.5 F#5:.5 E5:.5 E5 C5:.5 C5:.25 B4:.25 | A4:2 R F#5:.5 G5:.5
+C: A | A | A:2 D:2 | A | A | A | A:2 D:2 | A
+
+[RS] Refrão
+D: G5:2 R F#5:.5 G5:.5~ | G5:2 R F#5:.5 G5:.5~ | G5:.5 F#5:.5 F#5:.5 E5:.5 E5 C5:.5 C5:.25 B4:.25 | A4:2 R F#5:.5 G5:.5
+D: G5:2 R F#5:.5 G5:.5~ | G5:2 R F#5:.5 G5:.5~ | G5:.5 F#5:.5 F#5:.5 E5:.5 E5 C5:.5 C5:.25 B4:.25 | A4:2 R:2
+C: A | A | A:2 D:2 | A | A | A | A:2 D:2 | A
+
+[RV] Refrão
+D: G5:2 R F#5:.5 G5:.5~ | G5:2 R F#5:.5 G5:.5~ | G5:.5 F#5:.5 F#5:.5 E5:.5 E5 C5:.5 C5:.25 B4:.25 | A4:2 R F#5:.5 G5:.5
+D: G5:2 R F#5:.5 G5:.5~ | G5:2 R F#5:.5 G5:.5~ | G5:.5 F#5:.5 F#5:.5 E5:.5 E5 C5:.5 C5:.25 B4:.25 | A4:2 R:1.5 E5:.5
+C: A | A | A:2 D:2 | A | A | A | A:2 D:2 | A
+
+[Inst] Solo
+D: A4+C#5:.5 R:.5 A4+C#5:.5 R:1 A4+C#5:.5 R:1 | A4+C#5:.5 R:.5 A4+C#5:.5 R:1 A4+C#5:.5 R:1 | A4+D5:.5 R:.5 A4+D5:.5 R:1 A4+D5:.5 R:1 | A4+C#5:.5 R:.5 A4+C#5:.5 R:1 A4+C#5:.5 R:1 | A4+C#5:.5 R:.5 A4+C#5:.5 R:1 A4+C#5:.5 R:1 | A4+C#5:.5 R:.5 A4+C#5:.5 R:1 A4+C#5:.5 R:1 | A4+D5:.5 R:.5 A4+D5:.5 R:1 A4+D5:.5 R:1 | A4+C#5:.5 R:.5 A4+C#5:.5 R:1.5 F#5:.5 G5:.5
+C: A | A | D | A | A | A | D | A
+
+[Final] Final
+D: G5:2 R F#5:.5 G5:.5~ | G5:2 R F#5:.5 G5:.5~ | G5:.5 F#5:.5 F#5:.5 E5:.5 E5 C5:.5 C5:.25 B4:.25 | A4:2 R F#5:.5 G5:.5
+D: G5:2 R F#5:.5 G5:.5~ | G5:2 R F#5:.5 G5:.5~ | G5:.5 F#5:.5 F#5:.5 E5:.5 E5 C5:.5 C5:.25 B4:.25 | A4:4 | A4:2 A5:2~ | A5:4 | A5:2 A4+C#5:2
+C: A | A | A:2 D:2 | A | A | A | A:2 D:2 | A | A | A | A

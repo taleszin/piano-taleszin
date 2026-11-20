@@ -1,0 +1,59 @@
+@titulo Ode à Alegria (Beethoven)
+@nivel Médio
+@bpm 112
+@compasso 4/4
+@padrao baixo-acorde
+@forma A1 A2 B A2b B A2b C1 C2 C2 V1 V2 V3 V2b V3 V2b Fim
+@fonte tema da 9ª Sinfonia; harmonização a 4 vozes do Mutopia (BeethovenLv/ode/ode.mid) transposta para Dó; 1ª e 3ª roupagens escritas (melodia + cifras)
+@padrao alberti
+@padrao alberti
+@padrao alberti
+@padrao alberti
+
+[A1] Tema
+D: E4 E4 F4 G4 | G4 F4 E4 D4 | C4 C4 D4 E4 | E4:1.5 D4:.5 D4:2
+C: C | Am:1.5 G/B:.5 C G | C/E C/E G/D C | G
+
+[A2] Tema (resposta)
+D: E4 E4 F4 G4 | G4 F4 E4 D4 | C4 C4 D4 E4 | D4:1.5 C4:.5 C4:2
+C: C | Am:1.5 G/B:.5 C G | C/E C/E G/D C | G:2 C:2
+
+[B] Tema (meio)
+D: D4 D4 E4 C4 | D4 E4:.5 F4:.5 E4 C4 | D4 E4:.5 F4:.5 E4 D4 | C4 D4 G3:2
+C: G | G | G:2 E7/G#:2 | Am D7 G:2
+
+[A2b] Tema (volta)
+D: E4 E4 F4 G4 | G4 F4 E4 D4 | C4 C4 D4 E4 | D4:1.5 C4:.5 C4:2
+C: C:2 C7:2 | Am:1.5 G/B:.5 C F | F C/E G/D C | G:2 C:2
+
+[C1] Coral a quatro vozes
+D: C5+E5 C5+E5 D5+F5 C5+G5 | C5+G5 F5:.5 D5:.5 C5+E5 B4+D5 | G4+C5 G4+C5 B4+D5 C5+E5 | C5+E5:1.5 B4+D5:.5 B4+D5:2
+D: C5+E5 C5+E5 D5+F5 C5+G5 | C5+G5 F5:.5 D5:.5 C5+E5 B4+D5 | G4+C5 G4+C5 B4+D5 C5+E5 | C5+D5 B4:.5 C5:.5 G4+C5:2
+E: C3+G3 C3+G3 C3+F3 C3+E3 | A2+A3:1.5 B2+G3:.5 C3+G3 G2+G3 | E3 E3 D3+G3 C3+G3 | G2+G3:1.5 G2+G3:.5 G2+G3:2
+E: C3+G3 C3+G3 C3+F3 C3+E3 | A2+A3:1.5 B2+G3:.5 C3+G3 G2+G3 | E3 E3 D3+G3 C3+G3 | G2+G3 G2+G3 C2+E3:2
+
+[C2] Coral (meio e volta)
+D: G4+D5 G4+D5 G4+E5 G4+C5 | G4+D5 G4+E5:.5 F5:.5 G4+E5 G4+C5 | G4+D5 G4+E5:.5 F5:.5 B4+E5 B4+D5 | A4+C5 F#4+D5 G4:2
+D: G4+E5 C5+E5 D5+F5 D5+G5 | E5+G5 C5+F5:.5 D5:.5 C5+E5 A4+D5 | A4+C5 G4+C5 B4+D5 C5+E5 | C5+D5 B4:.5 C5:.5 C5:2
+E: G2+B2 G2+B2 G2+C3 G2+A2 | G2+B2 G2+C3:.5 D3:.5 G2+C3 G2+A2 | G2+B2 G2+B2 G#2+B2 G#2+E3 | A2+E3 D2+D3 G2+C3 B2
+E: C3 C3+G3 A#2+A#3 A#2+A#3 | A2+C4:1.5 B2+G3:.5 C3+G3 F2+F3 | F2+C3 E2+C3 D2+F3 C2+G3 | G2+G3 G2+G3 C2+E3:2
+
+[V1] Variação (oitava acima)
+D: E5 E5 F5 G5 | G5 F5 E5 D5 | C5 C5 D5 E5 | E5:1.5 D5:.5 D5:2
+C: C | Am:1.5 G/B:.5 C G | C/E C/E G/D C | G
+
+[V2] Variação (resposta)
+D: E5 E5 F5 G5 | G5 F5 E5 D5 | C5 C5 D5 E5 | D5:1.5 C5:.5 C5:2
+C: C | Am:1.5 G/B:.5 C G | C/E C/E G/D C | G:2 C:2
+
+[V3] Variação (meio)
+D: D5 D5 E5 C5 | D5 E5:.5 F5:.5 E5 C5 | D5 E5:.5 F5:.5 E5 D5 | C5 D5 G4:2
+C: G | G | G:2 E7/G#:2 | Am D7 G:2
+
+[V2b] Variação (volta)
+D: E5 E5 F5 G5 | G5 F5 E5 D5 | C5 C5 D5 E5 | D5:1.5 C5:.5 C5:2
+C: C:2 C7:2 | Am:1.5 G/B:.5 C F | F C/E G/D C | G:2 C:2
+
+[Fim] Final
+D: G4+E5:2 G4+D5:2 | E4+C5:4
+E: G2+G3:2 G2+F3:2 | C3+G3:4

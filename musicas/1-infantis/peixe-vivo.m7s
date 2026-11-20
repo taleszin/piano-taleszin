@@ -1,0 +1,22 @@
+@titulo Peixe Vivo (folclore)
+@nivel Fácil
+@bpm 80
+@compasso 2/4
+@padrao baixo
+@forma V R V R R2
+@fonte bitmidi peixe.mid (karaokê "Peixe Vivo - Música Infantil", trilha de melodia, transposto de Mi para Dó); cifras C/F/G7
+
+[V] Estrofe
+D: E4:.5 G4:.5 G4:.5 F4:.5 | F4:.5 A4:.5 A4:.5 G4:.5 | E4:.5 G4:.5 G4:.5 F4:.5 | D4:.5 F4:.5 F4:.5 E4:.5
+D: E4:.5 G4:.5 G4:.5 F4:.5 | F4:.5 A4:.5 A4:.5 G4:.5 | E4:.5 G4:.5 G4:.5 F4:.5 | D4:.5 F4:.5 F4:.5 E4:.5
+C: C | F | C | G7:1 C:1 | C | F | C | G7:1 C:1
+
+[R] Refrão
+D: R:.5 C4:.25 C4:.25 A4:.75 B4:.25 | C5:.75 B4:.25 A4:.25 B4:.125 A4:.125 G4:.5~ | G4:.5 C4:.25 C4:.25 A4:.75 B4:.25 | C5:.75 B4:.25 A4:.25 B4:.125 A4:.125 G4:.5
+D: E4:.5 G4:.5 G4:.5 F4:.5 | F4:.5 A4:.5 A4:.5 G4:.5 | E4:.5 G4:.5 G4:.5 F4:.5 | D4:.5 F4:.5 F4:.5 E4:.5
+C: F | C | F | G7 | C | F | C | G7:1 C:1
+
+[R2] Refrão final
+D: R:.5 C4:.25 C4:.25 A4:.75 B4:.25 | C5:.75 B4:.25 A4:.25 B4:.125 A4:.125 G4:.5~ | G4:.5 C4:.25 C4:.25 A4:.75 B4:.25 | C5:.75 B4:.25 A4:.25 B4:.125 A4:.125 G4:.5
+D: E4:.5 G4:.5 G4:.5 F4:.5 | F4:.5 A4:.5 A4:.5 G4:.5 | E4:.5 G4:.5 G4:.5 F4:.5 | D4:.5 F4:.5 F4:.5 E4:.5 | C4+E4:2
+C: F | C | F | G7 | C | F | C | G7:1 C:1 | C

@@ -1,0 +1,33 @@
+@titulo A Hard Day's Night (The Beatles)
+@nivel Médio
+@bpm 140
+@compasso 4/4
+@padrao baixo-acorde
+@forma Intro V VP Ponte V VP Ponte V Final
+@fonte bitmidi The Beatles - A Hard Day's Night.mid (trilha 2, voz); cifras de memória (acorde de abertura G7sus4)
+
+[Intro] Acorde de abertura
+D: C5+F5:2.5 B4:.5 C5:.5 B4:.5
+C: G7sus4
+
+[V] Verso
+D: D5:2 D5:1.5 D5:.5~ | D5 R:1.5 D5:.5 D5:.5 C5:.5 | D5:.5 F5:2 D5:.5 C5:.5 D5:.25 C5:.25 | B4 R:1.5 B4:.5 C5:.5 B4:.5
+D: D5:2 D5:1.5 D5:.5~ | D5 R:1.5 C5:.5 D5:.5 C5:.5 | D5:.5 F5:2 D5:.5 C5:.5 D5:.25 C5:.25 | B4 R:1.5 E5:.5 F5:.5 F#5:.5
+D: G5:.5 F#5:.5 F5:.5 E5:.5 R:.5 G5:.5 G5:.5 G#5:.5 | A5:.5 G#5:.5 G5:.5 F#5:.5 R:.5 B4:.5 C5:.5 B4:.5 | D5:.5 G4:1.5 A#4:.5 C5 A#4:.5~ | A#4 R:1.5 B4:.5 C5:.5 B4:.5
+C: G:2 C:2 | G | F | G | G:2 C:2 | G | F | G | C | D | G:2 C:2 | G
+
+[VP] Verso (vai para a ponte)
+D: D5:2 D5:1.5 D5:.5~ | D5 R:1.5 D5:.5 D5:.5 C5:.5 | D5:.5 F5:2 D5:.5 C5:.5 D5:.25 C5:.25 | B4 R:1.5 B4:.5 C5:.5 B4:.5
+D: D5:2 D5:1.5 D5:.5~ | D5 R:1.5 C5:.5 D5:.5 C5:.5 | D5:.5 F5:2 D5:.5 C5:.5 D5:.25 C5:.25 | B4 R:1.5 E5:.5 F5:.5 F#5:.5
+D: G5:.5 F#5:.5 F5:.5 E5:.5 R:.5 G5:.5 G5:.5 G#5:.5 | A5:.5 G#5:.5 G5:.5 F#5:.5 R:.5 B4:.5 C5:.5 B4:.5 | D5:.5 G4:1.5 A#4:.5 C5 A#4:.5~ | A#4 R D5:.5 G5:1.5
+C: G:2 C:2 | G | F | G | G:2 C:2 | G | F | G | C | D | G:2 C:2 | G
+
+[Ponte] Ponte
+D: F#5:3 R | G5:.5 F#5:.5 E5:.5 E5 F#5:.5 G5:.5 E5:.5 | F#5:3 R | R:2 D5:.5 F#5 G5:.5~
+D: G5:3 R | G5:.5 F#5:.5 E5:.5 E5 F#5:.5 G5 | A5:2 R:1.5 G5:.5 | A5:1.5 A5 B4:.5 C5:.5 B4:.5
+C: Bm | Em | Bm | Bm | G | Em | C | D7
+
+[Final] Final
+D: D5:.5 G4:1.5 A#4:.5 C5 A#4:.5~ | A#4 R:1.5 B4:.5 C5:.5 B4:.5 | D5:.5 G4:1.5 A#4:.5 C5 A#4:.5~ | A#4 R:1.5 B4:.5 C5:.5 B4:.5
+D: D5:2 D5:1.5 D5:.5~ | D5:4 | G4+D5:4
+C: G:2 C:2 | G | G:2 C:2 | G | G:2 C:2 | G | G

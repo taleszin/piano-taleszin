@@ -1,34 +1,32 @@
 #!/bin/bash
-# Build manual (sem Gradle): aapt2 -> javac -> d8 -> zipalign -> apksigner.
-# Saída: build/piano.apk (assinado com a keystore de debug do ~/.android).
+# Piano Taleszin — versão celular (Android 8+). Build manual: m7s.py -> aapt2 -> javac -> d8 -> zipalign -> apksigner.
+# Saída: build/piano-celular.apk (applicationId app.taleszin.piano.celular, convive com o do tablet).
 set -euo pipefail
 cd "$(dirname "$0")"
 SDK="${ANDROID_HOME:-$HOME/Library/Android/sdk}"
 BT="$SDK/build-tools/35.0.0"
-JAR="$SDK/platforms/android-31/android.jar"   # compileSdk 31; minSdk/targetSdk 19 no manifest
-# TARGET=19 (tablet, padrão) ou TARGET=34 (celular moderno; Android 14+ recusa target < 23)
-TARGET="${TARGET:-19}"
+JAR="$SDK/platforms/android-35/android.jar"
 OUT=build
-[ "$TARGET" != 19 ] && OUT="build-$TARGET"
-rm -rf "$OUT"; mkdir -p "$OUT/res" "$OUT/gen" "$OUT/classes" "$OUT/dex"
-sed "s/android:targetSdkVersion=\"19\"/android:targetSdkVersion=\"$TARGET\"/" AndroidManifest.xml > "$OUT/AndroidManifest.xml"
+rm -rf "$OUT"; mkdir -p "$OUT/res" "$OUT/gen" "$OUT/classes" "$OUT/dex" "$OUT/assets/musicas"
+
+python3 tools/m7s.py compilar musicas "$OUT/assets/musicas" || echo "AVISO: músicas com erro foram puladas"
 
 "$BT/aapt2" compile --dir res -o "$OUT/res/res.zip"
-"$BT/aapt2" link -I "$JAR" --manifest "$OUT/AndroidManifest.xml" \
-  --min-sdk-version 19 --target-sdk-version "$TARGET" \
-  -A assets --java "$OUT/gen" -o "$OUT/unsigned.apk" "$OUT/res/res.zip"
+"$BT/aapt2" link -I "$JAR" --manifest AndroidManifest.xml \
+  --min-sdk-version 26 --target-sdk-version 35 \
+  --rename-manifest-package app.taleszin.piano.celular \
+  -A "$OUT/assets" --java "$OUT/gen" -o "$OUT/unsigned.apk" "$OUT/res/res.zip"
 
 javac -nowarn -Xlint:-options -source 8 -target 8 -encoding UTF-8 \
   -bootclasspath "$JAR" -classpath "$JAR" -d "$OUT/classes" \
   $(find src "$OUT/gen" -name '*.java')
 
-"$BT/d8" --release --min-api 19 --lib "$JAR" --output "$OUT/dex" $(find "$OUT/classes" -name '*.class')
+"$BT/d8" --release --min-api 26 --lib "$JAR" --output "$OUT/dex" $(find "$OUT/classes" -name '*.class')
 (cd "$OUT/dex" && zip -q -j ../unsigned.apk classes.dex)
 
 "$BT/zipalign" -f -p 4 "$OUT/unsigned.apk" "$OUT/aligned.apk"
 "$BT/apksigner" sign --ks "$HOME/.android/debug.keystore" --ks-pass pass:android \
   --ks-key-alias androiddebugkey --key-pass pass:android \
-  --out "$OUT/piano.apk" "$OUT/aligned.apk"
-"$BT/apksigner" verify --min-sdk-version 19 "$OUT/piano.apk"
-ls -la "$OUT/piano.apk"
-shasum -a 256 "$OUT/piano.apk"
+  --out "$OUT/piano-celular.apk" "$OUT/aligned.apk"
+"$BT/apksigner" verify --min-sdk-version 26 "$OUT/piano-celular.apk"
+ls -la "$OUT/piano-celular.apk"

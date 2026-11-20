@@ -1,0 +1,32 @@
+@titulo Parabéns pra Você
+@nivel Fácil
+@bpm 100
+@compasso 3/4
+@anacruse 1
+@padrao baixo
+@forma P A Ax A8 F
+@fonte melodia tradicional (Happy Birthday), de memória; em Fá, cifras F/C7/Bb
+
+[P] Entrada
+D: C4:.75 C4:.25
+C: -
+
+[A] Parabéns
+D: D4 C4 F4 | E4:2 C4:.75 C4:.25 | D4 C4 G4 | F4:2 C4:.75 C4:.25
+D: C5 A4 F4 | E4 D4 A#4:.75 A#4:.25 | A4 F4 G4 | F4:2 C4:.75 C4:.25
+C: F | C | C7 | F | F7 | A# | F:2 C7:1 | F
+
+[Ax] Parabéns (de novo, subindo)
+D: D4 C4 F4 | E4:2 C4:.75 C4:.25 | D4 C4 G4 | F4:2 C4:.75 C4:.25
+D: C5 A4 F4 | E4 D4 A#4:.75 A#4:.25 | A4 F4 G4 | F4:2 C5:.75 C5:.25
+C: F | C | C7 | F | F7 | A# | F:2 C7:1 | F
+
+[A8] Parabéns (oitava acima)
+D: D5 C5 F5 | E5:2 C5:.75 C5:.25 | D5 C5 G5 | F5:2 C5:.75 C5:.25
+D: C6 A5 F5 | E5 D5 A#5:.75 A#5:.25 | A5 F5 G5 | F5:2 C4:.75 C4:.25
+C: F | C | C7 | F | F7 | A# | F:2 C7:1 | F
+
+[F] Final
+D: D4 C4 F4 | E4:2 C4:.75 C4:.25 | D4 C4 G4 | F4:2 C4:.75 C4:.25
+D: C5 A4 F4 | E4 D4 A#4:.75 A#4:.25 | A4:1.5 F4:.5 G4 | F4:3 | F4+A4:3
+C: F | C | C7 | F | F7 | A# | F:1.5 C7:1.5 | F | F

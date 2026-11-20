@@ -1,0 +1,27 @@
+@titulo Somewhere Over the Rainbow (Judy Garland)
+@nivel Fácil
+@bpm 80
+@compasso 4/4
+@padrao arpejo
+@forma Intro A1 A2 A1 A2 Final
+@fonte bitmidi: https://bitmidi.com/somewhere-over-the-rainbow-mid (melodia trilha 3, de Si bemol para Dó, metade do tempo); cifras de memória. Ponte (Someday I'll wish...) ficou de fora: o MIDI não tem e não tenho a melodia certa
+
+[Intro] Introdução
+D: C4:2 F4:2 | E4 C4:.5 D4:.5 E4 F4 | D4 B3:.5 C4:.5 D4 E4 | C4:4
+C: F | C | D7:2 G7:2 | C
+
+[A1] Somewhere over the rainbow
+D: C4:2 C5:2 | B4 G4:.5 A4:.5 B4 C5 | C4:2 A4:2 | G4:4
+D: C4:2 F4:2 | E4 C4:.5 D4:.5 E4 F4 | D4 B3:.5 C4:.5 D4 E4 | C4:4
+C: C:2 Am:2 | Em7:2 C7:2 | F:2 Fm:2 | C
+C: F | C:2 Am:2 | D7:2 G7:2 | C:2 G7:2
+
+[A2] Skies are blue
+D: C4:2 C5:2 | B4 G4:.5 A4:.5 B4 C5 | C4:2 A4:2 | G4:4
+D: C4:2 F4:2 | E4 C4:.5 D4:.5 E4 F4 | D4 B3:.5 C4:.5 D4 E4 | C4:4
+C: C:2 Am:2 | Em7:2 C7:2 | F:2 Fm:2 | C
+C: F | C:2 Am:2 | D7:2 G7:2 | C
+
+[Final] Final (why, oh why can't I)
+D: D4 B3:.5 C4:.5 D4 E4 | C4:4 | C4+E4:4~ | C4+E4:4
+C: D7:2 G7:2 | C | F | C

@@ -1,0 +1,38 @@
+@titulo She Loves You (The Beatles)
+@nivel Médio
+@bpm 150
+@compasso 4/4
+@padrao baixo-acorde
+@forma Intro V Pre V PreR R V PreR R2 Final
+@fonte bitmidi THE BEATLES.She loves you K.mid (canal 0, voz); cifras de memória (Em A7 C G6; G Em Bm D; Cm D)
+
+[Intro] Introdução
+D: R:3.5 D5:.5 | E5 G5 G5:2 | F#5:1.5 E5:2 D5:.5 | E5 G5 G5:2 | F#5:1.5 E5:2 D5:.5 | E5 G5 G5:2 | F#5:2 E5:2 | E5:4 | E5:2 R:1.5 F#4:.5
+C: - | Em | Em | A7 | A7 | C | C | G6 | G6
+
+[V] Verso
+D: G4 A4 B4 C5:.5 D5:.5~ | D5:3 D5:.5 E5:.5 | F#5 D5 D5:1.5 B4:.5 | D5:.5 F#5:.5 D5:2 R:.5 G4:.5
+D: G4 A4 B4 C5:.5 D5:.5~ | D5:3 D5:.5 E5:.5 | F#5 D5 D5:1.5 B4:.5 | D5:.5 F#5:.5 D5 R:.5 D5:.5 D5:.5 D5:.5
+C: G | Em | Bm | D | G | Em | Bm | D
+
+[Pre] She says she loves you
+D: E5 G5:2 G4:.5 A4:.5 | B4 B4 A4 G4 | B4:4 | B4:2 R B4:.5 B4:.5 | C5 C5:2 C5:.5 C5:.5 | C5 C5 D#5 G5:.5 G5:.25 F#5:.25~ | F#5:4 | R:3.5 F#4:.5
+C: G | Em | Em | Em | Cm | Cm | D | D
+
+[PreR] She says she loves you
+D: E5 G5:2 G4:.5 A4:.5 | B4 B4 A4 G4 | B4:4 | B4:2 R B4:.5 B4:.5 | C5 C5:2 C5:.5 C5:.5 | C5 C5 D#5 G5:.5 G5:.25 F#5:.25~ | F#5:4~ | F#5:3 R:.5 D5:.5
+C: G | Em | Em | Em | Cm | Cm | D | D
+
+[R] Refrão
+D: E5 G5 G5:2 | F#5:1.5 E5:2 D5:.5 | E5 G5 G5:2 | F#5:1.5 E5 A4:.5 A4:.5 B4:.5 | C5 C5 C5 R:.5 A4:.5 | D5 D5 C5 C5:.5 C5:.5~ | C5:.5 B4:3.5 | R:3.5 F#4:.5
+C: Em | Em | A7 | A7 | Cm | D | G | G
+
+[R2] Refrão
+D: E5 G5 G5:2 | F#5:1.5 E5:2 D5:.5 | E5 G5 G5:2 | F#5:1.5 E5 A4:.5 A4:.5 B4:.5 | C5 A4 C5 R:.5 A4:.5 | D5 D5 C5 C5:.5 C5:.5~ | C5:.5 B4:3.5 | R:2.5 A4:.5 A4:.5 B4:.5
+C: Em | Em | A7 | A7 | Cm | D | G | G
+
+[Final] Final (yeah, yeah, yeah)
+D: C5 C5 C5 R:.5 A4:.5 | D5 D5 C5 C5:.5 C5:.5~ | C5:.5 B4:3.5 | R:2.5 A4:.5 A4:.5 B4:.5
+D: C5 C5 C5 R:.5 A4:.5 | D5:1.5 D5:.5 C5:.25 D5:.25 C5:.25 A#4:.25 C5 | R:2 D5:2 | G5:4~ | G5:4
+D: R:2 G5:2 | F#5:1.5 E5:2.5 | R:2 G5:2 | F#5:2 E5:2 | E5:4~ | E5:4
+C: Cm | D | G | G | Cm | D | D | Em | Em | Em | Em | C | C | G6 | G6

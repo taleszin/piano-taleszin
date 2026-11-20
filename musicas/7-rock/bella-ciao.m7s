@@ -1,0 +1,33 @@
+@titulo Bella Ciao (canção partigiana)
+@nivel Fácil
+@bpm 100
+@compasso 4/4
+@anacruse 1.5
+@padrao baixo-acorde
+@forma Intro Estrofe*3 Estrofe2*3 Final
+@fonte Wikibooks Liederbuch/Bella Ciao (partitura LilyPond, Lá menor) — melodia e cifras
+
+[Intro] Introdução
+D: E4:.5 A4:.5 B4:.5 | C5:.5 A4:2 E4:.5 A4:.5 B4:.5 | C5:.5 A4:2 E4:.5 A4:.5 B4:.5 | C5 B4:.5 A4:.5 C5 B4:.5 A4:.5 | E5 E5 E5:.5 E5:.5 D5:.5 E5:.5
+D: F5:.5 F5:2 F5:.5 E5:.5 D5:.5 | F5:.5 E5:2 E5:.5 D5:.5 C5:.5 | B4 E5 C5 B4 | A4:2 R:.5 E4:.5 A4:.5 B4:.5
+C: - | Am | Am | Am | Am
+C: Dm | Am | E | Am
+
+[Estrofe] Estrofe (una mattina mi son svegliato)
+D: C5:.5 A4:2 E4:.5 A4:.5 B4:.5 | C5:.5 A4:2 E4:.5 A4:.5 B4:.5 | C5 B4:.5 A4:.5 C5 B4:.5 A4:.5 | E5 E5 E5:.5 E5:.5 D5:.5 E5:.5
+D: F5:.5 F5:2 F5:.5 E5:.5 D5:.5 | F5:.5 E5:2 E5:.5 D5:.5 C5:.5 | B4 E5 C5 B4 | A4:2 R:.5 E4:.5 A4:.5 B4:.5
+C: Am | Am | Am | A7
+C: Dm | Am | E | Am
+
+[Estrofe2] Estrofe (mais forte)
+@padrao marcha
+D: C5:.5 A4:2 E4:.5 A4:.5 B4:.5 | C5:.5 A4:2 E4:.5 A4:.5 B4:.5 | C5 B4:.5 A4:.5 C5 B4:.5 A4:.5 | E5 E5 E5:.5 E5:.5 D5:.5 E5:.5
+D: F5:.5 F5:2 F5:.5 E5:.5 D5:.5 | F5:.5 E5:2 E5:.5 D5:.5 C5:.5 | B4 E5 C5 B4 | A4:2 R:.5 E4:.5 A4:.5 B4:.5
+C: Am | Am | Am | A7
+C: Dm | Am | E | Am
+
+[Final] Final
+D: C5:.5 A4:2 E4:.5 A4:.5 B4:.5 | C5:.5 A4:2 E4:.5 A4:.5 B4:.5 | C5 B4:.5 A4:.5 C5 B4:.5 A4:.5 | E5 E5 E5:.5 E5:.5 D5:.5 E5:.5
+D: F5:.5 F5:2 F5:.5 E5:.5 D5:.5 | F5:.5 E5:2 E5:.5 D5:.5 C5:.5 | B4:2 E5:2 | C5:2 B4:2 | A4+C5:4
+C: Am | Am | Am | A7
+C: Dm | Am | E | E | Am

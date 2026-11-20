@@ -1,0 +1,25 @@
+@titulo Yesterday (The Beatles)
+@nivel Médio
+@bpm 96
+@compasso 4/4
+@padrao arpejo
+@forma Intro V V P V P V Fim
+@fonte bitmidi: /uploads/100895.mid (THE BEATLES.Yesterday K), melodia do canal 1 (voz); cifras de memória
+
+[Intro] Introdução
+D: R:4 | R:4
+C: F | F
+
+[V] Verso
+D: G4:.5 F4:.5 F4:3 | R A4:.5 B4:.5 C#5:.5 D5:.5 E5:.5 F5:.5 | E5:1.5 D5:.5 D5:2 | R D5:.5 D5:.5 C5:.5 A#4:.5 A4:.5 G4:.5
+D: A#4 A4:.5 A4:1.5 R:.5 G4:.5 | F4 A4:.5 G4:1.5 R:.5 D4:.5 | F4 A4:.5 A4:2.5
+C: F | Em7 A7 | Dm Dm/C | Bb C7 | F | Dm G7 | Bb F
+
+[P] Ponte
+D: A4:2 A4:2 | D5 E5 F5 E5:.5 D5:.5~ | D5:.5 E5 D5:.5 C5 D5:.5 A4:.5~ | A4:3 R
+D: A4:2 A4:2 | D5 E5 F5 E5:.5 D5:.5~ | D5:.5 E5 D5:.5 C5 E5 | F5 C5 A#4 A4
+C: Em7 A7 | Dm C | Bb:2 Gm C7 | F | Em7 A7 | Dm C | Bb:2 Gm C7 | F
+
+[Fim] Final (cantarolado)
+D: A#4 A4:.5 A4:1.5 R:.5 G4:.5 | F4 A4:.5 G4:1.5 R:.5 D4:.5 | F4 A4:.5 A4:2.5 | F4+A4:4
+C: F | Dm G7 | Bb F | F

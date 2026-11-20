@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.taleszin.piano"
-    android:versionCode="4"
-    android:versionName="1.4"
-    android:installLocation="internalOnly">
+    android:versionCode="20"
+    android:versionName="2.0">
 
-    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35" />
 
     <application
         android:label="@string/app_name"
         android:icon="@mipmap/ic_launcher"
         android:allowBackup="false"
         android:hardwareAccelerated="true"
-        android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
         <activity
-            android:name=".Piano"
+            android:name="app.taleszin.piano.Piano"
             android:label="@string/app_name"
+            android:exported="true"
             android:screenOrientation="sensorLandscape"
             android:launchMode="singleTask"
-            android:exported="true"
-            android:configChanges="orientation|screenSize|keyboardHidden|keyboard|navigation|screenLayout">
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden|keyboard|navigation|screenLayout|density|uiMode">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

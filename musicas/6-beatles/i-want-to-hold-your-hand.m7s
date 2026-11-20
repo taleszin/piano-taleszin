@@ -1,0 +1,40 @@
+@titulo I Want to Hold Your Hand (The Beatles)
+@nivel Médio
+@bpm 132
+@compasso 4/4
+@padrao baixo-acorde
+@forma Intro Verso FimA Verso FimB Ponte Verso FimB Ponte Verso FimC Coda
+@fonte bitmidi: I-Want-To-Hold-Your-Hand-2.mid (uploads/59391), voz trilha 1 (conferida com a versão K, uploads/100805); intro e cifras de memória/baixo do MIDI
+
+[Intro] Intro
+D: R:.5 C4+E4:.5 R:.5 D4+F#4:2.5 | R:.5 C4+E4:.5 R:.5 D4+F#4:2.5 | R:.5 C4+E4:.5 R:.5 D4+F#4:2.5 | D4+A4:2 E5 E5
+C: C:1.5 D:2.5 | C:1.5 D:2.5 | C:1.5 D:2.5 | D
+
+[Verso] Verso (Oh yeah, I'll tell you something)
+D: D5:.75 C5:.25 B4:.75 R:.75 B4 D5:.5 | C5:.75 B4:.25 A4:.75 R:2.25 | R:.5 B4:.5 B4:.5 B4:.5 B4 B4 | F#4:2.25 R:.75 E5
+D: D5:.75 C5:.25 B4:.75 R:.75 B4 D5:.5 | C5:.75 B4:.25 A4:.75 R:2.25 | R:.5 B4:.5 B4:.5 B4:.5 B4 B4 | B5:3.75 R:.25
+D: R:.5 G5:.5 F#5:.5 E5:.5 D5 C5 | D5:.75 C5:.25 B4:.75 A4:.25 B4:.5 A4:.25 G4:1.25 | R:.5 G5:.5 F#5:.5 E5:.5 D5 A4
+C: G | D | Em | B7 | G | D | Em | B7 | C:2 D:2 | G:2 Em:2 | C:2 D:2
+
+[FimA] (hand / Oh yeah)
+D: G4:2 R E5
+C: G
+
+[FimB] (hand)
+D: G4:3.5 R:.5
+C: G
+
+[FimC] (hand)
+D: G4:3.5 R:.5
+C: Em
+
+[Ponte] Ponte (And when I touch you)
+D: R A4 C5 E5 | D5 C5 B4 A4 | G4:.5 G4 R F#4:.5 G4:.5 A4:.5~ | A4:2.75 R:1.25
+D: R A4 C5 E5 | D5 C5 B4 A4 | G4:.5 G4:.5 R:1.5 F#4:.5 G4:.5 A4:.5~
+D: A4 R:1.5 F#4:.5 G4:.5 A4:.5~ | A4:1.5 R F#5:.5 G5:.5 A5:.5~ | A5:4~ | A5:3 E5
+C: Dm7 | G7 | C | Am | Dm7 | G7 | C | D | D | D | D
+
+[Coda] Final (I wanna hold your hand)
+D: R:.5 G5:.5 F#5:.5 E5:.5 D5 C5 | D5:.75 C5:.25 B4:.75 A4:.25 B4:.5 A4:.25 G4:1.25 | R:.5 G5:.5 F#5:.5 E5:.5 D5 A4 | G4:3.5 R:.5
+D: G4+B4:4
+C: C:2 D:2 | G:2 Em:2 | C:2 D:2 | C:2 D:2 | G

@@ -1,0 +1,38 @@
+@titulo Let It Be (The Beatles)
+@nivel Médio
+@bpm 72
+@compasso 4/4
+@padrao baixo-acorde
+@forma Intro V ChV V ChC ChS Inter ChV V ChC ChS Fim
+@fonte bitmidi: /uploads/100821.mid (THE BEATLES.Let it be K), voz do canal 3 (+1 oitava) e introdução de piano do canal 2 (2 notas na direita); cifras de memória
+
+[Intro] Introdução (piano)
+D: G4+C5 G4+C5 D4+G4 D4+G4 | C4+E4 C4+E4:.5 C4+E4:.5 C4+E4 C4+D4 | E4+G4 E4+G4 D4+G4 D4+G4 | F4+A4 E4+G4:.5 D4+F4:.5 C4+E4:1.5 G4:.25 G4:.25
+E: C2:.5 C3:1 C3:.5 G2:.5 G2:1 G2:.5 | A2:1.5 G2:.5 F2:.5 F2:1.5 | C2:.5 C3:1 C3:.5 G2:.5 G2:1 G2:.5 | F2:2 C2:.5 C3:1.5
+
+[V] Verso
+D: G4:.5 G4:.25 A4:.5 E4:.5 G4:.75 G4:.5 C5:.25 D5:.75 | E5:.25 E5:.25 E5 D5:.25 D5:.5 C5:.25 C5:1.25 G4:.25 | E5:.25 E5:.75 F5:.5 E5:.25 E5:.5 D5:.75 R:.25 E5:.25 D5:.25 D5:.25~ | D5:.25 C5:1.75 R:1.75 G4:.25
+D: G4:.5 G4:.25 A4:.5 E4:.5 G4:.75 G4:.5 C5:.25 D5:.75 | E5:.25 E5:.25 E5 D5:.25 D5:.5 C5:.25 C5:1.25 G4:.25 | E5:.25 E5:.75 F5:.5 E5:.25 E5:.5 D5:.75 R:.25 E5:.25 D5:.25 D5:.25~ | D5:.25 C5:1.75 R E5:.25 D5:.75
+C: C G | Am F | C G | F C | C G | Am F | C G | F C
+
+[ChV] Refrão
+D: C5 E5:.25 G5:.5 A5:1.25 G5:.25 G5:.25 E5:.25 D5:.25 | C5 A4:.25 G4:.5 E5:1.75 R:.5 | R:.25 E5:.25 E5:.25 E5:.25 F5:.5 E5:.25 E5:.25 D5 R:.25 E5:.25 D5:.25 D5:.25~ | D5:.25 C5:1.75 R:1.75 G4:.25
+C: Am G | F C | C G | F C
+
+[ChC] Refrão
+D: C5 E5:.25 G5:.5 A5:1.25 G5:.25 G5:.25 E5:.25 D5:.25 | C5 A4:.25 G4:.5 E5:1.75 R:.5 | R:.25 E5:.25 E5:.25 E5:.25 F5:.5 E5:.25 E5:.25 D5 R:.25 E5:.25 D5:.25 D5:.25~ | D5:.25 C5:1.75 R E5:.25 D5:.75
+C: Am G | F C | C G | F C
+
+[ChS] Refrão
+D: C5 E5:.25 G5:.5 A5:1.25 G5:.25 G5:.25 E5:.25 D5:.25 | C5 A4:.25 G4:.5 E5:1.75 R:.5 | R:.25 E5:.25 E5:.25 E5:.25 F5:.5 E5:.25 E5:.25 D5 R:.25 E5:.25 D5:.25 D5:.25~ | D5:.25 C5:3.75
+C: Am G | F C | C G | F C
+
+[Inter] Interlúdio (piano)
+D: G4+C5 G4+C5 D4+G4 D4+G4 | C4+E4 C4+E4:.5 C4+E4:.5 C4+E4 C4+D4 | E4+G4 E4+G4 D4+G4 D4+G4 | F4+A4 E4+G4:.5 D4+F4:.5 C4+E4:2
+D: G4+C5 G4+C5 D4+G4 D4+G4 | C4+E4 C4+E4:.5 C4+E4:.5 C4+E4 C4+D4 | E4+G4 E4+G4 D4+G4 D4+G4 | F4+A4 E4+G4:.5 D4+F4:.5 C4+E4 E5:.25 D5:.75
+E: C2:.5 C3:1 C3:.5 G2:.5 G2:1 G2:.5 | A2:1.5 G2:.5 F2:.5 F2:1.5 | C2:.5 C3:1 C3:.5 G2:.5 G2:1 G2:.5 | F2:2 C2:.5 C3:1.5
+E: C2:.5 C3:1 C3:.5 G2:.5 G2:1 G2:.5 | A2:1.5 G2:.5 F2:.5 F2:1.5 | C2:.5 C3:1 C3:.5 G2:.5 G2:1 G2:.5 | F2:2 C2:.5 C3:1.5
+
+[Fim] Final (piano)
+D: F4+A4:2 E4+G4:2 | D4+G4:2 C4+F4:2 | F4+A4 E4+G4:.5 D4+F4:.5 C4+E4:2 | C4+G4:4
+E: F2:2 C3:2 | G2:2 F2:2 | F2:2 C3:2 | C2+C3:4

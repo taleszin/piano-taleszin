@@ -1,0 +1,30 @@
+@titulo Comptine d'un autre été (Yann Tiersen)
+@nivel Difícil
+@bpm 100
+@compasso 4/4
+@forma Intro Tema*2 TemaB TemaC Arpejos*2 Tema*2 TemaB TemaC Arpejos*2 Final
+@fonte bitmidi 111883 (Yann Tiersen - Une Comptine D'un Autre, piano solo), mãos separadas por altura; a 2ª volta (oitava acima no original, até B6) fica na oitava de baixo para caber no celular
+
+[Intro] Introdução (mão esquerda sozinha)
+D: R:4 | R:4 | R:4 | R:4 | R:4 | R:4 | R:4 | R:4
+E: E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 | D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 | D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 | D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5 D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5 | E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 | D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 | D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 | D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5 D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5
+
+[Tema] Tema
+D: R:.5 G4:.25 F#4:.25 G4:.5 B4:.25 C5:.25 B4:2~ | B4:.5 F#4:.25 G4:.25 F#4:.5 G4:.25 A4:.25 G4:2~ | G4:.5 F#4:.25 E4:.25 F#4:.5 B4:.25 C5:.25 B4:2 | R:.5 F#4:.25 E4:.25 F#4:.5 R:2.5
+E: E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 | D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 | D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 | D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5 D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5
+
+[TemaB] Tema em notas longas
+D: E5:1.5 B4:2 R:.5 | D5:1.5 B4:2.5 | F#5:1.5 B4:2.5 | F#5:1.5 A4:2.5
+E: E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 | D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 | D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 | D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5 D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5
+
+[TemaC] Tema em terças
+D: B4+G5:1.5 G4+E5:2.5 | B4+G5:1.5 G4+D5:2.5 | B4+F#5:1.5 F#4+D5:2.5 | A4+F#5:1.5 F#4+D5:2.5
+E: E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 | D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 | D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 | D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5 D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5
+
+[Arpejos] Arpejos
+D: B4:.25 E5:.25 B5:.25 B4:.25 E5:.25 B5:.25 B4:.25 E5:.25 B5:.25 B4:.25 E5:.25 B5:.25 B4:.25 E5:.25 C5:.25 E5:.25 | B4:.25 D5:.25 B5:.25 B4:.25 D5:.25 B5:.25 B4:.25 D5:.25 B5:.25 B4:.25 D5:.25 B5:.25 B4:.25 D5:.25 A4:.25 D5:.25 | F#4:.25 B4:.25 F#5:.25 F#4:.25 B4:.25 F#5:.25 F#4:.25 B4:.25 F#5:.25 F#4:.25 B4:.25 F#5:.25 F#4:.25 B4:.25 G4:.25 B4:.25 | A4:.25 D5:.25 A5:.25 A4:.25 D5:.25 A5:.25 A4:.25 D5:.25 A5:.25 A4:.25 D5:.25 A5:.25 A4:.25 D5:.25 G4:.25 D5:.25
+E: E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 E3+E4:.5 B3:.5 G3+E4:.5 B3:.5 | D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 D3+D4:.5 B3:.5 G3+D4:.5 B3:.5 | D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 D3+D4:.5 B3:.5 F#3+D4:.5 B3:.5 | D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5 D3+D4:.5 A3:.5 F#3+D4:.5 A3:.5
+
+[Final] Final
+D: B5+E6:4
+E: E3+B3+E4:4

@@ -1,0 +1,28 @@
+@titulo Seven Nation Army (The White Stripes)
+@nivel Fácil
+@bpm 124
+@compasso 4/4
+@padrao oitavas
+@forma Intro Riff*2 Refrao*2 Riff*2 Refrao*2 Solo Refrao*2 Fim
+@fonte memória (riff da guitarra/baixo, o "ô-ô-ô" do estádio); arranjo instrumental: o canto dos versos ficou de fora
+
+[Intro] Intro (só o riff)
+D: E4:1.5 E4:.5 G4:.75 E4:.75 D4:.5 | C4:2 B3:2 | E4:1.5 E4:.5 G4:.75 E4:.75 D4:.5 | C4:2 B3:2
+C: Em | C:2 B:2 | Em | C:2 B:2
+@padrao baixo
+
+[Riff] Verso (riff)
+D: E4:1.5 E4:.5 G4:.75 E4:.75 D4:.5 | C4:2 B3:2 | E4:1.5 E4:.5 G4:.75 E4:.75 D4:.5 | C4:2 B3:2
+C: Em | C:2 B:2 | Em | C:2 B:2
+
+[Refrao] Refrão (riff com quintas)
+D: E4+B4:1.5 E4+B4:.5 G4+D5:.75 E4+B4:.75 D4+A4:.5 | C4+G4:2 B3+F#4:2 | E4+B4:1.5 E4+B4:.5 G4+D5:.75 E4+B4:.75 D4+A4:.5 | C4+G4:2 B3+F#4:2
+C: Em | C:2 B:2 | Em | C:2 B:2
+
+[Solo] Solo (riff uma oitava acima)
+D: E5:1.5 E5:.5 G5:.75 E5:.75 D5:.5 | C5:2 B4:2 | E5:1.5 E5:.5 G5:.75 E5:.75 D5:.5 | C5:2 B4:2 | E5:1.5 E5:.5 G5:.75 E5:.75 D5:.5 | C5:2 B4:2 | E5:1.5 E5:.5 G5:.75 E5:.75 D5:.5 | C5:1 B4:1 R:2
+C: Em | C:2 B:2 | Em | C:2 B:2 | Em | C:2 B:2 | Em | C:2 B:2
+
+[Fim] Final
+D: E4+B4:4
+C: Em

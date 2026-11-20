@@ -1,0 +1,38 @@
+@titulo Imagine (John Lennon)
+@nivel Médio
+@bpm 76
+@compasso 4/4
+@forma Intro Verso Pre Verso Pre Refrao Verso Pre Refrao Fim
+@fonte bitmidi: John Lennon - Imagine.mid (/uploads/63264.mid); melodia da trilha do canto (limpa), piano da mão esquerda conferido no MIDI
+
+[Intro] Introdução (piano)
+D: R:4 | R:4 | R:4 | R:4
+E: C2+C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3+B3:.5 | F2+F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 A3:.25 A#3:.25 B3:.5
+E: C2+C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3+B3:.5 | F2+F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 A3:.25 A#3:.25 B3:.5
+
+[Verso] Verso
+D: R:.75 G4:.25 G4:.25 G4:.75 G4:1 B4:.5 B4:.25 A4:.25~ | A4:2 R:2 | R:1 G4:.5 G4:1 B4:1 B4:.25 A4:.25~ | A4:2 R:2
+D: R:1 G4:.5 G4:1.5 B4:.5 B4:.25 A4:.25~ | A4:2 R:2 | R:1.5 E4:.5 G4:.5 G4:.5 B4:.5 B4:.25 A4:.25~ | A4:2 R:2
+E: C2+C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3+B3:.5 | F2+F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 A3:.25 A#3:.25 B3:.5
+E: C2+C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3+B3:.5 | F2+F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 A3:.25 A#3:.25 B3:.5
+E: C2+C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3+B3:.5 | F2+F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 A3:.25 A#3:.25 B3:.5
+E: C2+C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3+B3:.5 | F2+F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 F3:.5 A3+C4:.5
+
+[Pre] Imagine all the people
+D: R:.75 A4:.25 C5:.5 A4:.5 C5:1 E5:.5 E5:.5 | D5:.25 C5:.25 A4:2 R:1.5 | B4:.5 B4:1.5 B4:1 C5:.5 D5:.5~ | D5:2 E5:.5 G5:1 E5:.5
+E: F2+F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 E2+E3:.5 A3+C4:.5 E3:.5 A3+C4:.5 | D2+D3:.5 F3+A3:.5 D3:.5 F3+A3:.5 C2+C3:.5 F3+A3:.5 C3:.5 F3+A3:.5
+E: G2+G3:.5 B3+D4:.5 G3:.5 B3+D4:.5 G3:.5 B3+D4:.5 G3:.5 C4+E4:.5 | G2+B2+F3:2 G2+D3+F3:2
+
+[Refrao] Refrão (You may say I'm a dreamer)
+D: R:1.25 A4:.25 C5:.5 B4:.5 C5:.25 B4:.25 A4:.5 A4:.25 B4:.25 | C5:.5 C5:2 R:1.5
+D: R:1.25 A4:.25 C5:.5 B4:.5 B4:.25 A4:.5 A4:.25 D4:.25 E4:.25~ | E4:2 R:2
+D: R:1 A4:.5 C5:.5 B4:.5 C5:.25 B4:.25 A4:.5 B4:.5 | C5:.5 C5:.25 A4:.25 G4:2 R:1
+D: R:1.5 C5:.25 C5:.25 D5:.5 E5:.25 D5:.25 C5:.5 D5:.5 | E5:.5 C5:1.5 R:2
+E: F2+F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 G2+G3:.5 B3+D4:.5 G3:.5 B3+D4:.5 | C2+C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 E2+E3:.5 G#3+B3:.5 E3:.5 G#3+D4:.5
+E: F2+F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 G2+G3:.5 B3+D4:.5 G3:.5 B3+D4:.5 | C2+C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 E2+E3:.5 G#3+B3:.5 E3:.5 G#3+D4:.5
+E: F2+F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 G2+G3:.5 B3+D4:.5 G3:.5 B3+D4:.5 | C2+C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 E2+E3:.5 G#3+B3:.5 E3:.5 G#3+D4:.5
+E: F2+F3:.5 A3+C4:.5 F3:.5 A3+C4:.5 G2+G3:.5 B3+D4:.5 G3:.5 B3+D4:.5 | C2+C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3:.5 C3:.5 E3+G3+B3:.5
+
+[Fim] Final
+D: E4+C5:4
+E: C2+C3+G3:4
