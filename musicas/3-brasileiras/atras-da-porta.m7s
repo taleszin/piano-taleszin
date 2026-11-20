@@ -1,0 +1,25 @@
+@titulo Atrás da Porta (Elis Regina)
+@nivel Médio
+@bpm 56
+@compasso 2/4
+@padrao arpejo
+@forma I A A F
+@fonte partitura superpartituras.com.br (Atrás da Porta - Elis Regina, arranjo Anoeli de Souza Maciel, Sol menor 2/4), nota por nota da página 1; a parte A repete conforme o ritornelo da partitura
+# Substitui Envolver (Anitta): não achei partitura/MIDI confiável da melodia.
+
+[I] Abertura ("Quando olhaste bem nos olhos meus")
+D: C#4:.5 D4:.5~ D4:1/3 F4:1/3 D4:1/3 | D#4:1 D4:1/3 F4:1/3 D#4:1/3 | C5:1 B4:1/3 D5:1/3 C5:1/3~ | C5:1 B4:1/3 D5:1/3 C5:1/3
+D: A4:1 G4:1/3 A#4:1/3 A4:1/3 | A4:1 G4:1/3 A#4:1/3 A4:1/3 | A4:1 D#4:1/3 A#4:1/3 A4:1/3 | C5:1 B4:1/3 A#4:1/3 A4:1/3
+C: Gm7 | Gm7 | A° | D7 | Gm | Gm7 | Eb7 | D7
+
+[A] Parte A
+D: G4:1 F4:1/3 G#4:1/3 G4:1/3 | G4:1 F4:1/3 G#4:1/3 G4:1/3 | G4:2~ | G4:2
+D: A4:1 G4:1/3 A#4:1/3 A4:1/3 | A4:1 G4:1/3 A#4:1/3 A4:1/3 | A4:1 D4:1/3 A#4:1/3 A4:1/3 | C5:.5 A4:.5~ A4:1/3 D5:1/3 C5:1/3
+D: D#5:1 D5:1/3 F5:1/3 E5:1/3 | D#5:.5 D5:.5~ D5:1/3 F5:1/3 E5:1/3 | D#5:1 D5:1/3 D4:1/3 D5:1/3 | C5:.5 B4:.5 B4:1/3 E5:1/3 D5:1/3
+D: C5:1 B4:1/3 B4:1/3 C5:1/3 | B4:.5 A4:.5~ A4:1/3 G#4:1/3 A4:1/3 | C5:1 B4:1/3 A4:1/3 B4:1/3 | A4:.75 G4:.25 G4:1/3 G4:1/3 G4:1/3
+D: G4:1.5 G4:.5 | G4:2 | F#4:2
+C: D° | Db7 | Cm | Cm7 | E° | Eb7 | D7 | D7 | Eb | Cm7 | D7 | G7M | C7M | F#° | B7 | Em7 | Eb7 | A° | D7
+
+[F] Final
+D: G4:2~ | G4:2
+C: Gm | Gm

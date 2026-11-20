@@ -1,0 +1,39 @@
+@titulo Quando a Chuva Passar (Ivete Sangalo)
+@nivel Médio
+@bpm 72
+@compasso 4/4
+@anacruse .5
+@padrao balada
+@forma P V W R V W R R F
+@fonte partitura superpartituras.com.br (Quando a Chuva Passar, versão 3, Lá menor 4/4), lida nota por nota da página 1 (verso, pré-refrão e refrão); forma montada com a 2ª estrofe igual à 1ª e refrão final dobrado
+
+[P] Anacruse
+D: C5:.5
+C: -
+
+[V] Verso (1ª parte)
+D: B4:.5 C5:.25 C5:.25~ C5:2~ C5:.25 A4:.25 C5:.25 A4:.25 | D5:.5 C5:.5 E5:.5 E5:.5~ E5:1~ E5:.75 C5:.25
+D: B4:.5 C5:.25 C5:.25~ C5:.5 D5:.25 B4:.25~ B4:.75 G4:.25 G4:.25 E4:.25 A4:.5~ | A4:.25 A4:.75~ A4:2 R:1/3 D5:1/3 C5:1/3
+D: B4:.5 C5:.25 C5:.25~ C5:2~ C5:.25 A4:.25 C5:.25 A4:.25 | D5:.5 C5:.5 E5:.5 E5:.5~ E5:1~ E5:.75 C5:.25
+D: F5:.5 F5:.25 F5:.25~ F5:.5 E5:.25 E5:.25~ E5:.5 C5:.5~ C5:.25 A4:.25 C5:.25 D5:.25~ | D5:3~ D5:.75 C5:.25
+D: F5:.5 F5:.25 F5:.25~ F5:.5 E5:.25 E5:.25~ E5:.75 C5:.25 C5:1/3 A4:1/3 C5:1/3 | D5:3 D5:.25 C5:.25 D5:.25 C5:.25
+C: F G | Am | F G | Am | F G | Am | Bb | G/B | Bb | G/B:3 G:1
+
+[W] Verso (2ª parte e pré-refrão)
+D: B4:.25 C5:.25 C5:.5~ C5:1~ C5:.75 A4:.25 A4:.25 A4:.25 B4:.25 A4:.25 | D5:.5 D5:.25 C5:.25 E5:.25 D5:.25 C5:.5~ C5:1~ C5:.75 C5:.25
+D: B4:.5 C5:.25 C5:.25~ C5:.5 D5:.25 B4:.25~ B4:.5 G4:.25 G4:.25~ G4:.5 E4:.25 A4:.25~ | A4:3 C5:.5 D5:.25 C5:.25
+D: B4:.5 C5:.25 C5:.25~ C5:.25 D5:.25 D5:.25 G5:.25 D5:1~ D5:.25 A4:.25 C5:.25 A4:.25 | D5:.5 C5:.5 G5:.5 D5:.5 C5:1~ C5:.75 C5:.25
+D: F5:.5 F5:.25 F5:.25~ F5:.5 E5:.25 E5:.25~ E5:.75 C5:.25 C5:.25 A4:.25 C5:.25 D5:.25~ | D5:3 D5:.25 C5:.25 D5:.25 C5:.25
+D: F5:.5 F5:.25 F5:.25~ F5:.5 E5:.25 E5:.25 C5:.5 C5:.5 A4:.5 C5:.5 | D5:.5 E5:.25 D5:.25 C5:.5 D5:.5~ D5:1 A4:.5 C5:.5
+C: F G | Am | F G/B | Am | F G | Am | Bb | G/B:3 G:1 | Bb | G/B D7sus4
+
+[R] Refrão
+D: G5:.75 E5:.25~ E5:.25 G5:.5 D5:.25~ D5:1 A4:.5 C5:.5 | G5:.5 E5:.5 G5:.5 C5:.5 C5:1 A4:1/3 C5:1/3 A4:1/3
+D: A5:1 G5:.75 E5:.25 G5:1/3 G5:1/3 E5:1/3 A5:1 | E5:3 A4:.5 C5:.5
+D: G5:1.5 E5:.25 D5:.25~ D5:1 D5:.5 C5:.25 G#5:.25~ | G#5:1~ G#5:.25 E5:.25 D5:.25 D5:.25~ D5:.5 C5:.5~ C5:.5 C5:.25 F5:.25~
+D: F5:1.5 E5:.25 D5:.25 C5:1.5 C5:.25 D5:.25 | E5:.5 C5:.25 D5:.25~ D5:1 D5:.5 F5:.5 E5:.5 D5:.5
+C: F G | Am C/G | F G | Am | F G | Ab° Am7 | Bb | G/B
+
+[F] Final
+D: C5:2 A4:2~ | A4:4
+C: F | Am

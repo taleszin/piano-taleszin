@@ -1,0 +1,41 @@
+@titulo Cidade Maravilhosa (André Filho)
+@nivel Médio
+@bpm 112
+@compasso 4/4
+@padrao marcha
+@forma I R Rv V R Rf C
+@fonte bitmidi cidade.mid (karaokê Família Ribeiro; melodia conferida sílaba a sílaba com a letra embutida; introdução/coda uma oitava abaixo); cifras conferidas no baixo/acordes do MIDI
+
+[I] Introdução
+D: R:.5 C4:.25 F4:.25 A4:.5 F4:.25 A4:.25 C5:.5 A4:.25 C5:.25 F5:.5 E5:.25 F5:.25 | D5:2 R:2
+D: R:.5 D4:.25 G4:.25 A#4:.5 G4:.25 A#4:.25 D5:.5 A#4:.5 D5:.5 G5:.5 | F5:2 R:.5 E5:.5 F5:.5 D5:.5
+D: C5:2 R:.5 A4:.25 G4:.25 F4:.5 E4:.5 | D4:2 C4:.5 B3:.5 A#3:1 | A3:2 R:1.5 A4:.5
+C: F | G7 | Gm | A#:2 B°:2 | C:2 Dm:2 | G7:2 C7:2 | F:2 C7:2
+
+[R] Refrão
+D: C5:1 D5:1.5 C5:.5 D5:.5 C5:.5 | D5:1 E5:3 | D5:1 E5:1.5 D5:.5 E5:.5 D5:.5 | F5:3.5 F5:.5
+D: F5:1 C#5:1.5 C5:.5 A#4:.5 C#5:.5 | F5:1 C5:3 | E5:.5 D5:.5 C5:.5 D5:.5 E5:1 G5:1 | F5:3.5 A4:.5
+C: F | Gm7 | C7 | F | A#m | F:2 D7:2 | G7:2 C7:2 | F
+
+[Rv] Refrão (vai pro verso)
+D: C5:1 D5:1.5 C5:.5 D5:.5 C5:.5 | D5:1 E5:3 | D5:1 E5:1.5 D5:.5 E5:.5 D5:.5 | F5:3.5 F5:.5
+D: F5:1 C#5:1.5 C5:.5 A#4:.5 C#5:.5 | F5:1 C5:3 | E5:.5 D5:.5 C5:.5 D5:.5 E5:1 G5:1 | F5:1 A5:1 A#5:1 C6:1
+C: F | Gm7 | C7 | F | A#m | F:2 D7:2 | G7:2 C7:2 | F
+
+[V] Verso
+D: G#5:.75 G5:.75 F5:.5 G#5:.75 G5:.75 F5:.5 | G5:.75 F5:.75 E5:.5 G5:2
+D: G5:.75 F5:.75 E5:.5 G5:.75 F5:.75 E5:.5 | F5:2 C5:2
+D: C#5:.75 C5:.75 A#4:.5 C#5:1 C5:.5 A#4:.5 | C5:.5 C5:.5 F5:.5 G5:.5 G#5:2
+D: G5:.75 G5:.75 F5:.5 E5:.75 F5:.75 G5:.5 | F5:3.5 A4:.5
+C: Fm | G7 | C7 | F | A#m | C7:2 Fm:2 | G7:2 C7:2 | F:2 C7:2
+
+[Rf] Refrão final
+D: C5:1 D5:1.5 C5:.5 D5:.5 C5:.5 | D5:1 E5:3 | D5:1 E5:1.5 D5:.5 E5:.5 D5:.5 | F5:3.5 F5:.5
+D: F5:1 C#5:1.5 C5:.5 A#4:.5 C#5:.5 | F5:1 C5:3 | E5:.5 D5:.5 C5:.5 D5:.5 E5:1 G5:1 | F5:4
+C: F | Gm7 | C7 | F | A#m | F:2 D7:2 | G7:2 C7:2 | F
+
+[C] Final
+D: R:.5 C4:.25 F4:.25 A4:.5 F4:.25 A4:.25 C5:.5 A4:.25 C5:.25 F5:.5 E5:.25 F5:.25 | D5:2 R:2
+D: R:.5 D4:.25 G4:.25 A#4:.5 G4:.25 A#4:.25 D5:.5 A#4:.5 D5:.5 G5:.5 | F5:2 R:.5 E5:.5 F5:.5 D5:.5
+D: C5:2 R:.5 A4:.5 A#4:.5 C5:.5 | F5:2 D5:1 C5:.5 A#4:.5 | A4:.5 A#4:.5 B4:.5 C5:.5 F5:2
+C: F | G7 | Gm | A#:2 B°:2 | C:2 Dm:2 | G7:2 C7:2 | F:1 C7:1 F:2
