@@ -3,6 +3,8 @@
 @bpm 65
 @compasso 4/4
 @fonte bitmidi 112145 (Yiruma - Rivers Flow In You, piano); transposto de Lá para Fá; intro em 4/4; grade .25; maxD 2; maxE 3
+@tom Lá maior
+@transpor -8
 
 [Intro] Intro
 D: F5:.5 E5:.5 F5:.5 E5:.5 F5:.5 C5:.5 F5:.5 A#4:.5~ | A#4:3.5 F4:.25 A4:.25 | F5:.5 E5:.5 F5:.5 E5:.5 F5:.5 C5:.5 F5:.5 A#4:.5~ | A#4:3.5 F4:.25 A4:.25

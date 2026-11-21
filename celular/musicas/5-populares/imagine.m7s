@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma Intro Verso Pre Verso Pre Refrao Verso Pre Refrao Fim
 @fonte bitmidi: John Lennon - Imagine.mid (/uploads/63264.mid); melodia da trilha do canto (limpa), piano da mão esquerda conferido no MIDI
+@tom Dó maior
+@transpor 0
 
 [Intro] Introdução (piano)
 D: R:4 | R:4 | R:4 | R:4

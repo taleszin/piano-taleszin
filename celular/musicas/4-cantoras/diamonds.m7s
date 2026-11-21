@@ -5,6 +5,8 @@
 @padrao balada
 @forma Intro V1 Pre R Hook V2 Pre2 R Hook Ponte R Fim
 @fonte bitmidi: rihanna-diamonds.mid (trilha do canto, com letra sincronizada), um tom abaixo; cifras pelo MIDI (F Am G)
+@tom Si menor
+@transpor 2
 
 [Intro] Introdução
 D: R:1.5 A3:.25 R:.25 E4:.5 R:.25 A3:.25 E4:.5 E4:.5 | R:4 | R:1.5 A3:.5 E4:.5 R:.25 A3:.25 E4:.5 E4:.5 | R:4

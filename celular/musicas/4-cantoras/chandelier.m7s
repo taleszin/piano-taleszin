@@ -5,6 +5,8 @@
 @padrao baixo-acorde
 @forma Intro V1 Pre R Post V2 Pre R Post Fim
 @fonte bitmidi: sia-chandelier.mid (trilha do canto, com letra sincronizada), meio tom abaixo (Si bemol menor para Lá menor); cifras pelo MIDI
+@tom Si bemol menor
+@transpor 1
 
 [Intro] Introdução
 D: R:4 | R:4

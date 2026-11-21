@@ -6,6 +6,8 @@
 @padrao baixo-acorde
 @forma Intro Estrofe*3 Estrofe2*3 Final
 @fonte Wikibooks Liederbuch/Bella Ciao (partitura LilyPond, Lá menor) — melodia e cifras
+@tom Lá menor
+@transpor 0
 
 [Intro] Introdução
 D: E4:.5 A4:.5 B4:.5 | C5:.5 A4:2 E4:.5 A4:.5 B4:.5 | C5:.5 A4:2 E4:.5 A4:.5 B4:.5 | C5 B4:.5 A4:.5 C5 B4:.5 A4:.5 | E5 E5 E5:.5 E5:.5 D5:.5 E5:.5

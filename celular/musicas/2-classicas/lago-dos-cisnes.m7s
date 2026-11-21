@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma Intro Tema Resposta Tema Fim
 @fonte bitmidi: theme-from-the-swan-lake (uploads/103013, orquestra): Ato II, Cena (nº 10) — tema do oboé e a resposta na direita; linha das cordas + baixo em pizzicato na esquerda; Si menor transposto para Lá menor (-2)
+@tom Si menor
+@transpor -10
 
 [Intro] Introdução
 D: E4:4

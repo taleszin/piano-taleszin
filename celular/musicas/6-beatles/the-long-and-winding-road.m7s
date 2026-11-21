@@ -5,6 +5,8 @@
 @padrao balada
 @forma Intro V1 V2 Ponte V3 PonteInstr V3 Final
 @fonte bitmidi: THE BEATLES.The long and winding road K.mid (karaokê; melodia da trilha vocal alinhada à letra, quantizada em semicolcheias); cifras pelo baixo do MIDI (Cm7 Ab/Bb Eb Eb7/Db Ab Gm7 Cm7 Fm7 Bb7 / ponte Eb/Bb Ab Eb/G Bb7); compasso de introdução escrito (o MIDI começa direto na voz)
+@tom Mib maior
+@transpor 0
 
 [Intro] Introdução
 D: G4+Bb4:2 Ab4+C5:1.75 D5:.25

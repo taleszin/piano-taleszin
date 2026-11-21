@@ -5,6 +5,8 @@
 @padrao arpejo
 @forma Intro A1 B1 A2 Ret B1 A3
 @fonte bitmidi: https://bitmidi.com/theme-from-the-godfather-mid (melodia trilha 2, cifras tiradas do baixo/arpejo da trilha 5; transposto de Dó menor para Lá menor)
+@tom Dó menor
+@transpor 3
 
 [Intro] Intro
 D: R:4 | R:2.5 E4:.5 A4:.5 C5:.5

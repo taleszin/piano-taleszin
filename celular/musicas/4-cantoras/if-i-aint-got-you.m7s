@@ -5,6 +5,8 @@
 @padrao arpejo
 @forma Intro V1 Pre R V2 Pre R2 Ponte Fim
 @fonte freemidi 7110 (trilha de sax que faz o canto; MIDI em 6/4, reescrito em 6/8 com as mesmas durações reais), transposta de Sol para Dó; cifras pelo MIDI
+@tom Sol maior
+@transpor -5
 
 [Intro] Introdução
 D: R:3 | R:3 | R:3 | R:.75 G4:.75 E4:.25 D4:.25 E4:.25 D4:.25 E4:.5~

@@ -5,6 +5,8 @@
 @padrao arpejo
 @forma Intro Estrofe1 Estrofe2 Ponte Estrofe3 Ponte2 Final
 @fonte bitmidi: https://bitmidi.com/frank-sinatra-my-way-mid (canto canal 3, baixo canal 1, Ré maior); cifras tiradas do baixo
+@tom Ré maior
+@transpor 0
 
 [Intro] Introdução
 D: F#4+A4:4 | F#4+A4:2 R:1.5 A3:.5

@@ -5,6 +5,8 @@
 @padrao balada
 @forma Intro V1 Pre R V2 Pre2 R2 Ponte R3 Fim
 @fonte freemidi 28809 (trilhas "MELODY" de Bruno Mars e "MELODY 1" de Lady Gaga unidas), transposta de Lá para Dó; cifras pelo MIDI
+@tom Lá maior
+@transpor -3
 
 [Intro] Intro
 D: R:4

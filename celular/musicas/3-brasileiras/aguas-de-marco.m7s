@@ -5,6 +5,8 @@
 @padrao bossa
 @forma I A B C D E F G H J K L
 @fonte bitmidi aguas.mid (karaokê, melodia conferida sílaba a sílaba com a letra embutida, 412/412); cifras tiradas do acompanhamento do MIDI; transposto de Si para Dó; notas acima de Dó6 descidas uma oitava no final
+@tom Si bemol maior
+@transpor -2
 
 [I] Introdução
 D: R:4 | R:4 | R:4 | R:4

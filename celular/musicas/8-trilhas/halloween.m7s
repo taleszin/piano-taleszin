@@ -4,6 +4,8 @@
 @compasso 5/4
 @forma Intro A B C Intro A B C Fim
 @fonte bitmidi: https://bitmidi.com/halloween-mid (ostinato do piano em 5/4 = 3+3+2+2 colcheias, baixo do MIDI; barra realinhada 2 tempos); contracanto do sintetizador omitido
+@tom Fá# menor
+@transpor -12
 
 [Intro] Introdução (ostinato)
 D: C#6:.5 F#5:.5 F#5:.5 C#6:.5 F#5:.5 F#5:.5 C#6:.5 F#5:.5 D6:.5 F#5:.5 | C#6:.5 F#5:.5 F#5:.5 C#6:.5 F#5:.5 F#5:.5 C#6:.5 F#5:.5 D6:.5 F#5:.5

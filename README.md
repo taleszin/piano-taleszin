@@ -56,6 +56,8 @@ C: Fmaj7 | Fmaj7 | G7 | G7 | Gm7 | Gb7 | Fmaj7 | Gb7
 
 Um compilador em Python ([`celular/tools/m7s.py`](celular/tools/m7s.py)) valida cada compasso e gera eventos compactos para o app. Ele também exporta MIDI, para conferir de ouvido no computador. O build **recusa** música com compasso errado.
 
+Cada música também diz o **tom da gravação original** (`@tom`) e quanto transpor para chegar nele (`@transpor`): Let It Be toca em Dó como os Beatles, Hedwig's Theme em Mi menor como a celesta do filme. A melodia fica na altura em que a música é reconhecida, sem virar apito.
+
 Assim saíram **202 músicas em 9 categorias**: infantis, clássicas, brasileiras, cantoras, pop, Beatles, rock, trilhas de filmes e jogos (tem Zelda) e Natal. Elas foram transcritas de MIDIs e partituras e conferidas com a ferramenta.
 
 ### 2. O som virou uma corda de piano

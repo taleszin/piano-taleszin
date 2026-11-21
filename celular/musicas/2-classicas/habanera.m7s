@@ -3,6 +3,8 @@
 @bpm 64
 @compasso 2/4
 @fonte bitmidi: habanera (uploads/54602): melodia de Carmen na direita, o ostinato da habanera (Ré–Lá–Fá–Lá) na esquerda; Ré menor/Ré maior original, valores do MIDI (escritos em dobro) reduzidos à metade para 2/4
+@tom Ré menor
+@transpor 0
 
 [Intro] Introdução
 D: R:2 | R:2 | R:2

@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma Intro VA VB VA VC Solo Subida VA VB Fim
 @fonte bitmidi: Twist-And-Shout-4.mid (trilha da voz principal, com o "come on, come on" e o "twist and shout" sincopados); mão esquerda escrita com o riff de baixo D-D-G-B-G-A / A-A-A-B-C# do MIDI; cifras D G A7
+@tom Ré maior
+@transpor 0
 
 [Intro] Introdução (riff)
 D: R:2.5 A3:.5 B3:.5 C#4:.5 | D4 D4 G3:.5 B3:.5 G3:.5 A3:.5 | R:.5 A3:.5 A3:.5 A3:.5 A3:.5 A3:.5 B3:.5 C#4:.5 | D4 D4 G3:.5 B3:.5 G3:.5 A3:.5

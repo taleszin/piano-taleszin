@@ -5,6 +5,8 @@
 @padrao marcha
 @forma I R Rv V R Rf C
 @fonte bitmidi cidade.mid (karaokê Família Ribeiro; melodia conferida sílaba a sílaba com a letra embutida; introdução/coda uma oitava abaixo); cifras conferidas no baixo/acordes do MIDI
+@tom Fá maior
+@transpor -12
 
 [I] Introdução
 D: R:.5 C4:.25 F4:.25 A4:.5 F4:.25 A4:.25 C5:.5 A4:.25 C5:.25 F5:.5 E5:.25 F5:.25 | D5:2 R:2

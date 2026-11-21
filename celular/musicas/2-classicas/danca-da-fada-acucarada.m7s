@@ -3,6 +3,8 @@
 @bpm 60
 @compasso 2/4
 @fonte bitmidi: sugar-plum-fairy-piano (uploads/35327, redução para piano): peça inteira (Quebra-Nozes, 2º ato); voz de cima na direita, notas abaixo do Dó4 (e acompanhamento) na esquerda, uma oitava abaixo; Mi menor original, oitavas da celesta trazidas para a região média
+@tom Mi menor
+@transpor 0
 
 [Intro] Introdução
 D: R:.5 E4:.25 R:.75 F#4:.25 R:.25 | R:.5 G4:.25 R:.75 D#4:.25 R:.25 | R:.5 E4:.25 R:.75 F#4:.25 R:.25 | R:.5 G4:.25 R:.75 D#4:.25 R:.25

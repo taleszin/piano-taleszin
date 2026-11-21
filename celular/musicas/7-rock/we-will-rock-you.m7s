@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma Intro V1 R V2 R V3 R R Solo Final
 @fonte bitmidi: we-will-rock-you-mid (trilha MELODY e guitarra do solo), oitava acima; batida pé-pé-palma escrita na E:
+@tom Mi menor
+@transpor -12
 # E: pé-pé-palma (E2 = pisada, E3+B3 = palma) o tempo todo, como na gravação
 
 [Intro] Intro (pé-pé-palma)

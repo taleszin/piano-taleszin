@@ -5,6 +5,8 @@
 @padrao balada
 @forma Intro V1 R Int V2 R2 Ponte R3 Fim
 @fonte freemidi 28926 (trilha vocal, letra casa 100%), Fá maior (tom original); bpm 72 = pulso de semínima pontuada da gravação (~142 em colcheia)
+@tom Fá maior
+@transpor 0
 
 [Intro] Introdução
 D: R:4 | R:4 | R:4 | R:3 C4:.25 D4:.25 F4:.5

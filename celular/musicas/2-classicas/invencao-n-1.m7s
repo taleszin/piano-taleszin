@@ -3,6 +3,8 @@
 @bpm 63
 @compasso 4/4
 @fonte mutopia: BachJS/BWV772/bach-invention-01 (as duas vozes do original, sem ornamentos)
+@tom Dó maior
+@transpor 0
 
 [A] Exposição
 D: R:.25 C4:.25 D4:.25 E4:.25 F4:.25 D4:.25 E4:.25 C4:.25 G4:.5 C5:.5 B4:.5 C5:.5 | D5:.25 G4:.25 A4:.25 B4:.25 C5:.25 A4:.25 B4:.25 G4:.25 D5:.5 G5:.5 F5:.5 G5:.5 | E5:.25 A5:.25 G5:.25 F5:.25 E5:.25 G5:.25 F5:.25 A5:.25 G5:.25 F5:.25 E5:.25 D5:.25 C5:.25 E5:.25 D5:.25 F5:.25 | E5:.25 D5:.25 C5:.25 B4:.25 A4:.25 C5:.25 B4:.25 D5:.25 C5:.25 B4:.25 A4:.25 G4:.25 F#4:.25 A4:.25 G4:.25 B4:.25

@@ -5,6 +5,8 @@
 @padrao oitavas
 @forma Hook Rah V Pre R Hook2 V Pre R Hook2 Ponte R Outro
 @fonte bitmidi: lady_gaga-bad_romance.mid (trilha "Chant", com letra sincronizada), em Lá menor (tom original); cifras pelo MIDI
+@tom Lá menor
+@transpor -12
 
 [Hook] Introdução
 D: R:2 C5:.5 D5:.5 E5:.5 C5:.5 | F5:1.5 E5:.5 F5:.5 E5:.5 D5~ | D5 R:.5 B4:.5 C5 D5:.5 R:.5 | E5:1.25 R:.25 E5:.25 R:.25 E5:.5 D5:.75 R:.25 C5:.5~

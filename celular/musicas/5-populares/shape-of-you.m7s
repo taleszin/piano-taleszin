@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma Intro Verso Pre Ref Pos Verso Pre Ref Pos Ref Pos Riff
 @fonte riff e forma do freemidi.org (Shape of You, CQ Studios; o MIDI não tem a voz); alturas do canto do noobnotes.net, ritmo do canto de memória; tom Ré menor (original Dó# menor); mão esquerda escrita (tresillo Dm Gm | Bb C)
+@tom Dó# menor
+@transpor -1
 
 [Intro] Intro (riff da marimba)
 D: D4:.75 F4:.75 D4:.5 D4:.75 F4:.75 D4:.5 | D4:.75 F4:.75 D4:.5 F4:.75 E4:.75 C4:.5 | D4:.75 F4:.75 D4:.5 D4:.75 F4:.75 D4:.5 | D4:.75 F4:.75 D4:.5 E4:.75 D4:.75 C4:.25 C4:.25

@@ -5,6 +5,8 @@
 @padrao baixo-acorde
 @forma Intro V1 Pre R Post V2 Pre2 R2 Post2 Ponte Pre3 R3 PostF
 @fonte freemidi 28802 (trilha "Voice"), oitava acima, em Lá menor (tom original); cifras pelo MIDI
+@tom Lá menor
+@transpor -12
 
 [Intro] Intro
 D: R:4

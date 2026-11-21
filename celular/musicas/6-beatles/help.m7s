@@ -5,6 +5,8 @@
 @padrao baixo-acorde
 @forma Intro Verso Refrao Retorno Verso Refrao Retorno Verso Refrao Final
 @fonte bitmidi: THE BEATLES.Help K.mid (uploads/100790), voz principal canal 4 e "Help!" canal 5/6; em Sol (original em Lá), cifras do baixo do MIDI
+@tom Lá maior
+@transpor -10
 
 [Intro] Intro (Help! I need somebody)
 D: C5+E5:3 R:.5 D5:.5 | E5 D5:.5 C5:.5 D5 C5 | C5+F5:2.5 R:.5 A4:.5 C5:.5 | E5:.5 D5 D5:1.5 C5:.5 B4:.5

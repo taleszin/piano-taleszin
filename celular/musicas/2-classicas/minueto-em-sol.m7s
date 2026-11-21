@@ -4,6 +4,8 @@
 @compasso 3/4
 @forma A A B B
 @fonte mutopia: BachJS/BWVAnh114/anna-magdalena-04.mid (duas mãos do MIDI, Sol maior original)
+@tom Sol maior
+@transpor 0
 
 [A] Parte A
 D: D5 G4:.5 A4:.5 B4:.5 C5:.5 | D5 G4 G4 | E5 C5:.5 D5:.5 E5:.5 F#5:.5 | G5 G4 G4

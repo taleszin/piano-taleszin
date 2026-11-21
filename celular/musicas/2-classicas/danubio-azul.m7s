@@ -4,6 +4,8 @@
 @compasso 3/4
 @forma Intro V1a V1b V1a V2a V2b Fim
 @fonte bitmidi: danube-waltz (uploads/37712, orquestra): melodia do 1º violino na direita, baixo + acordes do acompanhamento na esquerda; transposto de Ré para Dó (-2)
+@tom Ré maior
+@transpor -10
 
 [Intro] Introdução
 D: A5 F5:.5 G5:.5 A5:.5 G4:.5 | F5:3 | R F5:.5 G5:.5 A5:.5 G4:.5 | E5:3

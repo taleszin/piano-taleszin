@@ -5,6 +5,8 @@
 @padrao oitavas
 @forma Intro Verso Pre Refrao Riff Riff Verso2 Pre2 Refrao2 Final
 @fonte bitmidi: https://bitmidi.com/the-cranberries-zombie-k-mid (canto canal 15, de Mi menor para Lá menor); cifras dos eventos de texto do próprio MIDI (Em C G D/F# -> Am F C G/B)
+@tom Mi menor
+@transpor -5
 
 [Intro] Introdução (riff)
 D: R:.5 C5:.5 R:.5 B4:.5 R:.5 E4:.5 E4:.5 F4:.5 | R:.5 C5:.5 R:.5 B4:.5 R:.5 F4:.25 R:.25 F4:.5 E4:.5 | R:.5 C5:.75 R:.25 B4:.5 R:.5 E4:.5 E4:.5 D4:.5 | R:.5 C5:.5 R:.5 B4:.5 R:.5 D4:.25 R:.25 D4:.5 E4:.25 R:.25

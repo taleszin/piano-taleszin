@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma Tema Variacao Tema2 Ponte Meio Escalas Final
 @fonte bitmidi: https://bitmidi.com/theme-from-the-simpsons-mid (compasso 2/4 do original realinhado em 4/4, coro de abertura omitido); melodia das trilhas 1,3,4,5, E: baixo do MIDI
+@tom Dó maior
+@transpor 0
 
 [Tema] Tema
 D: C5:1.5 E5 F#5 A5:.5 | G5:1.5 E5:.5 R:.5 C5:.5 R:.5 A4:.5 | F#4:.5 F#4:.5 F#4:.5 G4:2 R:.5 | R:.5 F#4:.5 F#4:.5 F#4:.5 G4:.5 A#4:1.5

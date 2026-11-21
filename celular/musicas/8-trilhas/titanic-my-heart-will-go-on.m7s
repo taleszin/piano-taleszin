@@ -3,6 +3,8 @@
 @bpm 95
 @compasso 4/4
 @fonte bitmidi: https://bitmidi.com/titanic-3-mid (melodia trilha 3, mão esquerda das trilhas 12+18, baixo subido 8va onde caía abaixo de C2)
+@tom Mi maior
+@transpor -13
 # Fá maior, modula para Lá maior no último refrão (como o original, que vai de Mi para Láb)
 
 [Intro] Intro (piano)

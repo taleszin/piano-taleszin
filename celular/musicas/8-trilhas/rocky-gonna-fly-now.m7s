@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma Pre A A2 B Virada Tema3 B2 Ponte B3
 @fonte bitmidi: https://bitmidi.com/rocky-medley-mid (trecho Gonna Fly Now, c. 8–30 e 39–71); melodia = trompete/cordas, E: = baixo em colcheias do MIDI; virada uma oitava abaixo
+@tom Lá menor
+@transpor 0
 
 [Pre] Entrada
 D: R:3 E4:.25 G4:.5 R:.25

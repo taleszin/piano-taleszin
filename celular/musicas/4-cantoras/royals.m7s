@@ -5,6 +5,8 @@
 @padrao baixo-acorde
 @forma Intro V1 V1b Pre R V2 Pre R Ponte R Fim
 @fonte bitmidi: lorde-royals.mid (trilha "Vocal Guide"), transposta de Ré para Sol; cifras conferidas com o baixo do MIDI
+@tom Ré maior
+@transpor -5
 
 [Intro] Intro
 D: R:4

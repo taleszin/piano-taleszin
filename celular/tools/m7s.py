@@ -361,6 +361,10 @@ def montar(caminho, avisos=None):
                 eventos.append(tuple(pend))
             fim = max(fim, tt)
         t = fim
+    # @transpor pode jogar a mão esquerda para baixo do teclado útil: dobra essas notas uma oitava acima
+    if TRANSP:
+        eventos = [(t0, d, mao, sorted(set(x + 12 if mao == 'E' and x < 33 else x for x in ms)))
+                   for t0, d, mao, ms in eventos]
     eventos.sort(key=lambda e: (e[0], e[2] != 'D'))
 
     # checagens musicais (avisos)
@@ -501,7 +505,7 @@ def main():
                 ev = m['eventos']
                 nd = sum(len(e[3]) for e in ev if e[2] == 'D'); ne = sum(len(e[3]) for e in ev if e[2] == 'E')
                 indice.append('\t'.join([f'{cat}/{arq[:-4]}', m['cab']['titulo'], m['cab']['nivel'], str(m['bpm']),
-                                          str(nd), str(ne), fmt(m['total'])]))
+                                          str(nd), str(ne), fmt(m['total']), m['cab'].get('tom', '')]))
                 n += 1
         with open(os.path.join(destino, 'indice.tsv'), 'w', encoding='utf-8') as f:
             f.write('\n'.join(indice) + '\n')

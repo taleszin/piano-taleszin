@@ -4,6 +4,8 @@
 @compasso 6/4
 @forma Intro A1 B1 A2 B2 A3 B3 S1 S2 S3 S4 A1 B1 A2 B2 Fim
 @fonte freemidi: https://freemidi.org/download3-13466-game-of-thrones-tv-themes (linha do violoncelo da trilha 1, subida 8va; ostinato da E: escrito sobre a harmonia)
+@tom Dó menor
+@transpor 3
 # compasso 6/4 = dois compassos de 3/4 da partitura; em Lá menor (original em Dó menor)
 
 [Intro] Intro (ostinato)

@@ -3,6 +3,8 @@
 @bpm 84
 @compasso 6/8
 @fonte bitmidi: edvard-grieg-peer-gynt1-morning-mood-piano (uploads/35032): melodia limpa à mão (sem apojaturas), mão esquerda extraída do arranjo; transposta de Mi para Dó (-4); seção central (violoncelos) omitida
+@tom Mi maior
+@transpor -8
 
 [A1] Tema (flauta)
 E: C3+G3:3 | C3+G3:3 | C3+G3:1.5 A2+E3:1.5 | C3+G3:1.5 G3:.5 E3:.5 D3:.5

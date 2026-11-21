@@ -4,6 +4,8 @@
 @compasso 2/4
 @forma Intro A A1 A A2 B B1 B B2 A A3 C C1 C C2 Ponte D D1 D D2
 @fonte mutopia: https://www.mutopiaproject.org/ftp/JoplinS/entertainer/entertainer.mid (Joplin, 1902, domínio público); as duas mãos da partitura, oitavas acima de C6 e abaixo de C2 reduzidas
+@tom Dó maior
+@transpor 0
 
 [Intro] Introdução
 D: D5+D6:.25 E5:.25 C5+C6:.25 A4+A5:.5 B4+B5:.25 G4+G5:.5 | D5:.25 E5:.25 C5:.25 A4:.5 B4:.25 G4:.5 | D4:.25 E4:.25 C4:.25 R:1.25 | R D5+G5:.5 D4:.25 D#4:.25

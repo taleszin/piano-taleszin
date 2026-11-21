@@ -5,6 +5,8 @@
 @padrao arpejo
 @forma Intro Verso Volta Verso Volta Ponte Solo Volta Verso Volta Final
 @fonte bitmidi: THE BEATLES.Something K.mid (uploads/100866), voz canal 3, solo de guitarra canal 4; escrita em tempo dobrado (1 compasso do disco = 2 aqui; 130 aqui = 65 bpm do disco); cifras do baixo do MIDI
+@tom Dó maior
+@transpor 0
 
 [Intro] Intro
 D: R A4 A#4 A4 | A#4:2 B4:2

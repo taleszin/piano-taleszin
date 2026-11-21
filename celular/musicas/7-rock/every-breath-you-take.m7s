@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma Intro V1 V2 Ponte V3 Meio Meio2 Ponte2 V4 V5 Fim
 @fonte bitmidi: every-breath-you-take-2-mid (trilha MELODY e riff de guitarra MUTED GTR, tom de A); acordes da parte do meio escritos
+@tom Láb maior
+@transpor -1
 # Mão esquerda = o riff dedilhado da guitarra (add9 em colcheias)
 
 [Intro] Introdução (riff)

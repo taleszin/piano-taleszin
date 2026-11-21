@@ -4,6 +4,8 @@
 @compasso 4/4
 @fonte freemidi: https://freemidi.org/download3-29657-imperial-march-star-wars (orquestral); melodia da trilha 6, ostinato da trilha 13, baixo da trilha 15; tom original Sol menor
 @forma In T1 P T2 T3 Co
+@tom Sol menor
+@transpor 0
 
 [In] Introdução (ostinato)
 D: G3 G3:.5 G3:.25 G3:.25 G3:.5 G3:.25 G3:.25 Eb4:.25 Eb4:.25 Eb4:.5 | G3 G3:.5 G3:.25 G3:.25 G3:.5 G3:.25 G3:.25 Eb4:.25 Eb4:.25 Eb4:.5 | G3 G3:.5 G3:.25 G3:.25 G3:.5 G3:.25 G3:.25 F#4:.25 F#4:.25 F#4:.5 | G3 G3:.5 G3:.25 G3:.25 G3:.5 G3:.25 G3:.25 F#4:.25 F#4:.25 F#4:.5

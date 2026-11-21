@@ -5,6 +5,8 @@
 @padrao arpejo
 @forma Intro V1 Pre R V2 Pre2 R Ponte RF Fim
 @fonte bitmidi: beyonce-halo.mid (trilha que dobra o canto; oitavas unificadas na altura do canto), transposta de Lá para Sol; cifras pelo MIDI
+@tom Lá maior
+@transpor 2
 
 [Intro] Introdução
 D: R:4 | R:4 | R:4 | R:4

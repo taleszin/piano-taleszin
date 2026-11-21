@@ -5,6 +5,8 @@
 @padrao balada
 @forma I A B C I A B C F
 @fonte bitmidi senna.mid: fanfarra da trilha 4, tema da trilha 5 (nota a nota, grade 1/4, ornamentos tirados); cifras lidas do baixo (trilha 1) e dos acordes (trilhas 2/3/6)
+@tom Ré maior
+@transpor 2
 
 [I] Fanfarra
 D: E4:.5 E4:.5 D4:2.5 D4:.5 | R:.5 D4:.5 C4:3 | A3:.5 A3:.5 G3:3 | G3:1.5 A3:.5 C4:.5 E4:.5 G4:.5 A4:.5

@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma Riff V Riff VR R Riff VR R Riff Solo Riff VR R Final
 @fonte bitmidi Come-Together-2.mid (trilha 1 voz, uma oitava abaixo; trilha 6 baixo); mão esquerda = riff de baixo escrito; cifras Dm / A / G / Bm A G A
+@tom Ré menor
+@transpor 0
 
 [Riff] Riff
 D: D4:.5 D4:.5 A4:.25 B4:.25 F5:1.5 D5 | D4:.5 D4:.5 A4:.25 B4:.25 F5:1.5 D5 | D4:.5 D4:.5 A4:.25 B4:.25 F5:1.5 D5 | D4:.5 D4:.5 A4:.25 B4:.25 F5:2

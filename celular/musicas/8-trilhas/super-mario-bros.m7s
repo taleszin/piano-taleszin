@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma Intro A B*2 C Intro A D*2 C Intro D A B*2 C Intro A D*2 C Fim
 @fonte vgmusic.com nes/Smbtheme.mid: melodia do pulso 1, baixo do triângulo (dobrado para a faixa da mão esquerda)
+@tom Dó maior
+@transpor 0
 
 [Intro] Abertura
 D: E5:.25 E5:.25 R:.25 E5:.25 R:.25 C5:.25 E5:.25 R:.25 G5:.25 R:.75 G4:.25 R:.75

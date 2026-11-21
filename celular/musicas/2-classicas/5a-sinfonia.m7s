@@ -4,6 +4,8 @@
 @compasso 2/4
 @forma I T1 P P2 P3 P4 P5 Tr T2 Cd I T1 P P2 P3 P4 P5 Tr T2 Cd2
 @fonte mutopia: BeethovenLv/O67/beethoven_fifth_op67.mid (redução para piano, duas mãos extraídas), transposta de dó menor para lá menor (-3); exposição do 1º mov. com a repetição; fermatas da abertura escritas como compassos a mais
+@tom Dó menor
+@transpor -9
 
 [I] Abertura
 D: R:.5 E3+E4:.5 E3+E4:.5 E3+E4:.5 | C4:2 | C4:2 | R:.5 D3+D4:.5 D3+D4:.5 D3+D4:.5 | B3:2 | B3:2 | B3:2

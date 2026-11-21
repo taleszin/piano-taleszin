@@ -387,7 +387,7 @@ public class Piano extends Activity implements Teclado.Ouvinte, Cascata.Fim {
                 boolean coroa = prefs.getBoolean("coroa_" + m.id, false);
                 txt.addView(rotulo((coroa ? "👑 " : "") + m.titulo, Color.WHITE, 16, false));
                 int rec = prefs.getInt("rec_" + m.id, 0);
-                txt.addView(rotulo(m.nivel + "  ·  " + mmss(m.segundos()) + "  ·  " + (m.nD + m.nE) + " notas"
+                txt.addView(rotulo(m.nivel + "  ·  " + mmss(m.segundos()) + (m.tom.length() > 0 ? "  ·  " + m.tom : "") + "  ·  " + (m.nD + m.nE) + " notas"
                         + (m.temE() ? "  ·  2 mãos" : "") + (rec > 0 ? "  ·  recorde " + rec : ""),
                     m.nivel.equals("Fácil") ? 0xFF66BB6A : m.nivel.equals("Médio") ? 0xFFFFB300 : 0xFFFF7043, 12, false));
                 l.addView(txt, new LinearLayout.LayoutParams(0, -2, 1f));

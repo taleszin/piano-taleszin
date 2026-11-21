@@ -3,6 +3,8 @@
 @bpm 110
 @compasso 12/8
 @fonte bitmidi 70390 (Ludovico Einaudi - Nuvole Bianche), mãos em trilhas separadas; sem os 4 acordes de abertura; grade .25; maxD 2; maxE 3
+@tom Fá menor
+@transpor 0
 
 [A1] Tema A
 D: F4+A#4:.5 G#4 G#4 G#4:.5 F4+A#4:.5 G#4 G#4 G#4:.5 | F4+A#4:.5 G#4 G#4 G#4:.5 F4+A#4:.5 G#4 G#4 G#4:.5 | D#4+C#5:.5 C5 C5 C5:.5 D#4+C#5:.5 C5 C5 D#4:.5 | C5:.5 A#4 A#4 D#4:.5 C#5:.5 C5 A#4 D#4:.5

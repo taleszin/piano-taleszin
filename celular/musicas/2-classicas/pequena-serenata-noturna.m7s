@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma A B C D A B C D
 @fonte mutopia: MozartWA/KV525/eine-kleine-nachtmusik-mvt1.mid; violino I na direita, viola+violoncelo na esquerda; transposta de Sol para Dó (-7); exposição do 1º mov. com a repetição
+@tom Sol maior
+@transpor -5
 
 [A] Tema principal
 D: C5 R:.5 G4:.5 C5 R:.5 G4:.5 | C5:.5 G4:.5 C5:.5 E5:.5 G5 R | F5 R:.5 D5:.5 F5 R:.5 D5:.5 | F5:.5 D5:.5 B4:.5 D5:.5 G4 R

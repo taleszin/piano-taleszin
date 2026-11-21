@@ -4,6 +4,8 @@
 @compasso 4/4
 @forma Intro A*2 B A*2 Ponte*2 A*2 B Fim
 @fonte bitmidi: Axel-F-1.mid (/uploads/8686.mid); tema do SAW WAVE, tema B do BANDONEON (oitava abaixo), baixo do SYNBASS (escrito na E:)
+@tom Fá menor
+@transpor 0
 
 [Intro] Intro (baixo)
 D: R:4 | R:4 | R:4 | R:4

@@ -5,6 +5,8 @@
 @padrao baixo-acorde
 @forma In A A2 B B2 A3 C C2 A4
 @fonte bitmidi 103693 (Tico-Tico.mid, trilha 4 = melodia; staccatos viram colcheias); cifras de memória (Lá menor)
+@tom Mi menor
+@transpor -5
 
 [In] Introdução
 D: R:1.25 E4:.25 D#4:.25 E4:.25

@@ -5,6 +5,8 @@
 @padrao baixo-acorde
 @forma Intro Love V1 V2 R1 Love2 R2 V3 R3 R4 Coda*10 Fim
 @fonte bitmidi: /uploads/5174.mid (All-You-Need-Is-Love-1), voz da trilha 3 em tempo absoluto; os compassos de 7/4 (4/4+3/4) do original foram reescritos de forma contínua em 4/4 (as notas caem no tempo certo, só as barras ficam deslocadas), por isso as seções não se repetem via @forma; cifras pelo baixo da trilha 1; abertura com a Marselhesa
+@tom Sol maior
+@transpor 0
 
 [Intro] Introdução (Marselhesa)
 D: R:3 D4:.75 D4:.25 | G4 G4 A4 A4 | D5:1.5 B4:.5 G4:.75 G4:.25 B4:.75 G4:.25 | E4 C5:2 A4:.75 F#4:.25

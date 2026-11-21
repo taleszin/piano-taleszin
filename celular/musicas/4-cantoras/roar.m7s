@@ -5,6 +5,8 @@
 @padrao baixo-acorde
 @forma Intro V1 Pre R V2 Pre R2 Ponte RF
 @fonte bitmidi: katy_perry-roar.mid (trilha que dobra o canto, oitava acima), transposta de Si bemol para Dó na altura real do canto; cifras I-ii-vi-IV pelo MIDI
+@tom Si bemol maior
+@transpor -2
 
 [Intro] Introdução
 D: R:4 | R:4

@@ -5,6 +5,8 @@
 @padrao arpejo
 @forma Intro A1 A2 A1 A2 Final
 @fonte bitmidi: https://bitmidi.com/somewhere-over-the-rainbow-mid (melodia trilha 3, de Si bemol para Dó, metade do tempo); cifras de memória. Ponte (Someday I'll wish...) ficou de fora: o MIDI não tem e não tenho a melodia certa
+@tom Láb maior
+@transpor 8
 
 [Intro] Introdução
 D: C4:2 F4:2 | E4 C4:.5 D4:.5 E4 F4 | D4 B3:.5 C4:.5 D4 E4 | C4:4

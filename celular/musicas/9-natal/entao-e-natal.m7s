@@ -5,6 +5,8 @@
 @padrao arpejo
 @forma Intro V1 V2 R V1 V2 R V1 V2 R R
 @fonte bitmidi: lennon-happy-xmas-k (68220.mid), melodia do canal 2 limpa e transposta +3 (Lá→Dó); cifras de memória
+@tom Sol maior
+@transpor -5
 
 [Intro] Introdução
 D: R:1 C5:.5 C5:.5 Bb4:.5 A4:.5 | G4:.5 G4:2.5 | R:1 G4:.5 G4:.5 F4:.5 E4:.5 | F4:3

@@ -6,6 +6,8 @@
 @padrao arpejo
 @fonte freemidi: https://freemidi.org/download3-22665-harry-potter-prologue-2-harry-potter (piano); mão direita do MIDI (2 vozes de cima), cifras tiradas da harmonia do MIDI; tom original Mi menor transposto para Ré menor
 @forma Pk A A2 B B2 Pk A A2 F
+@tom Mi menor
+@transpor 2
 
 [Pk] Anacruse
 D: A4:.5

@@ -5,6 +5,8 @@
 @padrao balada
 @forma Riff Verso Refrao Verso Refrao Riff Verso Refrao Refrao Fim
 @fonte bitmidi: A HA.Take on me K.mid (/uploads/2965.mid); riff do synth e canto extraídos (tempo do MIDI corrigido), acordes dos pads do mesmo MIDI; "Take" do refrão subido uma oitava (A2 no MIDI)
+@tom Lá maior
+@transpor 0
 
 [Riff] Riff de synth
 D: F#5:.5 F#5:.5 D5:.5 B4:.5 R:.5 B4:.5 R:.5 E5:.5 | R:.5 E5:.5 R:.5 E5:.5 G#5:.5 G#5:.5 A5:.5 B5:.5 | A5:.5 A5:.5 A5:.5 E5:.5 R:.5 D5:.5 R:.5 F#5:.5 | R:.5 F#5:.5 R:.5 F#5:.5 E5:.5 E5:.5 F#5:.5 E5:.5 | F#5:.5 F#5:.5 D5:.5 B4:.5 R:.5 B4:.5 R:.5 E5:.5 | R:.5 E5:.5 R:.5 E5:.5 G#5:.5 G#5:.5 A5:.5 B5:.5 | A5:.5 A5:.5 A5:.5 E5:.5 R:.5 D5:.5 R:.5 F#5:.5 | R:.5 F#5:.5 R:.5 F#5:.5 E5:.5 E5:.5 F#5:.5 E5:.5 | F#5:.5 F#5:.5 D5:.5 B4:.5 R:.5 B4:.5 R:.5 E5:.5 | R:.5 E5:.5 R:.5 E5:.5 G#5:.5 G#5:.5 A5:.5 B5:.5 | A5:.5 A5:.5 A5:.5 F#5:.5 R:.5 D5:.5 R:.5 F#5:.5 | R:.5 F#5:.5 R:.5 F#5:.5 E5:.5 E5:.5 E5:.5 R:.5

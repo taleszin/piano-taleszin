@@ -17,7 +17,7 @@ final class Musicas {
 
     static final class Musica {
         final String id, arquivo, categoria;
-        String titulo = "", nivel = "Médio";
+        String titulo = "", nivel = "Médio", tom = "";
         int bpm = 100;
         float compasso = 4, anacruse = 0;
         // carregados sob demanda
@@ -66,6 +66,7 @@ final class Musicas {
                 Musica m = new Musica(p[0], "musicas/" + p[0] + ".txt", cat);
                 m.titulo = p[1]; m.nivel = p[2]; m.bpm = Integer.parseInt(p[3]);
                 m.nD = Integer.parseInt(p[4]); m.nE = Integer.parseInt(p[5]); m.total = Float.parseFloat(p[6]);
+                if (p.length > 7) m.tom = p[7];
                 lista.add(m);
             }
             br.close();

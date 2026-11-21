@@ -5,6 +5,8 @@
 @padrao bossa
 @forma A A2 B C
 @fonte bitmidi chega.mid (karaokê Família Ribeiro, melodia conferida sílaba a sílaba com a letra embutida); cifras tiradas do acompanhamento do MIDI; transposto de Ré menor/Ré para Lá menor/Lá
+@tom Mi menor
+@transpor -5
 
 [A] Parte menor
 D: C5:2 E4:2 | A4:2.5 C5:1 B4:.5~ | B4:2 F#4:2 | A4:2.5 B4:1 C5:.5~

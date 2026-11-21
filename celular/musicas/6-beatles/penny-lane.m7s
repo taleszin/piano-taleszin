@@ -5,6 +5,8 @@
 @padrao baixo-acorde
 @forma Intro Verso VoltaV Verso VoltaR Refrao FimV Verso VoltaR Refrao FimS Solo Refrao FimV Verso VoltaV Verso VoltaR Refrao FimF RefraoAlto Final
 @fonte bitmidi: BEATLES.Penny lane 2 k.mid (uploads/16447), voz canal 3 e trompete canal 4 (parte aguda do solo 1 oitava abaixo); verso em Dó e refrão em Si bemol (disco: Si/Lá); cifras conferidas no piano do MIDI. Antecipações nas emendas de seção foram postas no tempo 1.
+@tom Si maior
+@transpor -1
 
 [Intro] (In Penny Lane...)
 D: R:2.75 G4:.25 C5:.25 D5:.75
