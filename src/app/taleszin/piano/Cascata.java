@@ -33,7 +33,7 @@ final class Cascata extends View {
     private static final float JANELA = 450f;          // aprender: pode tocar até 450 ms antes
     private static final float JANELA_D = 260f;        // desafio: antes/depois
     private static final float LONGA = 450f;
-    private static final float NMIN = 12, NMAX = 24, NFIXO = 17;
+    private static final float NMIN = 12, NMAX = 24;
 
     private final Teclado teclado;
     private final Sintetizador synth;
@@ -185,21 +185,20 @@ final class Cascata extends View {
 
     // ---------- janela do teclado ----------
     private void prepararJanela() {
+        // janela estável: zoom único para a música toda; só desliza se a música não couber
         int lo = 127, hi = 0;
         for (int k = 0; k < nEv; k++) if (jogavel[k] || demo) for (int x : notasEv[k]) { lo = Math.min(lo, x); hi = Math.max(hi, x); }
         if (lo > hi) { lo = 60; hi = 72; }
         int gl = Teclado.branca(lo), gh = Teclado.branca(hi) + (Teclado.preta(hi) ? 1 : 0);
-        float span = gh - gl + 1;
-        janelaFixa = span + 1 <= NFIXO;
-        if (janelaFixa) {
-            float nn = Math.max(NMIN - 2, span + 1);
-            alvoN = nn; alvoIni = (gl + gh + 1) / 2f - nn / 2f;
-        } else {
-            calcularAlvo();
-        }
+        float span = gh - gl + 2;
+        janelaFixa = span <= NMAX;
+        alvoN = Math.max(NMIN - 2, Math.min(NMAX, span));
+        if (janelaFixa) alvoIni = (gl + gh + 1) / 2f - alvoN / 2f;
+        else { alvoIni = gl - 1; calcularAlvo(); }
         teclado.setJanela(alvoIni, alvoN);
     }
 
+    /** Só desloca (sem mudar o zoom) quando uma nota próxima sai da janela; desloca de uma vez, com folga. */
     private void calcularAlvo() {
         int lo = 127, hi = 0;
         for (int g = pos; g < nG && tG[g] <= t + HORIZONTE; g++)
@@ -210,21 +209,14 @@ final class Cascata extends View {
         }
         if (lo > hi) return;
         int gl = Teclado.branca(lo), gh = Teclado.branca(hi) + (Teclado.preta(hi) ? 1 : 0);
-        float span = gh - gl + 2;
-        if (span > NMAX && pos < nG) {   // não cabe: foca no próximo grupo
+        if (gh - gl + 1 > alvoN && pos < nG) {   // trecho largo demais: garante o próximo grupo
             lo = 127; hi = 0;
             for (int k : gEv[pos]) for (int x : notasEv[k]) { lo = Math.min(lo, x); hi = Math.max(hi, x); }
             gl = Teclado.branca(lo); gh = Teclado.branca(hi) + (Teclado.preta(hi) ? 1 : 0);
-            span = gh - gl + 2;
         }
-        float ini = teclado.ini(), n = teclado.n();
-        boolean cabe = gl >= ini + 0.3f && gh + 1 <= ini + n - 0.3f;
-        float nAlvo = Math.max(NMIN, Math.min(NMAX, span));
-        if (cabe && Math.abs(n - nAlvo) < 4 && alvoN > 0) return;   // histerese: não mexe à toa
-        alvoN = cabe ? Math.max(n, nAlvo) : nAlvo;
-        if (alvoN > NMAX) alvoN = NMAX;
-        float centro = (gl + gh + 1) / 2f;
-        alvoIni = centro - alvoN / 2f;
+        float folga = Math.min(3f, Math.max(0f, (alvoN - (gh - gl + 1)) / 2f));
+        if (gl < alvoIni) alvoIni = gl - folga;
+        else if (gh + 1 > alvoIni + alvoN) alvoIni = gh + 1 + folga - alvoN;
     }
 
     private void moverJanela(float dtReal) {

@@ -141,13 +141,14 @@ final class Sintetizador implements Runnable {
         if (timbre == ACUSTICO) {
             double B = 1.2e-4 * Math.exp(0.045 * (midi - 60));
             double tau1 = Math.max(1.6, Math.min(12, 7.5 * Math.pow(2, -(midi - 48) / 22.0)));
-            double lim = Math.min(0.45 * taxa, 9000);
+            double lim = Math.min(0.45 * taxa, 6000);
             int n = 0;
             double amax = 0;
-            for (int h = 1; h <= 10 && n < P; h++) {
+            for (int h = 1; h <= 8 && n < P; h++) {
                 double fh = h * f0 * Math.sqrt(1 + B * h * h);
                 if (fh > lim) break;
-                double a = Math.abs(Math.sin(h * Math.PI / 7.3)) / Math.pow(h, 0.9) * Math.exp(-h * 0.35 * (1 - v));
+                // fundamental dominante (corpo); harmônicos caem rápido e só abrem com mais força
+                double a = (h == 1 ? 1.0 : 0.75 / Math.pow(h, 1.35)) * Math.exp(-(h - 1) * 0.45 * (1 - v));
                 double tau = tau1 / (1 + 0.22 * (h - 1)) * (h == 1 ? 1 : 0.8);
                 n = ressonador(k, n, fh, tau, a);
                 amax += a;
@@ -156,8 +157,8 @@ final class Sintetizador implements Runnable {
             nP[k] = n;
             double norm = 0.55 / Math.max(0.6, amax);
             for (int i = 0; i < n; i++) { y2[k][i] *= norm; } // (y1 = 0; a amplitude está em y2)
-            ruido[k] = 0.09f * v; qRuido[k] = fq(0.012f);
-            aRuido[k] = (float) Math.min(0.9, (1500 + 3500 * v) * 2 * Math.PI / taxa);
+            ruido[k] = 0.04f * v; qRuido[k] = fq(0.010f);
+            aRuido[k] = (float) Math.min(0.9, (700 + 1800 * v) * 2 * Math.PI / taxa);
             lpRuido[k] = 0;
             nivel[k] = 1f; qNivel[k] = fq((float) tau1 * 6.9f);
         } else {
