@@ -12,6 +12,8 @@ Arquivo-fonte: musicas/<n-categoria>/<slug>.m7s   (texto UTF-8)
   @padrao baixo-acorde        (padrão da mão esquerda gerada a partir de C:)
   @forma A B A B*2 C          (ordem das seções; sem @forma = ordem do arquivo)
   @fonte texto livre          (de onde veio: mutopia, bitmidi, memória...)
+  @tom Mi menor               (tom da gravação original, só informativo)
+  @transpor -2                (semitons aplicados a todas as notas e cifras ao compilar; ±12 = oitava)
 
   [A] Verso                   (id da seção + rótulo opcional)
   D: E4 E4 F4 G4 | G4 F4 E4 D4 | C4:2 R:2      mão direita
@@ -32,6 +34,7 @@ Uso:
   m7s.py validar arq.m7s [...]     valida (erros = código 1) e mostra resumo
   m7s.py compilar <dir-fonte> <dir-assets>   compila tudo (para no primeiro erro)
   m7s.py midi arq.m7s saida.mid    exporta MIDI para ouvir no Mac
+  m7s.py tom arq.m7s [...]         tom estimado (já com @transpor) e extensão das mãos (MIDI, 60 = C4)
 """
 import sys, os, re, math
 from fractions import Fraction as F
@@ -52,6 +55,9 @@ CIFRA = re.compile(r'^([A-G])([#b]?)(' + '|'.join(sorted((re.escape(q) for q in 
 
 class Erro(Exception):
     pass
+
+
+TRANSP = 0   # @transpor da música sendo montada
 
 
 def midi_de(t):
@@ -91,7 +97,7 @@ def evento(tok):
         alt, d = tok, F(1)
     if alt == 'R':
         return [], d, False
-    ms = [midi_de(x) for x in alt.split('+')]
+    ms = [midi_de(x) + TRANSP for x in alt.split('+')]
     if len(set(ms)) != len(ms):
         raise Erro(f'nota repetida no acorde "{tok}"')
     return sorted(ms), d, lig
@@ -102,8 +108,8 @@ def cifra(tok):
     if not m:
         raise Erro(f'cifra inválida "{tok}"')
     r, a, q, b, ba = m.groups()
-    raiz = (BASE[r] + (1 if a == '#' else -1 if a == 'b' else 0)) % 12
-    baixo = raiz if not b else (BASE[b] + (1 if ba == '#' else -1 if ba == 'b' else 0)) % 12
+    raiz = (BASE[r] + (1 if a == '#' else -1 if a == 'b' else 0) + TRANSP) % 12
+    baixo = raiz if not b else (BASE[b] + (1 if ba == '#' else -1 if ba == 'b' else 0) + TRANSP) % 12
     return raiz, [(raiz + i) for i in QUAL[q or '']], baixo
 
 
@@ -228,8 +234,15 @@ def montar(caminho, avisos=None):
     """-> dict com cabeçalho e eventos [(inicio,dur,mao,midis)], secoes [(inicio,rotulo)]"""
     if avisos is None:
         avisos = []
+    global TRANSP
     cab, secoes = ler(caminho)
     nome = os.path.basename(caminho)
+    try:
+        TRANSP = int(cab.get('transpor', '0'))
+    except ValueError:
+        raise Erro(f'{nome}: @transpor deve ser inteiro (semitons)')
+    if abs(TRANSP) > 24:
+        raise Erro(f'{nome}: @transpor fora de -24..24')
     for k in ('titulo', 'nivel', 'bpm'):
         if k not in cab:
             raise Erro(f'{nome}: falta @{k}')
@@ -383,7 +396,7 @@ def fmt(x):
 def compilar_um(m, categoria):
     c = m['cab']
     L = [f'titulo={c["titulo"]}', f'nivel={c["nivel"]}', f'bpm={m["bpm"]}', f'compasso={fmt(m["tam"])}',
-         f'anacruse={fmt(m["anac"])}', f'categoria={categoria}']
+         f'anacruse={fmt(m["anac"])}', f'categoria={categoria}', f'tom={c.get("tom", "")}']
     for t, r in m['secoes']:
         L.append(f'secao={fmt(t)} {r}')
     L.append('---')
@@ -421,6 +434,34 @@ def resumo(m):
     todos = [x for e in ev for x in e[3]]
     return (f'{m["cab"]["titulo"]} | {m["cab"]["nivel"]} | {m["bpm"]} bpm | {m["segundos"]:.0f}s | '
             f'{len(m["secoes"])} seções | D {nd} notas, E {ne} notas | {min(todos)}..{max(todos)}')
+
+
+NOMES_PC = ['Dó', 'Dó#', 'Ré', 'Mib', 'Mi', 'Fá', 'Fá#', 'Sol', 'Láb', 'Lá', 'Sib', 'Si']
+_MAIOR = [6.35, 2.23, 3.48, 2.33, 4.38, 4.09, 2.52, 5.19, 2.39, 3.66, 2.29, 2.88]
+_MENOR = [6.33, 2.68, 3.52, 5.38, 2.60, 3.53, 2.54, 4.75, 3.98, 2.69, 3.34, 3.17]
+
+
+def tom_estimado(m):
+    """Krumhansl-Schmuckler sobre as notas já transpostas (peso = duração); + extensão da mão direita."""
+    h = [0.0] * 12
+    for t, d, mao, ms in m['eventos']:
+        for x in ms:
+            h[x % 12] += float(d)
+    def corr(a, b):
+        ma, mb = sum(a) / 12, sum(b) / 12
+        num = sum((x - ma) * (y - mb) for x, y in zip(a, b))
+        den = math.sqrt(sum((x - ma) ** 2 for x in a) * sum((y - mb) ** 2 for y in b)) or 1
+        return num / den
+    cand = []
+    for r in range(12):
+        rot = h[r:] + h[:r]
+        cand.append((corr(rot, _MAIOR), NOMES_PC[r] + ' maior'))
+        cand.append((corr(rot, _MENOR), NOMES_PC[r] + ' menor'))
+    cand.sort(reverse=True)
+    d = sorted(x for e in m['eventos'] if e[2] == 'D' for x in e[3])
+    e = [x for ev in m['eventos'] if ev[2] == 'E' for x in ev[3]]
+    ext = f'D {d[0]}..{d[-1]} mediana {d[len(d)//2]}' + (f' | E {min(e)}..{max(e)}' if e else '')
+    return f'{cand[0][1]} ({cand[0][0]:.2f}; 2º {cand[1][1]} {cand[1][0]:.2f}) | {ext}'
 
 
 def main():
@@ -466,6 +507,12 @@ def main():
             f.write('\n'.join(indice) + '\n')
         print(f'{n} músicas compiladas, {falhas} com erro')
         sys.exit(1 if falhas else 0)
+    elif cmd == 'tom':
+        for a in sys.argv[2:]:
+            try:
+                print(tom_estimado(montar(a)), ' ', os.path.basename(a))
+            except Erro as e:
+                print('ERRO ' + str(e))
     elif cmd == 'midi':
         exportar_midi(montar(sys.argv[2]), sys.argv[3])
     else:

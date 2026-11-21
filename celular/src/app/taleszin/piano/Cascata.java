@@ -1,6 +1,7 @@
 package app.taleszin.piano;
 
 import android.content.Context;
+import android.graphics.BlurMaskFilter;
 import android.graphics.Canvas;
 import android.graphics.LinearGradient;
 import android.graphics.Paint;
@@ -33,7 +34,9 @@ final class Cascata extends View {
     private static final float JANELA = 450f;          // aprender: pode tocar até 450 ms antes
     private static final float JANELA_D = 260f;        // desafio: antes/depois
     private static final float LONGA = 450f;
-    private static final float NMIN = 12, NMAX = 24;
+    private static final float NMIN = 10;
+    /** Zoom máximo: uma mão cabe em ~2 oitavas com teclas largas; duas mãos/autoplay abrem mais. */
+    private float nmax() { return demo || maos == DUAS ? 21 : 15; }
 
     private final Teclado teclado;
     private final Sintetizador synth;
@@ -77,11 +80,21 @@ final class Cascata extends View {
     // janela do teclado
     private float alvoIni, alvoN;
     // partículas
-    private static final int NP = 96;
+    private static final int NP = 240;
     private final float[] px = new float[NP], py = new float[NP], pvx = new float[NP], pvy = new float[NP], pv = new float[NP];
     private final int[] pc = new int[NP];
     private int pProx;
     private long ultimoP;
+    // feixes de luz subindo da tecla e textos de julgamento sobre a tecla
+    private static final int NB = 24;
+    private final int[] bMidi = new int[NB], bCor = new int[NB];
+    private final long[] bEm = new long[NB];
+    private final String[] bTxt = new String[NB];
+    private int bProx;
+    private long flashEm, ultimaFaisca;
+    private final Paint pGlow = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private final Paint pFeixe = new Paint();
+    private final Paint pJulg = new Paint(Paint.ANTI_ALIAS_FLAG);
 
     private final Paint pNota = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Paint pBorda = new Paint(Paint.ANTI_ALIAS_FLAG);
@@ -110,6 +123,15 @@ final class Cascata extends View {
         pLinha.setStrokeWidth(4 * dp);
         pFaixa.setColor(0x10FFFFFF);
         pAnel.setStyle(Paint.Style.STROKE);
+        pGlow.setMaskFilter(new BlurMaskFilter(10 * dp, BlurMaskFilter.Blur.NORMAL));
+        pJulg.setTextAlign(Paint.Align.CENTER); pJulg.setFakeBoldText(true);
+        pJulg.setShadowLayer(3 * dp, 0, 1 * dp, 0xFF000000);
+    }
+
+    private void feixe(int midi, int cor, String txt) {
+        int i = bProx; bProx = (bProx + 1) % NB;
+        bMidi[i] = midi; bCor[i] = cor; bEm[i] = SystemClock.uptimeMillis(); bTxt[i] = txt;
+        flashEm = bEm[i];
     }
 
     void setFim(Fim f) { fim = f; }
@@ -191,8 +213,8 @@ final class Cascata extends View {
         if (lo > hi) { lo = 60; hi = 72; }
         int gl = Teclado.branca(lo), gh = Teclado.branca(hi) + (Teclado.preta(hi) ? 1 : 0);
         float span = gh - gl + 2;
-        janelaFixa = span <= NMAX;
-        alvoN = Math.max(NMIN - 2, Math.min(NMAX, span));
+        janelaFixa = span <= nmax();
+        alvoN = Math.max(NMIN, Math.min(nmax(), span));
         if (janelaFixa) alvoIni = (gl + gh + 1) / 2f - alvoN / 2f;
         else { alvoIni = gl - 1; calcularAlvo(); }
         teclado.setJanela(alvoIni, alvoN);
@@ -292,6 +314,8 @@ final class Cascata extends View {
                 res.acertos++;
                 acertou[k][j] = true; acertoEm[k] = agora;
                 faiscas(midi, maoEv[k], base == 100);
+                feixe(midi, maoEv[k] == Musicas.E ? Teclado.AZUL : (base == 100 ? VERDE : Teclado.LARANJA),
+                      base == 100 ? "Perfeito" : base == 60 ? (desafio ? "Ótimo" : "Boa") : "Ok");
                 if (base == 100) teclado.vibrarAcerto();
                 for (int h = 0; h < nHold; h++) if (holdMidi[h] == midi) { fecharHold(h, false); h--; }
                 float dB = dEv[k] / (60000f / m.bpm);
@@ -358,7 +382,7 @@ final class Cascata extends View {
                 synth.tocar(x, demo ? 0.72f : 0.5f);
                 teclado.setDemo(x, maoEv[k], true);
                 autoAtivas.add(new int[]{k, x});
-                if (demo) { acertoEm[k] = agora; faiscas(x, maoEv[k], false); }
+                if (demo) { acertoEm[k] = agora; faiscas(x, maoEv[k], false); feixe(x, maoEv[k] == Musicas.E ? Teclado.AZUL : Teclado.LARANJA, null); }
             }
         }
         for (int i = autoAtivas.size() - 1; i >= 0; i--) {
@@ -384,7 +408,7 @@ final class Cascata extends View {
         if (!teclado.coluna(midi, col)) return;
         float cx = col[0] + col[1] / 2, cy = getHeight() - 6 * dp;
         int cor = mao == Musicas.E ? Teclado.AZUL : (forte ? OURO : Teclado.LARANJA);
-        int n = forte ? 10 : 5;
+        int n = forte ? 16 : 8;
         for (int i = 0; i < n; i++) {
             int p = pProx; pProx = (pProx + 1) % NP;
             double a = Math.PI * (1.1 + 0.8 * Math.random());
@@ -430,19 +454,38 @@ final class Cascata extends View {
             }
         }
 
-        // linha de toque (dourada com multiplicador máximo)
+        // feixes de luz subindo da tecla acertada (atrás das notas)
+        for (int i = 0; i < NB; i++) {
+            if (bEm[i] == 0 || agora - bEm[i] > 650 || !teclado.coluna(bMidi[i], col)) continue;
+            float q = (agora - bEm[i]) / 650f;
+            float topo = linhaY - (120 + 100 * q) * dp;
+            int a = (int) (170 * (1 - q) * (1 - q));
+            int rgb = bCor[i] & 0x00FFFFFF;
+            pFeixe.setShader(new LinearGradient(0, topo, 0, linhaY, rgb, rgb | (a << 24), Shader.TileMode.CLAMP));
+            c.drawRect(col[0] + col[1] * 0.08f, topo, col[0] + col[1] * 0.92f, linhaY, pFeixe);
+        }
+        pFeixe.setShader(null);
+
+        // linha de toque (dourada com multiplicador máximo; brilha a cada acerto)
         int corLinha = mult() >= 4 && !demo ? OURO : Teclado.LARANJA;
+        float fl = Math.max(0, 1 - (agora - flashEm) / 220f);
+        pGlow.setColor(corLinha); pGlow.setAlpha((int) (90 + 140 * fl));
+        c.drawRect(0, linhaY - (3 + 5 * fl) * dp, W, linhaY + (3 + 5 * fl) * dp, pGlow);
         pLinha.setColor(corLinha);
-        pLinha.setAlpha(esperando ? 255 : 200);
+        pLinha.setAlpha(esperando ? 255 : 210);
+        pLinha.setStrokeWidth((3 + 2 * fl) * dp);
         c.drawLine(0, linhaY, W, linhaY, pLinha);
 
         // notas (pula as que já passaram há mais de 1,5 s)
+        float batidaMs = 60000f / m.bpm;
         while (primeiro < nEv && tEv[primeiro] + dEv[primeiro] < t - 1500 && (demo || !jogavel[primeiro] || pos >= nG || tEv[primeiro] < tG[pos])) primeiro++;
         for (int k = primeiro; k < nEv; k++) {
             float baseY = linhaY - (tEv[k] - t) * pxMs;
             if (baseY < 0) break;
             float alt = Math.max(dEv[k] * pxMs - 4 * dp, 22 * dp);
             if (baseY - alt > H && acertoEm[k] == 0 && !jogavel[k]) continue;
+            float dB = dEv[k] / batidaMs;
+            boolean ehLonga = longa(dB, dEv[k]);
             for (int j = 0; j < notasEv[k].length; j++) {
                 int midi = notasEv[k][j];
                 if (!teclado.coluna(midi, col)) continue;
@@ -456,22 +499,34 @@ final class Cascata extends View {
                     continue;
                 }
                 boolean hit = demo ? acertoEm[k] != 0 : acertou[k][j];
-                boolean ativa = false;
+                float frac = -1;
                 if (hit) {
-                    if (demo) ativa = t < tEv[k] + dEv[k] * 0.93f;
-                    else for (int h = 0; h < nHold; h++) if (holdEv[h] == k && holdMidi[h] == midi) ativa = true;
+                    if (demo) { if (t < tEv[k] + dEv[k] * 0.93f) frac = (t - tEv[k]) / dEv[k]; }
+                    else for (int h = 0; h < nHold; h++) if (holdEv[h] == k && holdMidi[h] == midi)
+                        frac = (t - holdDesde[h]) / Math.max(1f, tEv[k] + dEv[k] - holdDesde[h]);
                 }
-                if (hit && ativa) {                  // cauda consumida na linha
+                float cx = col[0] + col[1] / 2;
+                if (hit && frac >= 0) {              // segurando: a cauda é consumida na linha
                     float topo = baseY - alt;
                     if (topo < linhaY) {
                         float pad = col[1] * 0.06f;
                         r.set(col[0] + pad, Math.max(0, topo), col[0] + col[1] - pad, linhaY);
+                        pGlow.setColor(corBase); pGlow.setAlpha(200);
+                        c.drawRoundRect(r, 7 * dp, 7 * dp, pGlow);
                         pNota.setColor(maoEv[k] == Musicas.E ? 0xFFB3E1FF : 0xFFFFE0B2);
                         c.drawRoundRect(r, 7 * dp, 7 * dp, pNota);
                         pAnel.setColor(corBase); pAnel.setAlpha(255); pAnel.setStrokeWidth(2.5f * dp);
                         c.drawRoundRect(r, 7 * dp, 7 * dp, pAnel);
-                        pAnel.setAlpha(120 + (int) (100 * Math.abs(Math.sin(agora / 90.0))));
-                        c.drawCircle(col[0] + col[1] / 2, linhaY, col[1] * 0.35f, pAnel);
+                        // anel de progresso do segurar em volta da tecla
+                        float rr = Math.max(14 * dp, col[1] * 0.42f);
+                        r2.set(cx - rr, linhaY - rr, cx + rr, linhaY + rr);
+                        pAnel.setColor(0x55FFFFFF); pAnel.setStrokeWidth(4 * dp);
+                        c.drawCircle(cx, linhaY, rr, pAnel);
+                        pAnel.setColor(frac > 0.85f ? VERDE : OURO); pAnel.setAlpha(255);
+                        c.drawArc(r2, -90, 360 * Math.min(1f, frac), false, pAnel);
+                        if (agora - ultimaFaisca > 60) { ultimaFaisca = agora; faiscas(midi, maoEv[k], false); }
+                        if (!demo) { pJulg.setColor(0xFFFFFFFF); pJulg.setTextSize(12 * dp);
+                            c.drawText("SEGURE", cx, linhaY - rr - 6 * dp, pJulg); }
                     }
                     continue;
                 }
@@ -481,29 +536,55 @@ final class Cascata extends View {
                         float q = dtA / 350f;
                         pAnel.setColor(corBase); pAnel.setAlpha((int) (255 * (1 - q)));
                         pAnel.setStrokeWidth(4 * dp * (1 - q) + 1);
-                        c.drawCircle(col[0] + col[1] / 2, linhaY, col[1] * 0.3f + 30 * dp * q, pAnel);
+                        c.drawCircle(cx, linhaY, col[1] * 0.3f + 30 * dp * q, pAnel);
                     }
                     continue;
                 }
                 float topo = baseY - alt;
                 if (topo > H) continue;
                 float pad = col[1] * 0.08f;
-                r.set(col[0] + pad, topo, col[0] + col[1] - pad, Math.min(baseY, linhaY));
-                pNota.setColor(corBase);
+                float fundo = Math.min(baseY, linhaY);
                 boolean atual = !demo && pos < nG && Math.abs(tEv[k] - tG[pos]) < 2f;
-                if (!atual) pNota.setAlpha(205);
-                c.drawRoundRect(r, 7 * dp, 7 * dp, pNota);
-                float dB = dEv[k] / (60000f / m.bpm);
-                if (longa(dB, dEv[k]) && r.height() > 44 * dp) {
-                    float cx = r.centerX(), lw = Math.max(3 * dp, r.width() * 0.12f);
-                    pNota.setColor(0x88FFFFFF);
-                    r2.set(cx - lw / 2, r.top + 8 * dp, cx + lw / 2, r.bottom - 24 * dp);
-                    c.drawRoundRect(r2, lw / 2, lw / 2, pNota);
+                float cab = ehLonga ? Math.min(alt, 30 * dp) : alt;      // nota longa = cabeça + cauda
+                if (ehLonga) {
+                    float lw = col[1] * 0.3f;
+                    r2.set(cx - lw, topo, cx + lw, baseY - cab + 6 * dp);
+                    if (r2.bottom > r2.top) {
+                        pNota.setColor((corBase & 0x00FFFFFF) | 0xB0000000);
+                        c.drawRoundRect(r2, lw, lw, pNota);
+                        pAnel.setColor(0xFFFFFFFF); pAnel.setAlpha(150); pAnel.setStrokeWidth(1.5f * dp);
+                        c.drawRoundRect(r2, lw, lw, pAnel);
+                        pNota.setColor(0x99FFFFFF);            // um risco por tempo: mostra quanto segurar
+                        for (int b = 1; b < (int) Math.ceil(dB - 0.01f); b++) {
+                            float yb = baseY - b * batidaMs * pxMs;
+                            if (yb < r2.top + 3 * dp || yb > r2.bottom - 2 * dp) continue;
+                            c.drawRect(cx - lw * 0.7f, yb - dp * 0.75f, cx + lw * 0.7f, yb + dp * 0.75f, pNota);
+                        }
+                        if (r2.height() > 64 * dp && lw * 2 > 11 * dp) {
+                            c.save(); c.rotate(-90, cx, (r2.top + r2.bottom) / 2);
+                            pJulg.setColor(0xDDFFFFFF); pJulg.setTextSize(Math.min(11 * dp, lw * 1.3f));
+                            c.drawText("segure " + Math.round(dB) + (Math.round(dB) == 1 ? " tempo" : " tempos"), cx, (r2.top + r2.bottom) / 2 + 4 * dp, pJulg);
+                            c.restore();
+                        }
+                    }
                 }
+                r.set(col[0] + pad, baseY - cab, col[0] + col[1] - pad, fundo);
+                if (r.bottom <= r.top) continue;
+                if (atual) {                          // brilho no alvo da vez
+                    pGlow.setColor(corBase); pGlow.setAlpha(230);
+                    r2.set(r.left - 3 * dp, r.top - 3 * dp, r.right + 3 * dp, r.bottom + 3 * dp);
+                    c.drawRoundRect(r2, 9 * dp, 9 * dp, pGlow);
+                }
+                pNota.setColor(corBase);
+                if (!atual) pNota.setAlpha(215);
+                c.drawRoundRect(r, 7 * dp, 7 * dp, pNota);
+                pNota.setColor(0x33FFFFFF);               // reflexo no topo
+                r2.set(r.left + 2 * dp, r.top + 2 * dp, r.right - 2 * dp, r.top + Math.min(r.height() * 0.4f, 10 * dp));
+                c.drawRoundRect(r2, 5 * dp, 5 * dp, pNota);
                 if (atual) c.drawRoundRect(r, 7 * dp, 7 * dp, pBorda);
                 if (r.height() > 20 * dp && r.width() > 16 * dp) {
-                    pTexto.setTextSize(Math.min(13 * dp, r.width() * 0.42f));
-                    c.drawText(Teclado.nome(midi, teclado.nomesCde()), r.centerX(), r.bottom - 7 * dp, pTexto);
+                    pTexto.setTextSize(Math.min(14 * dp, r.width() * 0.42f));
+                    c.drawText(Teclado.nome(midi, teclado.nomesCde()), cx, r.bottom - 7 * dp, pTexto);
                 }
             }
         }
@@ -511,7 +592,7 @@ final class Cascata extends View {
         // partículas
         float dtP = ultimoP == 0 ? 16 : Math.min(50, agora - ultimoP);
         ultimoP = agora;
-        boolean vivas = false;
+        boolean vivas = false, vivasFx = agora - flashEm < 650;
         for (int i = 0; i < NP; i++) {
             if (pv[i] <= 0) continue;
             vivas = true;
@@ -519,6 +600,25 @@ final class Cascata extends View {
             pv[i] -= dtP / 520f;
             pPart.setColor(pc[i]); pPart.setAlpha((int) (255 * Math.max(0, pv[i])));
             c.drawCircle(px[i], py[i], 2.6f * dp * (0.4f + pv[i]), pPart);
+        }
+
+        // julgamento sobre a tecla ("Perfeito", "Boa"...)
+        for (int i = 0; i < NB; i++) {
+            if (bTxt[i] == null || agora - bEm[i] > 650 || !teclado.coluna(bMidi[i], col)) continue;
+            float q = (agora - bEm[i]) / 650f;
+            pJulg.setColor(bCor[i]); pJulg.setAlpha((int) (255 * (1 - q * q)));
+            pJulg.setTextSize(13 * dp * (1.1f - 0.1f * q));
+            c.drawText(bTxt[i], col[0] + col[1] / 2, linhaY - (34 + 46 * q) * dp, pJulg);
+            vivasFx = true;
+        }
+        // borda dourada com multiplicador máximo
+        if (!demo && mult() >= 4) {
+            int a = (int) (60 + 40 * Math.sin(agora / 260.0));
+            pFeixe.setShader(new LinearGradient(0, 0, 18 * dp, 0, (a << 24) | (OURO & 0xFFFFFF), OURO & 0xFFFFFF, Shader.TileMode.CLAMP));
+            c.drawRect(0, 0, 18 * dp, linhaY, pFeixe);
+            pFeixe.setShader(new LinearGradient(W, 0, W - 18 * dp, 0, (a << 24) | (OURO & 0xFFFFFF), OURO & 0xFFFFFF, Shader.TileMode.CLAMP));
+            c.drawRect(W - 18 * dp, 0, W, linhaY, pFeixe);
+            pFeixe.setShader(null);
         }
 
         // placar
@@ -572,6 +672,6 @@ final class Cascata extends View {
             c.drawText(aviso, W / 2f, H * 0.42f, pAviso);
         }
 
-        if (rodando || nHold > 0 || vivas || (aviso != null && agora - avisoEm < 700)) postInvalidateOnAnimation();
+        if (rodando || nHold > 0 || vivas || vivasFx || (aviso != null && agora - avisoEm < 700)) postInvalidateOnAnimation();
     }
 }
