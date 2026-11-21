@@ -1,0 +1,52 @@
+@titulo Faded (Alan Walker)
+@nivel Médio
+@bpm 90
+@compasso 4/4
+@padrao baixo-acorde
+@forma Intro V1 Pre1 RefA Drop V2 Pre2 Inter RefA Drop
+@fonte freemidi.org (Faded, arranjo M-Live): canto da trilha Pan Flute, gancho do drop da trilha Lead, intro do piano; tom Ré menor (original Ré# menor); os 2 compassos de 6/4 do MIDI viraram 4/4 + meia pausa
+
+[Intro] Intro (piano)
+D: F4 F4 F4 A4 | D5 D5 D5 C5 | A4 A4 A4 A4 | E4 E4 E4 D4
+E: D3:.5 A3:.5 F3:.5 A3:.5 D3:.5 A3:.5 F3:.5 A3:.5 | A#2:.5 F3:.5 D3:.5 F3:.5 A#2:.5 F3:.5 D3:.5 F3:.5 | F3:.5 C4:.5 A3:.5 C4:.5 F3:.5 C4:.5 A3:.5 C4:.5 | C3:.5 G3:.5 E3:.5 G3:.5 C3:.5 G3:.5 E3:.5 G3:.5
+
+[V1] Verso 1 (You were the shadow)
+D: R:.5 F4:.5 F4:.5 D4:.5 F4:.5 D4:.5 F4:.5 G4:.5 | A4 F4:.5 F4:.5 C4:.5 A4:1.5 | R:2.5 F4:.5 F4:.5 G4:.5 | E4:1.5 E4:.5 E4:.5 D4:.5 F4
+D: R:.5 F4:.5 F4:.5 D4:.5 F4:.5 D4:.5 F4:.5 G4:.5 | A4 F4:.5 F4:.5 C5:.5 A4:1.5 | R:2.5 F4:.5 F4:.5 G4:.5 | R:2.5 A4:.5 A4:.5 A4:.5
+C: Dm | Bb | F | C | Dm | Bb | F | C
+@padrao balada
+
+[Pre1] Pré-refrão (Where are you now)
+D: A4 R:3 | R:2.5 A4:.5 A4:.5 A4:.5 | A4:.5 R:3.5 | R:2.5 A4:.5 A4:.5 A4:.5
+D: A4:.5 R:1.75 F4:.5 G4:.25 G4:.5 G4:.25 A4:.25 | G4:.5 F4:.5 F4:1.5 A4:.5 A4:.5 A4:.5 | A4:.5 R:2 F4:.25 F4:.25 F4:.5 G4:.5 | F4:.5 E4:.5 E4:.5 E4:.5 R:2
+D: R:.5 A4:.5 A4:.5 A4:.5 R:2
+C: Dm | Bb | F | C | Dm | Bb | F | C | C:2 -:2
+
+[RefA] Refrão (Atlantis)
+D: A4 R:2.5 C4:.5 | D4:.5 C4:.5 C4:.5 R F4:.5 C5:.5 C5:.25 A4:.25~ | A4 R:1.5 F4:.5 C5:.5 C5:.25 A4:.25~ | A4:1.5 G4 A4:.5 A4:.5 A4:.5
+D: A4 R:1.5 F4:.5 F4:.5 D4:.25 A#4:.25~ | A#4:2 R:1.5 C5:.5 | A4:.5 C5:.5 A4:.5 C5:.5 A4:.5 C5:.5 A4:.5 G4:.25 A#4:.25~ | A#4:1.5 D4:.5 A#4 A4
+C: Dm | Bb | F | C | Dm | Bb | F | C
+@padrao arpejo
+
+[Drop] Drop (I’m faded) - gancho do synth
+D: F4:.25 F4:.25 F4:.5 F4:.25 F4:.25 F4:.5 A4:.25 A4:.25 F5:.25 F5:.25 F5:.25 F5:.25 E5:.25 E5:.25 | D5:.25 D5:.25 D5:.5 D5:.25 D5:.25 C5:.5 C5:.25 C5:.25 C5:.5 G4:.25 G4:.25 G4:.5 | A4:.25 A4:.25 A4:.5 A4:.25 A4:.25 A4:.5 C5:.25 C5:.25 A#4:.5 A4:.25 G4:.25 F4:.25 E4:.25 | E4:.25 E4:.25 E4:.5 E4:.25 E4:.25 E4:.5 G4:.25 G4:.25 G4:.5 E4:.25 E4:.25 E4:.5
+D: F4:.25 F4:.25 F4:.5 F4:.25 F4:.25 F4:.5 A4:.25 A4:.25 F5:.25 F5:.25 F5:.25 F5:.25 E5:.25 E5:.25 | D5:.25 D5:.25 D5:.5 D5:.25 D5:.25 C5:.5 C5:.25 C5:.25 C5:.5 G4:.25 G4:.25 G4:.5 | A4:.25 A4:.25 A4:.5 A4:.25 A4:.25 A4:.5 C5:.25 C5:.25 A#4:.5 A4:.25 G4:.25 F4:.25 E4:.25 | E4:.25 E4:.25 E4:.5 E4:.25 E4:.25 E4:.5 F4:.25 F4:.25 F4:.5 G4:.25 G4:.25 F4:.5
+C: Dm | Bb | F | C | Dm | Bb | F | C
+@padrao oitavas
+
+[V2] Verso 2 (These shallow waters)
+D: R:.5 F4:.5 F4:.5 F4:.5 F4:.5 D4:.5 F4:.5 G4:.5 | A4 F4:.5 F4:.5 C4:.5 A4:1.5 | R:2.5 F4:.5 F4:.5 F4:.5 | E4:.5 R E4:.5 E4:.5 D4:.5 F4
+D: R:.5 F4:.5 F4:.5 G4:.5 F4:.5 D4:.5 F4:.5 G4:.5 | A4:.5 R F4:.5 C5:.75 A4:1.25 | R:2.5 F4:.5 F4:.5 G4:.5~ | G4:.25 R:2.25 A4:.5 A4:.5 A4:.5
+C: Dm | Bb | F | C | Dm | Bb | F | C
+@padrao balada
+
+[Pre2] Pré-refrão 2 (Under the bright but faded lights)
+D: A4 R:3 | R:2.5 A4:.5 A4:.5 A4:.5 | A4:.5 R:3.5 | R:2.5 F4:.5 C5:.5 C5:.25 A4:.25~
+D: A4:.5 F4:.5 C5:.5 C5:.25 A4:.75 F4:.5 C5:.5 C5:.25 G4:.25~ | G4:.5 F4:.5 F4:.5 G4 F4:.5 C5:.5 C5:.25 A4:.25~ | A4:2.5 F4:.5 C5:.5 C5:.25 A4:.25 | G4:2 R:2
+C: Dm | Bb | F | C | Dm | Bb | F | C
+
+[Inter] Virada (Where are you now)
+D: F5:.5 F5:.5 F5:.5 F5:.5 F5:.5 F5:.5 F5:.25 F5:.25 F5:.25 F5:.25 | F5:.5 F5:.5 F5:.5 F5:.5 F5:.5 F5:.5 F5:.5 F5:.5 | F5:.5 F5:.5 F5:.5 F5:.5 F5:.5 F5:.5 F5:.25 F5:.25 F5:.25 F5:.25 | E5:.5 E5:.5 E5:.5 E5:.5 E5:.5 E5:.5 E5:.5 E5:.5
+D: R:.5 A4:.5 A4:.5 A4:.5 R:2
+C: Dm | Bb | F | C | -
+@padrao oitavas

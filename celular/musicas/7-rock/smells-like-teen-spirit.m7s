@@ -1,0 +1,41 @@
+@titulo Smells Like Teen Spirit (Nirvana)
+@nivel Médio
+@bpm 117
+@compasso 4/4
+@padrao oitavas
+@forma Riff*4 Verso Pre Refrao Riff*4 Verso Pre Refrao Riff*4 Solo Verso Pre Refrao Final
+@fonte bitmidi: https://bitmidi.com/nirvana-smells-like-teen-spirit-k-mid (melodia trilha 3, transposta de Fá menor para Lá menor); riff e cifras da gravação
+
+[Riff] Riff (guitarra)
+D: A3+E4:.75 A3+E4:.25 A3+E4:.75 A3+E4:.25 A3+E4:.25 A3+E4:.25 D4+A4:.5 D4+A4:.5 R:.5 | C4+G4:.75 C4+G4:.25 C4+G4:.75 C4+G4:.25 C4+G4:.25 C4+G4:.25 F4+C5:.5 F4+C5:.5 R:.5
+C: A5:2.5 D5:1.5 | C5:2.5 F5:1.5
+
+[Verso] Verso
+D: R:1 E4:.5 G4 A4:.75 R:.25 C4:.5~ | C4:1.25 R:.75 A4 G4 | E4 F4:.5 E4 D4 R:.5 | C4 D4:.5 E4 D4:.5 C4:.5 B3:.5
+D: R:1 E4:.5 G4 A4:.75 R:.25 C4:.5~ | C4:1.25 R:.75 A4 G4 | E4 F4:.5 E4 D4 R:.5 | C4 D4:.5 E4 D4:.5 C4:.5 B3:.5
+C: A5:2.5 D5:1.5 | C5:2.5 F5:1.5 | A5:2.5 D5:1.5 | C5:2.5 F5:1.5
+C: A5:2.5 D5:1.5 | C5:2.5 F5:1.5 | A5:2.5 D5:1.5 | C5:2.5 F5:1.5
+
+[Pre] Pré-refrão (Hello, hello)
+D: B3 C4:.5 B3 R:.5 C4:.5 B3:.5~ | B3:.5 R:.5 C4:.5 B3 C4:.5 B3:.5 B3:.5 | A3:.5 R:.5 C4:.5 B3 R:.5 C4:.5 B3:.5~ | B3:.5 R:.5 C4:.5 B3 C4:.5 B3:.5 B3:.5
+D: A3:.5 R:.5 C4:.5 B3 R:.5 C4:.5 B3:.5~ | B3:.5 R:.5 C4:.5 B3 C4:.5 B3:.5 B3:.5 | A3:.5 R:.5 C4:.5 B3:1.25 R:.25 C4:.5 B3:.5~ | B3:.75 R:.25 C4:.5 B3 C5:.5 B4:.5 B4:.5
+C: A5:2.5 D5:1.5 | C5:2.5 F5:1.5 | A5:2.5 D5:1.5 | C5:2.5 F5:1.5
+C: A5:2.5 D5:1.5 | C5:2.5 F5:1.5 | A5:2.5 D5:1.5 | C5:2.5 F5:1.5
+
+[Refrao] Refrão
+D: R:.5 A4:2 D5:.5 D5:.5 D5:.5~ | D5:.5 C5:2 F4:.5 F4:.5 F4:.5~ | F4:.5 E4:1.25 R:.75 D5:.5 D5:.5 D5:.5~ | D5:.5 C5:2 C5:.5 B4:.5 B4:.5~
+D: B4:.5 A4:1.25 R:.75 D5:.5 D5:.5 D5:.5~ | D5:.5 C5:2 F4:.5 F4:.5 F4:.5~ | F4:.5 E4:1.25 R:.75 D5:.5 D5:.5 D5:.5~ | D5:.5 C5:2 C5:1.25 R:.25
+C: A5:2.5 D5:1.5 | C5:2.5 F5:1.5 | A5:2.5 D5:1.5 | C5:2.5 F5:1.5
+C: A5:2.5 D5:1.5 | C5:2.5 F5:1.5 | A5:2.5 D5:1.5 | C5:2.5 F5:1.5
+
+[Solo] Solo (guitarra canta o verso)
+D: R:1 E4:.5 G4 A4:.75 R:.25 C4:.5~ | C4:1.25 R:.75 A4 G4 | E4 F4:.5 E4 D4 R:.5 | C4 D4:.5 E4 D4:.5 C4:.5 B3:.5
+D: R:1 E4:.5 G4 A4:.75 R:.25 C4:.5~ | C4:1.25 R:.75 A4 G4 | E4 F4:.5 E4 D4 R:.5 | C4 D4:.5 E4 D4:.5 C4:.5 B3:.5
+C: A5:2.5 D5:1.5 | C5:2.5 F5:1.5 | A5:2.5 D5:1.5 | C5:2.5 F5:1.5
+C: A5:2.5 D5:1.5 | C5:2.5 F5:1.5 | A5:2.5 D5:1.5 | C5:2.5 F5:1.5
+
+[Final] Final (A denial)
+D: R:.5 A4:2 C5:.5 B4:.5 B4:.5~ | B4:.5 A4:2 C5:.5 B4:.5 B4:.5~ | B4:.5 A4:2 C5:.5 B4:.5 B4:.5~ | B4:.5 A4:2 C5:.5 B4:.5 B4:.5~
+D: B4:.5 A4:2 C5:.5 B4:.5 B4:.5~ | B4:.5 A4:2 C5:.5 B4:.5 B4:.5~ | B4:.5 A4:2 C5:.5 B4:.5 B4:.5~ | B4:.5 A4:2 C5:.5 B4:.5 B4:.5~ | B4:.5 A4:3.5~ | A4:3.5 R:.5
+C: A5:2.5 D5:1.5 | C5:2.5 F5:1.5 | A5:2.5 D5:1.5 | C5:2.5 F5:1.5
+C: A5:2.5 D5:1.5 | C5:2.5 F5:1.5 | A5:2.5 D5:1.5 | C5:2.5 F5:1.5 | A5 | A5

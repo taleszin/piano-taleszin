@@ -1,0 +1,55 @@
+@titulo Shake It Off (Taylor Swift)
+@nivel Médio
+@bpm 160
+@compasso 4/4
+@padrao baixo-acorde
+@forma V1 Pre R R2 V2 Pre R R2 Ponte R R2 Fim*2 Final
+@fonte bitmidi: taylor_swift-shake_it_off.mid (trilha de sax que dobra o canto), oitava abaixo; os "play, play, play" repetidos do refrão completados de memória; ponte falada omitida
+
+[V1] Verso 1
+D: R:2 D5:.5 B4:.5 A4:.5 G4:.5 | B4 R:3 | R:1.5 D4:.5 D5:.5 B4:.5 A4:.5 G4:.5 | B4 R:3
+D: R:2 D5:.5 B4:.5 A4:.5 G4:.5 | B4:.5 A4:.5 G4 R E4 | D4 R D5:.5 B4:.5 A4:.5 G4:.5 | B4:.5 A4:.5 G4 R E4
+D: D4 B3:.5 D4:.5 D5:.5 B4:.5 A4:.5 G4:.5 | B4 R:3 | R:1.5 D4:.5 D5:.5 B4:.5 A4:.5 G4:.5 | B4 R:3
+D: R:.5 D4:.5 D4 D5:.5 B4:.5 A4:.5 G4:.5 | B4:.5 A4:.5 G4 R E4 | D4 R D5:.5 B4:.5 A4:.5 G4:.5 | B4:.5 A4:.5 G4 R E4
+D: D4:.75 R:.25 B4 A4 G4
+C: G | Am7 | Am7 | C | C | G | G | G | G
+C: Am7 | Am7 | C | C | G | G | G | G
+
+[Pre] Pré-refrão
+D: A4:1.5 R:.5 E4:1.5 R:.5 | A4:.75 R:.25 B4:.75 R:.25 A4:.75 R:.25 G4:.75 R:.25 | A4:1.5 R:.5 E4 R:.5 E4:.5 | A4:.75 R:.25 B4:.75 R:.25 A4:.75 R:.25 G4:.75 R:.25
+D: A4:1.5 R:.5 G4:1.5 R:.5 | A4:.75 R:.25 B4:.75 R:.25 G4:.75 R:.25 E4:.5 G4:.5 | A4:.75 R:.25 A4:.5 B4:.5 A4:.5 G4 G4:.5~ | G4 R:2 E4:.5 G4:.5
+C: Am7 | Am7 | C | C | G | G | G | G
+
+[R] Refrão
+D: A4:.5 A4:.5 A4:.5 B4:.5 G4 G4 | G4 G4 G4 E4:.5 G4:.5 | A4:.5 A4:.5 A4:.5 B4:.5 G4 G4 | G4 G4 G4 R
+D: A4:.5 A4:.5 A4:.5 B4:.5 G4 G4 | G4 G4 G4 R:.5 G4:.5 | A4:.5 B4:.5 G4 R:.5 G4:.5 A4:.5 B4:.5 | G4 R:2 G4
+C: Am7 | Am7 | C | C | G | G | G | G
+
+[R2] Refrão
+D: A4:.5 A4:.5 A4:.5 B4:.5 G4 G4 | G4 G4 G4 E4:.5 G4:.5 | A4:.5 A4:.5 A4:.5 B4:.5 G4 G4 | G4 G4 G4 E4:.5 G4:.5
+D: A4:.5 A4:.5 A4:.5 B4:.5 G4 G4 | G4 G4 G4 R:.5 G4:.5 | A4:.5 B4:.5 G4 R:.5 G4:.5 A4:.5 B4:.5 | G4 R:.5 D4:.5 D5:.5 B4:.5 A4:.5 G4:.5
+C: Am7 | Am7 | C | C | G | G | G | G
+
+[V2] Verso 2
+D: B4 R:3 | R:1.5 D4:.5 D5:.5 B4:.5 A4:.5 G4:.5 | B4 R:3 | R:1.5 D4:.5 D5:.5 B4:.5 A4:.5 G4:.5
+D: B4:.5 A4:.5 G4 R E4 | D4 R D5:.5 B4:.5 A4:.5 G4:.5 | B4:.5 A4:.5 G4 R E4 | D4:.75 R:.25 B3:.5 D4:.5 D5:.5 B4:.5 A4:.5 G4:.5
+D: B4 R:3 | R:.5 D4:.5 E4:.5 D4:.5 D5:.5 B4:.5 A4:.5 G4:.5 | B4 R:3 | R:1.5 D4:.5 D5:.5 B4:.5 A4:.5 G4:.5
+D: B4:.5 A4:.5 G4 R E4 | D4 R D5:.5 B4:.5 A4:.5 G4:.5 | B4:.5 A4:.5 G4 R E4 | D4:.75 R:.25 B4 A4 G4
+C: Am7 | Am7 | C | C | G | G | G | G
+C: Am7 | Am7 | C | C | G | G | G | G
+
+[Ponte] Ponte
+D: E4:.5 G4:.5 A4:.5 B4 A4:.5 B4:.5 C5:.5 | D5:4~ | D5:1.5 C5 B4 G4:.5~ | G4:3 R
+D: A4:.5 A4:.5 A4:.5 B4:.5 G4 R | R:4 | R:3.5 G4:.5 | D5:.5 D5:.5 B4 R:.5 G4:.5 D5:.5 D5:.5
+D: B4 R:3 | R:4 | R D4:.5 A4 G4:1.5 | R:3.5 G4:.5~
+D: G4:1.5 E4:2 B3:.5~ | B3:.5 A3:.5 G3:3 | R:3.5 G4:.5 | D5:.5 D5:.5 B4 R:.5 G4:.5 D5:.5 D5:.5
+C: C | Am7 | Am7 | C | C | G | G | G | G | Am7 | Am7 | C | C | G | G | G
+
+[Fim] Final
+D: B4 R:.5 A4:.5 R:.5 G4:.5 R:.5 G4:.5 | A4:3 R | R:4 | R:4
+D: R:1.5 A4:.5 R:.5 B4:.5 R:.5 G4:.5~ | G4:3 R | R:3.5 G4:.5 | D5:.5 D5:.5 B4 R:.5 G4:.5 D5:.5 D5:.5
+C: G | Am7 | Am7 | C | C | G | G | G
+
+[Final] Fim
+D: G4:4
+C: G

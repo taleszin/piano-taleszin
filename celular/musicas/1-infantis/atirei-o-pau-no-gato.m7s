@@ -1,0 +1,23 @@
+@titulo Atirei o Pau no Gato (folclore)
+@nivel Fácil
+@bpm 116
+@compasso 2/4
+@padrao baixo
+@forma A A A8 A F
+@fonte partitura superpartituras.com.br (Atirei o Pau no Gato, marchinha, folclore, Dó 2/4), nota por nota; cifras da partitura
+# o compasso vazio no fim de cada volta é o "Miau!" falado
+
+[A] Estrofe
+D: G4:1.5 F4:.5 | E4:.5 D4:.5 E4:.5 F4:.5 | G4 G4 | G4 A4:.5 G4:.5 | F4 F4 | F4 G4:.5 F4:.5 | E4 E4 | E4 C4:.5 C4:.5
+D: A4 A4 | A4 B4:.5 A4:.5 | G4 G4 | G4 F4:.5 E4:.5 | G4 F4:.5 E4:.5 | G4:.5 F4:.5 E4:.5 D4:.5 | C4:2 | R:2
+C: C | C | C | A7 | Dm7 | G7 | C7M | C7 | F | F#° | C | A7 | Dm | G7 | C | F:1 C:1
+
+[A8] Estrofe (oitava acima)
+D: G5:1.5 F5:.5 | E5:.5 D5:.5 E5:.5 F5:.5 | G5 G5 | G5 A5:.5 G5:.5 | F5 F5 | F5 G5:.5 F5:.5 | E5 E5 | E5 C5:.5 C5:.5
+D: A5 A5 | A5 B5:.5 A5:.5 | G5 G5 | G5 F5:.5 E5:.5 | G5 F5:.5 E5:.5 | G5:.5 F5:.5 E5:.5 D5:.5 | C5:2 | R:2
+C: C | C | C | A7 | Dm7 | G7 | C7M | C7 | F | F#° | C | A7 | Dm | G7 | C | F:1 C:1
+
+[F] Final
+D: G4:1.5 F4:.5 | E4:.5 D4:.5 E4:.5 F4:.5 | G4 G4 | G4 A4:.5 G4:.5 | F4 F4 | F4 G4:.5 F4:.5 | E4 E4 | E4 C4:.5 C4:.5
+D: A4 A4 | A4 B4:.5 A4:.5 | G4 G4 | G4 F4:.5 E4:.5 | G4 F4:.5 E4:.5 | G4:.5 F4:.5 E4:.5 D4:.5 | C4:2 | R:1 C5+E4:1
+C: C | C | C | A7 | Dm7 | G7 | C7M | C7 | F | F#° | C | A7 | Dm | G7 | C | F:1 C:1

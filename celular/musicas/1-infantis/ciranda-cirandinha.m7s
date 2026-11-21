@@ -1,0 +1,33 @@
+@titulo Ciranda Cirandinha (folclore)
+@nivel Fácil
+@bpm 100
+@compasso 2/4
+@anacruse 1
+@padrao baixo
+@forma P A A Ah A8 F
+@fonte partitura superpartituras.com.br (Ciranda, Cirandinha, folclore, em Dó 2/4), nota por nota; cifras C/G7 da partitura
+# estrofes: Ciranda cirandinha / O anel que tu me destes / Por isso, Dona Rosa / O amor que tu me tinhas
+
+[P] Entrada
+D: G3
+C: C
+
+[A] Estrofe
+D: C4 C4 | E4 E4 | G4:2 | F4 E4 | D4 G4 | E4 D4 | C4:2
+D: E4 G4 | F4 E4 | D4 C4 | B3 C4 | F4 D4 | E4 C4 | D4 B3 | C4 G3
+C: C | C | C | G7 | G7 | G7 | C | C | G7 | G7 | G7 | G7 | C | G7 | C
+
+[Ah] Estrofe (vai subir)
+D: C4 C4 | E4 E4 | G4:2 | F4 E4 | D4 G4 | E4 D4 | C4:2
+D: E4 G4 | F4 E4 | D4 C4 | B3 C4 | F4 D4 | E4 C4 | D4 B3 | C4 G4
+C: C | C | C | G7 | G7 | G7 | C | C | G7 | G7 | G7 | G7 | C | G7 | C
+
+[A8] Estrofe (oitava acima)
+D: C5 C5 | E5 E5 | G5:2 | F5 E5 | D5 G5 | E5 D5 | C5:2
+D: E5 G5 | F5 E5 | D5 C5 | B4 C5 | F5 D5 | E5 C5 | D5 B4 | C5 G3
+C: C | C | C | G7 | G7 | G7 | C | C | G7 | G7 | G7 | G7 | C | G7 | C
+
+[F] Final
+D: C4 C4 | E4 E4 | G4:2 | F4 E4 | D4 G4 | E4 D4 | C4:2
+D: E4 G4 | F4 E4 | D4 C4 | B3 C4 | F4 D4 | E4 C4 | D4 B3 | C4:2 | C4+E4:2
+C: C | C | C | G7 | G7 | G7 | C | C | G7 | G7 | G7 | G7 | C | G7 | C | C

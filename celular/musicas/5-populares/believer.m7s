@@ -1,0 +1,59 @@
+@titulo Believer (Imagine Dragons)
+@nivel Difícil
+@bpm 125
+@compasso 4/4
+@padrao oitavas
+@forma Intro V1 V1b Rap1 Refrao V2 Rap2 Refrao V3 Rap3 Refrao Refrao2
+@fonte freemidi.org (Believer, arranjo M-Live/songservice), melodia da trilha de canto; tom Lá menor (original Si bemol menor); ciclo E | Am | Am | F do MIDI
+
+[Intro] Intro
+D: R:4 | R:4 | R:4 | R:4
+C: E | Am | Am | F
+
+[V1] Verso 1 (First things first)
+D: A3 E4 D4 D4:.75 C4:.25 | D4 D4:.75 E4:.25 D4:.75 C4:.25 A3:.75 G3:.25 | A3 E4 D4 D4:.5 C4:.5 | D4 D4:.5 E4:.5 D4:.75 C4:.25 A3:.5 G3:.5
+D: A3 C4 A4:2 | E4:1.5 E4:.5 D4:.5 C4:.5 A3:.5 G3:.5 | A3 C4 A4:2 | G#4:1.75 R:2.25
+C: E | Am | Am | F | E | Am | Am | F
+
+[V1b] Verso 1 (Second thing second)
+D: A3:.5 A3:.5 E4 D4:.75 D4:.25 D4:.75 C4:.25 | D4:.5 D4:.5 D4:.5 E4:.5 D4:.5 C4:.5 A3:.5 G3:.5 | A3:.25 R:.75 E4:.75 E4:.25 D4:.25 R:.75 D4:.5 C4:.5 | D4:.25 R:.75 D4:.5 E4:.5 D4:.75 C4:.25 A3:.5 G3:.5
+D: A3 C4 A4:2 | E4:1.5 E4:.5 D4:.5 C4:.5 A3:.75 G3:.25 | A3 C4 A4:2 | G#4:1.75 R:1.5 A3:.5 A3:.25
+C: E | Am | Am | F | E | Am | Am | F
+
+[Rap1] Ponte falada (I was broken)
+D: A3:.75 A3:.75 A3:.25 A3:.25 A3:.75 A3:.25 A3:.25 A3:.5 A3:.25 | A3:.75 A3:.5 A3:.5 A3:.25 A3:.5 A3:.5 A3:.25 A3:.25 A3:.5 | C4:.5 C4:.75 C4:.5 C4:.25 C4:.5 C4:.5 C4:.25 C4:.25 C4:.5 | B3:.25 B3:.25 B3:.5 B3:.25 B3:.5 B3:.25 B3:.25 B3:.5 B3:.25 B3:.25 B3:.5 B3:.25
+D: A3:.5 A3:.75 A3:.5 A3:.25 A3 A3:.25 A3:.5 A3:.25 | A3:.75 A3:.5 A3:.25 A3:.5 A3 A3:.25 A3:.25 A3:.5 | C4:.75 C4:.75 C4:.25 C4:.25 C4 C4:.25 C4:.5 C4:.25 | B3:.75 B3:.5 B3:.5 B3:.25 R:2
+C: E | Am | Am | F | E | Am | Am | F
+
+[Refrao] Refrão (Pain!)
+D: R:2 A4:1.5 A4:.5 | C5:.5 C5:.5 B4:.5 A4:.5 C5:.75 C5:.25 B4:.75 A4:.25 | A4 C5 R:1.5 C5:.5 | B4 G#4 R:2
+D: R:2 A4:1.5 A4:.5 | C5:.75 C5:.25 B4:.75 A4:.25 C5:.75 C5:.25 B4:.75 A4:.25 | A4 C5 R:1.5 C5:.5 | B4 G#4 R:2
+D: D4 E4:2.5 E4:.5 | D4:.75 C4:.25 D4:.5 C4:.5 D4:.5 C4:.5 D4:.5 C4:.5 | D4:.75 E4:2.75 E4:.5 | D4:.5 C4:.5 D4:.75 C4:.25 D4:.5 C4:.5 D4:.5 C4:.5
+D: R:2 A4:1.5 A4:.5 | C5:.75 C5:.25 B4:.75 A4:.25 C5:.75 C5:.25 B4:.75 A4:.25 | A4 C5 R:1.5 C5:.5 | B4 G#4 R:2
+C: E | Am | Am | F | E | Am | Am | F | E | Am | Am | F | E | Am | Am | F
+
+[V2] Verso 2 (Third things third)
+D: A3 E4 D4 D4:.75 C4:.25 | D4 D4:.75 E4:.25 D4:.75 C4:.25 A3:.5 G3:.5 | A3 E4:.5 E4:.5 D4 D4:.5 C4:.5 | D4:.5 D4:.5 D4:.5 E4:.5 D4:.75 C4:.25 A3:.75 G3:.25
+D: A3 C4 A4:2 | E4:1.5 E4:.5 D4:.75 C4:.25 A3:.75 G3:.25 | A3 C4 A4:2 | G#4:2 R:1.25 A3:.5 A3:.25
+C: E | Am | Am | F | E | Am | Am | F
+
+[Rap2] Ponte falada (I was choking)
+D: A3:.75 A3:.5 A3:.5 A3:.25 A3 A3:.25 A3:.5 A3:.25 | A3:.75 A3:.5 A3:.5 A3:.25 A3:1.25 A3:.5 A3:.25 | C4:.75 C4:.5 C4:.5 C4:.25 C4:1.25 C4:.25 C4:.5 | B3:.5 B3:.75 B3:.5 B3:.25 B3:.5 R:.75 B3:.25 B3:.5
+D: C4:.25 A3:.5 A3:.25 C4:.25 A3:.5 A3:.25 C4:.25 C4:.5 C4:.25 C4:.25 C4:.75 | C4:.25 A3:.5 A3:.25 C4:.25 A3:.25 A3:.5 C4:.25 C4:.5 C4:.25 C4:.25 C4:.25 C4:.5 | C4:.5 B3:.5 R:1.75 B3:.25 C4 | B3:1.25 R:.75 A3 R
+C: E | Am | Am | F | E | Am | Am | F
+
+[V3] Verso 3 (Last things last)
+D: A3 E4 D4 D4:.75 C4:.25 | D4 D4:.75 E4:.25 D4:.75 C4:.25 A3:.5 G3:.5 | A3 E4:.5 E4:.5 D4 D4:.5 C4:.5 | D4 E4:.5 E4:.5 D4:.75 C4:.25 A3:.75 G3:.25
+D: A3 C4 A4:2 | E4:1.5 E4:.5 D4:.75 C4:.25 A3:.75 G3:.25 | A3 C4 A4:2 | G#4:2 R:1.25 B3:.25 B3:.5
+C: E | Am | Am | F | E | Am | Am | F
+
+[Rap3] Ponte falada (But they never did)
+D: C4:.25 A3:.5 A3:.25 C4:.25 A3:.5 A3:.25 C4:.25 C4:.5 C4:.25 C4:.25 C4:.75 | C4:.25 A3:.5 A3:.25 C4:.25 A3:.25 A3:.5 C4:.25 C4:.5 C4:.25 C4:.25 C4:.25 C4:.5 | C4:.5 B3:.5 R:1.75 B3:.25 C4 | B3:1.25 R:.75 A3 R
+C: E | Am | Am | F
+
+[Refrao2] Refrão final
+D: R:2 A4:1.5 A4:.5 | C5:.5 C5:.5 B4:.5 A4:.5 C5:.75 C5:.25 B4:.75 A4:.25 | A4 C5 R:1.5 C5:.5 | B4 G#4 R:2
+D: R:2 A4:1.5 A4:.5 | C5:.75 C5:.25 B4:.75 A4:.25 C5:.75 C5:.25 B4:.75 A4:.25 | A4 C5 R:1.5 C5:.5 | B4 G#4 R:2
+D: D4 E4:2.5 E4:.5 | D4:.75 C4:.25 D4:.5 C4:.5 D4:.5 C4:.5 D4:.5 C4:.5 | D4:.75 E4:2.75 E4:.5 | D4:.5 C4:.5 D4:.75 C4:.25 D4:.5 C4:.5 D4:.5 C4:.5
+D: R:2 A4:1.5 A4:.5 | C5:.75 C5:.25 B4:.75 A4:.25 C5:.75 C5:.25 B4:.75 A4:.25 | A4 C5 R:1.5 C5:.5 | B4 G#4
+C: E | Am | Am | F | E | Am | Am | F | E | Am | Am | F | E | Am | Am | F

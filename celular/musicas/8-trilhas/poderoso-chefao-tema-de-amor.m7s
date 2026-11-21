@@ -1,0 +1,34 @@
+@titulo O Poderoso Chefão - Tema de Amor (Speak Softly Love - Nino Rota)
+@nivel Médio
+@bpm 80
+@compasso 4/4
+@padrao arpejo
+@forma Intro A1 B1 A2 Ret B1 A3
+@fonte bitmidi: https://bitmidi.com/theme-from-the-godfather-mid (melodia trilha 2, cifras tiradas do baixo/arpejo da trilha 5; transposto de Dó menor para Lá menor)
+
+[Intro] Intro
+D: R:4 | R:2.5 E4:.5 A4:.5 C5:.5
+C: Am | Am
+
+[A1] Tema A
+D: B4:.5 A4:.5 C5:.5 A4:.5 B4:.5 A4:.75 F4:.5 G4:.25 | E4:2.5 E4:.5 A4:.5 C5:.5 | B4:.5 A4:.5 C5:.5 A4:.5 B4:.5 A4:.75 E4:.5 D#4:.25 | D4:2.5 D4:.5 F4:.5 G#4:.5
+D: B4:2.5 D4:.5 F4:.5 G#4:.5 | A4:2.5 A3:.5 C4:.5 G4:.5 | F4:.5 E4:.75 G4:.5 F4:.25 F4:.5 E4:.5 E4:.5 G#3:.5 | A3:2.5 A4:.5 A4:.5 G#4:.5
+C: Am | Am | Am | Dm6 | Dm | Am | E7 | Am
+
+[B1] Tema B
+D: G4:2 B4 A4:.5 F4:.5 | E4:2.5 E4:.5 G4:.5 E4:.5 | D4:2.5 D4:.5 F4:.5 D#4:.5 | E4:2.5 E4:.5 A4:.5 C5:.5
+C: G/B | C | Dm | E7
+
+[A2] Tema A (repetição)
+D: B4:.5 A4:.5 C5:.5 A4:.5 B4:.5 A4:.75 F4:.5 G4:.25 | E4:2.5 E4:.5 A4:.5 C5:.5 | B4:.5 A4:.5 C5:.5 A4:.5 B4:.5 A4:.75 E4:.5 D#4:.25 | D4:2 R:.5 D4:.5 F4:.5 G#4:.5
+D: B4:2.5 D4:.5 F4:.5 G#4:.5 | A4:2.5 A3:.5 C4:.5 G4:.5 | F4:.5 E4:.5 G4:.5 F4:.5 F4:.5 E4:.75 E4:.5 G#4:.25 | A4:2.5 R:1.5
+C: Am | Am | Am | Dm6 | Dm | Am | E7 | Am
+
+[Ret] Retorno
+D: R:2.5 A4:.5 A4:.5 G#4:.5
+C: Am:2 E7:2
+
+[A3] Tema A (final)
+D: B4:.5 A4:.5 C5:.5 A4:.5 B4:.5 A4:.75 F4:.5 G4:.25 | E4:2.5 E4:.5 A4:.5 C5:.5 | B4:.5 A4:.5 C5:.5 A4:.5 B4:.5 A4:.75 E4:.5 D#4:.25 | D4:2 R:.5 D4:.5 F4:.5 G#4:.5
+D: B4:2.5 D4:.5 F4:.5 G#4:.5 | A4:2.5 A3:.5 C4:.5 G4:.5 | F4:.5 E4:.5 G4:.5 F4:.5 F4:.5 E4:.5 E4:.5 G#4:.5 | A4:4
+C: Am | Am | Am | Dm6 | Dm | Am | E7 | Am

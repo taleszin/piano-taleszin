@@ -1,0 +1,36 @@
+@titulo Ob-La-Di, Ob-La-Da (The Beatles)
+@nivel Médio
+@bpm 114
+@compasso 4/4
+@forma Intro Verso Refrao Verso Refrao Ponte Verso Refrao Ponte Verso RefraoFinal
+@fonte bitmidi: THE BEATLES.OblaDi OblaDa K.mid (uploads/100845), voz canal 0 e baixo canal 8 (+1 oitava), em Fá (original em Si bemol)
+
+[Intro] Intro (piano)
+D: A4+C5:.5 A4+C5:.5 A4+C5:.5 A4+C5:.5 A4+C5:.5 A4+C5:.5 A4+C5:.5 A4+C5:.5 | A4+C5:.5 A4+C5:.5 A4+C5:.5 A4+C5:.5 A4+C5:.5 A4+C5:.5 A4+C5:.5 A4+C5:.5
+E: F2 A2:.5 C3:.5 F2 A2:.5 C3:.5 | F2 A2:.5 C3:.5 F2 A2:.5 C3:.5
+
+[Verso] Verso (Desmond has a barrow...)
+D: A4:.5 A4:.5 A4:.5 A4:.5 A4:.5 A4:.5 G4:.5 F4:.5 | E4:.5 G4 G4:1.75 R:.75 | A#4:.5 A#4:.5 A#4:.5 A#4:.5 A#4:.5 A#4:.5 A4:.5 G4:.5 | F4:2.5 R:1.5
+D: C5:.5 C5:.5 C5:.5 C5:.5 C5:.5 C5:.5 A#4:.5 A4:.5 | A#4:.5 C5 D5 D5:.5 C5:.5 A#4:.5 | A4:.5 A4:.5 A#4:.5 A4:.5 G4:.5 A#4:.5 A4:.5 G4:.5 | F4:1.75 R:.75 F4:.5 A4:.5 C5:.5
+E: F2 A2:.5 C3:.5 F2 A2:.5 C3:.5 | C3 E3:.5 G2:.5 C3 E3:.5 G2:.5 | C3 E3:.5 G2:.5 C3 E3:.5 G2:.5 | F2 A2:.5 C3:.5 F2 A2:.5 C3:.5
+E: F2 A2:.5 C3:.5 F2 A2:.5 C3:.5 | A#2 D3:.5 F3:.5 A#2 D3:.5 F3:.5 | F2 A2:.5 C3:.5 C3 E3:.5 G2:.5 | F2 A2:.5 C3:.5 F2 A2:.5 C3:.5
+
+[Refrao] Refrão (Ob-la-di, ob-la-da)
+D: R:.5 F4:.5 A4:.5 C5 F4:.5 A4:.5 C5:.5~ | C5:1.5 F5:2 C5:.5~ | C5:.5 A#4:.5 A4:.5 A#4:.5 A4:.5 G4 F4:.5~ | F4:1.25 R:1.25 F4:.5 A4:.5 C5:.5~
+D: C5:.5 F4:.5 A4:.5 C5 F4:.5 A4:.5 C5:.5~ | C5:1.5 F5:2 C5:.5~ | C5:.5 A#4:.5 A4:.5 A#4:.5 A4:.5 G4 F4:.5~ | F4:1.5 R:2.5
+E: F2 A2:.5 C3:.5 F2 A2:.5 C3:.5 | C3 A2:.5 C3:.5 D3 A2:.5 G2:.5 | F2 A2:.5 C3:.5 C3 E3:.5 G2:.5 | F2 A2:.5 C3:.5 F2 A2:.5 C3:.5
+E: F2 A2:.5 C3:.5 F2 A2:.5 C3:.5 | C3 A2:.5 C3:.5 D3 A2:.5 G2:.5 | F2 A2:.5 C3:.5 C3 E3:.5 G2:.5 | F2 A2:.5 C3:.5 F2 A2:.5 C3:.5
+
+[Ponte] Ponte (In a couple of years...)
+D: R:.5 F4:.25 F4:.25 A#4:.25 A#4:.25 C5:.5 D5 C5:.5 D5:.5 | F5 A#4 D5 F4 | A4:1.25 R:2.75 | R:4
+D: R:.5 F4:.25 F4:.25 A#4:.25 A#4:.25 C5:.5 D5 C5:.5 D5:.5 | F5 A#4 D5:1.5 F4:.5 | A4:.5 A4 A4:.5 A#4 A4 | G4:3 R
+E: A#2:.5 F2:.5 A#2:.5 F2:.5 A#2:.5 F2:.5 A#2:.5 F2:.5 | A#2:.5 F2:.5 A#2:.5 F2:.5 A#2:.5 F2:.5 A#2:.5 F2:.5 | F2 A2:.5 C3:.5 F2:.5 F2:.5 A2:.5 C3:.5 | F2 A2:.5 C3:.5 F2:.5 F2:.5 G2:.5 A2:.5
+E: A#2:.5 F2:.5 A#2:.5 F2:.5 A#2:.5 F2:.5 A#2:.5 F2:.5 | A#2:.5 F2:.5 A#2:.5 F2:.5 A#2:.5 F2:.5 A#2:.5 B2:.5 | C3:.5 C3 C3 C3 C3:.5~ | C3:.5 C3 C3 A#2:.5 A2:.5 G2:.5
+
+[RefraoFinal] Refrão final (And if you want some fun...)
+D: R:.5 F4:.5 A4:.5 C5 F4:.5 A4:.5 C5:.5~ | C5:1.5 F5:2 C5:.5~ | C5:.5 A#4:.5 A4:.5 A#4:.5 A4:.5 G4 F4:.5~ | F4:1.25 R:1.25 F4:.5 A4:.5 C5:.5~
+D: C5:.5 F4:.5 A4:.5 C5 F4:.5 A4:.5 C5:.5~ | C5:1.5 F5:2 C5:.5~ | C5:.5 A#4:.5 A4:.5 A#4:.5 A4:.5 G4 F4:.5~ | F4:2.25 R:1.25 D5:.25 D5:.25
+D: F5:.5 F5:.5 D5:2.5 D5:.5 | C5:.5 A#4:.5 A4:.5 G4:.5 F4:.5 R:.5 F4+A4
+E: F2 A2:.5 C3:.5 F2 A2:.5 C3:.5 | C3 A2:.5 C3:.5 D3 A2:.5 G2:.5 | F2 A2:.5 C3:.5 C3 E3:.5 G2:.5 | F2 A2:.5 C3:.5 F2 A2:.5 C3:.5
+E: F2 A2:.5 C3:.5 F2 A2:.5 C3:.5 | C3 A2:.5 C3:.5 D3 A2:.5 G2:.5 | F2 A2:.5 C3:.5 C3 E3:.5 G2:.5 | F2 A2:.5 C3:.5 F2 A2:.5 C3:.5
+E: D3 A2 D3 A2 | C3:.5 A#2:.5 A2:.5 G2:.5 F2:.5 R:.5 F2

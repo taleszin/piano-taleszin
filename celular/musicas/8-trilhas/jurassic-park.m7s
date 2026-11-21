@@ -1,0 +1,34 @@
+@titulo Jurassic Park – Tema (John Williams)
+@nivel Médio
+@bpm 60
+@compasso 4/4
+@padrao arpejo
+@fonte midiworld: https://www.midiworld.com/download/3828 (orquestral); melodia das trilhas 1-3, baixo da fanfarra da trilha 9, cifras tiradas da harmonia do MIDI; transposto de Ré para Dó
+@forma A B A2 F Fim
+
+[A] Tema A
+D: C5:1.5 C5:.25 B4:.25 C5:1.5 C5:.25 B4:.25 | C5:.75 D5:.25 D5:.75 F5:.25 F5:1.5 E5:.25 C5:.25 | D5:.75 B4:.25 G4:.5 E5:.25 C5:.25 D5:1.5 G5:.25 C5:.25 | F5:.75 E5:.25 E5:.75 D5:.25 D5:1.5 C5:.25 B4:.25
+C: C | C | C | F:1 C/G:1 Dm:1 G:1
+D: C5:1.5 C5:.25 B4:.25 C5:1.5 C5:.25 B4:.25 | C5:.75 D5:.25 D5:.75 F5:.25 F5:1.5 E5:.25 C5:.25 | D5:.75 B4:.25 G4:.5 E5:.25 C5:.25 D5:1.5 G5:.25 C5:.25 | F5:.75 E5:.25 E5:.75 D5:.25 D5:1.75 R:.25
+C: C | C:2 F/A:1 C/G:1 | G7sus4:1 C/G:1 G7sus4:1 C/G:1 | F:1 Em:1 Dm:1 G:1
+
+[B] Tema B
+D: R:.5 C#5:.25 B4:.25 C#5:.5 A4:.25 D5:.25 D5:.5 E5:.5 E5:.5 B4:.5~ | B4:.5 C#5:.25 B4:.25 C#5:.5 A4:.25 E5:.25 F5:.5 G5:.5 D5:.75 R:.25 | R:.5 E5:.25 D5:.25 E5:.5 C5:.25 G5:.25 G5:.5 E5:.5 B5:.5 B4:.5~ | B4:.5 C6:.25 B5:.25 C6:.5 C5:.25 F5:.25 F5:.5 E5:.5 D5
+C: Am | Am:2 Bb:1 G:1 | C/G:2 G:2 | Am:1 Am/E:1 F:1 G:1
+
+[A2] Tema A (volta)
+D: C5:1.5 C5:.25 B4:.25 C5:1.5 C5:.25 B4:.25 | C5:.75 D5:.25 D5:.75 F5:.25 F5:1.5 E5:.25 C5:.25 | D5:.75 B4:.25 G4:.5 E5:.25 C5:.25 D5:1.5 G5:.25 C5:.25 | F5:.75 E5:.25 E5:.75 D5:.25 D5:1.5 F5:.25 D5:.25
+C: C | C:1 G:1 F:2 | G:1 C/G:1 G7:1 C/G:1 | F:1 Em:1 Dm:2
+D: C6:.75 B5:.25 B5:.75 A5:.25 A5 B5
+C: F:1 Em:1 Dm:1 G:1
+
+[F] Fanfarra (Welcome to Jurassic Park)
+D: C5:.5 G4:.5 F4:.5 C5:.25 B4:.25 C5:.5 G4:.5 F4:.5 C5:.25 B4:.25 | B4:.25 C5:.75 G4:.5 C4:.5 Bb4:1.5 C5:.25 B4:.25 | C5:.5 G4:.5 F4:.5 C5:.25 B4:.25 C5:.5 G4:.5 F4:.5 C5:.25 B4:.25 | B4:.25 C5:.75 G4:.5 C4:.5 C5 B4:.5 C6:.25 B5:.25
+E: C2:2 C2:2 | C2 E2 F2 G2 | C2:2 C2:2 | C2 E2 F2 G2
+D: C6:.5 G5:.5 F5:.5 C6:.25 B5:.25 C6:.5 G5:.5 F5:.5 C6:.25 B5:.25 | B5:.25 C6:.75 G5:.5 C5:.5 Bb5:1.5 C6:.25 B5:.25 | C6:.5 G5:.5 F5:.5 C6:.25 B5:.25 C6:.5 G5:.5 F5:.5 C6:.25 B5:.25 | B5:.25 C6:.75 G5:.5 C5:.5 C6 B5
+E: C2:1.5 F2:.25 G2:.25 C2:1.5 F2:.25 G2:.25 | C2 E2 F2 G2 | C2:.5 E3:.5 F3:.5 F2:.25 G2:.25 C2:.5 E3:.5 F3:.5 F2:.25 G2:.25 | C2:2.5 C2:.5 F2:.5 G2:.5
+
+[Fim] Final
+@padrao bloco
+D: C6:3.75 R:.25
+C: C

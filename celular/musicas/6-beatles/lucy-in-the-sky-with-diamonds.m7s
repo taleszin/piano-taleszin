@@ -1,0 +1,37 @@
+@titulo Lucy in the Sky with Diamonds (The Beatles)
+@nivel Médio
+@bpm 132
+@compasso 3/4
+@padrao valsa
+@forma Intro V Tr PC Refrao V Tr PC Refrao V Refrao Refrao Refrao
+@fonte bitmidi: THE BEATLES.Lucy in the sky K.mid + LUCY.MID (melodia vocal e riff de celesta), cifras do MIDI conferidas com a harmonia conhecida (A A/G A/F# F | Bb C F Bb C G D | G C D). O refrão original é 4/4 mais lento: aqui cada tempo do refrão vale 1,5 tempo (um compasso 4/4 = dois de 3/4), o que dá o andamento do refrão ~88 em vez de ~97.
+
+[Intro] Introdução (riff)
+D: E4 A4 E5 | G4 E5 A4 | F#4 A4 E5 | F4 D5:.5 C#5:.5 A4
+C: A | A/G | F#m7 | Faug
+
+[V] Verso
+D: C#5 C#5 C#5 | C#5:2 B4:.5 A4:.5 | C#5 B4 A4 | C#5:.5 B4:1.5 A4
+D: C#5 B4:.5 A4:1.5 | C#5:2 A4 | E5 D5:.5 C#5:1.5 | A4:3~ | A4:2 R
+D: C#5 D5 E5 | C#5 B4 A4 | C#5 B4:.5 A4:1.5 | C#5 B4:1.5 A4:.5
+D: C#5 B4 A4 | E5 D5:.5 C#5:1.5 | A4:3~ | A4:3
+C: A | A/G | F#m7 | Faug | A | A/G | F#m7 | F | C:1.5 D:1.5
+C: A | A/G | F#m7 | Faug | A | A7/G | F#m | F#m
+
+[Tr] Riff
+D: D5 F5 D5 | F5:3
+C: Dm | Dm
+
+[PC] Pré-refrão
+D: D5 D5 D5 | D5 D5 D5 | C5 D5 D5 | D5:3
+D: D5 D5 D5 | D5 D5 D5 | D5 Bb4:2~ | Bb4:3
+D: D5 D5 D5 | D5 D5 D5 | D5 D5 D5 | D5 C5 B4 | A4:3~ | A4:3
+C: Bb | Bb | C7 | C7 | F | F | Bb | Bb | C | C | G | G | D | D
+
+[Refrao] Refrão
+@padrao baixo-acorde
+D: G5:.75 G5:.75 G5:.75 G5:.75 | G5:.75 F#5:1.5 E5:.75 | D5:.75 C5:3/8 B4:3/8 A4:1.5~ | A4:1.5 R:1.5
+D: G5:.75 G5:.75 G5:.75 G5:.75 | G5:.75 F#5:1.5 E5:.75 | D5:.75 C5:3/8 B4:3/8 A4:1.5~ | A4:1.5 R:1.5
+D: G5:.75 G5:.75 G5:.75 G5:.75 | G5:.75 F#5:1.5 E5:.75 | D5:.75 C5:3/8 B4:3/8 A4:1.5~ | A4:1.5 R:1.5
+D: D5+F#5:3~ | D5+F#5:3
+C: G | C | D | D | G | C | D | D | G | C | D | D | D | D

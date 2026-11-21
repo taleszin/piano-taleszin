@@ -1,0 +1,31 @@
+@titulo Lost Woods – Saria's Song (Zelda)
+@nivel Médio
+@bpm 140
+@compasso 4/4
+@padrao baixo-acorde
+@forma A B A B A B A Final
+@fonte vgmusic.com n64/Z64lstwd.mid (Lost Woods): parte A da trilha 2 e parte B da trilha 4 (+ terças da trilha 2), transpostas -12; mão esquerda das trilhas 3 (A) e 1 (B, +12)
+
+[A] Parte A (tema)
+D: F4:.5 A4:.5 B4 F4:.5 A4:.5 B4 | F4:.5 A4:.5 B4:.5 E5:.5 D5 B4:.5 C5:.5 | B4:.5 G4:.5 E4:2.5 D4:.5 | E4:.5 G4:.5 E4:3
+D: F4:.5 A4:.5 B4 F4:.5 A4:.5 B4 | F4:.5 A4:.5 B4:.5 E5:.5 D5 B4:.5 C5:.5 | E5:.5 B4:.5 G4:2.5 B4:.5 | G4:.5 D4:.5 E4:3
+E: F3:.5 A3+C4:.5 A3+C4:.5 A3+C4:.5 F3:.5 A3+C4:.5 A3+C4:.5 A3+C4:.5 | F3:.5 A3+C4:.5 A3+C4:.5 A3+C4:.5 F3:.5 A3+C4:.5 A3+C4:.5 A3+C4:.5
+E: E3:.5 G3+C4:.5 G3+C4:.5 G3+C4:.5 E3:.5 G3+C4:.5 G3+C4:.5 C3:.5 | E3:.5 G3+C4:.5 G3+C4:.5 G3+C4:.5 E3:.5 G3+C4:.5 G3+C4:.5 C3:.5
+E: F3:.5 A3+C4:.5 A3+C4:.5 A3+C4:.5 F3:.5 A3+C4:.5 A3+C4:.5 A3+C4:.5 | F3:.5 A3+C4:.5 A3+C4:.5 A3+C4:.5 F3:.5 A3+C4:.5 A3+C4:.5 A3+C4:.5
+E: E3:.5 G3+C4:.5 G3+C4:.5 G3+C4:.5 E3:.5 G3+C4:.5 G3+C4:.5 C3:.5 | E3:.5 G3+C4:.5 G3+C4:.5 G3+C4:.5 E3:.5 G3+C4:.5 G3+C4:.5 C3:.5
+
+[B] Parte B
+D: D4:.5 E4:.5 F4 G4:.5 A4:.5 B4 | C5:.5 B4:.5 E4:3
+D: D4+F4:.5 E4+G4:.5 F4+A4 G4+B4:.5 A4+C5:.5 B4+D5 | C5+E5:.5 D5+F5:.5 E5+G5:3
+D: D4:.5 E4:.5 F4 G4:.5 A4:.5 B4 | C5:.5 B4:.5 E4:3
+D: D4:.5 C4:.5 F4:.5 E4:.5 G4:.5 F4:.5 A4:.5 G4:.5 | B4:.5 A4:.5 C5:.5 B4:.5 D5:.5 C5:.5 E5:.25 F5:.5 D5:.25
+D: B4+E5:4~ | B4+E5:2 R:2
+E: D3:.5 F3+A3:.5 D3:.5 F3+A3:.5 G2:.5 D3+G3:.5 G2:.5 D3+G3:.5 | C3:.5 G3+C4:.5 C3:.5 G3+C4:.5 A2:.5 E3+A3:.5 A2:.5 E3+A3:.5
+E: D3:.5 F3+A3:.5 D3:.5 F3+A3:.5 G2:.5 D3+G3:.5 G2:.5 D3+G3:.5 | C3:.5 G3+C4:.5 C3:.5 G3+C4:.5 A2:.5 E3+A3:.5 A2:.5 E3+A3:.5
+E: D3:.5 F3+A3:.5 D3:.5 F3+A3:.5 G2:.5 D3+G3:.5 G2:.5 D3+G3:.5 | C3:.5 G3+C4:.5 C3:.5 G3+C4:.5 A2:.5 E3+A3:.5 A2:.5 E3+A3:.5
+E: D3:.5 F3+A3:.5 F3+A3:1 D3:.5 F3+A3:.5 F3+A3:1 | C3:.5 G3+B3:.5 G3+B3:1 C3:.5 G3+B3:.5 G3+B3:1
+E: E3:.5 A3+B3:1 A3+B3:.5 E3:.5 A3+B3:1 A3+B3:.5 | E3:.5 G#3+B3:.5 G#3+B3:.5 G#3+B3:1 E2+E3:1.5
+
+[Final] Final
+D: C4+E4:4
+E: C3+G3+C4:4

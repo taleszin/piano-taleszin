@@ -1,0 +1,26 @@
+@titulo Então é Natal (Happy Xmas – John Lennon / Simone)
+@nivel Médio
+@bpm 82
+@compasso 6/8
+@padrao arpejo
+@forma Intro V1 V2 R V1 V2 R V1 V2 R R
+@fonte bitmidi: lennon-happy-xmas-k (68220.mid), melodia do canal 2 limpa e transposta +3 (Lá→Dó); cifras de memória
+
+[Intro] Introdução
+D: R:1 C5:.5 C5:.5 Bb4:.5 A4:.5 | G4:.5 G4:2.5 | R:1 G4:.5 G4:.5 F4:.5 E4:.5 | F4:3
+C: F | Gm | C7 | F
+
+[V1] Então é Natal / So this is Christmas
+D: R:1 G3:.5 C4:.5 D4:.5 E4:.5 | C4:3 | R:1 G3:.5 C4:.5 D4:.5 E4:.5 | D4:3
+D: R:1 A3:.5 D4:.5 E4:.5 F4:.5 | E4:.5 D4:2.5 | R:1 G3:.5 E4:.5 G4:.5 E4:.25 D4:.25 | C4:.75 A3:.25 G3:2
+C: C | C | Dm | Dm | G | G | C | C
+
+[V2] Segunda parte do verso
+D: R:1 C4:.5 A4:.5 A4:.5 A4:.5 | G4:.5 F4:2.5 | R:1 C4:.5 F4:.5 G4:.5 A4:.25 G4:.25 | G4:3
+D: R:1 D4:.5 G4:.5 A4:.5 Bb4:.5 | A4:.5 G4:2.5 | R:1 C4:.5 A4:.5 C5:.5 A4:.25 G4:.25 | F4:.75 D4:.25 C4:2
+C: F | F | Gm | Gm | C7 | C7 | F | F
+
+[R] Refrão (A very merry Christmas)
+D: R:1 F4:.5 D5:.5 D5:.5 D5:.5 | C5:.5 Bb4:2.5 | R:1 F4:.5 Bb4:.5 C5:.5 D5:.5 | C5:3
+D: R:.5 C5:.5 C5:.5 C5:.5 Bb4:.5 A4:.5 | G4:.5 G4:2.5 | R:1 G4:.5 G4:.5 F4:.5 E4:.25 F4:.25 | F4:3
+C: Bb | Bb | C | C | F | Gm | C7 | F

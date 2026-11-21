@@ -1,0 +1,46 @@
+@titulo All I Want for Christmas Is You (Mariah Carey)
+@nivel Médio
+@bpm 150
+@padrao baixo-acorde
+@forma Intro V V V Fim
+@fonte freemidi 27548 (All I Want for Christmas Is You), canal 3 (voz) transposto −12 e limpo; cifras de memória (G–C–Cm–B7–Em)
+
+[Intro] Introdução lenta (I don't want a lot for Christmas)
+D: G3:4 | B3:1.5 D4:1 F#4:1.5 | G4 F#4 D4:1.75 E4:.25~ | E4:.75 D4:3.25
+D: A4:1.5 G4 F#4 G4:.5~ | G4:.25 F#4 D4 E4 D4:.75~ | D4:2 C4:.75 E4:.75 G4:.5~ | G4:.75 A4:.75 B4 A4 G4:.5~
+D: G4:.5 E4:2.5 B4:.75 D5:.25~ | D5:.5 B4:1.5 A4:.5 B4 A4:.5~ | A4:.5 G4 D#4:2.5 | G4:.75 A4:.75 F#4 G4 E4:.5~
+D: E4:.5 F#4 D#4:2.5~ | D#4:2.75 B4:.75 A4:.5~ | A4:.5 A4:1.5 G4 G4 | A4 G4:3
+D: R:2 D4 E4 | G4 D5:1.5 C5:1.5~ | C5:4~ | C5:3.5 B4:.5~
+D: B4:2 A4:1.75 G4:.25~ | G4:2 E4:1.5 D#4:.5~ | D#4:2.25 A4:1.75~ | A4:3.5 B4:.5~
+D: B4:4~ | B4:.5 A4:2 G4:1.5~ | G4:4~ | G4:4
+D: R:4 | R:4 | R:4 | G3 B3 D4 F#4
+C: G | G | G | G
+C: D | D | C | G
+C: C | G | Cm | G
+C: B7 | B7 | Am7 | D7
+C: G | C | C | Am
+C: G | Em | B7 | D7
+C: G | D7 | G | G
+C: G | G | G | G
+@padrao bloco
+
+[V] Verso (ritmo)
+D: G4:.75 F#4 E4 D4:1.25 | A4 G4 G4 F#4:.75 G4:.25~ | G4:.75 F#4 E4 D4:1.25 | C4 E4 G4 A4
+D: B4 A4:.75 G4 E4:1.25 | C4 D#4 G4 A4 | Bb4 A4:.75 G4:2.25 | A4 G4:.75 G4:1.25 F#4:.75 G4:.25~
+D: G4:.75 F#4 E4 D4:1.25 | G3 B3 D4 F#4:.75 G4:.25~ | G4:.75 F#4 E4:2.25 | R B4:.75 A4:.25 B4 A4
+D: B4 A4:.75 G4 E4:1.25 | C4 D#4 G4 A4 | Bb4:.75 A4 G4:2.25 | G4 A4 F#4 G4:.75 E4:.25~
+D: E4:.75 F#4 E4 D#4:1.25 | G4 A4 F#4 G4:.75 E4:.25~ | E4:.75 F#4 D#4:2.25 | D4 E4 G4 D5
+D: C5:4 | B4 A4 G4 E4 | D#4 A4:2 B4 | A4:.75 G4:3.25
+D: G4:4 | R:4 | R:4 | B4 A4 G4 F#4
+C: G | G | G | C
+C: C | Cm | Cm7 | G
+C: G | G | B7 | B7
+C: Em | Cm6 | Cm7 | G:2 E7:2
+C: E7 | Am | Cm | G
+C: Am | Em | B7 | Am7:2 D7:2
+C: G | E7 | Am | D7
+
+[Fim] Final (All I want for Christmas is you, baby)
+D: E4:.75 F#4 E4 D#4:1.25 | G4 A4 F#4 G4:.75 E4:.25~ | E4:.75 F#4 D#4:2.25 | D4 E4 G4 D5
+D: C5:4 | B4 A4 G4 E4 | D#4 A4:2 B4 | A4:.75 G4:3.25 | G4:4
+C: E7 | Am | Cm | G | Am | Em | B7 | Am7:2 D7:2 | G

@@ -1,0 +1,42 @@
+@titulo Missão: Impossível (tema - Lalo Schifrin)
+@nivel Médio
+@bpm 165
+@compasso 5/4
+@forma Intro A1 A2 A3 A1 P B A1 A2 A3 A1 Fim
+@fonte midiworld: https://www.midiworld.com/download/3833 (melodias das trilhas 1 e 7, reescritas em 5/4 como o original; ostinato G G Bb C / G G F F# na E:)
+
+[Intro] Intro (ostinato)
+D: R:5 | R:5 | R:5 | R:5
+E: G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2 | G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2
+
+[A1] Tema A
+D: A#4:.25 G4:.25 D4:4.5 | A#4:.25 G4:.25 C#4:4.5 | A#4:.25 G4:.25 C4:4.5 | A#3:.25 C4:.5 R:4.25
+E: G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2 | G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2
+
+[A2] Tema A (resposta)
+D: A#3:.25 G3:.25 F#4:4.5 | A#3:.25 G3:.25 F4:4.5 | A#3:.25 G3:.25 E4:4.5 | D#4:.25 D4:.5 R:4.25
+E: G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2 | G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2
+
+[A3] Tema A (agudo)
+D: D#5:.25 C5:.25 G4:4.5 | D#5:.25 C5:.25 F#4:4.5 | D#5:.25 C5:.25 F4:4.5 | D#4:.25 F4:.25 R:4.5
+E: G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2 | G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2
+
+[P] Ponte (em Dó)
+D: C5:4.25 G4:.25 A#4:.25 C5:.25 | B4:4.25 G4:.25 A#4:.25 C5:.25 | A#4:4.25 G4:.25 A#4:.25 A4:.25 | G#4:.25 G4:.25 R:4.5
+D: C5:4.25 G4:.25 A#4:.25 C5:.25 | B4:4.25 G4:.25 A#4:.25 C5:.25 | A#4:4.25 G4:.25 A#4:.25 A4:.25 | G#4:.25 G4:.5 R:4.25
+E: C3:1.5 C3:1.5 D#3 F3 | C3:1.5 C3:1.5 A#2 B2 | C3:1.5 C3:1.5 D#3 F3 | C3:1.5 C3:1.5 A#2 B2
+E: C3:1.5 C3:1.5 D#3 F3 | C3:1.5 C3:1.5 A#2 B2 | C3:1.5 C3:1.5 D#3 F3 | C3:1.5 C3:1.5 A#2 B2
+
+[B] Tema B (lírico)
+D: A#4:5 | G4:5 | D4:5~ | D4:5
+D: D5:5 | C5:2.5 D5:2.5 | D#5:4.75 F5:.25 | G5:4 G5:.5 A5:.5
+D: A#5:5~ | A#5:2 C6:2 A#5:.5 C6:.5 | D6:5 | C6:2 A#5:2.75 G5:.25
+D: F5:1.5 G5:3.5 | R:5
+E: G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2 | G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2
+E: G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2 | G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2
+E: G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2 | G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2
+E: G2:1.5 G2:1.5 A#2 C3 | G2:1.5 G2:1.5 F2 F#2
+
+[Fim] Final
+D: G4:1.5 G4:1.5 A#4 C5 | G4+D5:1 R:4
+E: G2:1.5 G2:1.5 A#2 C3 | G2+D3:1 R:4

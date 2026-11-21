@@ -1,0 +1,86 @@
+@titulo Counting Stars (OneRepublic)
+@nivel Médio
+@bpm 122
+@compasso 4/4
+@padrao baixo-acorde
+@forma Ref0 V1 Pre1 Ref1 Ref1b V2 Pre2 Ref2 Ref2b Ponte Ref3 Coda
+@fonte freemidi.org (Counting Stars, midiart.de): canto da trilha de voz; tom Lá menor (original Dó# menor); ciclo Am C G F; 2 tempos de pausa inseridos antes do último refrão para acertar as barras do MIDI
+
+[Ref0] Refrão de abertura (Lately I’ve been)
+D: D4 E4 G4 E4 | D4:.5 E4:.5 D4:.25 C4:.5 E4:2.25 | R:.5 D4:.5 D4:.5 E4:.25 F4:.75 E4:.5 D4:.5 C4:.5 | E4 A3 C4:1.5 A3:.5
+D: D4 E4 G4 E4 | D4:.5 E4:.5 D4:.25 C4:.5 E4:2.25 | R:.5 D4:.5 D4:.5 E4:.5 F4:.5 E4:.5 D4:.25 C4:.75 | E4:.5 D4:.5 D4:.5 A3:.5 C4:2
+D: R:1.5 F3:.5 E4:.5 D4:.5 D4:.5 C4:.5~ | C4:.75 R C4:.5 A3:1.75~
+C: Am | C | G | F | Am | C | G | F | F | F
+@padrao arpejo
+
+[V1] Verso 1 (I see this life like a swinging vine)
+D: R:2.5 E4:.5 E4:.5 E4:.5 | E4:.75 R:.75 E4:.25 D4:.25 E4:.25 E4:.5 E4:1.25 | E4:.5 E4:.5 E4 G4:.5 G4:.25 D4:1.25 | E4:.5 D4:.5 C4:.5 A3:.5 E4:.5 D4:.5 D4
+D: R:.5 E4:.25 D4:.25 C4:.5 A3:.5 E4:.5 D4:.5 D4 | E4:1.5 E4:.25 D4:.25 E4:.5 E4:.5 E4 | E4:1.5 E4:.25 D4:.25 E4:.5 E4:.5 E4 | E4:.5 D4:.5 C4:.5 A3:.5 E4:.5 D4:.5 D4
+D: R:.5 E4:.5 D4:.25 A3:.75 D4:.5 D4:.5 D4
+C: F | Am | C | G | F | Am | C | G | F
+
+[Pre1] Pré-refrão (I feel something so right)
+D: R A4:.75 G4:.25 A4:.5 C5:.5 A5:.5 G5:.5~ | G5 D5 C5:.5 D5:.5 E5 | D5:1.25 R:.75 B4:.5 A4:.5 B4:.5 C5:.5 | B4:.5 A4:2.5 R
+D: R A4:.75 G4:.25 A4:.5 C5:.5 A5:.5 G5:.5~ | G5 D5 C5:.5 D5:.5 E5 | D5:1.25 R:.75 B4:.5 A4:.5 B4:.5 C5:.5 | B4:.5 A4:2.5 R
+D: R:.5 G4:.5 A4:.75 G4:.25 A4 A4:.75 G4:.25 | A4 A4:.75 G4:.25 A4:.5 G4:.75 R:.75 | A4 G4 D4 C4 | D4 E4 D4:.5 C4:.5 A3:.5 G3:.25 A3:.25
+C: Am | C | G | F | Am | C | G | F | F | F | F | F
+@padrao balada
+
+[Ref1] Refrão (Lately I’ve been)
+D: D4 E4 G4 E4 | D4:.5 E4:.5 D4:.25 C4:.5 E4:2.25 | R:.5 D4:.5 D4:.5 E4:.25 F4:.75 E4:.5 D4:.5 C4:.5 | E4 A3 C4:1.5 A3:.5
+D: D4 E4 G4 E4 | D4:.5 E4:.5 D4:.25 C4:.5 E4:2.25 | R:.5 D4:.5 D4:.5 E4:.5 F4:.5 E4:.5 D4:.25 C4:.75 | E4:.5 D4:.5 D4:.5 A3:.5 C4:2
+C: Am | C | G | F | Am | C | G | F
+@padrao oitavas
+
+[Ref1b] Refrão, 8ª acima (We’ll be counting stars)
+D: D5 E5 G5 E5 | D5:.5 E5:.5 D5:.25 C5:.5 E5:2.25 | R:.5 D5:.5 D5:.5 E5:.25 F5:.75 E5:.5 D5:.5 C5:.5 | E5 A4 C5:1.5 A4:.5
+D: D5 E5 G5 E5 | D5:.5 E5:.5 D5:.25 C5:.5 E5:2.25 | R:.5 D5:.5 D5:.5 E5:.5 F5:.5 E5:.5 D5:.25 C5:.75 | E5:.5 D5:.5 R E5:.5 D5:.5 D5:.5 C5:.5
+D: A4:2.25 R:1.75 | A4:.25 G4:.25 E4:.25 G4:.25 D4:2 C4 | B3:1.5 R:2.5
+C: Am | C | G | F | Am | C | G | F | Am | C | G
+@padrao oitavas
+
+[V2] Verso 2 (I feel your love and I feel it burn)
+D: R:2.5 E4:.5 E4:.5 E4:.5 | E4:.75 R:.75 E4:.25 D4:.25 E4:.25 E4:.5 E4:1.25 | E4:.5 E4:.5 E4:.25 E4:.75 G4:.5 G4:.25 D4:1.25 | E4:.5 D4:.5 C4:.5 A3:.5 E4:.25 D4:.75 D4
+D: E4:.5 D4:.5 C4:.25 A3:.75 E4:.5 D4:.5 D4 | E4:1.5 E4:.25 D4:.25 E4:.5 E4:.5 E4 | E4:1.5 E4:.25 D4:.25 E4:.5 E4:.5 E4 | E4:.5 D4:.5 C4:.5 A3:.5 E4:.5 D4:.5 D4
+D: R:.5 E4:.5 D4:.25 A3:.75 D4:.5 D4:.5 D4
+C: F | Am | C | G | F | Am | C | G | F
+
+[Pre2] Pré-refrão 2 (I feel something so wrong)
+D: R A4:.75 G4:.25 A4:.5 C5:.5 A5:.5 G5:.5~ | G5 D5 C5:.5 D5:.5 E5 | D5:1.25 R:.75 B4:.5 A4:.5 B4:.5 C5:.5 | B4:.5 A4:2.5 R
+D: R:.5 G4:.5 A4:.75 G4:.25 A4 A4:.75 G4:.25 | A4 A4:.75 G4:.25 A4:.5 G4:.75 R:.75 | A4 G4 D4 C4 | D4 E4 D4:.5 C4:.5 A3:.5 G3:.25 A3:.25
+C: Am | C | G | F | F | F | F | F
+@padrao balada
+
+[Ref2] Refrão 2
+D: D4 E4 G4 E4 | D4:.5 E4:.5 D4:.25 C4:.5 E4:2.25 | R:.5 D4:.5 D4:.5 E4:.25 F4:.75 E4:.5 D4:.5 C4:.5 | E4 A3 C4:1.5 A3:.5
+D: D4 E4 G4 E4 | D4:.5 E4:.5 D4:.25 C4:.5 E4:2.25 | R:.5 D4:.5 D4:.5 E4:.5 F4:.5 E4:.5 D4:.25 C4:.75 | E4:.5 D4:.5 D4:.5 A3:.5 C4:2
+C: Am | C | G | F | Am | C | G | F
+@padrao oitavas
+
+[Ref2b] Refrão 2, 8ª acima
+D: D5 E5 G5 E5 | D5:.5 E5:.5 D5:.25 C5:.5 E5:2.25 | R:.5 D5:.5 D5:.5 E5:.25 F5:.75 E5:.5 D5:.5 C5:.5 | E5 A4 C5:1.5 A4:.5
+D: D5 E5 G5 E5 | D5:.5 E5:.5 D5:.25 C5:.5 E5:2.25 | R:.5 D5:.5 D5:.5 E5:.5 F5:.5 E5:.5 D5:.25 C5:.75 | E5:.5 D5:.5 R E5:.5 D5:.5 D5:.5 C5:.5
+D: A4:2.25 R:1.75 | R:1.5 A4:.25 G4:.5 E4:.25 G4:.75 A4:.75
+C: Am | C | G | F | Am | C | G | F | F | F
+@padrao oitavas
+
+[Ponte] Ponte (Take that money, watch it burn)
+D: C5:.5 B4:.5 A4:.25 G4:.5 C5:.5 B4:.5 A4 C5:.25~ | C5:.5 B4:.25 B4:.25 A4:.25 A4:.25 G4:.25 C5:.5 C5:.25 B4:.5 A4 | C5:.5 B4:.5 A4:.25 G4:.5 C5:.5 B4:.5 A4 C5:.25~ | C5:.5 B4:.25 B4:.25 A4:.25 A4:.25 G4:.25 C5:.5 C5:.25 B4:.5 A4
+D: C5:.5 B4:.5 A4:.25 G4:.5 C5:.5 B4:.5 A4 C5:.25~ | C5:.5 B4:.25 B4:.25 A4:.25 A4:.25 G4:.25 C5:.5 C5:.25 B4:.5 A4 | C5:.5 B4:.5 A4:.25 G4:.5 C5:.5 B4:.5 A4 C5:.25~ | C5:.5 B4:.25 B4:.25 A4:.25 A4:.25 G4:.25 C5:.5 C5:.25 B4:.5 A4
+D: A4:1.25 G4 D4 C4:.75~ | C4:.5 D4 E4:2.5~ | E4:2.25 R:1.75 | D4:.5 D4:.5 A3:.5 G3:.25 A3:.25 D4:2~
+C: Am | Am | Am | Am | Am | Am | Am | Am | F | Dm | Dm | Dm:2 -:2
+@padrao balada
+
+[Ref3] Refrão final
+D: D4 E4 G4 E4 | D4:.5 E4:.5 D4:.25 C4:.5 E4:2.25 | R:.5 D4:.5 D4:.5 E4:.25 F4:.75 E4:.5 D4:.5 C4:.5 | E4 A3 C4:1.5 A3:.5
+D: D4 E4 G4 E4 | D4:.5 E4:.5 D4:.25 C4:.5 E4:2.25 | R:.5 D4:.5 D4:.5 E4:.5 F4:.5 E4:.5 D4:.25 C4:.75 | E4:.5 D4:.5 D4:.5 A3:.5 C4:2
+D: D5 E5 G5 E5 | D5:.5 E5:.5 D5:.25 C5:.5 E5:2.25 | R:.5 D5:.5 D5:.5 E5:.25 F5:.75 E5:.5 D5:.5 C5:.5 | E5 A4 C5:1.5 A4:.5
+D: D5 E5 G5 E5 | D5:.5 E5:.5 D5:.25 C5:.5 E5:2.25 | R:.5 D5:.5 D5:.5 E5:.5 F5:.5 E5:.5 D5:.25 C5:.75 | E5:.5 D5:.5 R E5:.5 D5:.5 D5:.5 C5:.25 A4:.25
+C: Am | C | G | F | Am | C | G | F | Am | C | G | F | Am | C | G | F
+@padrao oitavas
+
+[Coda] Final (Take that money)
+D: C5:.5 B4:.5 A4:.25 G4:.5 C5:.5 B4:.5 A4 C5:.25~ | C5:.5 B4:.25 B4:.25 A4:.25 A4:.25 G4:.25 C5:.5 C5:.25 B4:.5 A4 | C5:.5 B4:.5 A4:.25 G4:.5 C5:.5 B4:.5 A4 C5:.25~ | C5:.5 B4:.25 B4:.25 A4:.25 A4:.25 G4:.25 C5:.5 C5:.25 B4:.5 A4
+D: C5:.5 B4:.5 A4:.25 G4:.5 C5:.5 B4:.5 A4 C5:.25~ | C5:.5 B4:.25 B4:.25 A4:.25 A4:.25 G4:.25 C5:.5 C5:.25 B4:.5 A4 | C5:.5 B4:.5 A4:.25 G4:.5 C5:.5 B4:.5 A4 C5:.25~ | C5:.5 B4:.25 B4:.25 A4:.25 A4:.25 G4:.25 C5:.5 C5:.25 B4:.5 A4:.75
+C: Am | C | G | F | Am | C | G | F
+@padrao balada

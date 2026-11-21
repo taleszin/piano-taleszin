@@ -1,0 +1,43 @@
+@titulo Never Gonna Give You Up (Rick Astley)
+@nivel Médio
+@bpm 114
+@compasso 4/4
+@padrao baixo-acorde
+@forma Intro V1 Pre1 R1 V2 Pre2 R2 R1 Ponte V2 Pre2 R2 R2 R1 Fim
+@fonte bitmidi: Never-Gonna-Give-You-Up-1.mid (/uploads/79827.mid); melodia da trilha MELODY, acordes do E.PIANO/baixo do mesmo MIDI (conferidos com o MIDI R.ASTLEY /uploads/87390.mid); transposto de Lá bemol para Dó
+
+[Intro] Intro (acordes do synth)
+D: A4+F4:2 G4+E4:2 | G4+E4:2 F4+D4:2 | A4+F4:2 G4+E4:2 | G4+E4:1.5 F4+C4:2.5 | A4+F4:2 G4+E4:2 | G4+E4:2 F4+D4:2 | A4+F4:2 G4+E4:2 | A4+F4 A4+F4:3
+C: Gm9:2 C:2 | Am7:2 Dm7:2 | Gm9:2 C:2 | Am7:2 Dm7:2 | Gm9:2 C:2 | Am7:2 Dm7:2 | Gm9:2 C:2 | Dm7
+
+[V1] Verso 1
+D: R D4:.5 E4:.5 F4:.25 R:.25 F4:.5 G4:.5 E4:.5~ | E4:.25 D4:.25 C4:2.5 R | R:.5 D4:.25 R:.25 D4:.5 E4:.5 F4:.5 D4:.75 R:.25 C4:.5 | C5:.75 R:.25 C5:.5 G4:2.5 | R:.5 D4:.25 R:.25 D4:.5 E4:.5 F4:.5 D4:.5 F4:.5 G4:.5 | R:.5 E4:.5 D4:.5 E4:.25 D4:.25 C4:1.75 R:.25 | R:.5 D4:.25 R:.25 D4:.5 E4:.5 F4:.25 R:.25 D4:.5 C4:.5 R:.5 | G4:.25 R:.25 G4:.25 R:.25 G4:.5 A4:.5 G4 R
+C: Bb7M/D | C | Bb7M/D | C/G:2 C:2 | Bb7M/D | C | Bb7M/D | C/G:2 C:2
+
+[Pre1] Pré-refrão
+D: F4:2.5 G4:.5 A4:.5 F4:.5 | G4:.5 G4:.25 R:.25 G4:.5 A4:.5 G4:.5 C4:.5 C4~ | C4:.5 R:1.5 D4:.5 E4:.5 F4:.5 D4:.5 | R:.5 G4:.5 A4:.5 G4 R:.5 C4:.25 D4:.25 F4:.25 D4:.25
+C: Bb7M/D | C | C | Dm7
+
+[R1] Refrão
+D: A4:.5 R:.25 A4:.75 G4 R:.5 C4:.25 D4:.25 E4:.25 D4:.25 | G4:.75 G4:.75 F4:.5 E4:.25 R:.25 D4:.5 C4:.25 D4:.25 E4:.25 D4:.25 | F4 G4:.5 E4:.5 D4:.5 C4:.5 R:.5 C4:.5 | G4:.75 R:.25 F4 R C4:.25 D4:.25 F4:.25 R:.25 | A4:.5 R:.25 A4:.75 G4 R:.5 C4:.25 E4:.25 D4:.5 | C5 E4:.5 F4:.5 E4:.25 D4:.5 R:.25 C4:.25 D4:.25 E4:.25 D4:.25 | F4 G4:.5 E4:.75 D4:.25 C4:.75 R:.25 C4:.5 | G4:.5 F4:.5 F4:1.25 R:1.75
+C: Gm9:2 C:2 | Am7:2 Dm7:2 | Gm9:2 C:2 | Am7:2 Dm7:2 | Gm9:2 C:2 | Am7:2 Dm7:2 | Gm9:2 C:2 | Am7:2 Dm7:2
+
+[V2] Verso 2
+D: R:.5 F4:.25 R:.25 F4:.5 D4:.5 F4:.5 G4 R:.5 | R:.5 E4:.5 D4:.5 E4:.25 D4:.25 C4:1.75 R:.25 | R:.5 D4:.25 R:.25 D4:.5 E4:.5 F4:.5 D4:.5 C4:.75 R:.25 | R:.5 C5:.5 C5:.5 G4 A4:.5 G4:.5 F4:.5~ | F4:.25 R:.25 F4:.25 R:.25 F4:.5 D4:.5 F4:.5 D4:.5 F4:.5 G4:.5 | R:.5 E4:.5 D4:.5 E4:.25 D4:.25 C4:1.25 R:.75 | R:.5 D4:.25 R:.25 D4:.5 E4:.5 F4:.5 D4:.5 C4 | R:.5 G4:.5 A4:.5 A4 G4:1.25 R:.25
+C: Bb7M/D | C | Bb7M/D | C/G:2 C:2 | Bb7M/D | C | Bb7M/D | C/G:2 C:2
+
+[Pre2] Pré-refrão
+D: F4:2.5 G4:.5 A4:.5 G4:.5~ | G4:.25 R:.25 G4:.25 R:.25 G4:.5 A4:.5 G4:.5 C4:.25 R:.25 C4~ | C4:.5 R C4:.5 D4:.5 E4:.5 F4:.5 D4:.5 | R:.5 G4:.5 A4:.5 G4 R:.5 C4:.25 D4:.25 F4:.25 D4:.25
+C: Bb7M/D | C | C | Dm7
+
+[R2] Refrão (emenda)
+D: A4:.5 R:.25 A4:.75 G4 R:.5 C4:.25 D4:.25 E4:.25 D4:.25 | G4:.75 G4:.75 F4:.5 E4:.25 R:.25 D4:.5 C4:.25 D4:.25 E4:.25 D4:.25 | F4 G4:.5 E4:.5 D4:.5 C4:.5 R:.5 C4:.5 | G4:.75 R:.25 F4 R C4:.25 D4:.25 F4:.25 R:.25 | A4:.5 R:.25 A4:.75 G4 R:.5 C4:.25 E4:.25 D4:.5 | C5 E4:.5 F4:.5 E4:.25 D4:.5 R:.25 C4:.25 D4:.25 E4:.25 D4:.25 | F4 G4:.5 E4:.75 D4:.25 C4:.75 R:.25 C4:.5 | G4:.5 F4:.5 F4:1.25 R:.75 C4:.25 D4:.25 F4:.25 D4:.25
+C: Gm9:2 C:2 | Am7:2 Dm7:2 | Gm9:2 C:2 | Am7:2 Dm7:2 | Gm9:2 C:2 | Am7:2 Dm7:2 | Gm9:2 C:2 | Am7:2 Dm7:2
+
+[Ponte] Ponte
+D: G4+D5:1.5 G4+D5:2.5 | F4+A4:1.5 F4+A4:2.5 | G4+D5:1.5 G4+D5:2.5 | F4+A4:4 | R:.5 C4:.25 D4:.25 F4:.25 D4:.25 A4:.25 R:.25 C4:.25 D4:.25 F4:.25 D4:.25 A4:.5 R:.5 | R:4 | R:.5 C4:.25 D4:.25 F4:.25 R:.25 A4:.25 R:.25 C4:.25 D4:.25 F4:.25 D4:.25 A4:.5 R:.5 | R:4
+C: Gm | Dm | Gm | Dm | Gm | Dm | Gm | Dm
+
+[Fim] Final
+D: C4+E4:4
+C: C

@@ -1,0 +1,74 @@
+@titulo Flowers (Miley Cyrus)
+@nivel Médio
+@bpm 118
+@compasso 4/4
+@padrao baixo-acorde
+@forma Intro V1 Pre R Post V2 Pre2 R2 Post2 Ponte Pre3 R3 PostF
+@fonte freemidi 28802 (trilha "Voice"), oitava acima, em Lá menor (tom original); cifras pelo MIDI
+
+[Intro] Intro
+D: R:4
+C: C
+
+[V1] Verso 1
+D: R:2.5 C5:.5 B4:.5 A4:.5~ | A4 R:1.5 C5:.5 B4:.5 A4:.5~ | A4 R:1.5 C5:.5 A4:.5 B4:.5~ | B4 G4:.5 B4 G4:.5 F4:.5 E4:.5~
+D: E4 R:1.5 C5:.5 B4:.5 A4:.5~ | A4 R:1.5 C5:.5 B4:.5 A4:.5~ | A4 R:1.5 C5:.5 A4:.5 B4:.5~ | B4 G4:.5 B4 G4:.5 F4:.5 E4:.5~
+C: C | Am | Dm | G | C | Am | Dm | G
+
+[Pre] Pré-refrão
+D: E4 R:1.5 C5 D5:.5~ | D5:.5 D5:.25 D5:.25 D5:.5 C5:.25 D5:.75 A4 D5:.5~ | D5:.5 D5:.25 D5:.25 D5:.5 C5:.25 D5:1.25 R:.5 B4:.5~ | B4:.5 B4:.5 A4:.5 B4 A4:.5 B4:.5 A4:.5
+D: B4:.75 C5:.75 D5:1.5 R
+C: C | Am | Dm | E | E7
+
+[R] Refrão
+D: R E5:.5 E5:.5 E5:.5 D5:.5 C5:.5 E5:.5 | F5:2 R:2 | R D5:.5 D5:.5 D5:.75 C5:.25 A4:.5 E5:.5~ | E5:.5 D5:.5 E5 R:2
+D: R:.5 E5:.5 E5:.5 E5:.5 E5:.75 D5:.25 C5:.5 E5:.5 | F5:2 R:2 | R:.5 D5:.5 D5:.5 C5:.5 E5 D5:.25 C5:.5 C5:.25~ | C5:.5 A4:.25 G4:.25 C5 R:2
+C: Am | Dm | G | C | Am | Dm | G | C
+
+[Post] Pós-refrão
+D: R G5:.5 E5:.5 G5:.5 E5:.5 G5:.5 A5:.5~ | A5:.5 E5:.25 D5:.25 C5 R:2 | R:.5 D5:.5 D5:.5 D5:.5 G5 R:.5 F5:.25 E5:.25 | E5:2 R:.5 E5:.5 D5:.5 C5:.5
+D: A4 E5:.5 D5 C5:.5 B4:.5 B4:.5~ | B4:2 R:.5 C5:.5 B4:.5 A4:.5~ | A4:.5 R:3.5 | R:4
+D: R:4
+C: Am | Dm | G | C | F | E | Am | Dm | G
+
+[V2] Verso 2
+D: R:2.5 C5:.5 B4:.5 A4:.5~ | A4 R:1.5 C5:.5 B4:.5 A4:.5~ | A4 R:1.5 C5:.5 A4:.5 B4:.5~ | B4:.5 G4 B4 G4:.5 F4:.5 E4:.5~
+D: E4 R:1.5 C5:.5 B4:.5 A4:.5~ | A4 R:1.5 C5:.5 B4:.5 A4:.5~ | A4 R:1.5 C5:.5 A4:.5 B4:.5~ | B4:.5 G4:.5 G4:.5 B4 G4:.5 F4:.5 E4:.5~
+C: C | Am | Dm | G | C | Am | Dm | G
+
+[Pre2] Pré-refrão
+D: E4 R:1.5 C5 D5:.5~ | D5:.5 D5:.25 D5:.25 D5:.5 C5:.25 D5:.75 A4:.5 E4:.5 D5:.5~ | D5:.5 D5:.25 D5:.25 D5:.5 C5:.25 D5:1.25 R:.5 B4:.5~ | B4:.5 B4:.5 A4:.5 B4 A4:.5 B4:.5 A4:.5
+D: B4:.75 C5:.75 D5:1.5 R
+C: C | Am | Dm | E | E7
+
+[R2] Refrão
+D: R E5:.5 E5:.5 E5:.5 D5:.5 C5:.5 E5:.5 | F5:3 R | R D5:.5 D5:.5 D5:.75 C5:.25 A4:.5 E5:.5 | D5:.25 E5:2.75 R
+D: R:.5 E5:.5 E5:.5 E5:.5 E5:.75 D5:.25 C5:.5 E5:.5 | F5:2.5 G5:.5 E5:.5 D5:.5 | R:.5 D5:.5 D5:.5 C5:.5 E5 D5:.25 C5:.5 C5:.25~ | C5:.5 A4:.25 G4:.25 C5 R:2
+C: Am | Dm | G | C | Am | Dm | G | C
+
+[Post2] Pós-refrão
+D: R G5:.5 E5:.5 G5:.5 E5:.5 G5:.5 A5:.5~ | A5:.5 E5:.25 D5:.25 C5 R E5:.5 D5:.5~ | D5:.5 D5:.5 D5:.5 D5:.5 G5:1.5 F5:.25 E5:.25 | E5:2 R:.5 E5:.5 D5:.5 C5:.5
+D: A4:.75 E5:.75 D5 C5:.5 B4:.5 B4:.5~ | B4:2 R:.5 C5:.5 B4:.5 A4:.5~ | A4:.5 R:3.5
+C: Am | Dm | G | C | F | E | Am
+
+[Ponte] Ponte
+D: R:4 | R:4 | R:4 | R:4
+D: R:4 | R:2.5 G5 A5:.5~ | A5:.25 G5:.25 E5:1.5 R:1.5 D5:.5~
+C: Dm | Em | C | Am | Dm | Em | C
+
+[Pre3] Pré-refrão
+D: D5:.5 D5:.25 D5:.25 D5:.5 C5:.25 D5:.75 A4 D5:.5~ | D5:.5 D5:.25 D5:.25 D5:.5 C5:.25 D5:1.25 R:.5 B4:.5~ | B4:.5 B4:.5 A4:.5 B4 A4:.5 B4:.5 A4:.5 | B4:.75 C5:.75 D5:2.5
+C: Am | Dm | E | E7
+
+[R3] Refrão
+D: R E5:.5 E5:.5 E5:.5 D5:.5 C5:.5 E5:.5 | F5:2 R E5:.5 D5:.5~ | D5:.5 R:.5 D5:.5 D5:.5 D5:.75 C5:.25 A4:.5 E5:.5~ | E5:.5 D5:.5 E5 R:2
+D: R:.5 E5:.5 E5:.5 E5:.5 E5:.75 D5:.25 C5:.5 E5:.5~ | E5:.5 F5:1.5 R E5:.5 D5:.5~ | D5:.5 D5:.5 D5:.5 C5:.5 E5 D5:.25 C5:.5 C5:.25~ | C5:.5 A4:.25 G4:.25 C5 R:2
+C: Am | Dm | G | C | Am | Dm | G | C
+
+[PostF] Final
+D: R G5:.5 E5:.5 G5:.5 E5:.5 G5:.5 A5:.5~ | A5:.5 E5:.25 D5:.25 C5 R E5:.5 D5:.5~ | D5:.5 R:.5 D5:.5 D5:.5 G5:1.5 D5:.25 D5:.25 | E5:2 R:.5 E5:.5 D5:.5 C5:.5
+D: A4:.75 E5:.75 D5 C5:.5 B4:.5 B4:.5~ | B4:2 R:.5 E5:.5 D5:.5 C5:.5 | A4:.75 E5:.75 D5 C5:.5 B4:.5 D5:.5~ | D5:2 R:.5 G5:.5 E5:.5 A5:.5~
+D: A5:4~ | A5:3 A5:.5 G5:.5~ | G5 R:3 | R:2.5 G5:.5 E5:.5 A5:.5~
+D: A5:2 R:2 | R:4 | R:4 | R:4
+D: R:4
+C: Am | Dm | G | C | F | E | F | E | Am | Dm | G | C | Am | Dm | Em | C | C

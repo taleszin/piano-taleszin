@@ -1,0 +1,67 @@
+@titulo Harry Potter – Hedwig's Theme (John Williams)
+@nivel Médio
+@bpm 87
+@compasso 3/8
+@anacruse .5
+@padrao arpejo
+@fonte freemidi: https://freemidi.org/download3-22665-harry-potter-prologue-2-harry-potter (piano); mão direita do MIDI (2 vozes de cima), cifras tiradas da harmonia do MIDI; tom original Mi menor transposto para Ré menor
+@forma Pk A A2 B B2 Pk A A2 F
+
+[Pk] Anacruse
+D: A4:.5
+C: -
+
+[A] Tema A
+D: D5:.75 F5:.25 E5:.5 | D5 A5:.5 | G5:1.5 | E5:1.5
+C: Dm | Dm | Gm/D | Gm6/D
+D: D5:.75 F5:.25 E5:.5 | C#5 Eb5:.5 | A4:1.5 | A4 A4:.5
+C: Dm | A7 | Dm | Dm
+D: D5:.75 F5:.25 E5:.5 | D5 A5:.5 | C6 B5:.5 | Bb5 F#5:.5
+C: Dm | Dm | Fm/C | Ebm/Bb
+D: Bb5:.75 A5:.25 Ab5:.5 | Ab4 F5:.5 | D5:1.5~ | D5 F5:.5
+C: Gm/Bb | E7/B | Dm | Dm/A
+
+[A2] Tema A (variação)
+D: A5 F5:.5 | A5 F5:.5 | Bb5 A5:.5 | Ab5 E5:.5
+C: Dm | Dm/A | Bb | A
+D: F5:.75 A5:.25 Ab5:.5 | Ab4 A4:.5 | A5:1.5~ | A5 F5:.5
+C: Dm | Bb | Dm | Dm/A
+D: A5 F5:.5 | A5 F5:.5 | C6 B5:.5 | Bb5 F#5:.5
+C: Dm | Dm/A | Fm/C | Ebm/Bb
+D: Bb5:.75 A5:.25 Ab5:.5 | Ab4 F5:.5 | D5:1.5~ | D5:1.5~
+C: Gm/Bb | E7/B | Dm | Dm/A
+D: D5:1.5~ | D5:1.5
+C: Dm | A
+
+[B] Tema B
+D: A4:.5 A4:.5 A4:.5 | A4:.5 A4:.5 A4:.5 | Ab4:.5 A4:.5 Bb4:.5~ | Bb4:.5 A4:.5 Ab4:.5
+C: Dm | Dm | Dm | Dm
+D: A4 F4:.5~ | F4:.5 G4 | G4:.5 F#4:.5 G4:.5~ | G4:.5 Bb3
+C: Bb | Gm | Gm | Gm/D
+D: A3 D4:.5 | F4:.5 Ab4~ | Ab4 A4:.5 | A4:.5 A4:.5 A4:.5
+C: Dm | A | A | Dm
+D: A4:.5 A4:.5 Ab4:.5 | A4:.5 C5 | Bb4:.5 A4:.5 Bb4:.5~ | Bb4:.5 Eb4
+C: Dm | Fm | Ebm | Ebm
+D: Bb4 A4:.5 | Ab4:.5 A4 | D4 F4:.5~ | F4:1.5
+C: Ebm | Dm | Dm/F | Dm/A
+D: C#4:1.5~
+C: A7
+
+[B2] Tema B (Lá menor → Sol menor)
+D: C#4:.5 D5:.5 D5:.5 | D5:.5 D5:.5 D5:.5 | D5:.5 C#5:.5 D5:.5 | Eb5 D5:.5
+C: Gm | Gm | Gm | Gm
+D: C#5:.5 D5 | Bb4 C5:.5~ | C5:.5 C5:.5 B4:.5 | C5 Eb4:.5~
+C: Gm | Cm | Cm | Cm
+D: Eb4:.5 D4:.25 R:.75 | G4:.5 Bb4:.5 C#5:.5~ | C#5:1.5 | D5:.5 D5:.5 D5:.5
+C: Cm | D | D | Gm
+D: D5:.5 D5:.5 D5:.5 | C#5:.5 D5:.5 F5:.5~ | F5:.5 Eb5:.5 D5:.5 | Eb5 Ab4:.5~
+C: Gm | Bbm | Bbm | Abm
+D: Ab4:.5 Eb5 | D5:.5 C#5:.5 D5:.5~ | D5:.5 G4 | Bb4:1.5~
+C: Abm | Gm | Gm | Ebm
+D: Bb4:.5 D4
+C: D
+
+[F] Final
+@padrao bloco
+D: D4+F4+A4:1.5~ | D4+F4+A4:1.5
+C: Dm | Dm

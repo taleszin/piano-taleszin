@@ -1,0 +1,69 @@
+@titulo Your Song (Elton John)
+@nivel Médio
+@bpm 64
+@compasso 4/4
+@padrao arpejo
+@forma Intro Verso1 Verso2 Refrao Refrao2 Inter Verso3 Verso4 Refrao Refrao2 Fim1 Fim2 Final
+@fonte bitmidi: https://bitmidi.com/john-your-song-k-mid (canto canal 3, de Mi bemol para Dó e uma oitava acima; compassos 2/4 da gravação viram o último compasso curto de cada seção); cifras tiradas do baixo
+
+[Intro] Introdução
+D: E4+G4:2 F4+A4:2 | E4+G4:2 F4+A4:2
+C: C:2 F/C:2 | C:2 F/C:2
+
+[Verso1] Verso (It's a little bit funny)
+D: R:.5 E4:.25 D4:.25 E4:.25 D4:.25 E4:.25 R:.25 E4:.25 E4:1.25 R:.5 | R:.5 D4:.25 D4:.5 G4:.25 D4:.5 E4:.75 F4:.25 E4:.25 R:.75 | R:.75 A3:.25 C4:.25 C4:.25 B3:.25 C4:.5 R:.5 B3:.25 R:.25 C4:.5 R:.25 | R:.5 C4:.25 E4:.25 R:.25 C4:.25 R:.25 D#4:.25 D4:.25 C4:.25 R:.25 G3:.25 A3:.25 C4:.5 R:.25
+D: R:.75 C4:.25 R:.25 C4:.25 C4:.5 E4:.25 D4:.5 C4:.5 C4:.25 D4:.5 | R:.5 E4:.25 G4:.5 A4:.75 D4:.5 C4:.25 R:1.25 | R:.5 C4:.25 C4:.25 R:.25 E4:.25 G4:.5 A4:.75 E4:.25 D4:.5 R:.5 | R:.5 A3:.25 C4:.25 R:.25 C4:.75 D4:1.5 R:.5
+D: R:2
+C: C:2 Fmaj7:2 | G/B:2 Em:2 | Am:2 Am/G:2 | D/F#:2 F:2
+C: C/G | E/G#:2 Am:2 | C:2 D7:2 | F:2 G:2
+C: G:2
+
+[Verso2] Verso (If I was a sculptor)
+D: R:.75 G3:.25 E4:.25 E4:.25 D4:.25 E4:.5 E4:.5 R:1.25 | R:.75 D4:.25 D4:.25 G4:.25 R:.75 E4:.75 R:.75 B3:.25 | C4:.5 R:.75 C4:.25 C4:.25 R:.25 C4:.25 C4:.25 R:.25 C4:.25 R:.25 C4:.25 R:.5 | R C4:.25 E4:.25 C4:.25 D4:.5 C4:.5 G3:.25 A3:.25 C4:.25 R:.5
+D: R:.75 C4:.5 C4:.25 C4:.25 E4:.5 D4:.5 C4:.5 C4:.25 D4:.25 E4:.25~ | E4:.25 R:.5 G4:.5 A4:.5 D4:.5 C4:.25 A3:.5 R | R:.5 C4:.25 C4:.25 R:.25 E4:.25 G4:.5 A4:.75 E4:.25 R | R:.5 A3:.25 C4:.25 R:.25 C4:.25 C4:1.5 R
+D: R:2
+C: C:2 Fmaj7:2 | G/B:2 Em:2 | Am:2 Am/G:2 | D/F#:2 F:2
+C: C/G | E/G#:2 Am:2 | C:2 D7:2 | F:2 C:2
+C: C:2
+
+[Refrao] Refrão (And you can tell everybody)
+D: R:.5 E4:.25 G4:.25 R:.25 E4:.25 G4:.25 R:.25 A4:.5 G4:.25 E4:.5 C4:.25 R:.5 | R:.75 A3:.25 R:.25 C4:.25 A3:.25 D4:.5 C4:.75 R | R:.5 E4:.25 G4:.25 R:.25 G4:.5 A4:.5 G4:.5 E4:.25 D4:.25 D4:.75 | C4:.25 R:.75 A3:.25 C4:.25 A3:.25 D4:.5 C4:.5 R:1.25
+D: R:.25 E4:.25 A4:.25 G4:.25 A4:.25 C5:.5 R:.5 G4:.25 A4:.25 G4:.25 A4:.25 C5:.75 | R:.25 A4:.25 G#4:.25 A4:.25 R:.25 C5:.25 G4:.25 R:.25 A4:1.75 R:.25 | R:1.25 A4:.75
+C: G/B:2 Am:2 | Dm:2 F:2 | G/B:2 Am:2 | Dm:2 F:2
+C: Am:2 C/G:2 | D/F#:2 F:2 | F:2
+
+[Refrao2] How wonderful life is
+D: G4:.75 E4:.5 C4:.75 D4:.75 A3:.75 R:.25 A3:.25 | D4:.75 C4:.5 C4:.25 D4:2.5 | R:2
+C: C/E:2 F:2 | Dm:2 G:2 | G:2
+
+[Inter] Interlúdio
+D: E4+G4:2 F4+A4:2 | E4+G4:2 F4+A4:2
+C: C:2 F/C:2 | C:2 F/C:2
+
+[Verso3] Verso (I sat on the roof)
+D: R:.75 C4:.25 E4:.25 E4:.25 R:.25 D4:.25 E4:.25 R:1.75 | R:.75 D4:.25 D4:.25 G4:.25 R:.25 D4:.25 E4:.75 F4:.25 D4:.5 R:.25 B3:.25 | C4:.25 R:1.25 C4:.25 C4:.25 D4:.5 C4:.25 R:.25 C4:.25 C4:.25 C4:.25 E4:.25~ | E4:.25 R C4:.25 R:.25 D4:.5 C4:.75 R
+D: R:.25 C4:.25 C4:.25 C4:.25 R:.25 C4:.25 R:.25 E4:.25 R:.25 E4:.5 F4:.25 D4:.5 R:.5 | R:.25 E4:.25 E4:.25 G4:.25 R:.25 A4:.5 D4:.5 C4:.25 A3:.25 R:1.25 | R:.25 C4:.25 C4:.25 C4:.25 E4:.25 G4:.5 A4:.75 R:.25 E4:.25 R | R A3:.25 C4:.25 R:.25 D4:.5 D4:1.25 R:.5
+D: R:2
+C: C:2 Fmaj7:2 | G/B:2 Em:2 | Am:2 Am/G:2 | D/F#:2 F:2
+C: C/G | E/G#:2 Am:2 | C:2 D7:2 | F:2 G:2
+C: G:2
+
+[Verso4] Verso (So excuse me forgetting)
+D: R:.5 E4:.25 D4:.25 R:.25 E4:.25 R:.25 E4:.25 E4:.25 E4:.5 R:1.25 | R:.75 D4:.25 D4:.25 G4:.5 A4:.5 E4:.5 F4:.25 D4:.5 R:.5 | R:.75 A3:.25 C4:.25 C4:.25 R:.25 B3:.25 C4:.25 C4:.25 R:.75 C4:.25 C4:.25 C4:.25~ | C4:.25 R E4:.25 C4:.25 D4:.5 C4:.5 R:1.25
+D: R:.25 C4:.25 C4:.25 R:.5 C4:.25 C4:.25 C4:.25 R:1.25 D4:.25 G4:.25 G4:.25 | E4:.75 F4:.25 E4:.25 E4:.5 R:2.25 | R C4:.25 E4:.25 G4:.5 A4:.25 G4:.5 D4:.5 C4:.25 D4:.5 | C4:.5 R:.25 A3:.25 E4:.25 A3:.25 C4:1.25 R:1.25
+D: R:2
+C: C:2 Fmaj7:2 | G/B:2 Em:2 | Am:2 Am/G:2 | D/F#:2 F:2
+C: C/G | E/G#:2 Am:2 | C:2 D7:2 | F:2 C:2
+C: C:2
+
+[Fim1] How wonderful life is
+D: G4:.75 E4:.5 C4:.75 D4:.75 A3:.75 R:.25 A3:.25 | D4:.75 C4:.5 C4:.25 D4:2.5~ | D4:.25 R:1.75
+C: C/E:2 F:2 | Dm:2 G:2 | G:2
+
+[Fim2] I hope you don't mind
+D: R:.25 E4:.25 A4:.25 G4:.25 A4:.25 C5:.5 R:.5 A4:.25 E5:.25 C5:.25 C5:.25 C5:.5 A4:.25 | R:.25 A4:.25 G#4:.25 A4:.25 R:.25 C5:.25 G4:.5 A4:2~ | A4:.5 R:.75 G4:.75
+C: Am:2 C/G:2 | D/F#:2 F:2 | F:2
+
+[Final] Final (while you're in the world)
+D: G4:.5 R:.25 E4:.5 D4:.75 D4:.75 A3:.75 R:.25 A3:.25 | D4:.75 C4:.5 C4:.25 C4:2.5~ | C4:4 | E4+G4:2 F4+A4:2 | E4+G4:4
+C: C/E:2 F:2 | Dm:2 G:2 | C | C:2 F/C:2 | C

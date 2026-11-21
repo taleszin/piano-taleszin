@@ -1,0 +1,38 @@
+@titulo Gymnopédie nº 1 (Satie)
+@nivel Fácil
+@bpm 72
+@compasso 3/4
+@forma Intro A C1 Intro A C2
+@fonte mutopia: SatieE/gymnopedie_1 (melodia = voz superior; baixo e acordes na esquerda), Ré maior original; forma completa com a segunda metade e o final em ré menor
+
+[Intro] Introdução
+D: R F#4:2 | R F#4:2 | R F#4:2 | R F#4:2
+E: G2 B3+D4:2 | D2 A3+C#4:2 | G2 B3+D4:2 | D2 A3+C#4:2
+
+[A] Melodia
+D: R F#5 A5 | G5 F#5 C#5 | B4 C#5 D5 | A4 F#4:2
+D: F#4 F#4:2~ | F#4 F#4:2~ | F#4 F#4:2~ | F#4 F#4:2
+D: R F#5 A5 | G5 F#5 C#5 | B4 C#5 D5 | A4 F#4:2
+D: C#5 F#4:2 | F#5 F#4:2 | E4:3~ | E4:3~
+D: E4:3 | A4 B4 C5 | E5 D5 B4 | D5 C5 B4
+D: D5:3~ | D5:2 D5 | E5 F5 G5 | A5 C5 D5
+D: E5 D5 B4 | D5:3~ | D5:2 D5
+E: G2 B3+D4+F#4:2 | D2 A3+C#4+F#4:2 | G2 B3+D4+F#4:2 | D2 A3+C#4:2
+E: G2 B3+D4:2 | D2 A3+C#4:2 | G2 B3+D4:2 | D2 A3+C#4:2
+E: G2 B3+D4+F#4:2 | D2 A3+C#4+F#4:2 | G2 B3+D4+F#4:2 | D2 A3+C#4:2
+E: F#2 A3+C#4:2 | B1 B3+D4:2 | E2 G3+B3:2 | E2 B3+D4+G4:2
+E: D2 F3+A3+D4:2 | A1 A3+C4+E4:2 | D2 G3+B3+E4:2 | D2 D3+B3+E4:2
+E: D2 C3+A3+D4:2 | D2 C3+A3+D4:2 | D2 A3+C4+F4:2 | D2 A3+C4+E4:2
+E: D2 D3+B3+E4:2 | D2 C3+A3+D4:2 | D2 C3+A3+D4:2
+
+[C1] Frase final (1ª vez)
+D: G5 G4:2 | F#5 F#4:2 | B4 A4 B4 | C#5 D5 E5
+D: C#5 D5 E5 | F#4 D4 G4 | C5:3 | D5:3
+E: E2 B3+E4:2 | F#2 A3+C#4:2 | B1 B3+D4+F#4:2 | E2 C#4+E4+A4:2
+E: E2 A3+F#4+A4:2 | E2 B2+A3 E3+B3+D4 | A2+E4+A4:3 | D2+F#4+A4:3
+
+[C2] Frase final (2ª vez)
+D: G5 G4:2 | F5 A4:2 | B4 C5 F5 | E5 D5 C5
+D: E5 D5 C5 | F4 D4 G4 | C5:3 | D5:3
+E: E2 B3+E4:2 | E2 A3+D4+F4:2 | E2 A3+C4+F4:2 | E2 C4+E4+A4:2
+E: E2 A3+F4+A4:2 | E2 B2+A3 E3+B3+D4 | A2+E4+A4:3 | D2+F4+A4:3

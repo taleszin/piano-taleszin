@@ -1,0 +1,35 @@
+@titulo Help! (The Beatles)
+@nivel Médio
+@bpm 176
+@compasso 4/4
+@padrao baixo-acorde
+@forma Intro Verso Refrao Retorno Verso Refrao Retorno Verso Refrao Final
+@fonte bitmidi: THE BEATLES.Help K.mid (uploads/100790), voz principal canal 4 e "Help!" canal 5/6; em Sol (original em Lá), cifras do baixo do MIDI
+
+[Intro] Intro (Help! I need somebody)
+D: C5+E5:3 R:.5 D5:.5 | E5 D5:.5 C5:.5 D5 C5 | C5+F5:2.5 R:.5 A4:.5 C5:.5 | E5:.5 D5 D5:1.5 C5:.5 B4:.5
+D: D5+F#5:2.5 A4:.5 C5:.5 A4:.5 | E5 D5:.5 C5:.5 D5:2 | B5:1.5 A5:.5 G5:2 | R:4
+C: Am | Am/G | F | F/E | D | D | G | G
+
+[Verso] Verso (When I was younger...)
+D: R B4:.5 B4:1.5 B4 | B4 B4:.5 B4 B4:1.5 | B4 B4:.5 B4:1.5 D5 | B4:2 A4:.5 G4:.5 R
+D: R:.5 A#4:.5 B4:.5 A#4:.5 B4 A#4 | B4:.5 A#4 B4 B4:1.5 | C5 C5 C5:.5 C5 B4:.5~ | B4:2 R:2
+D: R B4 B4 B4 | B4 B4:.5 B4 B4:1.5 | B4 B4 B4 D5 | B4:2 A4:.5 G4:.5 R
+D: R B4:.5 A#4:.5 B4:1.5 A#4:.5 | B4:.5 A#4:.5 B4:2.5 G4:.5 | C5 C5 C5 C5:.5 B4:.5~ | B4:2 R:2
+C: G | G | Bm | Bm | Em | Em | C:2 F:2 | G
+C: G | G | Bm | Bm | Em | Em | C:2 F:2 | G
+
+[Refrao] Refrão (Help me if you can...)
+D: D5 D5 D5:.5 D5 D5:.5~ | D5 C5 B4 A4 | C5:2 B4 A4 | R:2 B4:.5 C5 D5:.5~
+D: D5 D5 D5 D5 | D5 C5 B4 A4 | C5:2 B4 A4 | R:4
+D: D5 D5:.5 D5 D5 D5:.5~ | D5 C5 B4 A4 | C5:2 B4 A4 | R:2 D5 D5
+D: G5:4 | D5:.5 B4:1.5 B4:.5 A4:1.5
+C: Am | Am | Am | Am/G | F | F | F | F/E | D | D | D | D | G | G
+
+[Retorno] (help me)
+D: G4:2 R:2 | R:4
+C: G | G
+
+[Final] Final (Help me, help me, ooh)
+D: G4:2 R:2 | E5:2 R:2 | D5:1.5 C5:.5 B4:2 | B4:4 | B4:4
+C: Em | Em | G6 | G6 | G6

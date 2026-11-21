@@ -1,0 +1,29 @@
+@titulo Smoke on the Water (Deep Purple)
+@nivel Médio
+@bpm 112
+@compasso 4/4
+@forma Intro*2 Riff*2 V R Riff*2 V R Riff*2 V R Riff*2 Final
+@fonte bitmidi: deep-purple-smoke-on-the-water-mid (riff em quartas, voz e baixo das trilhas), baixo oitava acima
+# Riff clássico em quartas paralelas na mão direita (G-Bb-C / G-Bb-Db-C / G-Bb-C / Bb-G)
+
+[Intro] Riff (guitarra sozinha)
+D: D4+G4:1 F4+A#4:1 G4+C5:1.5 D4+G4:.5 | R:.5 F4+A#4:1 G#4+C#5:.5 G4+C5:2 | D4+G4:1 F4+A#4:1 G4+C5:1.5 F4+A#4:.5 | R:.5 D4+G4:2.5 R:1
+
+[Riff] Riff (com baixo)
+D: D4+G4:1 F4+A#4:1 G4+C5:1.5 D4+G4:.5 | R:.5 F4+A#4:1 G#4+C#5:.5 G4+C5:2 | D4+G4:1 F4+A#4:1 G4+C5:1.5 F4+A#4:.5 | R:.5 D4+G4:2.5 R:1
+E: G2:.5 G2:.5 G2:.5 G2:.5 G2:.5 G2:.5 G2:.5 G2:.5 | G2:.5 G2:.5 G2:.5 G2:.5 G2:.5 G2:.5 G2:.5 G2:.5 | G2:.5 G2:.5 G2:.5 G2:.5 C3:.5 C3:.5 C3:.5 A#2:.5~ | A#2:.5 G2:.5 G2:.5 G2:.5 G2:.5 G2:.5 G2:.5 G2:.5
+
+[V] Verso
+D: G5 G5 F5 D5:.5 F5:.5~ | F5:.5 D5:1.5 R D5:.5 D5:.5 | D5 A#4:.5 C5:1.5 A#4:.5 G4:.5~ | G4:.5 G4:1.5 R:2
+D: R:.5 F5:.5 R F5:.5 D5:.5 F5:.5 D5:.5 | G5 B4:.5 G4:.5 R:2 | R:2 A#4:.5 A#4:.5 A4:.5 R:.5 | D5:.5 D5:.5 C5:.5 G4:1.5 R
+D: R:.5 G5 G5:.5 F5:.5 G5:.5 F5:.5 G5:.5~ | G5:.5 G5 R C5:.5 D5:.5 A#4:.5 | D5 C5 A#4:.5 D5:1.5~ | D5 R:3
+D: R:.5 D5:.5 F5:.5 D5:.5 F5:.5 D5:.5 F5:.5 D5:.5 | F5 G5 R:2 | G5:.5 C#5:.5 C#5:.5 A#4:.5 C5:.5 C#5:.5 G4~ | G4:1.5 R:2.5
+E: G2:.5 G2:.5 D3+G3:.5 R:.5 G2:.5 G2:.5 D3+G3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 G2:.5 G2:.5 D3+G3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 F2:.5 F2:.5 C3+F3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 G2:.5 G2:.5 D3+G3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 G2:.5 G2:.5 D3+G3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 G2:.5 G2:.5 D3+G3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 F2:.5 F2:.5 C3+F3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 G2:.5 G2:.5 D3+G3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 G2:.5 G2:.5 D3+G3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 G2:.5 G2:.5 D3+G3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 F2:.5 F2:.5 C3+F3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 G2:.5 G2:.5 D3+G3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 G2:.5 G2:.5 D3+G3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 G2:.5 G2:.5 D3+G3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 F2:.5 F2:.5 C3+F3:.5 R:.5 | G2:.5 G2:.5 D3+G3:.5 R:.5 D3:.5 D3:.5 F3:.5 F#3:.5
+
+[R] Refrão
+D: R:1 E5:2 D5:.5 C5:.5 | D#5:1.5 C5:1.5 R:1 | R:.5 G4:.5 A#4:.5 G4:.5 A#4:.5 G4:.5 F4:.5 G4:.5 | G4:.5 G4:.5 A#4:.5 G4:.5 A#4:.5 G4:.5 F4:1 | R:1 E5:2 D5:.5 C5:.5 | D#5:1.5 C5:1.5 R:1
+E: C2+C3:4 | G#2:1 D#3:1 A#2:1.5 G2:.5 | G2:1 A#2:.5 G2:.5 A#2:.5 G2:.5 F2:.5 G2:.5 | G2:1 A#2:.5 G2:.5 A#2:.5 G2:.5 F2:1 | C2+C3:4 | G#2:1 D#3:1 A#2:1.5 G2:.5
+
+[Final] Final
+D: D4+G4:4
+E: G2+D3:4

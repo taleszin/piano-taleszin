@@ -1,0 +1,47 @@
+@titulo Hey Jude (The Beatles)
+@nivel Médio
+@bpm 74
+@compasso 4/4
+@padrao balada
+@forma Intro V1 V2 P1 V2 P2 V4 Na*4 Fim
+@fonte bitmidi: /uploads/56313.mid (Hey-Jude-1), melodia da trilha 1 (voz); compassos 2/4 da ponte dobrados em 4/4; grito final limitado a C6; cifras de memória
+
+[Intro] Contagem
+D: R:3 C5
+C: -
+
+[V1] Verso
+D: A4:2 R:.5 A4:.5 C5:.5 D5:.5 | G4:2 R G4:.5 A4:.5 | A#4 F5:1.5 F5:.5 E5:.5 C5:.5 | D5:.5 C5:.25 A#4:.25 A4:2 R:.5 C5:.5
+D: D5:.5 D5 D5:.5 G5:.25 F5:.5 E5:.5 F5:.25 D5:.5 | C5:1.5 R:.5 F4:.5 G4:.5 A4 | D5:.5 C5 C5:.5 A#4:.5 A4:.75 R:.25 E4:.5~ | E4:.5 F4:2 R:.5 C5
+C: F | C | C7 | F | Bb | F:3 C7:1 | C7 | F
+
+[V2] Verso
+D: A4:2 R:.5 A4:.5 C5:.5 D5:.5 | G4:2 R G4:.5 A4:.5 | A#4 F5:1.5 F5:.5 E5:.5 C5:.5 | D5:.5 C5:.25 A#4:.25 A4:2 R:.5 C5:.5
+D: D5:.5 D5 D5:.5 G5:.25 F5:.5 E5:.5 F5:.25 D5:.5 | C5:1.5 R:.5 F4:.5 G4:.5 A4 | D5:.5 C5 C5:.5 A#4:.5 A4:.75 R:.25 E4:.5~ | E4:.5 F4:2 R:1.5
+C: F | C | C7 | F | Bb | F:3 C7:1 | C7 | F:2 F7:2
+
+[P1] Ponte
+D: R:.75 F4:.25 F5:.25 D#5:.5 D5:.75 C5:.5 C5:.5 A#4:.25 D5:.25~ | D5:.75 R:.25 F5:.5 D5:1.5 F5:.5 A#4:.5~ | A#4:.75 R:.25 F5:.5 D5 C5:.5 A#4:.5 C5:.5~ | C5 D5:.5 C5:1.5 A#4:.5 A4:.5~ | A4:.5 G4:.25 F4:1.25 R:2
+D: R:.75 F4:.25 F5:.5 D5:.5 D5:.5 C5:.5 C5:.5 A#4:.5 | D5 F5:.5 D5:1.5 F5:.5 A#4:.5~ | A#4:.75 R:.25 F5:.5 D5 C5:.5 A#4:.5 C5:.5~ | C5:.75 R:.25 D5:.5 C5 A#4:1.25 A4:.25~ | A4:.5 G4:.25 F4:1.25 R:.5 F4:.5 C5:.5 D5:.5
+D: D#5 D#5:.5 R:.5 E5:.5 F5:.5 G5 | G5:2 R D5
+C: Bb | Bb/A | Gm Gm/F | C/E C7 | F F7 | Bb | Bb/A | Gm Gm/F | C/E C7 | F | F7:2 C7:2 | C7
+
+[P2] Ponte
+D: R:.75 F4:.25 F5:.25 D#5:.5 D5:.75 C5:.5 C5:.5 A#4:.25 D5:.25~ | D5:.75 R:.25 F5:.5 D5:1.5 F5:.5 A#4:.5~ | A#4:.75 R:.25 F5:.5 D5 C5:.5 A#4:.5 C5:.5~ | C5 D5:.5 C5:1.5 A#4:.5 A4:.5~ | A4:.5 G4:.25 F4:1.25 R:2
+D: R:.75 F4:.25 F5:.5 G5:.25 A#5:.75 F5:.5 G5:.5 F5:.5 | D5 F5:.5 D5:1.5 F5:.5 A#4:.5~ | A#4:.75 R:.25 F5:.5 D5 C5:.5 A#4:.5 C5:.5~ | C5:.75 R:.25 D5:.5 C5 A#4:1.25 A4:.25~ | A4:.5 G4:.25 F4:1.25 R:.5 F4:.5 C5:.5 D5:.5
+D: D#5 D#5:.5 R:.5 E5:.5 F5:.5 G5 | G5:2 R C5:.25 D5:.75
+C: Bb | Bb/A | Gm Gm/F | C/E C7 | F F7 | Bb | Bb/A | Gm Gm/F | C/E C7 | F | F7:2 C7:2 | C7
+
+[V4] Verso final
+D: F5:.25 C5:.25 D5:.25 G4:.25 A4:1.5 A4:.5 C5:.5 D5:.5 | G4:2 R G4:.5 A4:.5 | A#4 F5:1.5 F5:.5 E5:.5 C5:.5 | D5:.5 C5:.25 A#4:.25 A4:2 R:.5 C5:.5
+D: D5:.5 D5 D5:.5 G5:.25 F5:.5 E5:.5 F5:.25 D5:.5 | C5:1.5 R:.5 F4:.5 G4:.5 A4 | D5:.5 C5 C5:.5 A#4:.5 A4:.75 R:.25 E4:.5~ | E4:.5 F4:.5 G#4:.5 A4:.5 B4:.5 C5:.5 E5:.5 F5:.5
+D: G#5:.5 A5:.5 B5:.5 C6:2.5
+C: F | C | C7 | F | Bb | F:3 C7:1 | C7 | F | F
+
+[Na] Final "na na na"
+D: F4:2 A4 C5:.5 R:.5 | G5:.25 F5:.25 G5:.5 F5:2 R | G5:.25 F5:.25 G5:.5 F5:1.5 R:.5 D5 | C5:3 R
+C: F | Eb | Bb | F
+
+[Fim] Fim
+D: F4+A4:4
+C: F

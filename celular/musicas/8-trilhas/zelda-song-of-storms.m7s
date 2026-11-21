@@ -1,0 +1,26 @@
+@titulo Song of Storms (Zelda)
+@nivel Médio
+@bpm 200
+@compasso 3/4
+@forma Intro A A2 A A2 A A2 A A2 A A2 A A2 Final
+@fonte vgmusic.com n64/Windmill.mid (Windmill Hut): melodia da trilha 3; mão esquerda = baixo da trilha 1 (-12) + acordes da trilha 2 (-12)
+
+[Intro] Intro
+D: R:3 | R:3 | R:3 | R:3
+E: D2 D3+F3+A3:.5 R:.5 D3+F3+A3:.5 R:.5 | E2:.5 E3:.5 E3+G3+B3:2 | F2 F3+A3+C4:.5 R:.5 F3+A3+C4:.5 R:.5 | E2:.5 E3:.5 E3+G3+B3:2
+
+[A] Tema
+D: D4:.5 F4:.5 D5:2 | D4:.5 F4:.5 D5:2 | E5:1.5 F5:.5 E5:.5 F5:.5 | E5:.5 C5:.5 A4:2
+D: A4 D4 F4:.5 G4:.5 | A4:3 | A4 D4 F4:.5 G4:.5 | E4:3
+E: D2 D3+F3+A3:.5 R:.5 D3+F3+A3:.5 R:.5 | E2:.5 E3:.5 E3+G3+B3:2 | F2 F3+A3+C4:.5 R:.5 F3+A3+C4:.5 R:.5 | E2:.5 E3:.5 E3+G3+B3:2
+E: A#2 D3+F3+A#3:.5 R:.5 D3+F3+A#3:.5 R:.5 | F2 C3+F3+A3:2 | A#2 D3+F3+A#3:.5 R:.5 D3+F3+A#3:.5 R:.5 | A2 C#3+E3+A3:2
+
+[A2] Tema (resposta)
+D: D4:.5 F4:.5 D5:2 | D4:.5 F4:.5 D5:2 | E5:1.5 F5:.5 E5:.5 F5:.5 | E5:.5 C5:.5 A4:2
+D: A4 D4 F4:.5 G4:.5 | A4:2 A4 | D4:3 | R:3
+E: D2 D3+F3+A3:.5 R:.5 D3+F3+A3:.5 R:.5 | E2:.5 E3:.5 E3+G3+B3:2 | F2 F3+A3+C4:.5 R:.5 F3+A3+C4:.5 R:.5 | E2:.5 E3:.5 E3+G3+B3:2
+E: A#2 D3+F3+A#3:.5 R:.5 D3+F3+A#3:.5 R:.5 | A2 C#3+E3+A3:2 | D2 D3+F3+A3:.5 R:.5 D3+F3+A3:.5 R:.5 | E2:.5 E3:.5 E3+G3+B3:2
+
+[Final] Final
+D: D4+A4:3
+E: D2+A2+D3:3

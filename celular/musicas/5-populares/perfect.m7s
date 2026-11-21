@@ -1,0 +1,56 @@
+@titulo Perfect (Ed Sheeran)
+@nivel Médio
+@bpm 95
+@compasso 6/8
+@anacruse 1.5
+@padrao arpejo
+@forma Verso1 Pre Refrao Inter1 Verso2 Pre Refrao Inter2 Final
+@fonte freemidi: Perfect - Ed Sheeran (download3-25939), melodia da trilha do canto (Láb, 6/8 = metade do 12/8); cifras pelo baixo/guitarra do MIDI
+
+[Verso1] Verso 1 (I found a love for me)
+D: D#4:.5 F4:1 |
+D: G#4:.5 R:2.5 | R:.5 C5:.5 A#4:1 G#4:.5 C5:.5 | R:3 | R:1.5 G#4:.5 A#4:.5 C5:.5
+D: G#4:1 G#4:.5 G#4:1.5 | R:1 D#4:.5 G#4:.5 A#4:.5 C5:.5 | A#4:.5 R:2.5 | R:1 D#4:.5 C5:.5 A#4:1
+D: C5:1 G#4:.5 R:1.5 | R:1.5 D#5:1 C5:.5 | G#4:1 G#4:.5 G#4:1.5 | R:1 D#4:.5 G#4:.5 A#4:.5 C5:.5
+D: C#5:1 C#5:.5 C5:1 A#4:.5 | A#4:.5 G#4:.5 D#4:.5 G#4:.5 A#4:.5 C5:.5 | A#4:1 G#4:1 C5:1 | D#5:.5 D#5:.5 D#5:.5 F5:.5 C5:.5 A#4:.5
+C: - | Ab | Ab | Ab | Ab | Fm7 | Fm7 | Db/Ab | Db | Eb | Eb | Ab | Ab | Fm7 | Fm7 | Db/Ab | Db
+
+[Pre] Pré-refrão (We were just kids when we fell in love)
+D: C5:1.5 C5:1.5 | C5:1.5 C5:.5 A#4:.5 G#4:.5 | C5:1.5 C5:1.5 | C5:1.5 C5:.5 A#4:.5 G#4:.5
+D: C#5:1.5 C5:.5 A#4:.5 G#4:.5 | G#4:1.5 D#4:1.5 | C5:2 C#5:.5 C5:.5 | A#4:1.5 C5:.5 A#4:.5 G#4:.5
+D: C5:1.5 C5:1.5 | C5:1.5 C5:.5 A#4:.5 G#4:.5 | C5:1.5 C5:1.5 | C5:1.5 C5:.5 A#4:.5 G#4:.5
+D: C#5:1.5 C5:1.5 | G#4:1.5 D#4:.5 A#4:1~ | A#4:.5 R:2.5 | D#5:2 A#4:1
+C: Eb | Eb | Ab | Ab | Fm7 | Fm7 | Db | Db | Ab | Eb | Ab | Ab | Fm7 | Fm7 | Db | Db
+
+[Refrao] Refrão (Baby, I'm dancing in the dark)
+D: G#4:.5 R:2.5 | G#5:1 G5:.5 F5:1 G5:.5 | C5:1 R:1.5 C5:.5 | D#5:1 C#5:.5 C5:1 A#4:.5
+D: G#4:1 R:2 | G#5:1 G5:.5 F5:1 G#4:.5 | C5:1 G#4:.5 R:1.5 | D#5:.5 D#5:.5 D#5:.5 D#5:1 F5:.5
+D: C5:.5 A#4:.5 G#4:1 C5:.5 D#5:.5 | G#5:1 G5:.5 F5:1 G5:.5 | C5:1.5 A#4:.5 G#4:.5 C5:.5 | D#5:1 C#5:.5 C5:1 C#5:.5
+D: C5:1.5 A#4:1.5 | C#5:1.5 C5:1.5 | C5:1.5 A#4:1.5 | A#4:1.5 G#4:1.5
+D: G#4:.5 R:2.5 | R:3
+C: Eb | Eb | Fm | Db | Ab | Eb | Fm | Db | Ab | Eb | Fm | Db | Ab | Eb | Fm | Db | Ab | Eb
+
+[Inter1] Respiro
+D: R:3 | R:1 D#4:.5 C5:.5 D#5:1
+C: Ab | Ab
+
+[Verso2] Verso 2 (I found a woman)
+D: C5:.5 R:2.5 | R:1.5 G#4:.5 A#4:1 | C5:1 G#4:1 G#4:1 | R:1.5 G#4:.5 A#4:.5 C5:.5
+D: C#5:1 C#5:.5 C5:1 A#4:.5 | A#4:.5 G#4:1 G#4:.5 A#4:.5 C5:.5 | A#4:1.5 C5:1.5 | D#5:1 G#4:.5 F5:.5 D#5:1
+D: D#5:.5 A#4:.5 G#4:.5 R:1.5 | R:2 C5:.5 D#5:.5 | D#5:1 C5:.5 C5:1 A#4:.5 | A#4:.5 G#4:1.5 G#4:1
+D: C#5:.5 R:1.5 G#4:1 | C5:.5 A#4:.5 G#4:1 G#4:.5 A#4:.5 | A#4:1.5 C5:1.5 | D#5:.5 D#5:.5 D#5:.5 F5:.5 C5:.5 A#4:.5
+C: Ab | Ab | Ab | Ab | Fm7 | Fm7 | Db/Ab | Db | Eb | Eb | Ab | Ab | Fm7 | Fm7 | Db/Ab | Db
+
+[Inter2] Respiro
+D: R:3 | R:.5 C5:.5 G#4:.5 A#4:.5 G#4:1
+C: Ab | Ab
+
+[Final] Refrão final
+D: R:3 | C#5:2 G#4:.5 A#4:.5 | A#4:1 R:2 | D#5:1.5 F5:.5 D#5:.5 G#4:.5
+D: A#4:1.5 G#4:1.5 | G#5:1 G5:.5 F5:1 G5:.5 | C5:1 R:2 | D#5:1 C#5:.5 C5:1 A#4:.5
+D: G#4:1 R:2 | G#5:1 G5:.5 F5:1 G#4:.5 | C5:1 G#4:.5 R:1.5 | D#5:.5 D#5:.5 D#5:.5 D#5:1 F5:.5
+D: C5:.5 A#4:.5 G#4:1 C#5:.5 D#5:.5 | F5:1 F5:.5 F5:1 D#5:.5 | C5:1.5 G#4:.5 A#4:.5 C5:.5 | D#5:1 C#5:.5 C5:1 C#5:.5
+D: C5:1.5 A#4:1 G#4:.5 | C#5:1.5 C5:1 G#4:.5 | C5:1.5 A#4:1.5 | A#4:1.5 G#4:1 A#4:.5
+D: C5:1.5 A#4:1.5 | C#5:1.5 C5:1.5 | C5:1.5 A#4:1.5 | A#4:1.5 G#4:1.5
+D: G#4:3 | G#4+C5:3
+C: Fm | Fm | Db | Db | Eb | Eb | Fm | Db | Ab | Eb | Fm | Db | Ab | Eb | Fm | Db | Ab | Eb | Fm | Db | Ab | Eb | Fm | Db | Ab | Ab

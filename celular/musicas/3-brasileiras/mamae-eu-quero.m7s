@@ -1,0 +1,36 @@
+@titulo Mamãe Eu Quero (Jararaca e Vicente Paiva)
+@nivel Médio
+@bpm 126
+@compasso 2/4
+@anacruse .25
+@padrao marcha
+@forma I R R V R F
+@fonte bitmidi mamae.mid (karaokê Família Ribeiro, trilha de melodia conferida sílaba a sílaba com a letra embutida); cifras de marchinha em Fá
+
+[I] Introdução
+D: C5:.25
+D: F5:.75 C5:.25 F5:.75 C5:.25 | F5:.75 C5:.25 A4:1 | C5:1/3 C5:1/3 C5:1/3 C5:1/3 A4:1/3 C5:1/3 | A4:1.75 C5:.25
+D: F5:.75 C5:.25 F5:.75 C5:.25 | F5:.75 C5:.25 A4:1 | A5:1/3 A5:1/3 A5:1/3 G5:1/3 A5:1/3 G5:1/3 | F5:1 E5:.5 D5:.5 | C5:2
+C: - | F | F | F | F | F | F | F | C7 | F
+
+[R] Refrão
+D: R:.5 C5:.5 C5:.5 C5:.5 | A4:.5 F4:1.5 | R:.5 C5:.5 C5:.5 C5:.5 | A4:.5 F4:1.5
+D: R:1 C5:1 | F5:1 E5:.5 D5:.5~ | D5:.5 C5:.5 A#4:1 | A4:1 G4:1
+D: R:.5 C5:1 C5:.5 | A#4:.5 G4:1.5 | R:.5 C5:1 C5:.5 | A#4:.5 G4:1.5
+D: R:.5 C5:1 C5:.5 | E5:.75 D5:.25 C5:.5 A#4:.5 | C5:.5 A#4:.5 A4:.5 F4:.5~ | F4:1 R:1
+C: F | F | F | F | F7 | A# | A# | F:1 C7:1 | C7 | C7 | C7 | C7 | C7 | C7 | F | F
+
+[V] Verso
+D: F4:.5 F4:.5 F4:.5 G4:.5 | A4:1 A4:1 | A#4:.5 A4:.5 G4:.5 F4:.5 | G4:1.5 G4:.5
+D: G4:.5 G4:.5 G4:.5 A4:.5 | A#4:.5 A#4:.5 A#4:.5 A#4:.5 | C5:.5 A#4:.5 A4:.5 G4:.5 | C5:2
+D: A4:.5 A4:.5 A4:.5 A#4:.5 | C5:2 | D5:.5 C5:.5 A#4:.5 A4:.5 | D5:1 D5:.5 D5:.5
+D: D5:.5 F5:.5 E5:.5 D5:.5 | C5:.5 F5:.5 E5:.5 D5:.5 | C5:.5 A#4:.5 A4:.5 G4:.5 | F4:.5 F4:.5 R:1
+C: F | F | C7 | C7 | C7 | C7 | C7 | F | F | F7 | A# | A# | Gm | C7 | C7 | F
+
+[F] Refrão final
+D: R:.5 C5:.5 C5:.5 C5:.5 | A4:.5 F4:1.5 | R:.5 C5:.5 C5:.5 C5:.5 | A4:.5 F4:1.5
+D: R:1 C5:1 | F5:1 E5:.5 D5:.5~ | D5:.5 C5:.5 A#4:1 | A4:1 G4:1
+D: R:.5 C5:1 C5:.5 | A#4:.5 G4:1.5 | R:.5 C5:1 C5:.5 | A#4:.5 G4:1.5
+D: R:.5 C5:.5 C5:.5 C5:.5 | E5:.75 D5:.25 C5:.5 A#4:.5 | C5:.5 D5:.5 E5:.5 F5:.5~ | F5:2
+D: R:.5 C5:.5 R:.5 B4:.5 | D5:.5 C5:.5 R:.5 A4:.5 | F4:1 F4+F5:1
+C: F | F | F | F | F7 | A# | A# | F:1 C7:1 | C7 | C7 | C7 | C7 | C7 | C7 | F | F | F | G7:1 C7:1 | F

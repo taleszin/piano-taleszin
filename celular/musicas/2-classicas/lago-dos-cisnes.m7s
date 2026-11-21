@@ -1,0 +1,28 @@
+@titulo Lago dos Cisnes (Tchaikovsky)
+@nivel Médio
+@bpm 76
+@compasso 4/4
+@forma Intro Tema Resposta Tema Fim
+@fonte bitmidi: theme-from-the-swan-lake (uploads/103013, orquestra): Ato II, Cena (nº 10) — tema do oboé e a resposta na direita; linha das cordas + baixo em pizzicato na esquerda; Si menor transposto para Lá menor (-2)
+
+[Intro] Introdução
+D: E4:4
+E: A2:.5 E3:.5 A3:.5 C4:.5 A3:.5 E3:.5 C3:.5 E3:.5
+
+[Tema] Tema do oboé
+D: E5:2 A4:.5 B4:.5 C5:.5 D5:.5 | E5:1.5 C5:.5 E5:1.5 C5:.5 | E5:1.5 A4:.5 C5:.5 A4:.5 F4:.5 C5:.5 | A4:2.5 D5:.5 C5:.5 B4:.5
+D: E5:2 A4:.5 B4:.5 C5:.5 D5:.5 | E5:1.5 C5:.5 E5:1.5 C5:.5 | E5:1.5 A4:.5 C5:.5 A4:.5 F4:.5 C5:.5 | A4:3 A4
+E: A2+A3:4 | A3:4 | A3:2 F#3 F3:.75 E3:.25 | A2+E3 A3:3
+E: A3 G3 F#3 F3 | E3:4 | E3:2 D#3 D3 | A2+E3 A3 A2+C4:2
+
+[Resposta] Resposta
+D: B4 C5 D5 E5:.5 F5:.5 | G5:1.5 F5:.5 E5 F5:.5 G5:.5 | A5:1.5 G5:.5 F5 G5:.5 A5:.5 | B5:1.5 A5:.5 E5:.5 C5:.5 B4:.5 A4:.5
+D: B4 C5 D5 E5:.5 F5:.5 | G5:1.5 F5:.5 E5 F5:.5 G5:.5 | A5:1.5 G5:.5 F5 G5:.5 A5:.5 | A#5:1.5 F5:.5 D5 F5:.5 A#5:.5
+D: B5:1.5 F#5:.5 B5:1.5 E5:.5
+E: G2+B3:2 F2:.5 R:1.5 | E2+B3:4 | D2+D4:2 C2:.5 R:1.5 | B2+D#4:2 E2+B3 A2+A3
+E: G2+B3:2 F2:.5 R:1.5 | E2+B3:4 | D2+D4:2 C2+D#4 C3:.5 R:.5 | A#2+A#3:2 G#2:.5 R:1.5
+E: F#2+A3+B3:2 E2+G#3+B3:2
+
+[Fim] Final
+D: A4:4
+E: A2+E3+A3:4

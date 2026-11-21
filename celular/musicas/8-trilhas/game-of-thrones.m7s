@@ -1,0 +1,55 @@
+@titulo Game of Thrones (abertura - Ramin Djawadi)
+@nivel Médio
+@bpm 200
+@compasso 6/4
+@forma Intro A1 B1 A2 B2 A3 B3 S1 S2 S3 S4 A1 B1 A2 B2 Fim
+@fonte freemidi: https://freemidi.org/download3-13466-game-of-thrones-tv-themes (linha do violoncelo da trilha 1, subida 8va; ostinato da E: escrito sobre a harmonia)
+# compasso 6/4 = dois compassos de 3/4 da partitura; em Lá menor (original em Dó menor)
+
+[Intro] Intro (ostinato)
+D: R:6 | R:6 | E5:6 | E5:6
+E: E3 A2 C3:.5 D3:.5 E3 A2 C3:.5 D3:.5 | E3 A2 C3:.5 D3:.5 E3 A2 C3:.5 D3:.5 | E3 A2 C#3:.5 D3:.5 E3 A2 C#3:.5 D3:.5 | E3 A2 C#3:.5 D3:.5 E3 A2 C#3:.5 D3:.5
+
+[A1] Tema (frase 1)
+D: E5:3 A4:3 | C5:.5 D5:.5 E5:2 A4:2 C5:.5 D5:.5 | B4 E4 G4:.5 A4:.5 B4 E4 G4:.5 A4:.5 | B4 E4 G4:.5 A4:.5 B4 E4 G4:.5 A4:.5
+E: E3 A2 C3:.5 D3:.5 E3 A2 C3:.5 D3:.5 | E3 A2 C3:.5 D3:.5 E3 A2 C3:.5 D3:.5 | B2 E2 G2:.5 A2:.5 B2 E2 G2:.5 A2:.5 | B2 E2 G2:.5 A2:.5 B2 E2 G2:.5 A2:.5
+
+[B1] Tema (frase 2)
+D: D5:3 G4:3 | C5:.5 B4:.5 D5:2 G4:2 C5:.5 B4:.5 | A4 D4 F4:.5 G4:.5 A4 D4 F4:.5 G4:.5 | A4 D4 F4:.5 G4:.5 A4 D4 F4:.5 G4:.5
+E: D3 G2 B2:.5 C3:.5 D3 G2 B2:.5 C3:.5 | D3 G2 B2:.5 C3:.5 D3 G2 B2:.5 C3:.5 | A2 D2 F2:.5 G2:.5 A2 D2 F2:.5 G2:.5 | A2 D2 F2:.5 G2:.5 A2 D2 F2:.5 G2:.5
+
+[A2] Tema (frase 3)
+D: E5:3 A4:3 | C5:.5 D5:.5 E5:2 A4:2 C5:.5 D5:.5 | B4 E4 G4:.5 A4:.5 B4 E4 G4:.5 A4:.5 | B4 E4 G4:.5 A4:.5 B4 E4 G4:.5 A4:.5
+E: E3 A2 C3:.5 D3:.5 E3 A2 C3:.5 D3:.5 | E3 A2 C3:.5 D3:.5 E3 A2 C3:.5 D3:.5 | B2 E2 G2:.5 A2:.5 B2 E2 G2:.5 A2:.5 | B2 E2 G2:.5 A2:.5 B2 E2 G2:.5 A2:.5
+
+[B2] Tema (frase 4)
+D: D5:3 G4:3 | C5:.5 B4:.5 D5:2 G4:2 C5:.5 B4:.5 | A4 E4 F4:.5 G4:.5 A4 E4 F4:.5 G4:.5 | A4 E4 F4:.5 G4:.5 A4 E4 F4:.5 G4:.5
+E: D3 G2 B2:.5 C3:.5 D3 G2 B2:.5 C3:.5 | D3 G2 B2:.5 C3:.5 D3 G2 B2:.5 C3:.5 | A2 E2 F2:.5 G2:.5 A2 E2 F2:.5 G2:.5 | A2 E2 F2:.5 G2:.5 A2 E2 F2:.5 G2:.5
+
+[A3] Tema variado
+D: E5:3 A4:3 | C5:.5 D5:.5 E5:2 A4:2 C5:.5 D5:.5 | B4:2 G4:.5 A4:.5 B4:2 G4:.5 A4:.5 | B4:2 G4:.5 A4:.5 B4:2 G4:.5 A4:.5
+E: E3 A2 C3:.5 D3:.5 E3 A2 C3:.5 D3:.5 | E3 A2 C3:.5 D3:.5 E3 A2 C3:.5 D3:.5 | B2 E2 G2:.5 A2:.5 B2 E2 G2:.5 A2:.5 | B2 E2 G2:.5 A2:.5 B2 E2 G2:.5 A2:.5
+
+[B3] Tema variado (resposta)
+D: D5:3 G4:3 | B4:1.5 C5:1.5 B4:1.5 G4:1.5 | A4 E4 F4:.5 G4:.5 A4 E4 F4:.5 G4:.5 | A4 E4 F4:.5 G4:.5 A4 E4 F4:.5 G4:.5
+E: D3 G2 B2:.5 C3:.5 D3 G2 B2:.5 C3:.5 | D3 G2 B2:.5 C3:.5 D3 G2 B2:.5 C3:.5 | A2 E2 F2:.5 G2:.5 A2 E2 F2:.5 G2:.5 | A2 E2 F2:.5 G2:.5 A2 E2 F2:.5 G2:.5
+
+[S1] Sequência descendente
+D: A4 C4 F4:.5 G4:.5 A4 C4 F4:.5 A4:.5 | G4 C4 E4:.5 F4:.5 G4 C4 E4:.5 G4:.5 | F4 A3 D4:.5 E4:.5 F4 A3 D4:.5 F4:.5 | E4 A3 C4:.5 D4:.5 E4 A3 C4:.5 D4:.5
+E: C3 F2 A2:.5 B2:.5 C3 F2 A2:.5 B2:.5 | G2 C3 E3:.5 F3:.5 G2 C3 E3:.5 F3:.5 | A2 D3 F3:.5 E3:.5 A2 D3 F3:.5 E3:.5 | E3 A2 C3:.5 D3:.5 E3 A2 C3:.5 D3:.5
+
+[S2] Sequência (cadência)
+D: C5 F4 A4:.5 B4:.5 C5 F4 A4:.5 B4:.5 | C5 A4 C5 D5 B4 D5 | A4 E4 F4:.5 G4:.5 A4 E4 F4:.5 G4:.5 | A4 E4 F4:.5 G4:.5 A4 E4 F4:.5 G4:.5
+E: C3 F2 A2:.5 B2:.5 C3 F2 A2:.5 B2:.5 | D3 G2 B2:.5 C3:.5 D3 G2 B2:.5 C3:.5 | A2 E2 F2:.5 G2:.5 A2 E2 F2:.5 G2:.5 | A2 E2 F2:.5 G2:.5 A2 E2 F2:.5 G2:.5
+
+[S3] Sequência (repetição)
+D: A4 C4 F4:.5 G4:.5 A4 C4 F4:.5 A4:.5 | G4 C4 E4:.5 F4:.5 G4 C4 E4:.5 G4:.5 | F4 A3 D4:.5 E4:.5 F4 A3 D4:.5 F4:.5 | E4 A3 C4:.5 D4:.5 E4 A3 C4:.5 D4:.5
+E: C3 F2 A2:.5 B2:.5 C3 F2 A2:.5 B2:.5 | G2 C3 E3:.5 F3:.5 G2 C3 E3:.5 F3:.5 | A2 D3 F3:.5 E3:.5 A2 D3 F3:.5 E3:.5 | E3 A2 C3:.5 D3:.5 E3 A2 C3:.5 D3:.5
+
+[S4] Sequência (fim)
+D: C5 F4 A4:.5 B4:.5 C5 F4 A4:.5 B4:.5 | C5 A4 C5 B4 G4 B4 | A4 E4 F4:.5 G4:.5 A4 E4 F4:.5 G4:.5 | A4 E4 F4:.5 G4:.5 A4 E4 F4:.5 G4:.5
+E: C3 F2 A2:.5 B2:.5 C3 F2 A2:.5 B2:.5 | D3 G2 B2:.5 C3:.5 D3 G2 B2:.5 C3:.5 | A2 E2 F2:.5 G2:.5 A2 E2 F2:.5 G2:.5 | A2 E2 F2:.5 G2:.5 A2 E2 F2:.5 G2:.5
+
+[Fim] Final
+D: A4 E5 F5:.5 G5:.5 A5 E5 F5:.5 G5:.5 | A5 E5 F5:.5 G5:.5 A5:3
+E: E3 A2 C3:.5 D3:.5 E3 A2 C3:.5 D3:.5 | A2+E3:6

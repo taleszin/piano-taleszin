@@ -1,0 +1,35 @@
+@titulo Another Brick in the Wall, Part 2 (Pink Floyd)
+@nivel Médio
+@bpm 104
+@compasso 4/4
+@forma Intro L12 L34 Hey All All2 Intro L12 L34 Hey All All2 Final
+@fonte bitmidi: another-brick-in-the-wall-1/2 (contorno da voz e linha de baixo, oitava acima); sílabas completadas de memória
+# Linha de baixo característica (D . . C D . . . | D . D A C) escrita na E:
+
+[Intro] Introdução (baixo)
+D: R:4 | R:4 | R:4 | R:4
+E: D3:1.25 R:.25 C3:.5 D3:.5 R:1.5 | D3:1 R:.5 D3:.5 A2:1 C3:1 | D3:1.25 R:.25 C3:.5 D3:.5 R:1.5 | D3:1 R:.5 D3:.5 A2:1 C3:1
+
+[L12] We don't need no education
+D: D4:.5 D4:.5 E4:.5 E4:.5 F4:.5 F4:.25 F4:.25 E4:1 | D4:.5 D4:.5 E4:.5 E4:.5 F4:.5 F4:.5 E4:1 | R:4 | R:4
+E: D3:1.25 R:.25 C3:.5 D3:.5 R:1.5 | D3:1 R:.5 D3:.5 A2:1 C3:1 | D3:1.25 R:.25 C3:.5 D3:.5 R:1.5 | D3:1 R:.5 D3:.5 A2:1 C3:1
+
+[L34] No dark sarcasm in the classroom
+D: D4:.5 D4:.5 E4:.5 E4:.5 F4:.5 F4:.25 F4:.25 E4:1 | D4:.5 D4:.5 E4:.5 E4:.5 F4:.5 F4:.5 E4:1 | R:4 | R:4
+E: D3:1.25 R:.25 C3:.5 D3:.5 R:1.5 | D3:1 R:.5 D3:.5 A2:1 C3:1 | D3:1.25 R:.25 C3:.5 D3:.5 R:1.5 | D3:1 R:.5 D3:.5 A2:1 C3:1
+
+[Hey] Hey! Teachers!
+D: G4:.5 R:1.5 G4:.5 G4:.5 R:1 | R:2 A4:.5 G4:.5 F4:.5 G4:.25 F4:.25~ | F4:1.5 R:2.5 | R:4
+E: G2:1.5 R:.5 G2:1.75 R:.25 | G2:.75 R:.25 G2:.75 R:.25 G2:.75 R:.25 G2:.5 C3:.5 | D3:1.25 R:.25 C3:.5 D3:.5 R:1.5 | D3:1 R:.5 D3:.5 A2:1 G2:1
+
+[All] All in all it's just another brick in the wall
+D: R:1 F4:.5 F4:.5 F4:.5 F4:.5 F4:.5 E4:.5~ | E4:1 E4:.5 E4:.5 E4:.75 D4:.75 C4:.5 | D4:1.5 R:2.5 | R:4
+E: F2:3.5 R:.5 | C3:3.5 R:.5 | D3:1.25 R:.25 C3:.5 D3:.5 R:1.5 | D3:1 R:.5 D3:.5 A2:1 G2:1
+
+[All2] All in all you're just another brick in the wall
+D: R:1 F4:.5 F4:.5 F4:.5 F4:.5 F4:.5 E4:.5~ | E4:1 E4:.5 E4:.5 E4:.75 D4:.75 C4:.5 | D4:2 R:2 | R:4
+E: F2:3.5 R:.5 | C3:3.5 R:.5 | D3:1.25 R:.25 C3:.5 D3:.5 R:1.5 | D3:1 R:.5 D3:.5 A2:1 C3:1
+
+[Final] Final
+D: D4+F4:4
+E: D3+A3:4
