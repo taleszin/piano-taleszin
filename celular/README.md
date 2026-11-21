@@ -1,11 +1,18 @@
-# Piano (Taleszin OS)
+# Piano Taleszin: celular
 
-Piano leve para o tablet M7s (Android 4.4, RK3026). Java puro, ~42 KB, ~5 MB de RAM, ~4 % de CPU tocando.
+Versão para celular Android 8+ (feita para o Galaxy A07) do [piano do tablet](../tablet). A história completa está no [README principal](../README.md).
 
-- Som de piano elétrico (FM 1:1 + sininho 14:1, estilo E.Piano) ou "Clássico"; sintetizado, sem amostras (o SoundPool do 4.4 recusa PCM > 1 MB).
-- Multitoque e deslizar o dedo troca de nota; botões de oitava, 1/2 oitavas, nomes Dó Ré Mi / C D E / sem, pedal.
-- Build sem Gradle: `./build.sh` → `build/piano.apk`. Ícone: `python3 tools/icone.py`.
-- Músicas em estilo Guitar Hero/Synthesia (`Cascata.java`): as notas caem sobre a tecla certa e esperam na linha (modo fácil); "Perfeito!"/"Boa!", combo com multiplicador, tecla vermelha e silêncio no erro, contagem 3-2-1, estrelas e recorde por música, velocidade de 30 a 150 %, "Ouvir" toca sozinho. O teclado mostra só as teclas que a música usa. Repertório de domínio público em `Musicas.java`.
+- **Build sem Gradle:** `./build.sh` → `build/piano-celular.apk` (applicationId `app.taleszin.piano.celular`, instala ao lado do app do tablet).
+- **Acervo:** fontes em `musicas/<n-categoria>/*.m7s`. O `tools/m7s.py` valida, compila para `assets/musicas` e gera `indice.tsv`, e também exporta MIDI. `tools/midi2m7s.py` converte um MIDI num rascunho de `.m7s`.
+- **Código:**
+  - `Sintetizador.java`: ressonadores modais com inarmonicidade, 2 cordas, martelo, abafador e FM, com Freeverb reduzido.
+  - `Cascata.java`: o jogo (grupos/acordes, mãos, Aprender/Desafio, notas longas, janela do teclado).
+  - `Teclado.java`: teclado com janela fracionária e força pelo toque.
+  - `Piano.java`: telas, XP, sequência de dias e coroas.
+  - `Musicas.java`: leitura do acervo.
 
-## Acervo
-`assets/musicas/N-categoria.txt` (161 músicas em 9 categorias). Linha: `Título | Nível | bpm | notas`; validar com `python3 tools/validar.py arquivo.txt`. Melodias transcritas de MIDI/partituras/letter notes (Mutopia, bitmidi, pianoletternotes, noobnotes); uso pessoal, só a melodia, sem letras.
+Formato `.m7s`:
+- **Cabeçalhos** `@titulo @nivel @bpm @compasso @anacruse @padrao @forma @fonte`.
+- **Seções** `[ID] rótulo`.
+- **Linhas** `D:` (mão direita), `E:` (mão esquerda) e `C:` (cifras, que viram mão esquerda pelo padrão).
+- **Notação**: `|` separa compassos (o compilador confere cada um), `+` junta notas de um acorde, `R` é pausa, `~` é ligadura, e a duração vem depois de `:`, em semínimas (`1/3` para quiálteras).
