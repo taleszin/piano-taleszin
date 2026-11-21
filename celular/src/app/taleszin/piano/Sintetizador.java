@@ -147,15 +147,15 @@ final class Sintetizador implements Runnable {
             for (int h = 1; h <= 8 && n < P; h++) {
                 double fh = h * f0 * Math.sqrt(1 + B * h * h);
                 if (fh > lim) break;
-                // fundamental dominante (corpo); harmônicos caem rápido e só abrem com mais força
-                double a = (h == 1 ? 1.0 : 0.75 / Math.pow(h, 1.35)) * Math.exp(-(h - 1) * 0.45 * (1 - v));
+                // espectro medido em piano real (Iowa MIS, mf): graves ricos, agudos quase puros; força abre o brilho
+                double a = Math.pow(10, (harmDb(midi, h) + (v - 0.55) * 10 * Math.log(h) / Math.log(2)) / 20);
                 double tau = tau1 / (1 + 0.22 * (h - 1)) * (h == 1 ? 1 : 0.8);
                 n = ressonador(k, n, fh, tau, a);
-                amax += a;
+                amax += a * a;
                 if (h <= 2 && n < P) n = ressonador(k, n, fh * Math.pow(2, 0.9 / 1200), tau * 0.35, a * 0.55); // 2ª corda
             }
             nP[k] = n;
-            double norm = 0.55 / Math.max(0.6, amax);
+            double norm = 0.55 / Math.max(0.6, 1.2 * Math.sqrt(amax));   // por energia: graves ricos não ficam baixos
             for (int i = 0; i < n; i++) { y2[k][i] *= norm; } // (y1 = 0; a amplitude está em y2)
             ruido[k] = 0.04f * v; qRuido[k] = fq(0.010f);
             aRuido[k] = (float) Math.min(0.9, (700 + 1800 * v) * 2 * Math.PI / taxa);
@@ -175,6 +175,21 @@ final class Sintetizador implements Runnable {
             env[k] = 0.0001f; ataque[k] = 1f / (0.003f * taxa);
             nivel[k] = 1f; qNivel[k] = fq(dur);
         }
+    }
+
+    // harmônicos 1..8 em dB relativos à fundamental, por região (interpolados pela nota)
+    private static final int[] HM = {36, 48, 61, 69, 74, 84, 96};
+    private static final float[][] HDB = {
+        {0, 12, 10, 12, 10, 6, 8, 0}, {0, 10, 4, -2, -10, -10, -6, -12}, {0, 2, -14, -18, -12, -22, -20, -32},
+        {0, -11, -16, -26, -30, -33, -36, -48}, {0, -22, -34, -45, -50, -58, -60, -70},
+        {0, -22, -30, -46, -60, -66, -68, -70}, {0, -30, -45, -60, -60, -60, -60, -60},
+    };
+
+    private static double harmDb(int m, int h) {
+        if (m <= HM[0]) return HDB[0][h - 1];
+        for (int i = 1; i < HM.length; i++)
+            if (m <= HM[i]) { double t = (m - HM[i - 1]) / (double) (HM[i] - HM[i - 1]); return HDB[i - 1][h - 1] * (1 - t) + HDB[i][h - 1] * t; }
+        return HDB[HM.length - 1][h - 1];
     }
 
     private int ressonador(int k, int i, double f, double tau, double a) {
@@ -235,8 +250,8 @@ final class Sintetizador implements Runnable {
             if (reverbLigado) reverb.processar(L, R, n);
             for (int i = 0; i < n; i++) {
                 float l = L[i] * 0.55f, r = R[i] * 0.55f;
-                saida[2 * i] = l / (1f + Math.abs(l) * 0.5f);
-                saida[2 * i + 1] = r / (1f + Math.abs(r) * 0.5f);
+                saida[2 * i] = limitar(l);
+                saida[2 * i + 1] = limitar(r);
             }
             trilha.write(saida, 0, n * 2, AudioTrack.WRITE_BLOCKING);
             int u = trilha.getUnderrunCount();
@@ -246,6 +261,14 @@ final class Sintetizador implements Runnable {
                 if (atual < bloco * 8) try { trilha.setBufferSizeInFrames(atual + bloco); } catch (Exception ignored) { }
             }
         }
+    }
+
+    /** Transparente até 0,8 (sem distorção no volume normal); só arredonda picos. */
+    private static float limitar(float x) {
+        float a = Math.abs(x);
+        if (a <= 0.8f) return x;
+        float y = 0.8f + 0.2f * (float) Math.tanh((a - 0.8f) / 0.2f);
+        return x < 0 ? -y : y;
     }
 
     private void vozAcustica(int k, float[] out, int n) {
@@ -306,7 +329,7 @@ final class Sintetizador implements Runnable {
         private final float[][] cb = new float[12][], ap = new float[4][];
         private final int[] ci = new int[12], ai = new int[4];
         private final float[] cf = new float[12];
-        private static final float FEED = 0.80f, DAMP = 0.35f, WET = 0.16f;
+        private static final float FEED = 0.80f, DAMP = 0.6f, WET = 0.14f;
 
         Reverb(int taxa) {
             int[] c = {1116, 1188, 1277, 1356, 1422, 1491};
