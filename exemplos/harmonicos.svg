@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="340" viewBox="0 0 880 340" font-family="Helvetica,Arial,sans-serif">
+<rect width="880" height="340" rx="12" fill="#ffffff"/>
+<text x="240.0" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Dó3 (grave)</text>
+<line x1="60" x2="420" y1="50.0" y2="50.0" stroke="#e5e5e5"/>
+<text x="52" y="54.0" text-anchor="end" font-size="11" fill="#777">+20</text>
+<line x1="60" x2="420" y1="96.3" y2="96.3" stroke="#e5e5e5"/>
+<text x="52" y="100.3" text-anchor="end" font-size="11" fill="#777">+0</text>
+<line x1="60" x2="420" y1="142.6" y2="142.6" stroke="#e5e5e5"/>
+<text x="52" y="146.6" text-anchor="end" font-size="11" fill="#777">-20</text>
+<line x1="60" x2="420" y1="188.9" y2="188.9" stroke="#e5e5e5"/>
+<text x="52" y="192.9" text-anchor="end" font-size="11" fill="#777">-40</text>
+<line x1="60" x2="420" y1="235.3" y2="235.3" stroke="#e5e5e5"/>
+<text x="52" y="239.3" text-anchor="end" font-size="11" fill="#777">-60</text>
+<text x="60.0" y="288" text-anchor="middle" font-size="11" fill="#777">1</text>
+<text x="111.4" y="288" text-anchor="middle" font-size="11" fill="#777">2</text>
+<text x="162.9" y="288" text-anchor="middle" font-size="11" fill="#777">3</text>
+<text x="214.3" y="288" text-anchor="middle" font-size="11" fill="#777">4</text>
+<text x="265.7" y="288" text-anchor="middle" font-size="11" fill="#777">5</text>
+<text x="317.1" y="288" text-anchor="middle" font-size="11" fill="#777">6</text>
+<text x="368.6" y="288" text-anchor="middle" font-size="11" fill="#777">7</text>
+<text x="420.0" y="288" text-anchor="middle" font-size="11" fill="#777">8</text>
+<text x="240.0" y="306" text-anchor="middle" font-size="11" fill="#777">harmônico (1 = a nota)</text>
+<polyline points="60.0,96.3 111.4,63.9 162.9,82.4 214.3,98.6 265.7,126.4 317.1,121.8 368.6,91.7 420.0,121.8" fill="none" stroke="#222222" stroke-width="3.5"/>
+<polyline points="60.0,96.3 111.4,124.1 162.9,147.3 214.3,158.8 265.7,170.4 317.1,177.4 368.6,186.6 420.0,193.6" fill="none" stroke="#E4572E" stroke-width="2.5" stroke-dasharray="6 4"/>
+<polyline points="60.0,96.3 111.4,73.2 162.9,94.0 214.3,107.9 265.7,126.4 317.1,126.4 368.6,117.2 420.0,131.1" fill="none" stroke="#2E86DE" stroke-width="2.5"/>
+<text x="650.0" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Ré5 (agudo)</text>
+<line x1="470" x2="830" y1="50.0" y2="50.0" stroke="#e5e5e5"/>
+<text x="462" y="54.0" text-anchor="end" font-size="11" fill="#777">+20</text>
+<line x1="470" x2="830" y1="96.3" y2="96.3" stroke="#e5e5e5"/>
+<text x="462" y="100.3" text-anchor="end" font-size="11" fill="#777">+0</text>
+<line x1="470" x2="830" y1="142.6" y2="142.6" stroke="#e5e5e5"/>
+<text x="462" y="146.6" text-anchor="end" font-size="11" fill="#777">-20</text>
+<line x1="470" x2="830" y1="188.9" y2="188.9" stroke="#e5e5e5"/>
+<text x="462" y="192.9" text-anchor="end" font-size="11" fill="#777">-40</text>
+<line x1="470" x2="830" y1="235.3" y2="235.3" stroke="#e5e5e5"/>
+<text x="462" y="239.3" text-anchor="end" font-size="11" fill="#777">-60</text>
+<text x="470.0" y="288" text-anchor="middle" font-size="11" fill="#777">1</text>
+<text x="521.4" y="288" text-anchor="middle" font-size="11" fill="#777">2</text>
+<text x="572.9" y="288" text-anchor="middle" font-size="11" fill="#777">3</text>
+<text x="624.3" y="288" text-anchor="middle" font-size="11" fill="#777">4</text>
+<text x="675.7" y="288" text-anchor="middle" font-size="11" fill="#777">5</text>
+<text x="727.1" y="288" text-anchor="middle" font-size="11" fill="#777">6</text>
+<text x="778.6" y="288" text-anchor="middle" font-size="11" fill="#777">7</text>
+<text x="830.0" y="288" text-anchor="middle" font-size="11" fill="#777">8</text>
+<text x="650.0" y="306" text-anchor="middle" font-size="11" fill="#777">harmônico (1 = a nota)</text>
+<polyline points="470.0,96.3 521.4,142.6 572.9,170.4 624.3,188.9 675.7,200.5 727.1,216.7 778.6,212.1 830.0,251.5" fill="none" stroke="#222222" stroke-width="3.5"/>
+<polyline points="470.0,96.3 521.4,126.4 572.9,147.3 624.3,158.8 675.7,170.4 727.1,179.7 778.6,186.6 830.0,193.6" fill="none" stroke="#E4572E" stroke-width="2.5" stroke-dasharray="6 4"/>
+<polyline points="470.0,96.3 521.4,147.3 572.9,182.0 624.3,207.5 675.7,219.1 727.1,237.6 778.6,242.2 830.0,265.4" fill="none" stroke="#2E86DE" stroke-width="2.5"/>
+<text x="22" y="160" font-size="11" fill="#777" transform="rotate(-90 22 160)" text-anchor="middle">dB</text>
+<line x1="170" x2="198" y1="322" y2="322" stroke="#222222" stroke-width="3"/>
+<text x="206" y="326" font-size="13" fill="#222">piano real</text>
+<line x1="360" x2="388" y1="322" y2="322" stroke="#E4572E" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="396" y="326" font-size="13" fill="#222">app 2.0 (antes)</text>
+<line x1="550" x2="578" y1="322" y2="322" stroke="#2E86DE" stroke-width="3"/>
+<text x="586" y="326" font-size="13" fill="#222">app 2.0 (agora)</text>
+</svg>

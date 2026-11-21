@@ -86,6 +86,29 @@ Tudo isso roda em `float` estéreo, com o buffer de baixa latência do próprio 
 - No fim, o app mostra **as notas que você mais erra**.
 - **Teclado com zoom automático.** Ele mostra a extensão que a música pede e só desliza quando uma nota sai da tela.
 
+### 4. Ouvir, medir e corrigir
+
+Testando no celular, o som incomodava: fino, quase estridente. Para entender o porquê, comparei o sintetizador com **gravações de um piano real** (amostras da Universidade de Iowa), harmônico por harmônico, do grave ao agudo.
+
+![Harmônicos: piano real x app antes x app agora](exemplos/harmonicos.svg)
+
+O gráfico mostra dois problemas opostos:
+
+- **Agudos com harmônicos demais.** Num piano de verdade, as notas agudas são quase puras. O app deixava os harmônicos uns 10 a 25 dB fortes demais, e é isso que soava estridente.
+- **Graves sem harmônicos.** No piano real, os harmônicos do grave chegam a ser **mais fortes** que a própria nota. Alto-falante de celular não reproduz grave, então quem segura a mão esquerda são justamente esses harmônicos. Sem eles, a mão esquerda sumia e sobrava só a melodia lá em cima.
+
+A correção foi trocar a fórmula única por uma **tabela medida do piano real**, interpolada pela altura da nota. Junto com ela entraram um limitador que não distorce em volume normal e um reverb mais escuro. A tabela tem 7 regiões × 8 harmônicos e ocupa algumas dezenas de bytes.
+
+**Ouça o mesmo trecho de Harry Potter (Hedwig's Theme) nas três versões:**
+
+| | |
+|---|---|
+| 🎹 Tablet: FM, só melodia, 79 KB | [hedwig-tablet.mp3](exemplos/hedwig-tablet.mp3) |
+| 📱 Celular, antes da medição | [hedwig-celular-antes.mp3](exemplos/hedwig-celular-antes.mp3) |
+| 📱 Celular, agora | [hedwig-celular-depois.mp3](exemplos/hedwig-celular-depois.mp3) |
+
+Os áudios saem de [`exemplos/gerar.py`](exemplos/gerar.py), que reescreve em numpy os sintetizadores dos dois apps com as mesmas fórmulas do Java e toca as músicas a partir dos próprios arquivos do acervo.
+
 ## O que eu queria provar
 
 O app não precisa ser pesado para ser bom. O APK do celular, com 202 músicas, um sintetizador físico e um jogo completo, ainda pesa **menos que uma foto tirada pelo próprio celular**. As partituras ocupam 2 MB em texto e encolhem para 470 KB compactadas. O código do app inteiro vira um `classes.dex` de **39 KB**.
