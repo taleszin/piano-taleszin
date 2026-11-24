@@ -1,0 +1,31 @@
+@titulo Rap da Felicidade (Cidinho & Doca)
+@nivel Médio
+@bpm 129
+@compasso 4/4
+@padrao funk
+@forma Intro Verso Refrao Verso Refrao*2 Verso Refrao*2 Final
+@fonte média (memória): melodia do canto escrita de memória (sem MIDI/partitura pública); tom e bpm de songbpm.com (Sib menor, 129); escrita em Lá menor + @transpor -11; cifras de apoio
+@tom Si bemol menor
+@transpor -11
+
+[Intro] Intro (batida)
+D: R:4 | R:4 | R:4 | R:2 R:1 A4:.5 B4:.5
+C: Am | F | G | E
+
+[Verso] Verso (Minha cara autoridade)
+D: R:.5 A4:.5 C5:.5 C5:.5 C5:.5 C5:.5 D5:.5 C5:.5 | A4:1 R:2 A4:.5 A4:.5
+D: C5:.5 C5:.5 C5:.5 C5:.5 D5:.5 E5:.5 D5:.5 C5:.5 | A4:2 R:2
+D: R:.5 A4:.5 C5:.5 C5:.5 C5:.5 D5:.5 C5:.5 A4:.5 | C5:1 R:2 A4:.5 A4:.5
+D: C5:.5 C5:.5 D5:.5 E5:.5 D5:.5 C5:.5 B4:.5 G4:.5 | A4:2 R:1 A4:.5 B4:.5
+C: Am | Am | F | G | Am | Am | F | E
+
+[Refrao] Refrão (Eu só quero é ser feliz)
+D: C5:.5 C5:.5 D5:.5 D5:.5 E5:2 | R:.5 E5:.5 E5:.5 D5:.5 C5:.5 C5:.5 B4:.5 A4:.5
+D: A4:.5 G4:.5 A4:.5 B4:.5 C5:.5 B4:.5 A4:1 | R:1 A4:1 R:1 A4:.5 B4:.5
+D: C5:.5 C5:.5 D5:.5 D5:.5 E5:2 | R:.5 E5:.5 E5:.5 D5:.5 C5:.5 B4:.5 A4:.5 B4:.5
+D: C5:.5 B4:.5 A4:.5 G4:.5 A4:2 | R:2 R:1 A4:.5 B4:.5
+C: Am | F | G | Am | Am | F | G E | Am
+
+[Final] Final (é!)
+D: C5:.5 B4:.5 A4:.5 G4:.5 A4:2 | A4:2 R:2
+C: F:2 E:2 | Am

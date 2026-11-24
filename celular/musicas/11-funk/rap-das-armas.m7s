@@ -1,0 +1,31 @@
+@titulo Rap das Armas (Cidinho & Doca)
+@nivel Médio
+@bpm 130
+@compasso 4/4
+@padrao funk
+@forma Intro Parapapa Verso Parapapa*2 Verso Parapapa*2 Final
+@fonte média (memória): o "parapapá" e o verso escritos de memória (sem MIDI/partitura pública); bpm de songbpm.com (130); tom incerto: acousticbrainz dá Dó# menor (54%), escrito em Lá menor + @transpor 4; cifras de apoio
+@tom Dó sustenido menor
+@transpor 4
+
+[Intro] Intro (batida)
+D: R:4 | R:4 | R:4 | R:4
+C: Am | Am | F | E
+
+[Parapapa] Parapapapapapapapapa
+D: E4:.5 E4:.25 E4:.25 E4:.25 E4:.25 E4:.25 G4:.25 A4:1 R:1 | E4:.5 E4:.25 E4:.25 E4:.25 E4:.25 E4:.25 G4:.25 A4:1 R:1
+D: E4:.5 E4:.25 G4:.25 A4:.5 E4:.25 G4:.25 A4:.5 E4:.25 G4:.25 A4:.5 C5:.5 | B4:1 A4:1 R:2
+D: E4:.5 E4:.25 E4:.25 E4:.25 E4:.25 E4:.25 G4:.25 A4:1 R:1 | E4:.5 E4:.25 E4:.25 E4:.25 E4:.25 E4:.25 G4:.25 A4:1 R:1
+D: E4:.5 E4:.25 G4:.25 A4:.5 E4:.25 G4:.25 A4:.5 E4:.25 G4:.25 A4:.5 C5:.5 | B4:.5 G#4:.5 A4:1 R:2
+C: Am | Am | F | E | Am | Am | F | E
+
+[Verso] Verso (Morro do Dendê)
+D: R:.5 A4:.5 A4:.5 A4:.5 C5:.5 A4:.5 G4:.5 A4:.5 | C5:1 A4:1 R:2
+D: R:.5 A4:.5 A4:.5 A4:.5 C5:.5 D5:.5 C5:.5 A4:.5 | G4:1 E4:1 R:2
+D: R:.5 A4:.5 A4:.5 A4:.5 C5:.5 A4:.5 G4:.5 A4:.5 | C5:1 D5:1 R:2
+D: R:.5 E5:.5 D5:.5 C5:.5 B4:.5 A4:.5 G#4:.5 A4:.5 | B4:2 R:2
+C: Am | Am | F | E | Am | Am | F | E
+
+[Final] Final (clack bum)
+D: R:2 A4:.5 R:.5 A4:1 | R:4
+E: A2:.75 A2:.75 A2:.5 A1+A2:.5 R:.5 A1+A2:1 | R:4

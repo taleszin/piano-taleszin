@@ -1,0 +1,39 @@
+@titulo Esquema Preferido (Os Barões da Pisadinha e Tarcísio do Acordeon)
+@nivel Médio
+@bpm 84
+@compasso 4/4
+@padrao baiao
+@forma S V R S V R F
+@fonte cifras, forma e riff do teclado: Ultimate Guitar (tab 3765917, Ré menor, solo em tablatura; ritmo do riff estimado); andamento e tom: songbpm (168 = 84 em meio-tempo, Fá maior / Ré menor, 3:22); melodia do canto de memória (refrão eco do riff, versos aproximados pela letra)
+@tom Ré menor
+@transpor 0
+
+[S] Solo do teclado (riff)
+D: F5:.25 F5:.25 F5:.25 F5:.25 E5:.5 R:.5 C5:1 R:1 | F5:.25 F5:.25 F5:.25 F5:.25 E5:.5 R:.5 C5:1 R:1
+D: D5:.25 D5:.25 D5:.25 D5:.25 C5:.5 R:.5 F4:1 R:1 | D5:.25 D5:.25 D5:.25 D5:.25 C5:.5 R:.5 F4:1 R:1
+D: A4:.25 A4:.25 A4:.25 A4:.25 G4:.5 R:.5 C4:1 R:1 | A4:.25 A4:.25 A4:.25 A4:.25 G4:.5 F4:.5 E4:.5 D4:.5 E4:.5 F4:.5
+D: G4:2 R:2 | R:4
+C: Dm | Bb | F | C | Dm | Bb | F | C
+
+[V] Verso (Tá vendo aí)
+D: R:1 A3:.5 A3:.5 G3:.5 A3:1 R:.5 | R:.5 D4:.25 D4:.25 C4:.25 D4:.5 C4:.25 Bb3:.5 A3:1.5
+D: R:.5 D4:.25 D4:.25 D4:.5 C4:.5 Bb3:.5 C4:1.5 | R:.5 C4:.25 C4:.25 C4:.5 A3:.5 C4:.5 A3:1.5
+D: R:.25 E4:.25 E4:.25 E4:.25 E4:.25 D4:.25 E4:.5 D4:.25 C4:.25 D4:1.5 | C4:2 R:2
+D: R:.5 A3:.25 A3:.25 A3:.25 A3:.25 D4:.5 A3:.25 A3:.25 A3:.25 G3:.25 A3:1 | D4:2 R:2
+D: R:.5 D4:.25 D4:.25 D4:.25 D4:.25 C4:.5 D4:.5 C4:.25 Bb3:.25 C4:1 | Bb3:2 R:2
+D: R:.5 C4:.25 C4:.25 C4:.25 A3:.25 C4:.5 A3:.25 C4:.25 D4:.25 C4:.25 A3:1 | G3:2 R:2
+D: R:.5 D4:.25 D4:.25 D4:.5 F4:.5 D4:.5 C4:.25 D4:.25 C4:1 | E4:2 R:2
+C: Dm | Bb | Bb | F | C | C | Dm | Dm | Bb | Bb | F | C | Bb | C
+
+[R] Refrão (Ela roda a cidade inteira)
+D: R:.5 F4:.25 F4:.25 F4:.25 E4:.25 F4:.5 E4:.5 D4:.5 E4:.5 D4:.5 | R:.5 D4:.25 D4:.25 D4:.5 C4:.5 D4:.5 Bb3:1.5
+D: R:1 D4:.5 D4:.5 F4:1 E4:.5 D4:.5 | C4:.5 C4:.25 C4:.25~ C4:.25 A3:.25 C4:.5 D4:.5 C4:.5 A3:1
+D: R:.5 E4:.25 E4:.25 E4:.5 D4:.25 E4:.25~ E4:.25 D4:.25 C4:.5 D4:.5 R:.5 | D4:1 C4:1 R:2
+D: R:.5 F4:.25 F4:.25 F4:.25 E4:.25 F4:.5 E4:.5 D4:.5 E4:.5 D4:.5 | D4:.25 D4:.25 D4:.25 C4:.25 D4:.5 D4:.25 D4:.25 C4:.25 D4:.25 Bb3:1.5
+D: R:1 D4:.5 D4:.5 F4:1 E4:.5 D4:.5 | C4:.5 C4:.25 C4:.25~ C4:.25 A3:.25 C4:.5 D4:.5 C4:.5 A3:1
+D: R:.5 E4:.25 E4:.25 E4:.5 D4:.25 E4:.25~ E4:.25 D4:.25 C4:.5 D4:.5 R:.5 | D4:1 C4:1 R:2
+C: Dm | Bb | Bb | F | C | C | Dm | Bb | Bb | F | C | C
+
+[F] Final (riff)
+D: F5:.25 F5:.25 F5:.25 F5:.25 E5:.5 R:.5 C5:1 R:1 | F5:.25 F5:.25 F5:.25 F5:.25 E5:.5 R:.5 C5:1 R:1 | D4+A4:4
+C: Dm | Bb | Dm

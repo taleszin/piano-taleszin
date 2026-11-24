@@ -1,0 +1,28 @@
+@titulo Bumbum Tantan (MC Fioti)
+@nivel Difícil
+@bpm 132
+@compasso 4/4
+@padrao funk
+@forma Intro Flauta*9 Final
+@fonte mutopiaproject.org BWV 1013 (Partita para flauta solo de Bach, Allemande, comp. 1-4): o sample de flauta do hit; as semicolcheias de Bach viram colcheias a 132 bpm (cada compasso de Bach = 2 do funk) e o sample está meio tom acima (Si bemol menor, tom e bpm conforme karaoke-version.com); escrito em Lá menor + @transpor 1; mão esquerda = tamborzão (@padrao funk) nas harmonias implícitas de Bach
+@tom Si bemol menor
+@transpor 1
+
+[Intro] Intro (flauta, sem batida)
+D: R:.5 E5:.5 A5:.5 G#5:.5 A5:.5 C6:.5 A5:.5 E5:.5 | A4:.5 E5:.5 A5:.5 G#5:.5 A5:.5 C6:.5 A5:.5 E5:.5
+D: A4:.5 C5:.5 E5:.5 F5:.5 G#4:.5 F5:.5 E5:.5 D5:.5 | C5:.5 E5:.5 G#5:.5 A5:.5 E4:.5 D5:.5 C5:.5 B4:.5
+D: A4:.5 C5:.5 E5:.5 F5:.5 G#4:.5 F5:.5 E5:.5 D5:.5 | C5:.5 E5:.5 G#5:.5 A5:.5 E4:.5 D5:.5 C5:.5 B4:.5
+D: A4:.5 C5:.5 G#4:.5 A4:.5 F4:.5 D5:.5 G#4:.5 A4:.5 | E4:.5 C5:.5 G#4:.5 A4:.5 D4:.5 C5:.5 B4:.5 A4:.5
+C: Am | Am | Am:2 E7:2 | Am:2 E:2 | Am:2 E7:2 | Am:2 E:2 | Am:2 Dm:2 | Am:2 E7:2
+@padrao bloco
+
+[Flauta] Flauta com tamborzão
+D: R:.5 E5:.5 A5:.5 G#5:.5 A5:.5 C6:.5 A5:.5 E5:.5 | A4:.5 E5:.5 A5:.5 G#5:.5 A5:.5 C6:.5 A5:.5 E5:.5
+D: A4:.5 C5:.5 E5:.5 F5:.5 G#4:.5 F5:.5 E5:.5 D5:.5 | C5:.5 E5:.5 G#5:.5 A5:.5 E4:.5 D5:.5 C5:.5 B4:.5
+D: A4:.5 C5:.5 E5:.5 F5:.5 G#4:.5 F5:.5 E5:.5 D5:.5 | C5:.5 E5:.5 G#5:.5 A5:.5 E4:.5 D5:.5 C5:.5 B4:.5
+D: A4:.5 C5:.5 G#4:.5 A4:.5 F4:.5 D5:.5 G#4:.5 A4:.5 | E4:.5 C5:.5 G#4:.5 A4:.5 D4:.5 C5:.5 B4:.5 A4:.5
+C: Am | Am | Am:2 E7:2 | Am:2 E:2 | Am:2 E7:2 | Am:2 E:2 | Am:2 Dm:2 | Am:2 E7:2
+
+[Final] Final
+D: R:.5 E5:.5 A5:.5 G#5:.5 A5:.5 C6:.5 A5:.5 E5:.5 | A4:2 R:2
+E: A2:.75 A2:.75 C3+E3+A3:.5 A2:.75 A2:.75 C3+E3+A3:.5 | A2+E3+A3:2 R:2

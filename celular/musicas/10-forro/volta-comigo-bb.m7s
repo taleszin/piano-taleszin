@@ -1,0 +1,37 @@
+@titulo Volta Comigo BB (Zé Vaqueiro)
+@nivel Médio
+@bpm 82
+@compasso 4/4
+@padrao baiao
+@forma I V P R I V P R*2 I F
+@fonte cifras e forma: Ultimate Guitar (tab 4788035, Dó sustenido menor: A C#m G#m B); andamento e tom: songbpm (164 = 82 em meio-tempo, Dó sustenido menor, 3:31); melodia do canto de memória (refrão "volta comigo, bebê" mais seguro, verso e pré aproximados pela letra); intro = teclado tocando o refrão uma oitava acima
+@tom Dó sustenido menor
+@transpor 0
+
+[I] Intro (teclado no refrão)
+D: R:.5 E5:.25 E5:.25 E5:.5 C#5:.5 E5:.5 F#5:.5 E5:.5 C#5:.5 | R:.5 E5:.25 E5:.25 E5:.5 C#5:.5 E5:.5 F#5:.5 E5:.5 B4:.5
+D: R:.5 D#5:.5 B4:.5 D#5:.5 E5:.5 D#5:.5 B4:.5 G#4:.5 | R:.5 D#5:.5 B4:.5 D#5:.5 E5:.5 D#5:.5 C#5:.5 B4:.5
+C: A | C#m | G#m | B
+
+[V] Verso (Você pode me ouvir?)
+D: R:.5 E4:.25 E4:.25 E4:.5 C#4:.25 E4:.75 F#4:.5 E4:1 | R:.5 E4:.5 E4:.5 G#4:.5 F#4:.5 E4:.5 C#4:1
+D: R:.5 D#4:.25 D#4:.5 B3:.25 D#4:.5 E4:.25 D#4:.25 E4:.25 F#4:.5 E4:.75 | F#4:1 D#4:2 R:1
+D: R:.5 E4:.25 E4:.25 E4:.5 C#4:.25 E4:.5 F#4:.25 E4:.5 C#4:1 | R:.5 E4:.5 E4:.5 G#4:.5 F#4:.5 E4:.5 C#4:1
+D: R:.75 D#4:.5 B3:.25 D#4:.5 E4:.25 D#4:.25 E4:.25 F#4:.5 E4:.75 | D#4:2 R:2
+C: A | C#m | G#m | B | A | C#m | G#m | B
+
+[P] Pré-refrão (Saudade tem nome)
+D: R:.5 C#5:.5 C#5:.5 B4:.5 C#5:.5 E5:.5 C#5:1 | R:.5 B4:.5 C#5:.5 R:.25 C#5:.25 C#5:.25 B4:.25 C#5:.25 B4:.25 G#4:.25 B4:.25 G#4:.5
+D: G#4:2 R:2 | R:.5 F#4:.25 F#4:.25 F#4:.25 D#4:.25 F#4:.5 G#4:.5 F#4:.5 D#4:.5 F#4:.5
+C: A | C#m | G#m | B
+
+[R] Refrão (Tem como eu voltar pra você)
+D: R:.5 E4:.25 E4:.25 E4:.5 C#4:.5 E4:.5 F#4:.5 E4:.5 C#4:.5 | R:.5 E4:.25 E4:.25 E4:.5 C#4:.5 E4:.5 F#4:.5 E4:.5 B3:.5
+D: R:.5 D#4:.5 B3:.5 D#4:.5 E4:.5 D#4:.5 B3:.5 G#3:.5 | R:.5 D#4:.5 B3:.5 D#4:.5 E4:.5 D#4:.5 C#4:.5 B3:.5
+D: R:.5 E4:.25 E4:.25 E4:.5 C#4:.5 E4:.5 F#4:.5 E4:.5 C#4:.5 | R:.5 E4:.25 E4:.25 E4:.5 C#4:.5 E4:.5 F#4:.5 E4:.5 B3:.5
+D: R:.5 D#4:.5 B3:.5 D#4:.5 E4:.5 D#4:.5 B3:.5 G#3:.5 | R:.5 D#4:.5 B3:.5 D#4:.5 E4:.5 D#4:.5 C#4:.5 B3:.5
+C: A | C#m | G#m | B | A | C#m | G#m | B
+
+[F] Final
+D: R:.5 E4:.25 E4:.25 E4:.5 C#4:.5 E4:.5 F#4:.5 E4:.5 C#4:.5 | C#4+G#4:4
+C: A | C#m

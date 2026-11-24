@@ -1,0 +1,31 @@
+@titulo Glamurosa (MC Marcinho)
+@nivel Médio
+@bpm 130
+@compasso 4/4
+@padrao funk
+@forma Intro Verso Refrao Verso Refrao*2 Intro Verso Refrao*2 Final
+@fonte média (memória): melodia do canto escrita de memória (sem MIDI/partitura pública); tom e bpm de songbpm.com (Sol maior, 130); cifras de apoio
+@tom Sol maior
+@transpor 0
+
+[Intro] Intro
+D: R:.5 D5:.5 D5:.5 B4:.5 D5:2 | R:4 | R:.5 C5:.5 C5:.5 A4:.5 C5:2 | R:4
+C: G | Em | C | D
+
+[Verso] Verso
+D: R:.5 G4:.5 G4:.5 G4:.5 A4:.5 B4:.5 A4:.5 G4:.5 | E4:1 G4:1 R:2
+D: R:.5 G4:.5 G4:.5 G4:.5 A4:.5 B4:.5 C5:.5 B4:.5 | A4:2 R:2
+D: R:.5 E4:.5 G4:.5 G4:.5 A4:.5 B4:.5 A4:.5 G4:.5 | C5:1 B4:1 R:2
+D: R:.5 A4:.5 A4:.5 B4:.5 A4:.5 G4:.5 F#4:.5 G4:.5 | A4:2 R:2
+C: G | Em | C | D | G | Em | C | D
+
+[Refrao] Refrão (Glamurosa, rainha do funk)
+D: R:.5 D5:.5 D5:.5 B4:.5 D5:2 | R:.5 B4:.5 C5:.5 B4:.5 A4:.5 G4:1.5
+D: R:.5 C5:.5 C5:.5 A4:.5 C5:2 | R:.5 A4:.5 B4:.5 A4:.5 G4:.5 F#4:.5 G4:1
+D: R:.5 D5:.5 D5:.5 B4:.5 D5:2 | R:.5 B4:.5 C5:.5 B4:.5 A4:.5 G4:1.5
+D: R:.5 C5:.5 C5:.5 A4:.5 C5:.5 B4:.5 A4:1 | B4:.5 A4:.5 F#4:.5 G4:2.5
+C: G | Em | C | D | G | Em | C D | G
+
+[Final] Final
+D: R:.5 D5:.5 D5:.5 B4:.5 D5:2 | G4:2 R:2
+C: C D | G

@@ -1,0 +1,56 @@
+@titulo CHA-LA HEAD-CHA-LA (Dragon Ball Z, abertura)
+@nivel Médio
+@bpm 153
+@compasso 4/4
+@padrao oitavas
+@forma Intro Verso Refrao RefraoFim Ponte Virada Verso Refrao Emenda Refrao RefraoFim Final
+@fonte bitmidi.com uploads/88760 "Ricardo Silva - Chala-head-chala" (versão completa): melodia do canto (canal 3) uma oitava abaixo do MIDI (altura real do canto), metais da intro (canal 0, duas vozes de cima), ponte e virada dos canais 0/12, final do canal 11; cifras tiradas do baixo (canal 1) e da harmonia; interlúdio de efeitos (c. 60-65) reduzido aos ataques
+@tom Mi maior
+@transpor 0
+
+[Intro] Introdução (metais)
+D: R E5+A5:.5 R:.5 E5+G#5:.5 E5+F#5:.5 R:.5 E5+A5:.5 | R:.5 E5+G#5:.5 R:1.5 E5+G#5:.5 R:.5 E5+G#5:.5~ | E5+G#5:.5 D5+F#5:.5 D5+F#5 D5+F#5:2~ | D5+F#5:4
+D: R E5+A5:.5 R:.5 E5+G#5:.5 E5+F#5:.5 R:.5 E5+A5:.5 | R:.5 E5+G#5:.5 R:1.5 E5+G#5:.5 R:.5 E5+G#5:.5~ | E5+G#5:.5 D5+F#5:.5 D5+F#5 D5+F#5:2~ | D5+F#5:2 R:.5 D5+F#5:.5 R:.5 D5+F#5:.5~
+D: D5+F#5:.5 C5+E5:.5 C5+E5 C5+E5:2~ | C5+E5:2 R:2
+C: Esus4 | E | D | D | Esus4 | E | D | D | C/E | C/E
+
+[Verso] Verso
+D: R A3 G#3:.5 E3 A3:.5~ | A3:.5 G#3 E3:.5 G#3:.5 A3 B3:.5 | B3 A3:.5 E4:2.5 | B3 A3:.5 E4 E3:.5 F#3:.5 G3:.5~
+D: G3:.75 R:1.25 A3:1.25 R:.75 | B3:1.5 C4:1.5 R:.5 C4:.5~ | C4:.5 D4:.5 C4:.5 C4:.5 B3:.5 A3:.5 G3:.5 A3:.5~ | A3:4
+D: R A3 G#3:.5 E3 E3:.5 | B3:.5 B3:.5 A3:.5 E3:.5 G#3:.5 A3 B3:.5 | B3 A3:.5 E4:2.5 | B3 A3:.5 E4 E3:.5 F#3:.5 G3:.5~
+D: G3:.75 R:1.25 A3:1.25 R:.75 | B3 C4 C4 C4:.5 B3:.5~ | B3:.5 B3:.5 B3:3~ | B3:3 R
+D: C#4:1.5 R G#3 C#4:.5 | B3 A3 G#3 F#3 | A3:3 G#3:.5 G#3:.5~ | G#3:3 R
+D: R E3 A3:.5 G#3:.5 E3:.5 A3:.5~ | A3:.5 G#3:.5 E3:1.25 R:1.75 | R E3 A3:.5 G#3:.5 E3:.5 A3:.5~ | A3:.5 G#3 E3:.5 A3 B3:.5 B3:.5~
+D: B3:4 | R:4
+C: E | E | D | D | C | C | G | B7
+C: E | E | D | D | C | C | B | B7
+C: C#m | B/D# | E | E
+C: D | D | C#m | C#m | Bsus4 | F#m Bm
+
+[Refrao] Refrão
+D: D4:1.5 E4:1.5 R | D4:.5 R:.5 D4:.5 E4:1.75 R:.75 | R F#4 G4 F#4:.5 E4:.5~ | E4:.5 E4:.5 E4 F#4 E4:.5 E4:.5~
+D: E4:.5 D4:.5 D4:1.5 R G4:.5~ | G4:.5 G4:.5 F#4:.5 F#4:.5 D4 R:.5 D4:.5~ | D4:4~ | D4 R:3
+D: D4:1.5 E4:1.5 R | D4:.5 R:.5 D4:.5 E4:1.75 R:.75 | R F#4 G4 F#4:.5 E4:.5~ | E4:.5 E4:.5 E4 F#4 E4:.5 E4:.5~
+D: E4:.5 D4:.5 D4 R:.5 B3:.5 D4:.5 D4:.5
+C: G | G A | D/F# G | A Bm | G D/F# | Em C | A | A
+C: G | G A | D G | A Bm | G
+
+[RefraoFim] Refrão (fim)
+D: F4 E4 E4 D4 | D4:3 G4:.5 D4:.5
+C: Bb | Bb
+
+[Emenda] Refrão (emenda para o bis)
+D: F4 E4 E4 D4
+C: Bb
+
+[Ponte] Interlúdio
+D: D4:3.5 E4:.5~ | E4:4 | F4:3.5 G4:.5~ | G4:4 | A#4:3.5 C5:.5~ | C5:4
+C: G | A/G | Gm | C/G | Gm | C/G
+
+[Virada] Virada (ataques)
+D: D4+A4:4 | D4+A4:2.5 F4+A#4 G4+C5:.5~ | G4+C5:4 | G4+C5:2.5 E4+A4 F4+A#4:.5~ | F4+A#4:3.5 G4+C5:.5~ | G4+C5:4
+E: D2+D3:4 | D2+D3:2.5 A#1+A#2 C2+C3:.5~ | C2+C3:4 | C2+C3:2.5 A1+A2 A#1+A#2:.5~ | A#1+A#2:3.5 C2+C3:.5~ | C2+C3:4
+
+[Final] Final
+D: G4+C5:3.5 E4+A4:.5~ | E4+A4:4 | F4+A#4:3.5 G4+C5:.5~ | G4+C5:3 R:.5 D4+D5:.5~ | D4+D5:4 | D4+D5:1.5 D4+D5:1.5 R
+C: C | Am | Bb | C | Dsus4 | D

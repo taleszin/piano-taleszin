@@ -37,7 +37,15 @@ final class Musicas {
         {"infantis", "Infantis e primeiras"}, {"classicas", "Clássicas"}, {"brasileiras", "Brasileiras"},
         {"cantoras", "Cantoras"}, {"populares", "Pop e piano moderno"}, {"beatles", "Beatles"}, {"rock", "Rock e pop clássico"},
         {"trilhas", "Filmes e jogos"}, {"natal", "Natal"},
+        {"forro", "Forró"}, {"funk", "Funk"}, {"dragonball", "Dragon Ball"},
     };
+
+    /** Número do prefixo do diretório ("10-forro" → 10), para 10 vir depois de 9. */
+    private static int ordem(String id) {
+        int i = 0;
+        while (i < id.length() && Character.isDigit(id.charAt(i))) i++;
+        return i == 0 ? 0 : Integer.parseInt(id.substring(0, i));
+    }
 
     private static Musica[] cache;
 
@@ -76,7 +84,8 @@ final class Musicas {
         // por categoria (ordem dos diretórios), e dentro dela Fácil → Difícil, depois título
         Collections.sort(lista, new Comparator<Musica>() {
             public int compare(Musica a, Musica b) {
-                int c = a.id.substring(0, a.id.indexOf('/')).compareTo(b.id.substring(0, b.id.indexOf('/')));
+                int c = ordem(a.id) - ordem(b.id);
+                if (c == 0) c = a.id.substring(0, a.id.indexOf('/')).compareTo(b.id.substring(0, b.id.indexOf('/')));
                 if (c != 0) return c;
                 int p = peso(a.nivel) - peso(b.nivel);
                 return p != 0 ? p : a.titulo.compareToIgnoreCase(b.titulo);

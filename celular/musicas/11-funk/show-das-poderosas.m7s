@@ -1,0 +1,31 @@
+@titulo Show das Poderosas (Anitta)
+@nivel Médio
+@bpm 133
+@compasso 4/4
+@padrao funk
+@forma Intro Verso Refrao Verso Refrao*2 Intro Verso Refrao*2 Final
+@fonte média (memória): melodia do canto escrita de memória (sem MIDI/partitura pública); tom e bpm de songbpm.com (Fá menor, 133); cifras de apoio
+@tom Fá menor
+@transpor 0
+
+[Intro] Intro (Prepara)
+D: R:1 C5:.5 C5:.5 C5:2 | R:4 | R:1 C5:.5 C5:.5 C5:2 | R:4
+C: Fm | Db | Eb | C
+
+[Verso] Verso
+D: R:.5 F4:.5 F4:.5 F4:.5 Ab4:.5 F4:.5 Ab4:.5 Bb4:.5 | Ab4:1 G4:1 R:2
+D: R:.5 F4:.5 F4:.5 F4:.5 Ab4:.5 F4:.5 Ab4:.5 Bb4:.5 | C5:1 Bb4:1 R:2
+D: R:.5 Ab4:.5 Ab4:.5 Ab4:.5 Bb4:.5 Ab4:.5 G4:.5 F4:.5 | G4:1 Eb4:1 R:2
+D: R:.5 F4:.5 G4:.5 Ab4:.5 G4:.5 F4:.5 E4:.5 F4:.5 | G4:2 R:2
+C: Fm | Fm | Db | Db | Eb | Eb | C | C
+
+[Refrao] Refrão (Prepara, que agora é hora)
+D: R:1 C5:.5 C5:.5 C5:2 | R:.5 C5:.5 Ab4:.5 Ab4:.5 G4:.5 F4:.5 G4:.5 Ab4:.5
+D: G4:.5 G4:.5 F4:.5 Eb4:.5 F4:1 R:1 | R:.5 F4:.5 Ab4:.5 Ab4:.5 G4:.5 F4:.5 G4:1
+D: R:.5 Ab4:.5 C5:.5 C5:.5 Bb4:.5 Ab4:.5 G4:.5 F4:.5 | G4:2 R:2
+D: R:1 C5:.5 C5:.5 C5:2 | R:4
+C: Fm | Db | Eb | C | Fm | Db | Eb | C
+
+[Final] Final
+D: R:1 C5:.5 C5:.5 C5:2 | F4:2 R:2
+C: Db | Fm

@@ -28,7 +28,8 @@ Evento: alturas[:dur][~]
 Cifra: Raiz[#|b][qualidade][/Baixo][:dur]; qualidades: (maior) m 7 7M maj7 m7 m7b5 ø ° dim aug + sus2 sus4 6 m6 9 add9 7sus4
   "%" repete a cifra anterior; "-" = sem acorde. Sem duração, o compasso é dividido igualmente.
 
-Padrões (mão esquerda gerada): bloco, baixo, baixo-acorde, valsa, alberti, arpejo, balada, oitavas, marcha, bossa
+Padrões (mão esquerda gerada): bloco, baixo, baixo-acorde, valsa, alberti, arpejo, balada, oitavas, marcha, bossa,
+  baiao (zabumba: baixo pontuado + quinta + acorde, a cada 2 tempos), funk (3-3-2: baixo, baixo, acorde em semicolcheias)
 
 Uso:
   m7s.py validar arq.m7s [...]     valida (erros = código 1) e mostra resumo
@@ -42,7 +43,7 @@ from fractions import Fraction as F
 NOTA = re.compile(r'^([A-G])([#b]?)([1-7])$')
 BASE = {'C': 0, 'D': 2, 'E': 4, 'F': 5, 'G': 7, 'A': 9, 'B': 11}
 NIVEIS = ('Fácil', 'Médio', 'Difícil')
-PADROES = ('bloco', 'baixo', 'baixo-acorde', 'valsa', 'alberti', 'arpejo', 'balada', 'oitavas', 'marcha', 'bossa')
+PADROES = ('bloco', 'baixo', 'baixo-acorde', 'valsa', 'alberti', 'arpejo', 'balada', 'oitavas', 'marcha', 'bossa', 'baiao', 'funk')
 QUAL = {
     '': [0, 4, 7], 'm': [0, 3, 7], '7': [0, 4, 7, 10], '7M': [0, 4, 7, 11], 'maj7': [0, 4, 7, 11],
     'm7': [0, 3, 7, 10], 'm7b5': [0, 3, 6, 10], 'ø': [0, 3, 6, 10], '°': [0, 3, 6, 9], 'dim': [0, 3, 6],
@@ -225,6 +226,16 @@ def gerar_esq(cifras_compasso, tam, padrao, ant):
                 if t >= d: break
                 p = min(p, d - t); out.append((m, p)); t += p
             if t < d: out.append((ac, d - t))
+        elif padrao in ('baiao', 'funk'):
+            q5 = [quinta - 12 if quinta - 12 >= 36 else quinta]
+            if padrao == 'baiao':   # | b. q | acorde |  (2 tempos)
+                seq = [([b], F(3, 4)), (q5, F(1, 4)), (ac, F(1))]
+            else:                   # tamborzão 3-3-2 em semicolcheias
+                seq = [([b], F(3, 4)), ([b], F(3, 4)), (ac, F(1, 2))]
+            t, i = F(0), 0
+            while t < d:
+                m, p = seq[i % len(seq)]
+                p = min(p, d - t); out.append((m, p)); t += p; i += 1
         else:
             raise Erro(f'padrão desconhecido "{padrao}"')
     return out

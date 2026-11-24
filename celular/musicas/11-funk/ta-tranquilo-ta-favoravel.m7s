@@ -1,0 +1,31 @@
+@titulo Tá Tranquilo, Tá Favorável (MC Bin Laden)
+@nivel Fácil
+@bpm 130
+@compasso 4/4
+@padrao funk
+@forma Intro Refrao Verso Refrao*2 Verso Refrao*2 Final
+@fonte média (memória): melodia do canto escrita de memória (sem MIDI/partitura pública); tom e bpm de songbpm.com (Sib menor, 130); cifras de apoio
+@tom Si bemol menor
+@transpor 0
+
+[Intro] Intro (batida)
+D: R:4 | R:4 | R:4 | R:4
+C: Bbm | Bbm | Gb | F
+
+[Refrao] Refrão (Tá tranquilo, tá favorável)
+D: R:.5 F4:.5 Ab4:.5 Ab4:.5 F4:1 R:1 | R:.5 F4:.5 Ab4:.5 Bb4:.5 Ab4:.5 F4:1 R:.5
+D: R:.5 F4:.5 Ab4:.5 Ab4:.5 F4:1 R:1 | R:.5 F4:.5 Ab4:.5 Bb4:.5 Ab4:.5 Bb4:1 R:.5
+D: R:.5 F4:.5 Ab4:.5 Ab4:.5 F4:1 R:1 | R:.5 F4:.5 Ab4:.5 Bb4:.5 Ab4:.5 F4:1 R:.5
+D: R:.5 Db5:.5 C5:.5 Bb4:.5 Ab4:.5 Bb4:.5 Ab4:.5 F4:.5 | F4:2 R:2
+C: Bbm | Bbm | Gb | F | Bbm | Bbm | Gb | F
+
+[Verso] Verso
+D: R:.5 F4:.5 F4:.5 F4:.5 F4:.5 Ab4:.5 F4:.5 Eb4:.5 | F4:1 R:3
+D: R:.5 F4:.5 F4:.5 F4:.5 F4:.5 Ab4:.5 Bb4:.5 Ab4:.5 | F4:1 R:3
+D: R:.5 Ab4:.5 Ab4:.5 Ab4:.5 Ab4:.5 Bb4:.5 Ab4:.5 F4:.5 | Eb4:1 R:3
+D: R:.5 F4:.5 F4:.5 Ab4:.5 Bb4:.5 Ab4:.5 F4:.5 Eb4:.5 | F4:2 R:2
+C: Bbm | Bbm | Bbm | Bbm | Gb | Gb | F | F
+
+[Final] Final
+D: R:.5 F4:.5 Ab4:.5 Bb4:.5 Ab4:.5 F4:1 R:.5 | Bb4:2 R:2
+C: F | Bbm

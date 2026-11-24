@@ -1,0 +1,39 @@
+@titulo Letícia (Zé Vaqueiro)
+@nivel Médio
+@bpm 76
+@compasso 4/4
+@padrao baiao
+@forma I V P R V P R*2 F
+@fonte cifras e forma: Ultimate Guitar (tab 3577985, Bm F#m A E); andamento e tom: songbpm (152 = 76 em meio-tempo, Fá sustenido menor / Lá maior, 2:48); melodia do canto de memória (refrão "Letícia, Letícia" mais seguro, verso e pré aproximados pela letra); intro = teclado tocando o refrão
+@tom Lá maior
+@transpor 0
+
+[I] Intro (teclado no refrão)
+D: R:.5 F#4:.5 D5:1 B4:1 R:.5 F#4:.5 | C#5:1 A4:1 R:2
+D: R:.5 E5:.5 E5:.5 C#5:.5 E5:.5 F#5:.5 E5:1 | B4:.25 B4:.25 B4:.25 B4:.25 B4:.25 G#4:.25 B4:.5 C#5:.5 B4:.5 A4:1
+C: Bm | F#m | A | E
+
+[V] Verso (Por que você foi me iludir)
+D: R:.5 D4:.25 D4:.25 D4:.5 C#4:.25 D4:.75 C#4:.5 B3:.5 C#4:.5 | A3:2 R:2
+D: R:.5 C#4:.25 C#4:.25 C#4:.5 B3:.25 C#4:.75 B3:.5 A3:1 | B3:2 R:2
+D: R:.5 D4:.25 D4:.25 D4:.5 F#4:.5 E4:.25 D4:.25 C#4:.5 D4:1 | C#4:2 R:2
+D: R:.5 C#4:.25 C#4:.25 B3:.25 C#4:.25 E4:.5 C#4:.25 B3:.25 C#4:.25 B3:.25 A3:1 | B3:1 A3:1 R:2
+C: Bm | F#m | A | E | Bm | F#m | A | E
+
+[P] Pré-refrão (Eu tô te esperando aqui no bar)
+D: R:.75 F#4:.25 F#4:.25 F#4:.25 A4:.5 F#4:.25 A4:.25 B4:.5 A4:.5 B4:.5 | C#5:2 R:1.5 C#5:.25 C#5:.25
+D: E5:.5 C#5:.25 E5:.5 C#5:.25 E5:.5 F#5:.5 E5:.5 C#5:1 | B4:2 R:2
+D: R:.5 F#4:.25 F#4:.25 F#4:.25 F#4:.25 A4:.5 F#4:.25 A4:.25 B4:1.5 | C#5:1.5 B4:.5 A4:1 R:1
+D: R:.5 C#5:.25 C#5:.25 B4:.25 C#5:.5 R:.25 C#5:.25 C#5:.25 E5:.25 C#5:.25 B4:.25 C#5:.25 B4:.5 | R:.5 B4:.25 B4:.25 B4:.5 A4:.5 B4:.5 C#5:.5 A4:1
+C: Bm | F#m | A | E | Bm | F#m | A | E
+
+[R] Refrão (Letícia, Letícia)
+D: R:.5 F#4:.5 D5:1 B4:1 R:.5 F#4:.5 | C#5:1 A4:1 R:2
+D: R:.5 E5:.5 E5:.5 C#5:.5 E5:.5 F#5:.5 E5:1 | B4:.25 B4:.25 B4:.25 B4:.25 B4:.25 G#4:.25 B4:.5 C#5:.5 B4:.5 A4:1
+D: R:.5 F#4:.5 D5:1 B4:1 R:.5 F#4:.5 | C#5:1 A4:1 R:2
+D: R:.5 E5:.25 E5:.25 E5:.5 C#5:.5 E5:.5 F#5:.5 E5:1 | B4:.5 B4:.5 B4:.5 A4:.5 B4:.5 C#5:.5 A4:1
+C: Bm | F#m | A | E | Bm | F#m | A | E
+
+[F] Final
+D: R:.5 F#4:.5 D5:1 B4:1 R:.5 F#4:.5 | C#5:1 A4:1 R:2 | F#4+C#5:4
+C: Bm | F#m | F#m

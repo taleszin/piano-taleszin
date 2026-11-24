@@ -1,0 +1,31 @@
+@titulo Malandramente (Dennis & MCs Nandinho e Nego Bam)
+@nivel Médio
+@bpm 130
+@compasso 4/4
+@padrao funk
+@forma Intro Refrao Verso Refrao*2 Verso Refrao*2 Final
+@fonte média (memória): melodia do canto escrita de memória (sem MIDI/partitura pública); tom e bpm de songbpm.com (Lá menor, 130); cifras de apoio
+@tom Lá menor
+@transpor 0
+
+[Intro] Intro (batida)
+D: R:4 | R:4 | R:4 | R:4
+C: Am | F | G | E
+
+[Refrao] Refrão (Malandramente)
+D: R:.5 E5:.5 E5:.5 E5:.5 D5:.5 C5:1 R:.5 | R:.5 A4:.5 A4:.5 B4:.5 C5:.5 B4:.5 A4:.5 G4:.5
+D: R:.5 A4:.5 C5:.5 C5:.5 C5:.5 D5:.5 C5:.5 B4:.5 | A4:.5 A4:.5 G4:.5 A4:2.5
+D: R:.5 E5:.5 E5:.5 E5:.5 D5:.5 C5:1 R:.5 | R:.5 A4:.5 A4:.5 B4:.5 C5:.5 B4:.5 A4:.5 G4:.5
+D: R:.5 A4:.5 C5:.5 C5:.5 D5:.5 E5:.5 D5:.5 C5:.5 | B4:.5 B4:.5 G#4:.5 A4:2.5
+C: Am | F | G | Am | Am | F | G | E
+
+[Verso] Verso
+D: R:.5 A4:.5 A4:.5 A4:.5 A4:.5 G4:.5 A4:.5 C5:.5 | A4:1 R:3
+D: R:.5 A4:.5 A4:.5 A4:.5 A4:.5 G4:.5 A4:.5 C5:.5 | D5:1 C5:1 R:2
+D: R:.5 C5:.5 C5:.5 C5:.5 C5:.5 B4:.5 C5:.5 D5:.5 | E5:1 D5:.5 C5:.5 B4:2
+D: R:.5 A4:.5 B4:.5 C5:.5 B4:.5 A4:.5 G4:.5 E4:.5 | E4:2 R:2
+C: Am | Am | F | F | C | G | Dm | E
+
+[Final] Final
+D: R:.5 E5:.5 E5:.5 E5:.5 D5:.5 C5:1 R:.5 | A4:2 R:2
+C: F | Am
